@@ -43,7 +43,7 @@ COLORS = {
     "oppose_lawler": "#8EB4ED",
 }
 CATEGORIES = [
-    "TV", "Digital", "Mail", "Text", "Field / Canvassing",
+    "TV", "Digital", "Media (unspecified)", "Mail", "Text", "Field / Canvassing",
     "Polling", "Radio", "Production", "Print", "Research",
     "Consulting", "Events", "Other / Unclassified",
 ]
@@ -188,25 +188,27 @@ def classify(description, category_description=""):
     def has(*terms):
         return any(re.search(r"\b" + re.escape(term) + r"\b", txt) for term in terms)
     # Order matters. An expense for mail printing belongs with mail, not Print.
-    if has("sms", "texting", "texts", "text message", "text messages", "p2p texting", "peer to peer text", "peer to peer texting"):
+    if has("sms", "texting", "texts", "text message", "text messages", "p2p texting", "peer to peer text", "peer to peer texting", "text bank", "text bank calls"):
         return "Text"
-    if has("direct mail", "mailing", "mailers", "mailer", "postage", "postal", "mail", "letter mailing"):
+    if has("direct mail", "mailing", "mailers", "mailer", "postage", "postal", "mail", "letter mailing", "postcards", "postcard"):
         return "Mail"
     if has("polling", "poll", "survey", "surveys", "focus group", "focus groups"):
         return "Polling"
-    if has("canvass", "canvassing", "canvas", "field", "door knocking", "door to door", "gotv", "voter contact", "phone banking", "phonebank"):
+    if has("canvass", "canvassing", "canvas", "field", "door knocking", "door to door", "gotv", "voter contact", "phone banking", "phonebank", "message phone calls", "voter outreach", "outreach", "staff time for voter communications", "phone calls"):
         return "Field / Canvassing"
-    if has("digital", "online", "internet", "facebook", "instagram", "social media", "streaming", "programmatic", "pre roll", "preroll", "youtube", "connected tv", "ctv", "ott", "web ads", "website advertising", "google ads", "display ads"):
+    if has("digital", "online", "internet", "facebook", "instagram", "social media", "streaming", "programmatic", "pre roll", "preroll", "youtube", "connected tv", "ctv", "ott", "web ads", "website advertising", "google ads", "display ads", "email services", "email marketing", "email ads"):
         return "Digital"
     if has("television", "tv", "broadcast", "cable", "airtime", "television ads", "television advertising"):
         return "TV"
+    if has("media placement", "media buy", "ad buy", "advertising buy", "media spending"):
+        return "Media (unspecified)"
     if has("radio", "fm radio", "am radio"):
         return "Radio"
     if has("creative", "production", "video editing", "design", "editing", "photography", "graphics", "copywriting"):
         return "Production"
-    if has("printing", "print", "newspaper", "billboard", "yard signs", "yard sign", "signs", "signage", "literature", "flyers"):
+    if has("printing", "print", "newspaper", "billboard", "billboards", "yard signs", "yard sign", "signs", "signage", "literature", "flyers"):
         return "Print"
-    if has("research", "opposition research", "data analysis", "modeling", "data services"):
+    if has("research", "opposition research", "data analysis", "modeling", "data services", "voter data"):
         return "Research"
     if has("consulting", "consultant", "strategy", "compliance", "professional fees"):
         return "Consulting"

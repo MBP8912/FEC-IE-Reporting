@@ -43,6 +43,11 @@ class TestIE(unittest.TestCase):
         self.assertEqual(classify("Digital Streaming TV Ads"), "Digital")
         self.assertEqual(classify("Television cable ads"), "TV")
         self.assertEqual(classify("TV ad production"), "TV")
+        self.assertEqual(classify("MEDIA PLACEMENT"), "Media (unspecified)")
+        self.assertEqual(classify("AD BUY"), "Media (unspecified)")
+        self.assertEqual(classify("TEXT BANK"), "Text")
+        self.assertEqual(classify("EMAIL SERVICES"), "Digital")
+        self.assertEqual(classify("VOTER DATA"), "Research")
         self.assertEqual(classify("Miscellaneous services"), "Other / Unclassified")
     def test_nominees_and_2026_general(self):
         x, err = normalize_row(record(candidate_id="H6NY17171", support_oppose_indicator="O"))

@@ -132,7 +132,7 @@ function groupTable(){
   var tdTotal=e("td","num");tdTotal.append(recordButton(g.total,{group:g.name}, ""));row.append(tdTotal);
   DATA.disposition_order.forEach(function(kind){
     var td=e("td","num");td.append(recordButton(g[kind],{group:g.name,disposition:kind},
-      kind.endsWith("lawler")?"red-link":"blue-link"));row.append(td);
+      (kind==="support_lawler"||kind==="oppose_conley")?"red-link":"blue-link"));row.append(td);
   });
   body.append(row);
  }
