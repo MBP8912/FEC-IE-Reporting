@@ -321,12 +321,12 @@ def unique_rows(rows):
             keys.append(("orig",) + basis + (item["original_sub_id"],))
         if item["transaction_id"]:
             keys.append(("tx",) + basis + (norm(item["transaction_id"]),))
-        matches = {first[k] for k in keys if k in first}
+        matches = [first[k] for k in keys if k in first]
         if matches:
             current = max(matches, key=prefer)
             winner = max([current, item], key=prefer)
             for k, v in list(first.items()):
-                if v in matches:
+                if any(v is m for m in matches):
                     first[k] = winner
             for k in keys:
                 first[k] = winner
