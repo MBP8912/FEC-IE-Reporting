@@ -1,4 +1,4 @@
-name: Refresh NY-17 independent expenditure dashboard
+name: NY-17 independent expenditures - refresh and publish
 
 on:
   workflow_dispatch:
@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ie-ny17-pages
+  group: ny17-ie-pages-v2
   cancel-in-progress: false
 
 jobs:
@@ -21,48 +21,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test deduplication, general-election filters and category normalization
+      - name: Test election filtering, deduplication and categories
         run: python -m unittest discover -s tests -v
-      - name: Validate browser JavaScript syntax
+      - name: Check dashboard script syntax
         run: node --check assets/app.js
-      - name: Refresh all unique 2026 general-election Schedule E expenditures
+      - name: Refresh unique general-election Schedule E transactions
         id: refresh
         continue-on-error: true
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
         run: python scripts/refresh.py
-      - name: Archive FEC-derived expenditure dataset
-        if: steps.refresh.outcome == 'success'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/data.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update NY-17 independent expenditures [skip ci]'
-            git pull --rebase -X theirs origin main
-            git push
-          fi
-      - name: Report refresh issue without destroying archived values
+      - name: Explain FEC data failures
         if: steps.refresh.outcome != 'success'
-        run: echo "FEC API refresh failed. Reusing the last verified data; inspect refresh logs."
-      - name: Assemble GitHub Pages
+        run: echo "FEC refresh failed. Deploying last previously verified data file, without inventing amounts."
+      - name: Assemble standalone NY-17 website
         run: |
           mkdir -p _site/data _site/assets
           cp index.html _site/
           cp assets/* _site/assets/
-          cp data/data.json _site/data/
+          cp data/data.json _site/data/data.json
           touch _site/.nojekyll
-      - uses: actions/configure-pages@v5
+      - name: Save verified dataset artifact for independent archiving
+        if: steps.refresh.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ie-verified-data
+          path: data/data.json
+          retention-days: 5
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
         with:
           enablement: true
-      - uses: actions/upload-pages-artifact@v4
+      - name: Upload Pages website
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -70,6 +68,31 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Publish independent expenditure dashboard
+      - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  archive:
+    runs-on: ubuntu-latest
+    needs: build
+    timeout-minutes: 5
+    steps:
+      - name: Check out code and previous verified dataset
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Download updated verified dataset
+        uses: actions/download-artifact@v4
+        with:
+          name: ie-verified-data
+          path: data
+      - name: Commit and archive refreshed FEC data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/data.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive unique NY-17 IE transactions [skip ci]'
+            git pull --rebase -X theirs origin main
+            git push
+          fi
