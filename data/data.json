@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T19:51:09-04:00",
+  "generated_at": "2026-10-21T19:58:56-04:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -846,6 +846,16 @@
           ]
         },
         {
+          "name": "Field / Canvassing",
+          "total": 4217070,
+          "groups": [
+            {
+              "name": "AMERICA PAC",
+              "amount_cents": 4217070
+            }
+          ]
+        },
+        {
           "name": "Polling",
           "total": 1000000,
           "groups": [
@@ -877,12 +887,8 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 5146612,
+          "total": 929542,
           "groups": [
-            {
-              "name": "AMERICA PAC",
-              "amount_cents": 4217070
-            },
             {
               "name": "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS SEPARATE SEGREGATED FUND (CRNA-PAC)",
               "amount_cents": 929542
@@ -911,6 +917,16 @@
             {
               "name": "MAGA INC.",
               "amount_cents": 3379863
+            }
+          ]
+        },
+        {
+          "name": "Media (unspecified)",
+          "total": 482998545,
+          "groups": [
+            {
+              "name": "CLF",
+              "amount_cents": 482998545
             }
           ]
         },
@@ -965,16 +981,6 @@
               "amount_cents": 506332
             }
           ]
-        },
-        {
-          "name": "Other / Unclassified",
-          "total": 482998545,
-          "groups": [
-            {
-              "name": "CLF",
-              "amount_cents": 482998545
-            }
-          ]
         }
       ]
     },
@@ -995,7 +1001,7 @@
         },
         {
           "name": "Digital",
-          "total": 59944855,
+          "total": 59972805,
           "groups": [
             {
               "name": "EDUCATORS UNITED FOR PUBLIC SCHOOLS",
@@ -1020,6 +1026,10 @@
             {
               "name": "VOTEVETS",
               "amount_cents": 251517
+            },
+            {
+              "name": "FIELD TEAM 6, INC.",
+              "amount_cents": 27950
             }
           ]
         },
@@ -1045,7 +1055,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 69946832,
+          "total": 70681160,
           "groups": [
             {
               "name": "BATTLEGROUND NEW YORK",
@@ -1053,7 +1063,7 @@
             },
             {
               "name": "FOOD AND WATER ACTION",
-              "amount_cents": 1151600
+              "amount_cents": 1885928
             },
             {
               "name": "NEIGHBOR VOICES PAC",
@@ -1095,8 +1105,12 @@
         },
         {
           "name": "Print",
-          "total": 933217,
+          "total": 1948217,
           "groups": [
+            {
+              "name": "DEMOCRATIC MESSAGING PROJECT",
+              "amount_cents": 1015000
+            },
             {
               "name": "BATTLEGROUND NEW YORK",
               "amount_cents": 902291
@@ -1114,24 +1128,6 @@
             {
               "name": "OUR TURN HUDSON VALLEY",
               "amount_cents": 334308
-            }
-          ]
-        },
-        {
-          "name": "Other / Unclassified",
-          "total": 1777278,
-          "groups": [
-            {
-              "name": "DEMOCRATIC MESSAGING PROJECT",
-              "amount_cents": 1015000
-            },
-            {
-              "name": "FOOD AND WATER ACTION",
-              "amount_cents": 734328
-            },
-            {
-              "name": "FIELD TEAM 6, INC.",
-              "amount_cents": 27950
             }
           ]
         }
@@ -1191,8 +1187,18 @@
           ]
         },
         {
+          "name": "Media (unspecified)",
+          "total": 45700000,
+          "groups": [
+            {
+              "name": "LCV VICTORY FUND",
+              "amount_cents": 45700000
+            }
+          ]
+        },
+        {
           "name": "Mail",
-          "total": 38803542,
+          "total": 38819190,
           "groups": [
             {
               "name": "EDF ACTION VOTES",
@@ -1208,14 +1214,28 @@
             },
             {
               "name": "ACTIVATE AMERICA",
-              "amount_cents": 64320
+              "amount_cents": 79968
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "total": 13706,
+          "groups": [
+            {
+              "name": "ACTIVATE AMERICA",
+              "amount_cents": 13706
             }
           ]
         },
         {
           "name": "Field / Canvassing",
-          "total": 4000,
+          "total": 809655,
           "groups": [
+            {
+              "name": "PLANNED PARENTHOOD VOTES",
+              "amount_cents": 805655
+            },
             {
               "name": "NEIGHBOR VOICES PAC",
               "amount_cents": 4000
@@ -1274,33 +1294,33 @@
         },
         {
           "name": "Research",
-          "total": 321750,
+          "total": 541857,
           "groups": [
             {
               "name": "EDF ACTION VOTES",
               "amount_cents": 321750
+            },
+            {
+              "name": "ACTIVATE AMERICA",
+              "amount_cents": 220107
             }
           ]
         },
         {
           "name": "Other / Unclassified",
-          "total": 47162333,
+          "total": 407217,
           "groups": [
             {
-              "name": "LCV VICTORY FUND",
-              "amount_cents": 45703867
-            },
-            {
               "name": "PLANNED PARENTHOOD VOTES",
-              "amount_cents": 1059005
-            },
-            {
-              "name": "ACTIVATE AMERICA",
-              "amount_cents": 249461
+              "amount_cents": 253350
             },
             {
               "name": "GUARDRAILS ACTION INC.",
               "amount_cents": 150000
+            },
+            {
+              "name": "LCV VICTORY FUND",
+              "amount_cents": 3867
             }
           ]
         }
@@ -1321,7 +1341,7 @@
       "group_id": "C00640300",
       "payee": "L2, INC.",
       "description": "VOTER DATA",
-      "type": "Other / Unclassified",
+      "type": "Research",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-03-30",
@@ -1344,7 +1364,7 @@
       "group_id": "C00640300",
       "payee": "SCALE TO WIN",
       "description": "TEXT BANK",
-      "type": "Other / Unclassified",
+      "type": "Text",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-03-30",
@@ -1390,7 +1410,7 @@
       "group_id": "C00640300",
       "payee": "AMERICA VOTES",
       "description": "VOTER DATA",
-      "type": "Other / Unclassified",
+      "type": "Research",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-09-08",
@@ -1459,7 +1479,7 @@
       "group_id": "C00640300",
       "payee": "VISTAPRINT.COM",
       "description": "POSTCARDS",
-      "type": "Other / Unclassified",
+      "type": "Mail",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-09-08",
@@ -1482,7 +1502,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-07-20",
@@ -1505,7 +1525,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
       "description": "STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-01",
@@ -1528,7 +1548,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-07-20",
@@ -1551,7 +1571,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-10-02",
@@ -1643,7 +1663,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-10-02",
@@ -1666,7 +1686,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-01",
@@ -1689,7 +1709,7 @@
       "group_id": "C00909994",
       "payee": "MOMENTOUS OUTREACH INC",
       "description": "EMAIL SERVICES",
-      "type": "Other / Unclassified",
+      "type": "Digital",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-10-07",
@@ -1735,7 +1755,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-01",
@@ -1781,7 +1801,7 @@
       "group_id": "C00800995",
       "payee": "ROLLING OUTDOOR MEDIA",
       "description": "BILLBOARDS",
-      "type": "Other / Unclassified",
+      "type": "Print",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-03",
@@ -1850,7 +1870,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-01",
@@ -1896,7 +1916,7 @@
       "group_id": "C00909994",
       "payee": "MOMENTOUS OUTREACH INC",
       "description": "EMAIL SERVICES",
-      "type": "Other / Unclassified",
+      "type": "Digital",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-10-07",
@@ -2149,7 +2169,7 @@
       "group_id": "C00879510",
       "payee": "CONNECTION STRATEGY LLC",
       "description": "MESSAGE PHONE CALLS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-10",
@@ -2241,7 +2261,7 @@
       "group_id": "C00486845",
       "payee": "RISING TIDE INTERACTIVE",
       "description": "AD BUY",
-      "type": "Other / Unclassified",
+      "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-17",
@@ -2287,7 +2307,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-01",
@@ -2310,7 +2330,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD HUDSON PECONIC ACTION FUND, INC",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-01",
@@ -2333,7 +2353,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-11",
@@ -2839,7 +2859,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Other / Unclassified",
+      "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-25",
@@ -3253,7 +3273,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-11",
@@ -3276,7 +3296,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Other / Unclassified",
+      "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-02",
@@ -3644,7 +3664,7 @@
       "group_id": "C00909994",
       "payee": "MOMENTOUS OUTREACH INC",
       "description": "EMAIL SERVICES",
-      "type": "Other / Unclassified",
+      "type": "Digital",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-10-07",
@@ -3667,7 +3687,7 @@
       "group_id": "C00909994",
       "payee": "MOMENTOUS OUTREACH INC",
       "description": "EMAIL SERVICES",
-      "type": "Other / Unclassified",
+      "type": "Digital",
       "notice": false,
       "filing_form": "F3X",
       "filing_date": "2026-10-07",
@@ -3851,7 +3871,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-11",
@@ -3920,7 +3940,7 @@
       "group_id": "C00489799",
       "payee": "PLANNED PARENTHOOD HUDSON PECONIC ACTION FUND, INC",
       "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-11",
@@ -4288,7 +4308,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Other / Unclassified",
+      "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-09",
@@ -4725,7 +4745,7 @@
       "group_id": "C90019357",
       "payee": "CHODAN, JOY",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-18",
@@ -4748,7 +4768,7 @@
       "group_id": "C90019357",
       "payee": "MRAIHY, HAMZA",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-18",
@@ -4771,7 +4791,7 @@
       "group_id": "C90019357",
       "payee": "PEARSON, MICHAEL",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-18",
@@ -4794,7 +4814,7 @@
       "group_id": "C90019357",
       "payee": "REDA, SAHER",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-18",
@@ -5185,7 +5205,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Other / Unclassified",
+      "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-16",
@@ -5576,7 +5596,7 @@
       "group_id": "C90019357",
       "payee": "ALI, ISLAM",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -5599,7 +5619,7 @@
       "group_id": "C90019357",
       "payee": "ALI, ISLAM",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -5760,7 +5780,7 @@
       "group_id": "C90019357",
       "payee": "MODESTO JR, EDGAR",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -5783,7 +5803,7 @@
       "group_id": "C90019357",
       "payee": "MRAIHY, HAMZA",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -5806,7 +5826,7 @@
       "group_id": "C90019357",
       "payee": "MRAIHY, HAMZA",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -5829,7 +5849,7 @@
       "group_id": "C90019357",
       "payee": "MRAIHY, HAMZA",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -5990,7 +6010,7 @@
       "group_id": "C90019357",
       "payee": "REDA, SAHER",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -6013,7 +6033,7 @@
       "group_id": "C90019357",
       "payee": "REDA, SAHER",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-19",
@@ -7830,7 +7850,7 @@
       "group_id": "C90019357",
       "payee": "ORTIZ, JASON",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-18",
@@ -8267,7 +8287,7 @@
       "group_id": "C90019357",
       "payee": "REDA, SAHER",
       "description": "OUTREACH",
-      "type": "Other / Unclassified",
+      "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F5",
       "filing_date": "2026-10-18",
