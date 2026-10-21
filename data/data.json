@@ -1,0 +1,21 @@
+{
+  "status": "not_initialized",
+  "generated_at": null,
+  "district": "NY-17",
+  "period": {
+    "cycle": 2026,
+    "from": "2025-01-01",
+    "to": "2026-11-03",
+    "election": "2026 general"
+  },
+  "counts": {
+    "api_rows": 0,
+    "included_rows": 0,
+    "excluded": {}
+  },
+  "totals": {},
+  "daily": [],
+  "groups": [],
+  "pivot": [],
+  "transactions": []
+}
