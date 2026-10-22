@@ -6,8 +6,9 @@
   <meta name="theme-color" content="#f5f7fb">
   <meta name="description" content="CO-5 independent expenditures for the 2026 general election, grouped by candidate, group, day, and type. Each expenditure linked to its FEC source.">
   <title>CO-5 • 2026 Independent Expenditure Reporting</title>
-  <link rel="stylesheet" href="../assets/styles.css?v=20261021-nine-districts">
+  <link rel="stylesheet" href="../assets/styles.css?v=20261022-recent48-nine-races-v1">
   <script defer src="../assets/app.js?v=20261021-nine-districts"></script>
+  <script defer src="../assets/recent48.js?v=20261022-recent48-nine-races-v1"></script>
 </head>
 <body>
   <div class="page">
@@ -55,6 +56,21 @@
         <span><strong id="total-records">—</strong> distinct expenditure entries</span>
         <span><strong id="total-groups">—</strong> spending groups</span>
         <span><strong id="dedup-note">—</strong> repeated reports reconciled</span>
+      </section>
+
+      <section class="panel recent48-section" aria-labelledby="recent48-heading" id="recent48">
+        <div class="panel-header recent48-header">
+          <div>
+            <div class="kicker">LATEST FEC FILINGS</div>
+            <h2 id="recent48-heading">Spending reported in the last 48 hours</h2>
+            <p>Only newly filed 24-hour independent-expenditure notices; excludes regular monthly and quarterly reports. Select the down arrow to see details.</p>
+          </div>
+          <span class="recent-updated" id="recent48-updated">Checking FEC receipt times…</span>
+        </div>
+        <div id="recent48-groups" aria-live="polite">
+          <p class="recent-loading">Verifying recently reported expenditures…</p>
+        </div>
+        <p class="recent-note" id="recent48-note">The 48-hour window is based on FEC filing receipt time, not expenditure date.</p>
       </section>
 
       <section class="panel chart-section" aria-labelledby="daily-heading">
