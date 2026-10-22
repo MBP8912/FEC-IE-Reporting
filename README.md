@@ -20,6 +20,15 @@ Each race uses the completed NY-17 layout: candidate totals with support/oppose 
 
 **Automatic refresh:** Nine candidate-specific datasets live at `<district>/data/data.json`. GitHub Actions queries the FEC for both nominees in each race (up to ten IDs per API request). Since the FEC caps pages at 100 results and the shared DEMO_KEY is rate-limited, collection saves verified pagination progress in `data/ingest_checkpoint.json` and resumes on its next scheduled hourly run. A district only displays verified complete totals; until then, it shows a clearly marked pending status. For more efficient refreshes, register a free [OpenFEC API key](https://api.open.fec.gov/developers/) and add it as a GitHub Actions secret named `FEC_API_KEY`.
 
+## Verified FEC record-inclusion exceptions
+
+Two locally scoped 2026 general-election exceptions are applied **during every FEC refresh**, not simply patched into the browser:
+
+- **NY-17 / Planned Parenthood Votes (C00489799):** The FEC's October 1 and 11 Form 24 notices identify the candidate as `LAWLER, MICHAEL` and omit `candidate_id`. Only when the spender is C00489799 and the candidate is explicitly reported as Michael Lawler in NY-17 does `scripts/refresh.py` resolve the name to Mike Lawler's official ID `H2NY17162`. The expenditures oppose Lawler.
+- **CO-4 / Freedom Caucus Fund (C00552851):** Certain Form 24 notices support Lauren Boebert (`H0CO03165`) but retain the older district code `CO-03`. `scripts/refresh_all.py` queries that exact committee/candidate pair independently and includes only 2026 general-election notices reported as CO-03/04. It combines them with the regular CO-4 search, deduplicating overlapping notices, repeat filings, and monthly-report disclosures. This is **not** a rule that transfers other CO-3 spending to CO-4.
+
+The original FEC descriptions, filing-image links, spending dates and filer identifications are retained. The standalone 48-hour boxes still include only notices **actually received in the rolling 48-hour window**; historical filings from September/early October do not appear there simply because they have been newly incorporated into the full-cycle dataset.
+
 ## Narrow, race-specific spending type corrections
 
 The dashboard owner's classifications apply **only to the named filer and spending description in the indicated race**. They are implemented in `scripts/refresh.py`, tested by `tests/test_manual_categories.py`, and applied to archived data by `scripts/reclassify_cached.py` even during FEC API rate limits.

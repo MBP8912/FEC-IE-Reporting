@@ -67,6 +67,24 @@ def verify():
             if recent.get("status")=="pending":
                 raise RuntimeError("Verified "+district+" dataset still has an uninitialized recent feed")
             entries=data["transactions"]
+            # Exact known missing records must remain included across future
+            # automatic district refreshes; reject stale incomplete backups.
+            if district=="NY-17":
+                matched=[x for x in entries if
+                         x.get("group_id")=="C00489799" and
+                         x.get("transaction_id")=="500768900" and
+                         x.get("candidate_id")=="H2NY17162" and
+                         x.get("disposition")=="oppose_lawler"]
+                if len(matched)!=1:
+                    raise RuntimeError("Missing/double-counted NY-17 Planned Parenthood Votes Michael Lawler notice")
+            if district=="CO-4":
+                matched=[x for x in entries if
+                         x.get("group_id")=="C00552851" and
+                         x.get("transaction_id")=="EE125CCEF00774AB5ACF" and
+                         x.get("candidate_id")=="H0CO03165" and
+                         x.get("disposition")=="support_lawler"]
+                if len(matched)!=1:
+                    raise RuntimeError("Missing/double-counted CO-3-coded Freedom Caucus Fund Boebert notice")
             money=sum(int(item["amount_cents"]) for item in entries)
             if money!=data["totals"]["all"] or money!=sum(g["total"] for g in data["groups"]):
                 raise RuntimeError("Financial values do not reconcile in "+district)
