@@ -19,6 +19,16 @@ OUTPUT=ROOT/"NY-17"/"data"/"recent48.json"
 EASTERN=ZoneInfo("America/New_York")
 LOOKBACK_HOURS=120
 EFILE_API="https://api.open.fec.gov/v1/efile/filings/"
+# Political committees file expedited IE notices on F24; noncommittees
+# file expedited 24/48-hour notices on Form 5. Form 3X monthly reports,
+# and Form 5 periodic reports, are not NEW notices.
+EXPEDITED_FORMS=frozenset(("F24","F5"))
+
+
+def is_new_notice(row):
+    """Include only original expedited notices, never periodic re-reporting."""
+    return (row.get("notice") is True
+            and str(row.get("filing_form") or "").strip().upper() in EXPEDITED_FORMS)
 
 
 def parse_receipt(value):
@@ -38,7 +48,8 @@ def file_id(row):
 def recent_candidates(data,now):
     start=(now.astimezone(EASTERN)-timedelta(hours=LOOKBACK_HOURS)).date().isoformat()
     return [r for r in data.get("transactions",[])
-            if str(r.get("filing_date") or "")[:10]>=start]
+            if is_new_notice(r)
+            and str(r.get("filing_date") or "")[:10]>=start]
 
 
 def fetch_file_receipts(ids,key):
@@ -70,6 +81,8 @@ def build_payload(data,receipts,now):
     oldest=now-timedelta(hours=LOOKBACK_HOURS)
     possible_day=(now-timedelta(hours=48)).astimezone(EASTERN).date().isoformat()
     for r in recent_candidates(data,now):
+        if not is_new_notice(r):
+            raise RuntimeError("Periodic report cannot enter the 48-hour IE feed")
         number=file_id(r)
         at=parse_receipt(receipts.get(number)) if number else None
         if at is None:
@@ -86,6 +99,8 @@ def build_payload(data,receipts,now):
             "expenditure_date":r["date"],
             "spender":r["group"],
             "disposition":r["disposition"],
+            "notice":True,
+            "filing_form":str(r["filing_form"]).upper(),
             "purpose":r["description"],
             "spend_type":r["type"],
             "amount_cents":r["amount_cents"],
@@ -95,6 +110,9 @@ def build_payload(data,receipts,now):
     return {
         "status":"partial" if unknown else "ok",
         "district":"NY-17","window_hours":48,
+        "notice_only":True,
+        "selection":"original_expeditious_24_48_hour_IE_notices",
+        "accepted_forms":sorted(EXPEDITED_FORMS),
         "checked_at":now.isoformat(timespec="seconds"),
         "source_data_generated_at":data.get("generated_at"),
         "unresolved_recent_items":unknown,
@@ -107,6 +125,8 @@ def main():
     now=datetime.now(timezone.utc)
     data=json.loads(DATA.read_text(encoding="utf-8"))
     if data.get("status")!="ok": raise RuntimeError("NY-17 source data not verified")
+    # Do not even look up receipt timestamps for ordinary monthly/quarterly
+    # filing numbers: they would otherwise appear to be newly reported spending.
     ids=sorted({i for r in recent_candidates(data,now) if (i:=file_id(r))})
     previous={}
     if OUTPUT.exists():
