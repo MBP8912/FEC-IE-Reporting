@@ -12,6 +12,7 @@ from pathlib import Path
 from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 import refresh as ie
+from races import RACES
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"NY-17"/"data"/"data.json"
@@ -73,8 +74,11 @@ def fetch_file_receipts(ids,key):
 
 def build_payload(data,receipts,now):
     if now.tzinfo is None: raise ValueError("now must have a timezone")
-    if data.get("status")!="ok" or data.get("district")!="NY-17":
-        raise RuntimeError("Cannot produce recent NY-17 IE from unverified data")
+    if data.get("status")!="ok" or data.get("district") not in RACES:
+        raise RuntimeError("Cannot produce recent spending from an unverified district")
+    district=data["district"]
+    config=RACES[district]
+    labels=data.get("disposition_labels") or {}
     pool=[]
     unknown=0
     unique=set()
@@ -109,7 +113,17 @@ def build_payload(data,receipts,now):
     pool.sort(key=lambda x:(x["reported_at"],x["amount_cents"]),reverse=True)
     return {
         "status":"partial" if unknown else "ok",
-        "district":"NY-17","window_hours":48,
+        "district":district,"window_hours":48,
+        "candidate_names":{
+            "lawler":config["republican"]["short"],
+            "conley":config["democratic"]["short"],
+        },
+        "disposition_labels":{
+            "support_lawler":labels.get("support_lawler","Support "+config["republican"]["short"]),
+            "oppose_conley":labels.get("oppose_conley","Oppose "+config["democratic"]["short"]),
+            "support_conley":labels.get("support_conley","Support "+config["democratic"]["short"]),
+            "oppose_lawler":labels.get("oppose_lawler","Oppose "+config["republican"]["short"]),
+        },
         "notice_only":True,
         "selection":"original_expeditious_24_48_hour_IE_notices",
         "accepted_forms":sorted(EXPEDITED_FORMS),
