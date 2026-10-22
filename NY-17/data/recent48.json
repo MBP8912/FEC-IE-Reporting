@@ -2,14 +2,24 @@
   "status": "ok",
   "district": "NY-17",
   "window_hours": 48,
+  "candidate_names": {
+    "lawler": "Lawler",
+    "conley": "Conley"
+  },
+  "disposition_labels": {
+    "support_lawler": "Support Lawler",
+    "oppose_conley": "Oppose Conley",
+    "support_conley": "Support Conley",
+    "oppose_lawler": "Oppose Lawler"
+  },
   "notice_only": true,
   "selection": "original_expeditious_24_48_hour_IE_notices",
   "accepted_forms": [
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-22T15:17:26+00:00",
-  "source_data_generated_at": "2026-10-22T10:01:35-04:00",
+  "checked_at": "2026-10-22T15:29:55+00:00",
+  "source_data_generated_at": "2026-10-22T11:17:29-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -1356,20 +1366,6 @@
       "spend_type": "Digital",
       "amount_cents": 25261,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168262"
-    },
-    {
-      "source_id": "4101720261613726462",
-      "file_number": "2029175",
-      "reported_at": "2026-10-17T15:18:22+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "FIELD TEAM 6, INC.",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATE: SMS TEXTING",
-      "spend_type": "Text",
-      "amount_cents": 123597,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916161691"
     }
   ]
 }
