@@ -22,12 +22,25 @@ def read(path):
 
 
 def verify():
-    page = read("").decode("utf-8")
+    directory = read("").decode("utf-8")
+    if "2026 Independent Expenditure Dashboards" not in directory:
+        raise RuntimeError("Public root does not contain the race directory")
+    if 'href="./NY-17/"' not in directory:
+        raise RuntimeError("NY-17 link missing from directory")
+    page = read("NY-17/").decode("utf-8")
     if "NY-17 • 2026 Independent Expenditure Reporting" not in page:
-        raise RuntimeError("Public HTML does not contain expected NY-17 title")
+        raise RuntimeError("Public /NY-17/ does not contain the NY-17 dashboard title")
+    if "WHO IS SPENDING" in page or "WHAT THE MONEY FUNDED" in page:
+        raise RuntimeError("Obsolete section labels remain")
+    pivot = page.find('class="panel pivot-section"')
+    groups = page.find('class="panel group-section"')
+    if pivot == -1 or groups == -1 or pivot > groups:
+        raise RuntimeError("Spending-by-type section must appear before spending-by-group section")
+    if "../assets/app.js" not in page or "../assets/styles.css" not in page:
+        raise RuntimeError("NY-17 page has incorrect relative asset links")
     for expected in ('id="groups-table"', 'id="pivot"', 'id="chart"', 'id="detail-dialog"',
                      'id="daily-breakdown"', 'id="daily-breakdown-rows"',
-                     'Category of spend', 'v=20261021-clickable-bars-v1'):
+                     'Category of spend', 'v=20261021-ny17-directory'):
         if expected not in page:
             raise RuntimeError(f"Missing dashboard element: {expected}")
     script = read("assets/app.js").decode("utf-8")
@@ -39,7 +52,7 @@ def verify():
     styles = read("assets/styles.css").decode("utf-8")
     if ".headline-metrics" not in styles:
         raise RuntimeError("Dashboard stylesheet is incomplete")
-    data = json.loads(read("data/data.json"))
+    data = json.loads(read("NY-17/data/data.json"))
     if data.get("status") != "ok":
         raise RuntimeError("Public JSON is not verified")
     transactions = data.get("transactions") or []
@@ -51,9 +64,9 @@ def verify():
         raise RuntimeError("Published dashboard totals do not reconcile")
     if total != sum(g["total"] for g in groups):
         raise RuntimeError("Published group totals do not reconcile")
-    print(f"VERIFIED NY-17 public Pages: HTTP 200, charts, pivot, source drilldowns, "
+    print(f"VERIFIED root directory and /NY-17/: HTTP 200, type-before-group sections, charts, pivot, source drilldowns, "
           f"{len(transactions)} transactions, {len(groups)} groups, ${total / 100:,.2f}.")
-    print(ROOT)
+    print(ROOT + "NY-17/")
 
 
 if __name__ == "__main__":

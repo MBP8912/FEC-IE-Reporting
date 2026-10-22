@@ -37,19 +37,20 @@ jobs:
       - name: Explain FEC data failures
         if: steps.refresh.outcome != 'success'
         run: echo "FEC refresh failed. Deploying last previously verified data file, without inventing amounts."
-      - name: Assemble standalone NY-17 website
+      - name: Assemble district directory and standalone NY-17 dashboard
         run: |
-          mkdir -p _site/data _site/assets
+          mkdir -p _site/NY-17/data _site/assets
           cp index.html _site/
+          cp NY-17/index.html _site/NY-17/
           cp assets/* _site/assets/
-          cp data/data.json _site/data/data.json
+          cp NY-17/data/data.json _site/NY-17/data/data.json
           touch _site/.nojekyll
       - name: Save verified dataset artifact for independent archiving
         if: steps.refresh.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: ie-verified-data
-          path: data/data.json
+          path: NY-17/data/data.json
           retention-days: 5
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -89,12 +90,12 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: ie-verified-data
-          path: data
+          path: NY-17/data
       - name: Commit and archive refreshed FEC data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/data.json
+          git add NY-17/data/data.json
           if ! git diff --cached --quiet; then
             git commit -m 'Archive unique NY-17 IE transactions [skip ci]'
             git pull --rebase -X theirs origin main

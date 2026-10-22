@@ -2,7 +2,11 @@
 
 Public NY-17 pilot dashboard for spending in the 2026 general election, benefiting or opposing Mike Lawler (H2NY17162) and Cait Conley (H6NY17171).
 
-**Public link after GitHub Pages activation:** https://mbp8912.github.io/FEC-IE-Reporting/
+**Main race directory:** https://mbp8912.github.io/FEC-IE-Reporting/
+
+**NY-17 dashboard:** https://mbp8912.github.io/FEC-IE-Reporting/NY-17/
+
+The repository is organized for separate race dashboards. NY-17 is in `NY-17/index.html`, its verified spending data is in `NY-17/data/data.json`, shared browser assets are in `assets/`, and the root `index.html` is the race-selection directory.
 
 ## Features
 
@@ -36,7 +40,7 @@ All amounts are processed as integer cents. Spending benefiting a candidate equa
 
 ## Update and hosting
 
-A GitHub Actions workflow tests parsing, deduplication, frontend JavaScript and categories; fetches current FEC data; archives successfully verified JSON; publishes the GitHub Pages website. Approximately hourly refreshes are scheduled. Failed API calls never overwrite an earlier verified dataset.
+A GitHub Actions workflow tests parsing, deduplication, frontend JavaScript and categories; fetches current FEC data; archives successfully verified JSON at `NY-17/data/data.json`; publishes the GitHub Pages race directory and NY-17 dashboard. Approximately hourly refreshes are scheduled. Failed API calls never overwrite an earlier verified dataset.
 
 A free OpenFEC API key is recommended as a repository Actions secret named FEC_API_KEY. Without it the workflow uses the shared DEMO_KEY, which may be rate-limited.
 

@@ -21,7 +21,7 @@ from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
-DATAFILE = ROOT / "data" / "data.json"
+DATAFILE = ROOT / "NY-17" / "data" / "data.json"
 DATA_START = date(2025, 1, 1)
 DATA_END = date(2026, 11, 3)
 COMMITTEE_KEY = "NY-17"
