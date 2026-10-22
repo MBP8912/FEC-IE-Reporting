@@ -159,6 +159,16 @@ def nominee_key(row):
     name = norm(row.get("candidate_name"))
     if not name:
         return None
+    # User-verified NY-17 exception: Planned Parenthood Votes filed Form 24
+    # for "LAWLER, MICHAEL" without a candidate ID. Mike Lawler's FEC
+    # candidate ID is H2NY17162. Limit this alias to the documented filer
+    # and NY-17, rather than matching other politicians named Michael Lawler.
+    if (COMMITTEE_KEY == "NY-17"
+            and str(row.get("committee_id") or "").upper().strip() == "C00489799"
+            and norm(row.get("candidate_office_state")) == "ny"
+            and norm(row.get("candidate_office_district")).lstrip("0") == "17"
+            and name in ("lawler michael", "michael lawler")):
+        return "lawler"
     matches = []
     for key, cand in CANDIDATES.items():
         family = norm(cand.get("surname") or cand["name"].split()[-1])
