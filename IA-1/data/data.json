@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T21:09:31-04:00",
+  "generated_at": "2026-10-21T21:10:08-04:00",
   "district": "IA-1",
   "period": {
     "cycle": 2026,
@@ -8,11 +8,40 @@
     "to": "2026-11-03",
     "election": "2026 general"
   },
-  "totals": {},
-  "groups": [],
-  "daily": [],
-  "pivot": [],
-  "transactions": [],
+  "candidates": {
+    "lawler": {
+      "name": "Mariannette Miller-Meeks",
+      "id": "H8IA02043",
+      "party": "Republican",
+      "surname": "miller meeks",
+      "given": "Mariannette"
+    },
+    "conley": {
+      "name": "Christina Bohannan",
+      "id": "H2IA02111",
+      "party": "Democratic",
+      "surname": "bohannan",
+      "given": "Christina"
+    }
+  },
+  "disposition_order": [
+    "support_lawler",
+    "oppose_conley",
+    "support_conley",
+    "oppose_lawler"
+  ],
+  "disposition_labels": {
+    "support_lawler": "Support Miller-Meeks",
+    "oppose_conley": "Oppose Bohannan",
+    "support_conley": "Support Bohannan",
+    "oppose_lawler": "Oppose Miller-Meeks"
+  },
+  "colors": {
+    "support_lawler": "#C85553",
+    "oppose_conley": "#EBA59A",
+    "support_conley": "#396BBA",
+    "oppose_lawler": "#8EB4ED"
+  },
   "counts": {
     "api_rows": 476,
     "pages": 5,
