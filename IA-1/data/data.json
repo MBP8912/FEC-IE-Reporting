@@ -1217,6 +1217,16 @@
       "total": 584711253,
       "categories": [
         {
+          "name": "TV",
+          "total": 399691914,
+          "groups": [
+            {
+              "name": "CLF",
+              "amount_cents": 399691914
+            }
+          ]
+        },
+        {
           "name": "Digital",
           "total": 118939220,
           "groups": [
@@ -1236,12 +1246,8 @@
         },
         {
           "name": "Media (unspecified)",
-          "total": 401691914,
+          "total": 2000000,
           "groups": [
-            {
-              "name": "CLF",
-              "amount_cents": 399691914
-            },
             {
               "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
               "amount_cents": 2000000
@@ -1522,7 +1528,7 @@
       "categories": [
         {
           "name": "TV",
-          "total": 225859968,
+          "total": 275159968,
           "groups": [
             {
               "name": "SD 2026",
@@ -1531,6 +1537,10 @@
             {
               "name": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
               "amount_cents": 99499536
+            },
+            {
+              "name": "LCV VICTORY FUND",
+              "amount_cents": 49300000
             }
           ]
         },
@@ -1553,16 +1563,6 @@
             {
               "name": "INDIGO PAC",
               "amount_cents": 320003
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 49300000,
-          "groups": [
-            {
-              "name": "LCV VICTORY FUND",
-              "amount_cents": 49300000
             }
           ]
         },
@@ -3356,7 +3356,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-04",
@@ -3770,7 +3770,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-11",
@@ -4161,7 +4161,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-18",
@@ -4874,7 +4874,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-21",
@@ -4897,7 +4897,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-25",
@@ -5587,7 +5587,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-02",
@@ -6829,7 +6829,7 @@
       "group_id": "C00486845",
       "payee": "WAVELENGTH STRATEGY",
       "description": "AD BUY",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-08",
@@ -7128,7 +7128,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-09",

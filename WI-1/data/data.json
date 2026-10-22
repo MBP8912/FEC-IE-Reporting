@@ -577,22 +577,22 @@
       "total": 273475509,
       "categories": [
         {
+          "name": "TV",
+          "total": 101198512,
+          "groups": [
+            {
+              "name": "FAIRSHAKE",
+              "amount_cents": 101198512
+            }
+          ]
+        },
+        {
           "name": "Digital",
           "total": 23463140,
           "groups": [
             {
               "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
               "amount_cents": 23463140
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 101198512,
-          "groups": [
-            {
-              "name": "FAIRSHAKE",
-              "amount_cents": 101198512
             }
           ]
         },
@@ -697,8 +697,12 @@
       "categories": [
         {
           "name": "TV",
-          "total": 47659700,
+          "total": 136909700,
           "groups": [
+            {
+              "name": "CLF",
+              "amount_cents": 89250000
+            },
             {
               "name": "WISCONSIN WORKING PAC",
               "amount_cents": 47659700
@@ -724,16 +728,6 @@
             {
               "name": "AMERICA FIRST ACTION FUND",
               "amount_cents": 5000000
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 89250000,
-          "groups": [
-            {
-              "name": "CLF",
-              "amount_cents": 89250000
             }
           ]
         },
@@ -821,6 +815,16 @@
           ]
         },
         {
+          "name": "Billboard",
+          "total": 12450566,
+          "groups": [
+            {
+              "name": "AB PAC",
+              "amount_cents": 12450566
+            }
+          ]
+        },
+        {
           "name": "Mail",
           "total": 8455821,
           "groups": [
@@ -882,12 +886,8 @@
         },
         {
           "name": "Print",
-          "total": 13138873,
+          "total": 688307,
           "groups": [
-            {
-              "name": "AB PAC",
-              "amount_cents": 12450566
-            },
             {
               "name": "SOMOS PAC",
               "amount_cents": 688307
@@ -941,25 +941,19 @@
         },
         {
           "name": "Digital",
-          "total": 44818000,
+          "total": 48918000,
           "groups": [
             {
               "name": "HMP",
               "amount_cents": 43918000
             },
             {
-              "name": "THE WISCO PROJECT PAC",
-              "amount_cents": 900000
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 4100000,
-          "groups": [
-            {
               "name": "END CITIZENS UNITED",
               "amount_cents": 4100000
+            },
+            {
+              "name": "THE WISCO PROJECT PAC",
+              "amount_cents": 900000
             }
           ]
         },
@@ -2316,7 +2310,7 @@
       "group_id": "C00835959",
       "payee": "MAIN STREET MEDIA GROUP",
       "description": "IE-STEIL-MEDIA BUY",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-08",
@@ -2362,7 +2356,7 @@
       "group_id": "C00492140",
       "payee": "ADQUICK",
       "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
-      "type": "Print",
+      "type": "Billboard",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-07",
@@ -2408,7 +2402,7 @@
       "group_id": "C00492140",
       "payee": "LAMAR COMPANIES",
       "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
-      "type": "Print",
+      "type": "Billboard",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-07",
@@ -2431,7 +2425,7 @@
       "group_id": "C00492140",
       "payee": "TARGET PLATFORM",
       "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
-      "type": "Print",
+      "type": "Billboard",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-07",
@@ -2822,7 +2816,7 @@
       "group_id": "C00573261",
       "payee": "WAVELENGTH STRATEGY INC",
       "description": "MEDIA BUY",
-      "type": "Media (unspecified)",
+      "type": "Digital",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-15",
@@ -3213,7 +3207,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-16",

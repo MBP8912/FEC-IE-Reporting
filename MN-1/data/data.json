@@ -737,11 +737,15 @@
       "categories": [
         {
           "name": "TV",
-          "total": 155983763,
+          "total": 180150430,
           "groups": [
             {
               "name": "YOUR COMMUNITY PAC",
               "amount_cents": 155983763
+            },
+            {
+              "name": "LCV VICTORY FUND",
+              "amount_cents": 24166667
             }
           ]
         },
@@ -760,16 +764,6 @@
             {
               "name": "MAIN STREET ACTION PAC",
               "amount_cents": 1677500
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 24166667,
-          "groups": [
-            {
-              "name": "LCV VICTORY FUND",
-              "amount_cents": 24166667
             }
           ]
         },
@@ -2112,7 +2106,7 @@
       "group_id": "C00486845",
       "payee": "TRILOGY INTERACTIVE",
       "description": "AD BUY",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-24",
@@ -2710,7 +2704,7 @@
       "group_id": "C00486845",
       "payee": "TRILOGY INTERACTIVE",
       "description": "AD BUY",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-08",

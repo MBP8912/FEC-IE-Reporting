@@ -644,6 +644,16 @@
       "total": 163729040,
       "categories": [
         {
+          "name": "TV",
+          "total": 102906754,
+          "groups": [
+            {
+              "name": "CLF",
+              "amount_cents": 102906754
+            }
+          ]
+        },
+        {
           "name": "Digital",
           "total": 37043538,
           "groups": [
@@ -654,16 +664,6 @@
             {
               "name": "MAGA INC.",
               "amount_cents": 2043538
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 102906754,
-          "groups": [
-            {
-              "name": "CLF",
-              "amount_cents": 102906754
             }
           ]
         },
@@ -1673,7 +1673,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-11",
@@ -1972,7 +1972,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-18",
@@ -2501,7 +2501,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-25",
@@ -2800,7 +2800,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-02",

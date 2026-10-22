@@ -634,6 +634,16 @@
       "total": 505891441,
       "categories": [
         {
+          "name": "TV",
+          "total": 391131397,
+          "groups": [
+            {
+              "name": "CLF",
+              "amount_cents": 391131397
+            }
+          ]
+        },
+        {
           "name": "Digital",
           "total": 89589660,
           "groups": [
@@ -644,16 +654,6 @@
             {
               "name": "MAGA INC.",
               "amount_cents": 1589660
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 391131397,
-          "groups": [
-            {
-              "name": "CLF",
-              "amount_cents": 391131397
             }
           ]
         },
@@ -765,6 +765,16 @@
           ]
         },
         {
+          "name": "Billboard",
+          "total": 8525843,
+          "groups": [
+            {
+              "name": "AB PAC",
+              "amount_cents": 8525843
+            }
+          ]
+        },
+        {
           "name": "Mail",
           "total": 222468,
           "groups": [
@@ -800,12 +810,8 @@
         },
         {
           "name": "Print",
-          "total": 9540843,
+          "total": 1015000,
           "groups": [
-            {
-              "name": "AB PAC",
-              "amount_cents": 8525843
-            },
             {
               "name": "DEMOCRATIC MESSAGING PROJECT",
               "amount_cents": 1015000
@@ -2093,7 +2099,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-18",
@@ -2415,7 +2421,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-25",
@@ -2530,7 +2536,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-02",
@@ -2806,7 +2812,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-05",
@@ -2852,7 +2858,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-09",
@@ -2921,7 +2927,7 @@
       "group_id": "C00492140",
       "payee": "ADQUICK",
       "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
-      "type": "Print",
+      "type": "Billboard",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-07",
@@ -2967,7 +2973,7 @@
       "group_id": "C00492140",
       "payee": "LAMAR COMPANIES",
       "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
-      "type": "Print",
+      "type": "Billboard",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-07",
@@ -2990,7 +2996,7 @@
       "group_id": "C00492140",
       "payee": "TARGET PLATFORM",
       "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
-      "type": "Print",
+      "type": "Billboard",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-07",
@@ -3381,7 +3387,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-16",
@@ -3496,7 +3502,7 @@
       "group_id": "C00504530",
       "payee": "DEL RAY MEDIA LLC",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-16",
