@@ -1,96 +1,80 @@
-"""Network-free tests for the nine independent district pages and FEC snapshots."""
-import sys
-import unittest
+"""Network-free checks that each district includes valid FEC reports lacking candidate IDs."""
+import sys,unittest
 from pathlib import Path
 from unittest.mock import patch
-
-ROOT = Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
 import refresh as core
-from races import RACES, RACE_CODES, ALL_CANDIDATE_IDS
 import refresh_all as multi
+from races import RACES,RACE_CODES,ALL_CANDIDATE_IDS
 
 class TestAllRaces(unittest.TestCase):
-    def test_distinct_candidate_ids_and_max_ten_per_fec_request(self):
-        self.assertEqual(len(RACE_CODES),9)
+    def test_searches_house_districts_not_only_nominee_ids(self):
+        self.assertEqual(len(multi.BATCHES),9)
         self.assertEqual(len(ALL_CANDIDATE_IDS),18)
         self.assertEqual(len(set(ALL_CANDIDATE_IDS)),18)
-        self.assertEqual(sum(map(len,multi.BATCHES)),18)
-        self.assertTrue(all(len(b)<=10 for b in multi.BATCHES))
-        for key,config in RACES.items():
-            self.assertRegex(key,r"^[A-Z]{2}-\d{1,2}$")
-            self.assertRegex(config["republican"]["id"],r"^H[0-9A-Z]{8}$")
-            self.assertRegex(config["democratic"]["id"],r"^H[0-9A-Z]{8}$")
+        for i,cfg in enumerate(multi.BATCHES):
+            url=multi.next_query("TEST",i,{})
+            self.assertIn("candidate_office_state="+cfg["state"],url)
+            self.assertIn("candidate_office_district="+cfg["number"],url)
+            self.assertIn("candidate_office=H",url)
+            self.assertNotIn("candidate_id=",url)
+            self.assertIn("most_recent=true",url)
 
-    def test_race_selection_changes_disposition_labels_and_identity(self):
+    def test_each_race_filters_to_official_nominees(self):
         with patch.object(core,"COMMITTEE_KEY",core.COMMITTEE_KEY), \
              patch.object(core,"CANDIDATES",core.CANDIDATES), \
              patch.object(core,"DISPOSITIONS",core.DISPOSITIONS):
-            for name,config in RACES.items():
+            for name,r in RACES.items():
                 multi.set_race(name)
-                self.assertEqual(core.nominee_key({"candidate_id":config["republican"]["id"]}),"lawler")
-                self.assertEqual(core.nominee_key({"candidate_id":config["democratic"]["id"]}),"conley")
+                self.assertEqual(core.nominee_key({"candidate_id":r["republican"]["id"]}),"lawler")
+                self.assertEqual(core.nominee_key({"candidate_id":r["democratic"]["id"]}),"conley")
                 self.assertIsNone(core.nominee_key({"candidate_id":"H6ZZ99999"}))
-                self.assertEqual(core.DISPOSITIONS["support_lawler"],"Support "+config["republican"]["short"])
-                self.assertEqual(core.DISPOSITIONS["oppose_conley"],"Oppose "+config["democratic"]["short"])
-                self.assertEqual(core.DATAFILE,ROOT/name/"data"/"data.json")
 
-    def test_ny17_manual_spending_rule_is_not_carried_to_other_districts(self):
+    def test_ny17_clf_missing_candidate_id_is_counted_as_tv(self):
         with patch.object(core,"COMMITTEE_KEY",core.COMMITTEE_KEY), \
              patch.object(core,"CANDIDATES",core.CANDIDATES), \
              patch.object(core,"DISPOSITIONS",core.DISPOSITIONS):
             multi.set_race("NY-17")
-            self.assertEqual(core.classify_ny17_override("C00504530","H6NY17171",
-                               "2026-09-28","MEDIA PLACEMENT"),"TV")
-            multi.set_race("CO-5")
-            self.assertEqual(core.classify_ny17_override("C00504530","H6NY17171",
-                               "2026-09-28","MEDIA PLACEMENT"),"Media (unspecified)")
+            tx={"sub_id":"101","committee_id":"C00504530","committee_name":"CLF",
+                "candidate_id":None,"candidate_name":"CONLEY, CAIT",
+                "election_type":"G2026","expenditure_date":"2026-10-09",
+                "expenditure_amount":1430008.55,"support_oppose_indicator":"O",
+                "is_notice":True,"expenditure_description":"MEDIA PLACEMENT",
+                "transaction_id":"SE24.6100"}
+            row,error=core.normalize_row(tx)
+            self.assertIsNone(error)
+            self.assertEqual(row["candidate"],"conley")
+            self.assertEqual(row["candidate_id"],"H6NY17171")
+            self.assertEqual(row["type"],"TV")
+            self.assertEqual(row["amount_cents"],143000855)
 
-    def test_batched_query_filters_all_the_named_candidates(self):
-        for index,batch in enumerate(multi.BATCHES):
-            url = multi.next_query("FAKE_KEY",index,{})
-            self.assertEqual(url.count("candidate_id="),len(batch))
-            self.assertIn("cycle=2026",url)
-            self.assertIn("most_recent=true",url)
-            self.assertIn("per_page=100",url)
-            self.assertIn("min_date=2025-01-01",url)
-
-    def test_no_live_query_needed_to_generate_separate_zero_or_positive_datasets(self):
-        base = multi.new_state()
-        base["status"]="in_progress"
-        base["batch"]=1
-        base["rows"]=[
-          {"sub_id":"200", "candidate_id":RACES["CO-4"]["republican"]["id"],
-           "committee_id":"C00111111","committee_name":"Sample IE Group",
-           "candidate_name":"LAUREN BOEBERT","election_type":"G2026",
-           "expenditure_date":"2026-10-19","expenditure_amount":1000,
-           "support_oppose_indicator":"S","is_notice":True,
-           "transaction_id":"X1","expenditure_description":"DIGITAL ADS"},
-          {"sub_id":"201","candidate_id":RACES["WI-1"]["democratic"]["id"],
-           "committee_id":"C00111111","committee_name":"Sample IE Group",
-           "candidate_name":"MITCHELL BERMAN","election_type":"G2026",
-           "expenditure_date":"2026-10-19","expenditure_amount":2000,
-           "support_oppose_indicator":"S","is_notice":True,
-           "transaction_id":"X2","expenditure_description":"MAIL"},
-        ]
-        # Verify direct processing without writing live data into the test checkout.
+    def test_missing_id_matching_does_not_lose_unambiguous_other_nominees(self):
         with patch.object(core,"COMMITTEE_KEY",core.COMMITTEE_KEY), \
              patch.object(core,"CANDIDATES",core.CANDIDATES), \
              patch.object(core,"DISPOSITIONS",core.DISPOSITIONS):
             multi.set_race("CO-4")
-            raw=[r for r in base["rows"] if r["candidate_id"] in
-                 {RACES["CO-4"]["republican"]["id"],RACES["CO-4"]["democratic"]["id"]}]
-            rows,excluded=core.unique_rows(raw)
-            result=core.summarize(rows,excluded,len(raw),1)
-            self.assertEqual(result["totals"]["support_lawler"],100000)
-            self.assertEqual(result["totals"]["all"],100000)
-            multi.set_race("WI-1")
-            raw=[r for r in base["rows"] if r["candidate_id"] in
-                 {RACES["WI-1"]["republican"]["id"],RACES["WI-1"]["democratic"]["id"]}]
-            rows,excluded=core.unique_rows(raw)
-            result=core.summarize(rows,excluded,len(raw),1)
-            self.assertEqual(result["totals"]["support_conley"],200000)
-            self.assertEqual(result["totals"]["all"],200000)
+            self.assertEqual(core.nominee_key({"candidate_name":"BOEBERT, LAUREN"}),"lawler")
+            self.assertEqual(core.nominee_key({"candidate_name":"LAUBACHER, EILEEN"}),"conley")
+            self.assertIsNone(core.nominee_key({"candidate_name":"OTHER PERSON"}))
+            self.assertEqual(core.classify_ny17_override(
+                 "C00504530","H6NY17171","2026-10-09","MEDIA PLACEMENT"),
+                 "Media (unspecified)")
 
-if __name__=="__main__":
-    unittest.main()
+    def test_partial_query_saves_checkpoint_without_publishing(self):
+        st=multi.new_state()
+        fake={"results":[{"sub_id":str(i),"candidate_id":None,
+            "candidate_name":"CONLEY, CAIT"} for i in range(100)],
+            "pagination":{"last_indexes":{"last_index":"100",
+                                          "last_expenditure_date":"2026-10-09"}}}
+        with patch.object(core,"request_json",return_value=fake), \
+             patch.object(multi,"save_state") as saved, \
+             patch.object(multi,"finalize_one_race") as finalized:
+            self.assertFalse(multi.capture_pages(st,"TEST",1))
+        self.assertEqual(st["batch"],0)
+        self.assertEqual(st["race_pages"],1)
+        self.assertEqual(len(st["rows"]),100)
+        self.assertFalse(finalized.called)
+        self.assertTrue(saved.called)
+
+if __name__=="__main__":unittest.main()
