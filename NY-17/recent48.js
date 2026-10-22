@@ -21,15 +21,18 @@ function allowedSource(url){
 function view(payload){
   const groups=lookup("recent48-groups"),note=lookup("recent48-note"),updated=lookup("recent48-updated");
   groups.replaceChildren();
-  if(!payload||!["ok","partial"].includes(payload.status)||!Array.isArray(payload.items)){
-    note.textContent="Exact FEC receipt times have not yet been verified. No 48-hour amounts will be shown until the data is available.";
-    updated.textContent="Receipt-time verification pending";
+  if(!payload||payload.notice_only!==true||!["ok","partial"].includes(payload.status)||!Array.isArray(payload.items)){
+    note.textContent="The expedited-notice-only FEC feed is not yet verified. Regular monthly and quarterly filings are excluded, and no unverified 48-hour amounts will be displayed.";
+    updated.textContent="Notice-only receipt verification pending";
     return;
   }
   const now=Date.now(),since=now-48*60*60*1000;
   const recent=payload.items.filter(t=>{
+    // Defense in depth: ignore ordinary Form 3X, quarterly Form 5 and any
+    // legacy records that lack affirmative expedited-notice provenance.
+    const notice=t.notice===true&&["F24","F5"].includes(String(t.filing_form||"").toUpperCase());
     const time=Date.parse(t.reported_at);
-    return Number.isFinite(time)&&time>=since&&time<=now&&
+    return notice&&Number.isFinite(time)&&time>=since&&time<=now&&
            Number.isSafeInteger(t.amount_cents);
   });
   const candidates=[
@@ -120,7 +123,7 @@ function view(payload){
   }else{updated.textContent="Receipt time last checked: unavailable"}
   const age=Date.now()-last.getTime();
   const uncertain=Number(payload.unresolved_recent_items)||0;
-  const explanations=["Based on FEC filing receipt timestamps, not expenditure dates. Shows processed, deduplicated Schedule E entries; newly submitted filings may take time to appear."];
+  const explanations=["Only new expedited independent-expenditure notices (Form 24 and qualifying Form 5 notices), by FEC receipt timestamp. Regular monthly/quarterly reports and their repeat disclosures are excluded. Processed FEC records may take time to appear."];
   if(uncertain)explanations.push(uncertain+" potentially recent item"+(uncertain===1?" is":"s are")+" missing exact receipt time and excluded from the verified totals.");
   if(age>90*60*1000)explanations.push("Data is more than 90 minutes old; recent filings may not yet be included.");
   note.textContent=explanations.join(" ");

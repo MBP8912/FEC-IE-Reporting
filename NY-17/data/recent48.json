@@ -17,7 +17,9 @@
       "purpose": "PRINTING/POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 2391800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379097"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379097",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614736058",
@@ -29,7 +31,9 @@
       "purpose": "PRINTING/POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 2391800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379098"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379098",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614735953",
@@ -41,7 +45,9 @@
       "purpose": "MEDIA PRODUCTION",
       "spend_type": "Production",
       "amount_cents": 2000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931802461"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931802461",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614735806",
@@ -53,7 +59,9 @@
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 38165,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797025"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797025",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614734975",
@@ -65,7 +73,9 @@
       "purpose": "DIRECT MAIL SERVICES",
       "spend_type": "Mail",
       "amount_cents": 1757913,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614734974",
@@ -77,127 +87,9 @@
       "purpose": "DIRECT MAIL SERVICES",
       "spend_type": "Mail",
       "amount_cents": 1639919,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864"
-    },
-    {
-      "source_id": "4102120261614734529",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-29",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 10425687,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450970"
-    },
-    {
-      "source_id": "4102120261614734524",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-22",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 9181291,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450967"
-    },
-    {
-      "source_id": "4102120261614734518",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-14",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 8952878,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450964"
-    },
-    {
-      "source_id": "4102120261614734752",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-29",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "TELEVISION ADVERTISING",
-      "spend_type": "TV",
-      "amount_cents": 5832000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921451081"
-    },
-    {
-      "source_id": "4102120261614734735",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-21",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "TELEVISION ADVERTISING",
-      "spend_type": "TV",
-      "amount_cents": 5184000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921451073"
-    },
-    {
-      "source_id": "4102120261614734530",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-29",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 2000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450970"
-    },
-    {
-      "source_id": "4102120261614734531",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-30",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 2000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450971"
-    },
-    {
-      "source_id": "4102120261614734423",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-23",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 1522500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450917"
-    },
-    {
-      "source_id": "4102120261614734429",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-30",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 1495900,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450920"
-    },
-    {
-      "source_id": "4102120261614734426",
-      "file_number": "2033863",
-      "reported_at": "2026-10-21T03:41:50+00:00",
-      "expenditure_date": "2026-09-28",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 784000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921450918"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614399010",
@@ -209,7 +101,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 144000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614399009",
@@ -221,7 +115,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 56979,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614399013",
@@ -233,7 +129,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 32400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614399014",
@@ -245,7 +143,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 24300,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614399012",
@@ -257,7 +157,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614399015",
@@ -269,7 +171,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437585"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437585",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614399011",
@@ -281,7 +185,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 5400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102120261614734110",
@@ -293,7 +199,9 @@
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 7178325,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417138"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417138",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614734127",
@@ -305,7 +213,9 @@
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417146"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417146",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614734108",
@@ -317,7 +227,9 @@
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417137"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417137",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614734134",
@@ -329,7 +241,9 @@
       "purpose": "TEXT MESSAGES",
       "spend_type": "Text",
       "amount_cents": 191776,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417150"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417150",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102120261614734124",
@@ -341,7 +255,9 @@
       "purpose": "TEXT MESSAGES",
       "spend_type": "Text",
       "amount_cents": 191776,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417145"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417145",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372585",
@@ -353,7 +269,9 @@
       "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
       "spend_type": "Field / Canvassing",
       "amount_cents": 3000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372589",
@@ -365,7 +283,9 @@
       "purpose": "CANVASSING VIA TEXT - AGAINST MIKE LAWLER",
       "spend_type": "Field / Canvassing",
       "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431911"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431911",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372586",
@@ -377,7 +297,9 @@
       "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
       "spend_type": "Field / Canvassing",
       "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431910"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431910",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372507",
@@ -389,7 +311,9 @@
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 43237,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916427532"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916427532",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372489",
@@ -401,19 +325,9 @@
       "purpose": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
       "spend_type": "Digital",
       "amount_cents": 251517,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347913"
-    },
-    {
-      "source_id": "4102120261614735277",
-      "file_number": "2032459",
-      "reported_at": "2026-10-20T18:18:21+00:00",
-      "expenditure_date": "2026-10-07",
-      "spender": "VOTEVETS",
-      "disposition": "oppose_lawler",
-      "purpose": "TV ADVERTISING BUY AS DISCLOSED ON 10/14/26 48-HR RPT",
-      "spend_type": "TV",
-      "amount_cents": 17496000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916313626"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347913",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372375",
@@ -425,7 +339,9 @@
       "purpose": "MAIL PRODUCTION AND POSTAGE (ESTIMATE)",
       "spend_type": "Mail",
       "amount_cents": 4831800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372376",
@@ -437,7 +353,9 @@
       "purpose": "RESEARCH (ESTIMATE)",
       "spend_type": "Research",
       "amount_cents": 34125,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614036046",
@@ -449,7 +367,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 83700,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036051",
@@ -461,7 +381,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 83700,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036060",
@@ -473,7 +395,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 83700,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036054",
@@ -485,7 +409,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 70200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036069",
@@ -497,7 +423,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 67500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235597"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235597",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036056",
@@ -509,7 +437,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 62100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036024",
@@ -521,7 +451,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 54000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036037",
@@ -533,7 +465,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 54000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235586"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235586",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036057",
@@ -545,7 +479,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 54000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036040",
@@ -557,7 +493,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 43200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235587"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235587",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036052",
@@ -569,7 +507,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 37500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036061",
@@ -581,7 +521,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036028",
@@ -593,7 +535,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235583"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235583",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036049",
@@ -605,7 +549,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235590"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235590",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036025",
@@ -617,7 +563,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 22500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036055",
@@ -629,7 +577,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 22500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036059",
@@ -641,7 +591,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036047",
@@ -653,7 +605,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 15000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036058",
@@ -665,7 +619,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 15000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036042",
@@ -677,7 +633,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 10800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235588"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235588",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614036053",
@@ -689,7 +647,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 7500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4102020261614372070",
@@ -701,7 +661,9 @@
       "purpose": "DIGITAL MEDIA",
       "spend_type": "Digital",
       "amount_cents": 2432000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232615"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232615",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4102020261614372095",
@@ -713,7 +675,9 @@
       "purpose": "DIGITAL MEDIA",
       "spend_type": "Digital",
       "amount_cents": 2127915,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232627"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232627",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614010044",
@@ -725,7 +689,9 @@
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 75947,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916213885"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916213885",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614010027",
@@ -737,7 +703,9 @@
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 25261,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916212291"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916212291",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261613760135",
@@ -749,7 +717,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 205128,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760129",
@@ -761,7 +731,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 171600,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760141",
@@ -773,7 +745,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 126400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760142",
@@ -785,7 +759,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 126400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760137",
@@ -797,7 +773,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 99900,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760138",
@@ -809,7 +787,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 64000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760132",
@@ -821,7 +801,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 40500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760131",
@@ -833,7 +815,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760133",
@@ -845,7 +829,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760139",
@@ -857,7 +843,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760143",
@@ -869,7 +857,9 @@
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760130",
@@ -881,7 +871,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760136",
@@ -893,7 +885,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760134",
@@ -905,7 +899,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261613760140",
@@ -917,7 +913,9 @@
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613",
+      "notice": true,
+      "filing_form": "F5"
     },
     {
       "source_id": "4101920261614009075",
@@ -929,7 +927,9 @@
       "purpose": "PHONEBANKING DIALER",
       "spend_type": "Events",
       "amount_cents": 21712,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009067",
@@ -941,7 +941,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009068",
@@ -953,7 +955,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009069",
@@ -965,7 +969,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009070",
@@ -977,7 +983,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009071",
@@ -989,7 +997,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009072",
@@ -1001,7 +1011,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009073",
@@ -1013,7 +1025,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009074",
@@ -1025,7 +1039,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009076",
@@ -1037,7 +1053,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009052",
@@ -1049,7 +1067,9 @@
       "purpose": "DIGITAL ADVERTISING",
       "spend_type": "Digital",
       "amount_cents": 3861000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184035"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184035",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009051",
@@ -1061,7 +1081,9 @@
       "purpose": "DIGITAL ADVERTISING",
       "spend_type": "Digital",
       "amount_cents": 2079000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184034"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184034",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009041",
@@ -1073,7 +1095,9 @@
       "purpose": "MEDIA PRODUCTION",
       "spend_type": "Production",
       "amount_cents": 1447875,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009040",
@@ -1085,7 +1109,9 @@
       "purpose": "MEDIA PRODUCTION",
       "spend_type": "Production",
       "amount_cents": 779625,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009027",
@@ -1097,7 +1123,9 @@
       "purpose": "DIGITAL ADVERTISING",
       "spend_type": "Digital",
       "amount_cents": 23500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183995"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183995",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009021",
@@ -1109,7 +1137,9 @@
       "purpose": "DIGITAL ADVERTISING - ESTIMATE",
       "spend_type": "Digital",
       "amount_cents": 4976635,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009022",
@@ -1121,7 +1151,9 @@
       "purpose": "PHONE BANKING - ESTIMATE",
       "spend_type": "Field / Canvassing",
       "amount_cents": 22392,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101920261614009023",
@@ -1133,7 +1165,9 @@
       "purpose": "PHONE BANKING - ESTIMATE",
       "spend_type": "Field / Canvassing",
       "amount_cents": 445,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183941"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183941",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748127",
@@ -1145,7 +1179,9 @@
       "purpose": "PHONE BANKING DIALER",
       "spend_type": "Field / Canvassing",
       "amount_cents": 9916,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175995"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175995",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748119",
@@ -1157,7 +1193,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748120",
@@ -1169,7 +1207,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748121",
@@ -1181,7 +1221,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748122",
@@ -1193,7 +1235,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748123",
@@ -1205,7 +1249,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748124",
@@ -1217,7 +1263,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748125",
@@ -1229,7 +1277,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748126",
@@ -1241,7 +1291,9 @@
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748088",
@@ -1253,7 +1305,9 @@
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175961"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175961",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748050",
@@ -1265,7 +1319,9 @@
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175942"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175942",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101820261613748056",
@@ -1277,7 +1333,9 @@
       "purpose": "TEXT MESSAGES",
       "spend_type": "Text",
       "amount_cents": 76276,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175945"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175945",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101720261613726602",
@@ -1289,7 +1347,9 @@
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 25261,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168262"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168262",
+      "notice": true,
+      "filing_form": "F24"
     },
     {
       "source_id": "4101720261613726462",
@@ -1301,7 +1361,15 @@
       "purpose": "ESTIMATE: SMS TEXTING",
       "spend_type": "Text",
       "amount_cents": 123597,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916161691"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916161691",
+      "notice": true,
+      "filing_form": "F24"
     }
+  ],
+  "notice_only": true,
+  "selection": "original_expeditious_24_48_hour_IE_notices",
+  "accepted_forms": [
+    "F24",
+    "F5"
   ]
 }

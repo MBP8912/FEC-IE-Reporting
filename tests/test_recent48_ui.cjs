@@ -65,7 +65,7 @@ test("NY-17 report list renders spender, purpose, date and amount without litera
       purpose: "DIRECT MAIL SERVICES",
       spend_type: "Mail",
       amount_cents: 125000,
-      fec_url: "https://docquery.fec.gov/cgi-bin/fecimg/?1234",
+      fec_url: "https://docquery.fec.gov/cgi-bin/fecimg/?1234", notice: true, filing_form: "F24",
     },
     {
       reported_at: new Date(now.getTime() - 120000).toISOString(),
@@ -75,11 +75,11 @@ test("NY-17 report list renders spender, purpose, date and amount without litera
       purpose: "DIGITAL ADVERTISING",
       spend_type: "Digital",
       amount_cents: 370000,
-      fec_url: "https://docquery.fec.gov/cgi-bin/fecimg/?5678",
+      fec_url: "https://docquery.fec.gov/cgi-bin/fecimg/?5678", notice: true, filing_form: "F24",
     },
   ];
   const elements = await render({
-    status: "ok", checked_at: now.toISOString(),
+    status: "ok", notice_only: true, checked_at: now.toISOString(),
     unresolved_recent_items: 0, items,
   });
   const text = elements.get("recent48-groups").textContent;
@@ -97,7 +97,7 @@ test("NY-17 report list renders spender, purpose, date and amount without litera
 
 test("empty recent data has a clear message, never leftover null placeholders", async () => {
   const elements = await render({
-    status: "ok", checked_at: new Date().toISOString(),
+    status: "ok", notice_only: true, checked_at: new Date().toISOString(),
     unresolved_recent_items: 0, items: [],
   });
   const text = elements.get("recent48-groups").textContent;
@@ -119,14 +119,14 @@ test("rolling-48h panel shows two totals but keeps all spending tables collapsed
     { reported_at: new Date(now.getTime() - 60000).toISOString(),
       expenditure_date: "2026-10-20", spender: "Example PAC",
       disposition: "oppose_conley", purpose: "ADVERTISING",
-      spend_type: "TV", amount_cents: 125000, fec_url: "" },
+      spend_type: "TV", amount_cents: 125000, fec_url: "", notice: true, filing_form: "F24" },
     { reported_at: new Date(now.getTime() - 61000).toISOString(),
       expenditure_date: "2026-10-20", spender: "Another PAC",
       disposition: "support_conley", purpose: "DIRECT MAIL",
-      spend_type: "Mail", amount_cents: 280000, fec_url: "" },
+      spend_type: "Mail", amount_cents: 280000, fec_url: "", notice: true, filing_form: "F24" },
   ];
   const elements = await render({
-    status: "ok", checked_at: now.toISOString(), unresolved_recent_items: 0, items,
+    status: "ok", notice_only: true, checked_at: now.toISOString(), unresolved_recent_items: 0, items,
   });
   const container = elements.get("recent48-groups");
   assert.equal(container.children.length, 1, "Both totals must share one expandable box");
@@ -149,4 +149,38 @@ test("rolling-48h panel shows two totals but keeps all spending tables collapsed
   assert.match(expanded.textContent, /DIRECT MAIL/);
   detail.open = true;
   assert.equal(detail.open, true, "Browser-native disclosure can expand on click");
+});
+
+test("F3X monthly and non-notice F5 rows cannot inflate latest-48-hour candidate totals", async () => {
+  const now = new Date();
+  const common = {reported_at:new Date(now.getTime()-60000).toISOString(),expenditure_date:"2026-10-20",
+                  spend_type:"TV",fec_url:""};
+  const elements = await render({
+    status:"ok",notice_only:true,checked_at:now.toISOString(),unresolved_recent_items:0,
+    items:[
+      {...common,spender:"HMP",disposition:"oppose_lawler",purpose:"TV ADVERTISING",
+        amount_cents:47378256,notice:false,filing_form:"F3X"},
+      {...common,spender:"VoteVets",disposition:"oppose_lawler",purpose:"TV ADVERTISING",
+        amount_cents:17496000,notice:false,filing_form:"F3X"},
+      {...common,spender:"Quarterly F5",disposition:"oppose_lawler",purpose:"OLD SPEND",
+        amount_cents:4500000,notice:false,filing_form:"F5"},
+      {...common,spender:"Actual new notice",disposition:"oppose_conley",purpose:"TV BUY",
+        amount_cents:125000,notice:true,filing_form:"F24"},
+      {...common,spender:"Expedited noncommittee IE",disposition:"support_conley",purpose:"DIGITAL ADS",
+        amount_cents:17500,notice:true,filing_form:"F5"}
+    ]
+  });
+  const body = elements.get("recent48-groups").textContent;
+  assert.doesNotMatch(body,/HMP|VoteVets|Quarterly F5|\$473,782|\$174,960/);
+  assert.match(body,/Actual new notice|\$1,250/);
+  assert.match(body,/Expedited noncommittee IE|\$175/);
+});
+
+test("legacy feeds lacking a verified notice-only marker never display regular spending as zero",async()=>{
+  const elements=await render({status:"ok",checked_at:new Date().toISOString(),
+    items:[{reported_at:new Date().toISOString(),spender:"HMP",disposition:"oppose_lawler",amount_cents:47378256}]});
+  const note=elements.get("recent48-note").textContent;
+  const body=elements.get("recent48-groups").textContent;
+  assert.match(note,/notice-only FEC feed is not yet verified/);
+  assert.doesNotMatch(body,/\$0|HMP|\$473,782/);
 });

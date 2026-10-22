@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime,timedelta,timezone
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
-from update_ny17_recent import parse_receipt,build_payload
+from update_ny17_recent import parse_receipt,build_payload,is_new_notice,recent_candidates
 
 NOW=datetime(2026,10,22,13,15,tzinfo=timezone.utc)
 
@@ -12,6 +12,7 @@ def row(fid,filing,spending,disposition,amount):
     return dict(source_id=str(fid),file_number=fid,filing_date=filing,
                 date=spending,disposition=disposition,amount_cents=amount,
                 group="Example PAC",description="ADS",type="Digital",
+                notice=True,filing_form="F24",
                 pdf_url="https://docquery.fec.gov/cgi-bin/fecimg/?1")
 def dataset(rows):
     return dict(status="ok",district="NY-17",
@@ -30,6 +31,51 @@ class RecentTests(unittest.TestCase):
         for race in ("CO-4","CO-5","IA-1","MN-1","NE-2","WI-1","NY-19","CA-13"):
             other=(ROOT/race/"index.html").read_text(encoding="utf-8")
             self.assertNotIn('id="recent48-groups"',other)
+
+    def test_regular_monthly_filing_never_counts_as_new_notice(self):
+        # HMP's Form 3X monthly report includes old, previously announced IEs.
+        hmp=row(2033863,"2026-10-20","2026-09-29","oppose_lawler",47378256)
+        hmp.update(group="HMP",notice=False,filing_form="F3X")
+        other=row(2032459,"2026-10-20","2026-10-07","oppose_lawler",17496000)
+        other.update(group="VOTEVETS",notice=False,filing_form="F3X")
+        new=row(2035136,"2026-10-21","2026-10-21","oppose_conley",2000000)
+        receipts={str(x["file_number"]):"2026-10-21T17:00:00Z" for x in (hmp,other,new)}
+        self.assertFalse(is_new_notice(hmp))
+        self.assertFalse(is_new_notice(other))
+        self.assertTrue(is_new_notice(new))
+        self.assertEqual(recent_candidates(dataset([hmp,other,new]),NOW),[new])
+        payload=build_payload(dataset([hmp,other,new]),receipts,NOW)
+        self.assertEqual(len(payload["items"]),1)
+        self.assertEqual(payload["items"][0]["source_id"],str(new["file_number"]))
+        self.assertEqual(payload["items"][0]["filing_form"],"F24")
+        self.assertEqual(payload["items"][0]["notice"],True)
+        self.assertEqual(payload["items"][0]["amount_cents"],2000000)
+        self.assertTrue(payload["notice_only"])
+
+    def test_noncommittee_form5_notice_is_valid_but_quarterly_repeats_are_not(self):
+        fresh=row(2033828,"2026-10-21","2026-10-21","oppose_lawler",17500)
+        fresh.update(group="FOOD AND WATER ACTION",notice=True,filing_form="F5")
+        quarterly=dict(fresh,source_id="quarterly-duplicate",file_number=3000000,
+                       notice=False)
+        self.assertTrue(is_new_notice(fresh))
+        self.assertFalse(is_new_notice(quarterly))
+        p=build_payload(dataset([fresh,quarterly]),
+                        {"2033828":"2026-10-21T17:00:00Z",
+                         "3000000":"2026-10-21T17:00:00Z"},NOW)
+        self.assertEqual(len(p["items"]),1)
+        self.assertEqual(p["items"][0]["filing_form"],"F5")
+
+    def test_missing_or_spoofed_notice_marker_is_not_accepted(self):
+        regular=row(1,"2026-10-21","2026-10-21","support_lawler",100)
+        regular["notice"]=False
+        self.assertFalse(is_new_notice(regular))
+        regular["notice"]=True
+        regular["filing_form"]="F3X"
+        self.assertFalse(is_new_notice(regular))
+        regular["filing_form"]="F24"
+        self.assertTrue(is_new_notice(regular))
+        regular.pop("notice")
+        self.assertFalse(is_new_notice(regular))
 
     def test_datetime_parsing(self):
         self.assertIsNone(parse_receipt("2026-10-21"))

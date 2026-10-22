@@ -42,11 +42,13 @@ def verify():
                 raise RuntimeError("NY-17 48-hour window frontend is incomplete")
             if 'cell("details",null,"recent48-disclosure")' not in latest_script or 'cell("summary",null,"recent48-overview")' not in latest_script:
                 raise RuntimeError("NY-17 48-hour expenditures must be collapsed in a native disclosure")
-            if 'v=20261022-collapsible-v1' not in page:
-                raise RuntimeError("NY-17 collapsible section asset version is stale")
+            if 'v=20261022-notice-only-v1' not in page:
+                raise RuntimeError("NY-17 notice-only section asset version is stale")
             recent=json.loads(read("NY-17/data/recent48.json"))
             if recent.get("district")!="NY-17" or recent.get("status") not in ("ok","partial","pending"):
                 raise RuntimeError("NY-17 48-hour feed is missing or invalid")
+            if recent.get("status") in ("ok","partial") and recent.get("notice_only") is not True:
+                raise RuntimeError("NY-17 recent feed has not excluded regular reports")
             if recent.get("status") in ("ok","partial"):
                 seen=set()
                 for item in recent.get("items",[]):
@@ -54,6 +56,8 @@ def verify():
                         raise RuntimeError("Invalid or duplicated expenditure in NY-17 recent feed")
                     if not isinstance(item.get("reported_at"),str) or "T" not in item["reported_at"]:
                         raise RuntimeError("Recent IE item lacks a full filing receipt timestamp")
+                    if item.get("notice") is not True or str(item.get("filing_form") or "").upper() not in ("F24","F5"):
+                        raise RuntimeError("Monthly/quarterly IE record present in NY-17 48h feed")
                     seen.add(item["source_id"])
         data=json.loads(read(district+"/data/data.json"))
         if data.get("district")!=district: raise RuntimeError("Misassigned FEC data in "+district)
