@@ -164,3 +164,46 @@ td .amount-link.blue-link{color:#426caa}
 .directory-card-arrow{font-size:24px;color:#7795b5}
 .directory-caption{font-size:12px;line-height:1.65;margin:20px 0 45px;color:#8294a9}
 @media(max-width:670px){.topbar nav{gap:6px}.directory-hero{padding-top:42px}.directory-card{padding:20px 18px}.directory-card strong{font-size:18px}}
+
+/* NY-17 pilot: recently reported IEs, ordered by total benefiting candidate. */
+.recent48-section{margin-top:21px}
+.recent48-header{align-items:center}
+.recent-updated{font-size:11px;color:#8093a9;font-weight:700;text-align:right}
+.recent-beneficiary{border-top:1px solid #e9eef5}
+.recent-beneficiary-header{display:flex;gap:18px;align-items:center;justify-content:space-between;padding:21px 28px 17px}
+.recent-beneficiary-header.red{background:#fffafa}
+.recent-beneficiary-header.blue{background:#f8faff}
+.recent-name{display:flex;align-items:center;gap:10px;flex-wrap:wrap;color:#344b64;font-size:14px}
+.recent-name strong{font-weight:820}
+.recent-count{font-size:11px;color:#91a1b4;font-weight:550}
+.recent-dot{width:9px;height:9px;border-radius:50%;flex:none}
+.recent-dot.red{background:#c85553}
+.recent-dot.blue{background:#396bba}
+.recent-total{font-weight:850;font-size:23px;letter-spacing:-.045em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.recent-beneficiary-header.red .recent-total{color:#b74d4a}
+.recent-beneficiary-header.blue .recent-total{color:#3766ae}
+.recent-table-scroll{overflow-x:auto}
+.recent-table{min-width:880px;width:100%;table-layout:auto}
+.recent-table th{padding:13px 25px;font-size:10px}
+.recent-table td{padding:13px 25px;vertical-align:top;line-height:1.45;font-size:12px}
+.recent-table th:nth-child(1){width:25%}
+.recent-table th:nth-child(2){width:16%}
+.recent-table th:nth-child(3){width:30%}
+.recent-table th:nth-child(4){width:13%}
+.recent-table th:nth-child(5){width:16%}
+.recent-table td a{color:#416f9e;font-weight:750;text-decoration:none}
+.recent-table td a:hover{text-decoration:underline}
+.recent-purpose span,.recent-date span{display:block}
+.recent-purpose small,.recent-date small{display:block;color:#97a5b7;font-size:10px;margin-top:4px}
+.recent-money{font-weight:780;color:#374e6b;white-space:nowrap}
+.recent-date{white-space:nowrap}
+.recent-empty,.recent-loading{text-align:center;padding:23px 28px;color:#8d9db0;font-size:12px}
+.recent-note{border-top:1px solid #edf1f5;background:#fbfcfe;padding:14px 28px;color:#8193a7;font-size:11px;line-height:1.6;margin:0}
+@media(max-width:670px){
+ .recent48-header{align-items:flex-start}
+ .recent-beneficiary-header{padding:18px;align-items:flex-start}
+ .recent-name{gap:7px}
+ .recent-total{font-size:21px}
+ .recent-table td,.recent-table th{padding:12px 15px}
+ .recent-note{padding:13px 18px}
+}
