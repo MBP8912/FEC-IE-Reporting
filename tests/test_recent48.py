@@ -23,14 +23,17 @@ class RecentTests(unittest.TestCase):
         html=(ROOT/"NY-17"/"index.html").read_text(encoding="utf-8")
         self.assertLess(html.index('id="recent48-groups"'),
                         html.index('class="panel chart-section"'))
-        self.assertIn('src="./recent48.js',html)
+        self.assertIn('src="../assets/recent48.js',html)
         self.assertIn('Spending reported in the last 48 hours',html)
-        script=(ROOT/"NY-17"/"recent48.js").read_text(encoding="utf-8")
+        script=(ROOT/"assets"/"recent48.js").read_text(encoding="utf-8")
         self.assertIn('["Spender","Disposition","Purpose","Amount","Date"]',script)
         self.assertIn('48*60*60*1000',script)
         for race in ("CO-4","CO-5","IA-1","MN-1","NE-2","WI-1","NY-19","CA-13"):
             other=(ROOT/race/"index.html").read_text(encoding="utf-8")
-            self.assertNotIn('id="recent48-groups"',other)
+            self.assertIn('id="recent48-groups"',other)
+            self.assertIn('src="../assets/recent48.js',other)
+            self.assertLess(other.index('id="recent48-groups"'),
+                            other.index('class="panel chart-section"'))
 
     def test_regular_monthly_filing_never_counts_as_new_notice(self):
         # HMP's Form 3X monthly report includes old, previously announced IEs.

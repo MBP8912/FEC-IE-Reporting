@@ -17,6 +17,12 @@ def verify():
         if name not in js: raise RuntimeError("Missing shared script method "+name)
     css=read("assets/styles.css").decode("utf-8")
     if ".headline-metrics" not in css: raise RuntimeError("Missing CSS")
+    shared_recent=read("assets/recent48.js").decode("utf-8")
+    if ("function view(payload)" not in shared_recent or
+        'cell("details",null,"recent48-disclosure")' not in shared_recent or
+        "48*60*60*1000" not in shared_recent or
+        "candidate_names" not in shared_recent):
+        raise RuntimeError("Shared collapsed notice-only 48-hour UI missing or incomplete")
     done=[];pending=[]
     for district,config in RACES.items():
         page=read(district+"/").decode("utf-8")
@@ -30,38 +36,36 @@ def verify():
             if unwanted in page: raise RuntimeError("Unwanted text in "+district+": "+unwanted)
         if '../assets/app.js' not in page or '../assets/styles.css' not in page:
             raise RuntimeError("Wrong relative asset URL in "+district)
-        if district == "NY-17":
-            if 'id="recent48-groups"' not in page or 'Spending reported in the last 48 hours' not in page:
-                raise RuntimeError("NY-17 is missing the new receipt-time reporting panel")
-            if page.index('id="recent48-groups"') > page.index('class="panel chart-section"'):
-                raise RuntimeError("NY-17 48-hour panel must appear above the daily timeline")
-            if 'src="./recent48.js' not in page:
-                raise RuntimeError("NY-17 48-hour frontend script missing")
-            latest_script=read("NY-17/recent48.js").decode("utf-8")
-            if 'function view(payload)' not in latest_script or '48*60*60*1000' not in latest_script:
-                raise RuntimeError("NY-17 48-hour window frontend is incomplete")
-            if 'cell("details",null,"recent48-disclosure")' not in latest_script or 'cell("summary",null,"recent48-overview")' not in latest_script:
-                raise RuntimeError("NY-17 48-hour expenditures must be collapsed in a native disclosure")
-            if 'v=20261022-notice-only-v1' not in page:
-                raise RuntimeError("NY-17 notice-only section asset version is stale")
-            recent=json.loads(read("NY-17/data/recent48.json"))
-            if recent.get("district")!="NY-17" or recent.get("status") not in ("ok","partial","pending"):
-                raise RuntimeError("NY-17 48-hour feed is missing or invalid")
-            if recent.get("status") in ("ok","partial") and recent.get("notice_only") is not True:
-                raise RuntimeError("NY-17 recent feed has not excluded regular reports")
-            if recent.get("status") in ("ok","partial"):
-                seen=set()
-                for item in recent.get("items",[]):
-                    if item["source_id"] in seen or not isinstance(item.get("amount_cents"),int):
-                        raise RuntimeError("Invalid or duplicated expenditure in NY-17 recent feed")
-                    if not isinstance(item.get("reported_at"),str) or "T" not in item["reported_at"]:
-                        raise RuntimeError("Recent IE item lacks a full filing receipt timestamp")
-                    if item.get("notice") is not True or str(item.get("filing_form") or "").upper() not in ("F24","F5"):
-                        raise RuntimeError("Monthly/quarterly IE record present in NY-17 48h feed")
-                    seen.add(item["source_id"])
+        if 'id="recent48-groups"' not in page or 'Spending reported in the last 48 hours' not in page:
+            raise RuntimeError("Missing notice-only 48-hour panel: "+district)
+        if page.index('id="recent48-groups"') > page.index('class="panel chart-section"'):
+            raise RuntimeError("48-hour panel not above expenditure timeline: "+district)
+        if 'src="../assets/recent48.js' not in page or 'v=20261022-recent48-nine-races-v1' not in page:
+            raise RuntimeError("Shared recent 48-hour frontend missing or stale: "+district)
+        recent=json.loads(read(district+"/data/recent48.json"))
+        if recent.get("district")!=district or recent.get("status") not in ("ok","partial","pending"):
+            raise RuntimeError("Unrecognized recent spending data for "+district)
+        if recent.get("status") in ("ok","partial"):
+            if recent.get("notice_only") is not True:
+                raise RuntimeError("Recent feed includes monthly/quarterly filings in "+district)
+            names=recent.get("candidate_names",{})
+            if (names.get("lawler")!=config["republican"]["short"] or
+                names.get("conley")!=config["democratic"]["short"]):
+                raise RuntimeError("Wrong nominee names in 48-hour feed for "+district)
+            keys=set()
+            for item in recent.get("items",[]):
+                if item.get("notice") is not True or str(item.get("filing_form") or "").upper() not in ("F24","F5"):
+                    raise RuntimeError("Non-notice entry in new spending box: "+district)
+                if not isinstance(item.get("amount_cents"),int) or not isinstance(item.get("reported_at"),str) or "T" not in item["reported_at"]:
+                    raise RuntimeError("Invalid receipt time or amount in "+district)
+                if item.get("source_id") in keys:
+                    raise RuntimeError("Repeated independent expenditure in recent feed: "+district)
+                keys.add(item.get("source_id"))
         data=json.loads(read(district+"/data/data.json"))
         if data.get("district")!=district: raise RuntimeError("Misassigned FEC data in "+district)
         if data.get("status")=="ok":
+            if recent.get("status")=="pending":
+                raise RuntimeError("Verified "+district+" dataset still has an uninitialized recent feed")
             entries=data["transactions"]
             money=sum(int(item["amount_cents"]) for item in entries)
             if money!=data["totals"]["all"] or money!=sum(g["total"] for g in data["groups"]):
@@ -87,7 +91,7 @@ def verify():
             done.append((district,len(entries),money))
         elif data.get("status")=="not_initialized": pending.append(district)
         else: raise RuntimeError("Unknown data state for "+district)
-    print("VERIFIED: Root redirect, shared JS/CSS, nine individual race pages; type section above group section.",flush=True)
+    print("VERIFIED: All nine direct race pages, collapsed expedited-notice-only 48h panels, shared JS/CSS, and reconciled expenditure totals.",flush=True)
     for district,n,amt in done:
         print(f"DATA VERIFIED {district}: {n} unique expenditures, ${amt/100:,.2f}",flush=True)
     if pending:

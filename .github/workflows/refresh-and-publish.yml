@@ -27,22 +27,22 @@ jobs:
           python-version: '3.12'
       - name: Test election scope, nine-race mapping, classifications and duplicate removal
         run: python -m unittest discover -s tests -v
-      - name: Check shared dashboard and NY-17 pilot JavaScript syntax
+      - name: Check shared dashboard and notice-only 48-hour UI
         run: |
           node --check assets/app.js
-          node --check NY-17/recent48.js
+          node --check assets/recent48.js
           node --test tests/test_recent48_ui.cjs
       - name: Apply race-specific categories to verified historical expenditures
         run: python scripts/reclassify_cached.py
-      - name: Refresh NY-17 filing-receipt timestamps for the rolling 48-hour pilot
-        id: ny17_recent48
+      - name: Refresh notice-only 48-hour receipt timestamps for all nine races
+        id: all_recent48
         continue-on-error: true
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
-        run: python scripts/update_ny17_recent.py
-      - name: Explain NY-17 48-hour receipt lookup interruptions
-        if: steps.ny17_recent48.outcome != 'success'
-        run: echo "FEC receipt metadata unavailable; previously verified recent data or pending status will be retained."
+        run: python scripts/update_recent_all.py
+      - name: Explain 48-hour receipt refresh interruptions
+        if: steps.all_recent48.outcome != 'success'
+        run: echo "FEC receipt metadata temporarily unavailable. Previously verified or explicitly pending recent reports remain unchanged."
       - name: Fetch all unique general-election IE transactions, resuming saved cursor
         id: refresh
         continue-on-error: true
@@ -61,9 +61,8 @@ jobs:
             mkdir -p "_site/$race/data"
             cp "$race/index.html" "_site/$race/"
             cp "$race/data/data.json" "_site/$race/data/"
+            cp "$race/data/recent48.json" "_site/$race/data/"
           done
-          cp NY-17/recent48.js _site/NY-17/
-          cp NY-17/data/recent48.json _site/NY-17/data/
           touch _site/.nojekyll
       - name: Save verified snapshots and resumption checkpoint
         uses: actions/upload-artifact@v4
@@ -72,6 +71,14 @@ jobs:
           path: |
             NY-17/data/data.json
             NY-17/data/recent48.json
+            CO-4/data/recent48.json
+            CO-5/data/recent48.json
+            IA-1/data/recent48.json
+            MN-1/data/recent48.json
+            NE-2/data/recent48.json
+            WI-1/data/recent48.json
+            NY-19/data/recent48.json
+            CA-13/data/recent48.json
             CO-4/data/data.json
             CO-5/data/data.json
             IA-1/data/data.json

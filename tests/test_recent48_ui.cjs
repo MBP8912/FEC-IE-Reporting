@@ -11,7 +11,7 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const browserScript = fs.readFileSync(
-  path.resolve(__dirname, "../NY-17/recent48.js"), "utf8");
+  path.resolve(__dirname, "../assets/recent48.js"), "utf8");
 
 class FakeElement {
   constructor(tag) {
@@ -45,7 +45,16 @@ async function render(payload) {
     },
     createElement(tag) { return new FakeElement(tag); },
   };
-  const fakeFetch = async () => ({ok: true, json: async () => payload});
+  // Existing fixtures represent the NY-17 baseline unless a test overrides
+  // their candidate names with another race's verified data.
+  const defaults={
+    candidate_names:{lawler:"Lawler",conley:"Conley"},
+    disposition_labels:{
+      support_lawler:"Support Lawler",oppose_conley:"Oppose Conley",
+      support_conley:"Support Conley",oppose_lawler:"Oppose Lawler"
+    }
+  };
+  const fakeFetch = async () => ({ok: true, json: async () => ({...defaults,...payload})});
   vm.runInNewContext(browserScript, {
     document: doc, fetch: fakeFetch,
     Date, Intl, URL, String, Number, Array, console,
@@ -183,4 +192,32 @@ test("legacy feeds lacking a verified notice-only marker never display regular s
   const body=elements.get("recent48-groups").textContent;
   assert.match(note,/notice-only FEC feed is not yet verified/);
   assert.doesNotMatch(body,/\$0|HMP|\$473,782/);
+});
+
+
+test("CO-5 shows Crank and Killin, not inherited NY-17 candidate labels",async()=>{
+  const now=new Date();
+  const e=await render({
+    status:"ok",district:"CO-5",notice_only:true,checked_at:now.toISOString(),
+    candidate_names:{lawler:"Crank",conley:"Killin"},
+    disposition_labels:{
+      support_lawler:"Support Crank",oppose_conley:"Oppose Killin",
+      support_conley:"Support Killin",oppose_lawler:"Oppose Crank"
+    },
+    items:[{
+      source_id:"CO5-case",reported_at:new Date(now-60000).toISOString(),
+      expenditure_date:"2026-10-20",spender:"Verified IE Fund",
+      disposition:"oppose_conley",purpose:"TV ADVERTISEMENT",spend_type:"TV",
+      amount_cents:345600,notice:true,filing_form:"F24",fec_url:""
+    }]
+  });
+  const group=e.get("recent48-groups");
+  assert.match(group.textContent,/Spending benefiting Crank/);
+  assert.match(group.textContent,/Spending benefiting Killin/);
+  assert.match(group.textContent,/Oppose Killin/);
+  assert.doesNotMatch(group.textContent,/Lawler|Conley/);
+  assert.equal(group.children.length,1);
+  assert.equal(group.children[0].tagName,"DETAILS");
+  assert.equal(group.children[0].open,false);
+  assert.match(group.children[0].children[0].textContent,/\$3,456\.00/);
 });

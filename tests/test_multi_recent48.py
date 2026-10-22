@@ -43,6 +43,17 @@ def sample(district):
 
 
 class MultiRecentTests(unittest.TestCase):
+    def test_all_nine_pages_have_matching_collapsible_notice_panels(self):
+        for district in RACE_CODES:
+            page=(ROOT/district/"index.html").read_text(encoding="utf-8")
+            with self.subTest(race=district):
+                self.assertIn('id="recent48-groups"',page)
+                self.assertIn('src="../assets/recent48.js',page)
+                self.assertLess(page.index('id="recent48-groups"'),
+                                page.index('class="panel chart-section"'))
+        self.assertTrue((ROOT/"assets"/"recent48.js").is_file())
+
+
     def test_all_races_preserve_correct_candidate_names_and_exclude_monthly_reports(self):
         sources={district:sample(district) for district in RACE_CODES}
         result=multi.create_reports(sources,{"12345":RECEIVED,"12346":RECEIVED},NOW)
