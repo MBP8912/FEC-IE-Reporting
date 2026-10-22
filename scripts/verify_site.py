@@ -52,7 +52,7 @@ def verify():
                 if category and item.get("type") != category:
                     raise RuntimeError("Unapplied classification override: "+district+
                                        " / "+str(item.get("source_id")))
-            for section in obj["pivot"]:
+            for section in data["pivot"]:
                 if section["total"] != sum(cat["total"] for cat in section["categories"]):
                     raise RuntimeError("Pivot type totals mismatch in "+district)
             done.append((district,len(entries),money))
