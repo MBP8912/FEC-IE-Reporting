@@ -44,3 +44,12 @@ The dashboard owner's classifications apply **only to the named filer and spendi
 This does **not** change a race's dollar totals or original FEC text. Other descriptions (e.g., CLF DIGITAL PLACEMENT and MEDIA PRODUCTION), groups, and races retain their general categories. The new Billboard category is deliberately limited to AB PAC's specified WI-1 and CA-13 expenditures.
 
 This is an independent display of [FEC data](https://www.fec.gov/data/independent-expenditures/), not affiliated with the FEC, nominees, or spending groups.
+
+
+## NY-17 pilot: independent expenditures reported in the last 48 hours
+
+Only the [NY-17 dashboard](https://mbp8912.github.io/FEC-IE-Reporting/NY-17/) has a new panel **above** the daily expenditure timeline. It separates spending benefiting Lawler and Conley, sorts candidate groups by total spending, and lists each verified item in the order **Spender, Disposition, Purpose, Amount, Date**. The Date cell shows **FEC receipt time (Eastern)**, with the expenditure date separately indicated.
+
+**Important distinction:** The original daily timeline groups spending by **expenditure date**. The new panel uses the FEC electronic filing system's **receipt_date timestamp**, resolved via `/efile/filings/` by filing number. Schedule E's `filing_date` alone has only day precision and cannot define an exact rolling 48-hour window. If OpenFEC omits a timezone from the e-filing receipt timestamp, the dashboard interprets it as America/New_York. The panel only counts unique processed, general-election expenditures present in the verified NY-17 dataset; processed data can lag newly submitted notices. Missing receipt times are disclosed rather than treated as zero.
+
+The hourly workflow checks source receipt times in `scripts/update_ny17_recent.py` **before** the multi-race API refresh can exhaust the shared DEMO_KEY limit. It stores the small, independent `NY-17/data/recent48.json` file and retains previously verified data if receipt metadata is temporarily unavailable. The browser applies a fresh 48-hour cutoff whenever the page loads, so older records automatically age out even between updates. This feature is NY-17-only pending user review.

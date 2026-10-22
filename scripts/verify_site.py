@@ -30,6 +30,27 @@ def verify():
             if unwanted in page: raise RuntimeError("Unwanted text in "+district+": "+unwanted)
         if '../assets/app.js' not in page or '../assets/styles.css' not in page:
             raise RuntimeError("Wrong relative asset URL in "+district)
+        if district == "NY-17":
+            if 'id="recent48-groups"' not in page or 'Spending reported in the last 48 hours' not in page:
+                raise RuntimeError("NY-17 is missing the new receipt-time reporting panel")
+            if page.index('id="recent48-groups"') > page.index('class="panel chart-section"'):
+                raise RuntimeError("NY-17 48-hour panel must appear above the daily timeline")
+            if 'src="./recent48.js' not in page:
+                raise RuntimeError("NY-17 48-hour frontend script missing")
+            latest_script=read("NY-17/recent48.js").decode("utf-8")
+            if 'function view(payload)' not in latest_script or '48*60*60*1000' not in latest_script:
+                raise RuntimeError("NY-17 48-hour window frontend is incomplete")
+            recent=json.loads(read("NY-17/data/recent48.json"))
+            if recent.get("district")!="NY-17" or recent.get("status") not in ("ok","partial","pending"):
+                raise RuntimeError("NY-17 48-hour feed is missing or invalid")
+            if recent.get("status") in ("ok","partial"):
+                seen=set()
+                for item in recent.get("items",[]):
+                    if item["source_id"] in seen or not isinstance(item.get("amount_cents"),int):
+                        raise RuntimeError("Invalid or duplicated expenditure in NY-17 recent feed")
+                    if not isinstance(item.get("reported_at"),str) or "T" not in item["reported_at"]:
+                        raise RuntimeError("Recent IE item lacks a full filing receipt timestamp")
+                    seen.add(item["source_id"])
         data=json.loads(read(district+"/data/data.json"))
         if data.get("district")!=district: raise RuntimeError("Misassigned FEC data in "+district)
         if data.get("status")=="ok":
