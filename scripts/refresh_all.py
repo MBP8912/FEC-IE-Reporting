@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Resumable FEC Schedule E refresh for nine separate 2026 House districts.
 
-FEC processed Schedule E supports up to 10 candidate_id filters per query and
-100 results per page. We fetch all 18 verified nominee IDs in two batches,
+Some valid Schedule E transactions omit candidate IDs. We fetch nine full
+House districts so those transactions can be matched by candidate name,
 checkpointing between GitHub Actions runs if the DEMO_KEY hourly quota is hit.
 Never publish partial-cycle totals under the label "verified".
 """
@@ -22,9 +22,10 @@ from races import RACES, RACE_CODES, ALL_CANDIDATE_IDS
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKPOINT = ROOT / "data" / "ingest_checkpoint.json"
-BATCHES = [ALL_CANDIDATE_IDS[:10], ALL_CANDIDATE_IDS[10:]]
+BATCHES = [{"district": name, "state": cfg["state"], "number": cfg["district"]}
+           for name, cfg in RACES.items()]
 PAGE_SIZE = 100
-VERSION = 1
+VERSION = 2
 FIELDS = (
     "sub_id", "original_sub_id", "transaction_id", "committee_id",
     "committee_name", "candidate_id", "candidate_name",
@@ -38,7 +39,8 @@ FIELDS = (
 )
 QUERY_FINGERPRINT = hashlib.sha256(
     json.dumps({
-        "ids": BATCHES, "cycle": 2026,
+        "districts": BATCHES, "cycle": 2026,
+        "include_idless_candidates": True,
         "min": core.DATA_START.isoformat(), "max": core.DATA_END.isoformat(),
         "sort": "-expenditure_date",
     }, sort_keys=True).encode()
@@ -64,6 +66,8 @@ def new_state():
         "cursor_history": [],
         "rows": [],
         "pages": 0,
+        "race_pages": 0,
+        "completed_races": [],
     }
 
 
@@ -90,68 +94,66 @@ def save_state(state):
     temporary.replace(CHECKPOINT)
 
 
-def next_query(key, batch, cursor):
-    params = {
-        "api_key": key,
-        "cycle": 2026,
-        "candidate_id": BATCHES[batch],
-        "min_date": core.DATA_START.isoformat(),
-        "max_date": core.DATA_END.isoformat(),
-        "most_recent": "true",
-        "per_page": PAGE_SIZE,
-        "sort": "-expenditure_date",
+def next_query(key,batch,cursor):
+    cfg=BATCHES[batch]
+    params={
+        "api_key":key,"cycle":2026,"candidate_office":"H",
+        "candidate_office_state":cfg["state"],
+        "candidate_office_district":cfg["number"],
+        "min_date":core.DATA_START.isoformat(),
+        "max_date":core.DATA_END.isoformat(),
+        "most_recent":"true","per_page":PAGE_SIZE,"sort":"-expenditure_date",
     }
     params.update(cursor)
-    return core.API_URL + "?" + urlencode(params, doseq=True)
+    return core.API_URL+"?"+urlencode(params,doseq=True)
 
 
-def capture_pages(state, key, maximum_pages):
-    """Return True only after ALL batches are fully paginated."""
-    permitted = set(ALL_CANDIDATE_IDS)
-    count = 0
-    while state["batch"] < len(BATCHES):
-        if count >= maximum_pages:
+def capture_pages(state,key,maximum_pages):
+    """Publish a race only when its entire district query is complete."""
+    requests=0
+    while state["batch"]<len(BATCHES):
+        name=BATCHES[state["batch"]]["district"]
+        if requests>=maximum_pages:
             save_state(state)
-            print(f"IN PROGRESS: {len(state['rows'])} source rows / {state['pages']} pages; "
-                  f"batch {state['batch']+1}/{len(BATCHES)}. Resuming next scheduled refresh.",
-                  flush=True)
+            print("IN PROGRESS: "+name+"; rate-budget checkpoint saved.",flush=True)
             return False
-        url = next_query(key, state["batch"], state["cursor"])
         try:
-            response = core.request_json(url, attempts=1 if key == "DEMO_KEY" else 3)
+            response=core.request_json(next_query(key,state["batch"],state["cursor"]),
+                                       attempts=1 if key=="DEMO_KEY" else 3)
         except Exception as exc:
             save_state(state)
-            print(f"IN PROGRESS: API unavailable ({exc}). Saved {state['pages']} pages "
-                  "and the pagination cursor without publishing incomplete totals.", flush=True)
+            print("IN PROGRESS: "+name+"; FEC unavailable ("+str(exc)+")",flush=True)
             return False
-        rows = response.get("results")
-        if not isinstance(rows, list):
-            raise RuntimeError("Unexpected Schedule E API response format")
-        for row in rows:
-            candidate_id = str(row.get("candidate_id") or "").upper()
-            if candidate_id in permitted:
-                state["rows"].append(compact(row))
-        state["pages"] += 1
-        count += 1
-        if len(rows) < PAGE_SIZE:
-            state["batch"] += 1
-            state["cursor"] = {}
-            state["cursor_history"] = []
+        rows=response.get("results")
+        if not isinstance(rows,list):
+            raise RuntimeError("FEC returned no results list; not publishing")
+        # Keep original candidate ID (even when blank), name and expenditure.
+        state["rows"].extend(compact(row) for row in rows)
+        state["pages"]+=1
+        state["race_pages"]+=1
+        requests+=1
+        if len(rows)<PAGE_SIZE:
+            finalize_one_race(name,state["rows"],state["race_pages"])
+            state["completed_races"].append(name)
+            state["batch"]+=1
+            state["rows"]=[]
+            state["race_pages"]=0
+            state["cursor"]={}
+            state["cursor_history"]=[]
         else:
-            last = (response.get("pagination") or {}).get("last_indexes") or {}
-            cursor = {str(k): str(v) for k, v in last.items() if v is not None and str(v)}
+            last=(response.get("pagination") or {}).get("last_indexes") or {}
+            cursor={str(k):str(v) for k,v in last.items() if v is not None and str(v)}
             if "last_index" not in cursor:
-                raise RuntimeError("Full FEC page without a seek cursor; data may be incomplete")
-            signature = json.dumps([state["batch"], cursor], sort_keys=True)
-            if signature in state["cursor_history"]:
-                raise RuntimeError("Repeated pagination cursor; refusing to publish incomplete totals")
-            state["cursor_history"].append(signature)
-            state["cursor"] = cursor
-        # Keep a durable copy after each verified page. GitHub archives the
-        # checkpoint at the end of this scheduled Actions run.
+                raise RuntimeError("FEC full page lacked seek cursor")
+            marker=json.dumps([state["batch"],cursor],sort_keys=True)
+            if marker in state["cursor_history"]:
+                raise RuntimeError("FEC repeated seek cursor")
+            state["cursor_history"].append(marker)
+            state["cursor"]=cursor
         save_state(state)
-        print(f"FEC batch {min(state['batch']+1,len(BATCHES))}/{len(BATCHES)}, "
-              f"API pages: {state['pages']}, stored itemizations: {len(state['rows'])}", flush=True)
+        print("FEC pages: "+str(state["pages"])+"; completed districts: "+
+              str(len(state["completed_races"]))+"/9; buffered rows: "+
+              str(len(state["rows"])),flush=True)
     return True
 
 
@@ -177,58 +179,40 @@ def set_race(district):
     return config
 
 
-def generate_datasets(state):
-    """Only called after all FEC search pages from BOTH batches are received."""
-    results = {}
-    for district in RACE_CODES:
-        cfg = set_race(district)
-        allowed = {cfg["republican"]["id"],cfg["democratic"]["id"]}
-        subset = [row for row in state["rows"]
-                  if str(row.get("candidate_id") or "").upper() in allowed]
-        deduplicated, excluded = core.unique_rows(subset)
-        output = core.summarize(deduplicated, excluded, len(subset), state["pages"])
-        output["fetch"] = {
-            "source": "FEC processed Schedule E",
-            "scope": "Complete 2026 general election, original and regular IE notices deduplicated",
-            "all_batches_complete": True,
-            "source_pages_across_races": state["pages"],
-            "race_raw_records": len(subset),
-        }
-        results[district] = output
-        print(f"VERIFIED {district}: {len(subset)} raw, {len(deduplicated)} unique,"
-              f" {len(output['groups'])} spenders, \${output['totals']['all']/100:,.2f}",
-              flush=True)
-    # Publish none of the new race totals until every dataset was successfully
-    # calculated and reconciled. Then atomically replace each JSON file.
-    for district, data in results.items():
-        path = DATA_PATHS[district]
-        path.parent.mkdir(parents=True, exist_ok=True)
-        temporary = path.with_suffix(".tmp")
-        temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n", encoding="utf-8")
-        temporary.replace(path)
-    save_state({
-        "schema_version": VERSION,
-        "query_fingerprint": QUERY_FINGERPRINT,
-        "status": "complete",
-        "completed_at": datetime.now(timezone.utc).isoformat(),
-        "pages": state["pages"],
-        "rows": [], "batch": 0, "cursor": {},
-    })
-    return results
+def finalize_one_race(district,raw,pages):
+    """Count unique expenditures for both nominees, including ID-less FEC rows."""
+    set_race(district)
+    entries,excluded=core.unique_rows(raw)
+    data=core.summarize(entries,excluded,len(raw),pages)
+    data["fetch"]={
+        "source":"FEC processed Schedule E: complete House district",
+        "all_district_pages_complete":True,
+        "includes_missing_candidate_id_records":True,
+        "source_pages_this_district":pages,
+    }
+    path=DATA_PATHS[district]
+    path.parent.mkdir(parents=True,exist_ok=True)
+    tmp=path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+    tmp.replace(path)
+    print(f"VERIFIED {district}: {len(raw)} source rows, {len(entries)} unique, "
+          f"${data['totals']['all']/100:,.2f}",flush=True)
 
 
 def main():
-    key = os.environ.get("FEC_API_KEY") or "DEMO_KEY"
-    # 22 requests/cycle provides headroom under DEMO_KEY's shared limit;
-    # a personal key can handle more pages per run.
-    budget = 22 if key == "DEMO_KEY" else 250
-    state = read_state()
-    if capture_pages(state, key, budget):
-        generate_datasets(state)
-        print("VERIFIED: all nine complete candidate-level IE datasets published.", flush=True)
+    key=os.environ.get("FEC_API_KEY") or "DEMO_KEY"
+    budget=22 if key=="DEMO_KEY" else 250
+    state=read_state()
+    if capture_pages(state,key,budget):
+        save_state({
+            "schema_version":VERSION,"query_fingerprint":QUERY_FINGERPRINT,
+            "status":"complete","completed_at":datetime.now(timezone.utc).isoformat(),
+            "pages":state["pages"],"completed_races":RACE_CODES,
+            "rows":[],"batch":0,"cursor":{},
+        })
+        print("VERIFIED: all nine complete House district searches.",flush=True)
     else:
-        print("FEC source ingestion checkpoint archived. Existing published datasets "
-              "remain unchanged pending a complete download.", flush=True)
+        print("CHECKPOINT SAVED; only complete district totals are published.",flush=True)
 
 
 if __name__ == "__main__":
