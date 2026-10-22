@@ -147,18 +147,26 @@ def parse_day(value):
 
 
 def nominee_key(row):
+    """Match an official FEC candidate ID first; use an unambiguous name only
+    where the underlying Schedule E record lacks a candidate ID entirely.
+    """
     cid = str(row.get("candidate_id") or "").strip().upper()
     for key, cand in CANDIDATES.items():
         if cid == cand["id"]:
             return key
-    if cid:  # Reject independently identified candidates outside this matchup.
+    if cid:  # Never silently equate an independently identified third candidate.
         return None
     name = norm(row.get("candidate_name"))
-    if "lawler" in name and ("michael" in name or "mike" in name):
-        return "lawler"
-    if "conley" in name and "cait" in name:
-        return "conley"
-    return None
+    if not name:
+        return None
+    matches = []
+    for key, cand in CANDIDATES.items():
+        family = norm(cand.get("surname") or cand["name"].split()[-1])
+        given = norm(cand.get("given") or cand["name"].split()[0])
+        # A surname alone is insufficient for an ID-less report.
+        if family and family in name and given and given in name:
+            matches.append(key)
+    return matches[0] if len(matches) == 1 else None
 
 
 def is_2026_general(row):
