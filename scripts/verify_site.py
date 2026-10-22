@@ -40,6 +40,10 @@ def verify():
             latest_script=read("NY-17/recent48.js").decode("utf-8")
             if 'function view(payload)' not in latest_script or '48*60*60*1000' not in latest_script:
                 raise RuntimeError("NY-17 48-hour window frontend is incomplete")
+            if 'cell("details",null,"recent48-disclosure")' not in latest_script or 'cell("summary",null,"recent48-overview")' not in latest_script:
+                raise RuntimeError("NY-17 48-hour expenditures must be collapsed in a native disclosure")
+            if 'v=20261022-collapsible-v1' not in page:
+                raise RuntimeError("NY-17 collapsible section asset version is stale")
             recent=json.loads(read("NY-17/data/recent48.json"))
             if recent.get("district")!="NY-17" or recent.get("status") not in ("ok","partial","pending"):
                 raise RuntimeError("NY-17 48-hour feed is missing or invalid")

@@ -19,6 +19,7 @@ class FakeElement {
     this._ownText = "";
     this.children = [];
     this.className = "";
+    if (tag.toLowerCase() === "details") this.open = false;
   }
   set textContent(value) {
     this._ownText = String(value);
@@ -110,4 +111,42 @@ test("pending receipt timestamps do not render invented or null values", async (
   const body = elements.get("recent48-groups").textContent;
   assert.match(note, /not yet been verified/);
   assert.doesNotMatch(body + note, /\bnull\b/i);
+});
+
+test("rolling-48h panel shows two totals but keeps all spending tables collapsed until clicked", async () => {
+  const now = new Date();
+  const items = [
+    { reported_at: new Date(now.getTime() - 60000).toISOString(),
+      expenditure_date: "2026-10-20", spender: "Example PAC",
+      disposition: "oppose_conley", purpose: "ADVERTISING",
+      spend_type: "TV", amount_cents: 125000, fec_url: "" },
+    { reported_at: new Date(now.getTime() - 61000).toISOString(),
+      expenditure_date: "2026-10-20", spender: "Another PAC",
+      disposition: "support_conley", purpose: "DIRECT MAIL",
+      spend_type: "Mail", amount_cents: 280000, fec_url: "" },
+  ];
+  const elements = await render({
+    status: "ok", checked_at: now.toISOString(), unresolved_recent_items: 0, items,
+  });
+  const container = elements.get("recent48-groups");
+  assert.equal(container.children.length, 1, "Both totals must share one expandable box");
+  const detail = container.children[0];
+  assert.equal(detail.tagName, "DETAILS");
+  assert.equal(detail.open, false, "The box must be collapsed on initial load");
+  const summary = detail.children[0];
+  assert.equal(summary.tagName, "SUMMARY", "Native summary is the down-arrow toggle");
+  assert.match(summary.textContent, /Spending benefiting Lawler/);
+  assert.match(summary.textContent, /Spending benefiting Conley/);
+  assert.match(summary.textContent, /\$1,250\.00/);
+  assert.match(summary.textContent, /\$2,800\.00/);
+  assert.doesNotMatch(summary.textContent, /Example PAC|DIRECT MAIL|ADVERTISING/,
+    "Details must not be visible in collapsed headline");
+  const expanded = detail.children[1];
+  assert.equal(expanded.tagName, "DIV");
+  assert.equal(expanded.children.length, 2, "Both candidate item tables are in the disclosure");
+  assert.match(expanded.textContent, /Example PAC/);
+  assert.match(expanded.textContent, /Another PAC/);
+  assert.match(expanded.textContent, /DIRECT MAIL/);
+  detail.open = true;
+  assert.equal(detail.open, true, "Browser-native disclosure can expand on click");
 });

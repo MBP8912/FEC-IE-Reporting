@@ -42,6 +42,26 @@ function view(payload){
   }).sort((a,b)=>b.total-a.total||a.name.localeCompare(b.name));
   const label={support_lawler:"Support Lawler",oppose_conley:"Oppose Conley",
                support_conley:"Support Conley",oppose_lawler:"Oppose Lawler"};
+  // One native, accessible disclosure encloses both beneficiary totals.
+  // A details element is CLOSED by default, so the page stays compact.
+  const disclosure=cell("details",null,"recent48-disclosure");
+  const overview=cell("summary",null,"recent48-overview");
+  const metrics=cell("div",null,"recent48-overview-metrics");
+  for(const candidate of candidates){
+    const metric=cell("div",null,"recent48-overview-metric "+candidate.theme);
+    const name=cell("span",null,"recent48-metric-name");
+    name.append(cell("span",null,"recent-dot "+candidate.theme),
+                cell("span","Spending benefiting "+candidate.name));
+    const total=cell("strong",
+      payload.status==="partial"&&candidate.total===0?"—":dollars(candidate.total),
+      "recent48-metric-total");
+    metric.append(name,total);metrics.append(metric);
+  }
+  overview.append(metrics,
+    cell("span",null,"recent48-chevron"),
+    cell("span","Expand or collapse individual expenditure records","sr-only"));
+  disclosure.append(overview);
+  const expanded=cell("div",null,"recent48-expanded");
   for(const candidate of candidates){
     const section=cell("section",null,"recent-beneficiary");
     const heading=cell("div",null,"recent-beneficiary-header "+candidate.theme);
@@ -49,8 +69,7 @@ function view(payload){
     const dot=cell("span",null,"recent-dot "+candidate.theme);
     text.append(dot,cell("strong","Spending benefiting "+candidate.name));
     text.append(cell("span",candidate.items.length.toLocaleString()+" reported item"+(candidate.items.length===1?"":"s"),"recent-count"));
-    const total=cell("div",payload.status==="partial"&&candidate.total===0?"—":dollars(candidate.total),"recent-total");
-    heading.append(text,total);section.append(heading);
+    heading.append(text);section.append(heading);
     const wrap=cell("div",null,"recent-table-scroll");
     const table=cell("table",null,"recent-table");
     const thead=cell("thead");
@@ -91,8 +110,10 @@ function view(payload){
         row.append(date);body.append(row);
       }
     }
-    table.append(body);wrap.append(table);section.append(wrap);groups.append(section);
+    table.append(body);wrap.append(table);section.append(wrap);expanded.append(section);
   }
+  disclosure.append(expanded);
+  groups.append(disclosure);
   const last=new Date(payload.checked_at);
   if(Number.isFinite(last.getTime())){
     updated.textContent="FEC receipt times checked "+fmt(payload.checked_at);

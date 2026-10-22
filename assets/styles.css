@@ -207,3 +207,43 @@ td .amount-link.blue-link{color:#426caa}
  .recent-table td,.recent-table th{padding:12px 15px}
  .recent-note{padding:13px 18px}
 }
+
+/* NY-17 rolling 48h panel: initially closed, accessible native disclosure. */
+.recent48-disclosure{border-top:1px solid #e9eef5}
+.recent48-overview{display:flex;align-items:center;justify-content:space-between;gap:20px;
+  padding:14px 23px;cursor:pointer;list-style:none;min-height:102px}
+.recent48-overview::-webkit-details-marker{display:none}
+.recent48-overview::marker{content:""}
+.recent48-overview:hover{background:#fafcff}
+.recent48-overview:focus-visible{outline:3px solid #d7a855;outline-offset:-4px}
+.recent48-overview-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  flex:1;gap:14px;min-width:0}
+.recent48-overview-metric{border:1px solid #e4eaf2;border-radius:10px;padding:14px 17px;
+  display:flex;flex-direction:column;gap:6px;min-width:0}
+.recent48-overview-metric.red{background:#fffafa;border-color:#f1e4e5}
+.recent48-overview-metric.blue{background:#f7faff;border-color:#e1ebf9}
+.recent48-metric-name{display:flex;gap:8px;align-items:center;font-weight:720;font-size:12px;
+  color:#566c86}
+.recent48-metric-total{font-weight:850;letter-spacing:-.04em;font-size:24px;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.recent48-overview-metric.red .recent48-metric-total{color:#b74d4a}
+.recent48-overview-metric.blue .recent48-metric-total{color:#3766ae}
+.recent48-chevron{height:12px;width:12px;display:inline-block;flex:none;
+  margin:0 8px 4px 4px;border-right:2px solid #687f9a;
+  border-bottom:2px solid #687f9a;transform:rotate(45deg);
+  transition:transform .18s ease,margin .18s ease}
+.recent48-disclosure[open] .recent48-chevron{transform:rotate(225deg);margin:7px 8px 0 4px}
+.recent48-expanded{border-top:1px solid #e9eef5}
+.recent48-expanded .recent-beneficiary-header{padding:15px 23px}
+.recent48-expanded .recent-beneficiary:first-child{border-top:0}
+@media(max-width:670px){
+  .recent48-overview{padding:12px;gap:10px}
+  .recent48-overview-metrics{gap:8px}
+  .recent48-overview-metric{padding:11px 10px}
+  .recent48-metric-name{font-size:11px;gap:5px}
+  .recent48-metric-total{font-size:19px}
+  .recent48-chevron{margin-right:5px}
+}
+@media(max-width:380px){
+  .recent48-overview-metrics{grid-template-columns:1fr}
+}
