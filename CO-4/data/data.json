@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T20:58:00-04:00",
+  "generated_at": "2026-10-21T21:08:10-04:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -43,23 +43,23 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 122,
-    "pages": 19,
-    "included_rows": 20,
+    "api_rows": 79,
+    "pages": 1,
+    "included_rows": 10,
     "excluded": {
-      "other_election": 93,
-      "repeated_transaction_or_amendment": 9,
+      "other_election": 68,
+      "other_candidate": 1,
       "notice_regular_duplicates": 0
     }
   },
   "totals": {
-    "support_lawler": 36429555,
-    "oppose_conley": 7902773,
+    "support_lawler": 5800,
+    "oppose_conley": 0,
     "support_conley": 5088243,
     "oppose_lawler": 150000000,
-    "benefit_lawler": 44332328,
+    "benefit_lawler": 5800,
     "benefit_conley": 155088243,
-    "all": 199420571
+    "all": 155094043
   },
   "daily": [
     {
@@ -87,76 +87,12 @@
       "total": 25
     },
     {
-      "date": "2026-08-04",
-      "support_lawler": 5275,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 5275
-    },
-    {
       "date": "2026-08-05",
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 51322,
       "oppose_lawler": 0,
       "total": 51322
-    },
-    {
-      "date": "2026-08-11",
-      "support_lawler": 1440,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 1440
-    },
-    {
-      "date": "2026-08-19",
-      "support_lawler": 60,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 60
-    },
-    {
-      "date": "2026-09-01",
-      "support_lawler": 5675,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 5675
-    },
-    {
-      "date": "2026-09-09",
-      "support_lawler": 1150,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 1150
-    },
-    {
-      "date": "2026-09-15",
-      "support_lawler": 12680895,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 12680895
-    },
-    {
-      "date": "2026-09-16",
-      "support_lawler": 3315,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 3315
-    },
-    {
-      "date": "2026-09-22",
-      "support_lawler": 23725945,
-      "oppose_conley": 7902773,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 31628718
     },
     {
       "date": "2026-09-30",
@@ -201,14 +137,6 @@
       "oppose_lawler": 150000000
     },
     {
-      "name": "FREEDOM CAUCUS FUND",
-      "total": 44332328,
-      "support_lawler": 36429555,
-      "oppose_conley": 7902773,
-      "support_conley": 0,
-      "oppose_lawler": 0
-    },
-    {
       "name": "AB PAC",
       "total": 4769162,
       "support_lawler": 0,
@@ -231,31 +159,29 @@
       "oppose_conley": 0,
       "support_conley": 55814,
       "oppose_lawler": 0
+    },
+    {
+      "name": "FREEDOM CAUCUS FUND",
+      "total": 5800,
+      "support_lawler": 5800,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
     }
   ],
   "pivot": [
     {
       "key": "support_lawler",
       "name": "Support Boebert",
-      "total": 36429555,
+      "total": 5800,
       "categories": [
         {
-          "name": "Media (unspecified)",
-          "total": 36389215,
-          "groups": [
-            {
-              "name": "FREEDOM CAUCUS FUND",
-              "amount_cents": 36389215
-            }
-          ]
-        },
-        {
           "name": "Other / Unclassified",
-          "total": 40340,
+          "total": 5800,
           "groups": [
             {
               "name": "FREEDOM CAUCUS FUND",
-              "amount_cents": 40340
+              "amount_cents": 5800
             }
           ]
         }
@@ -264,19 +190,8 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Laubacher",
-      "total": 7902773,
-      "categories": [
-        {
-          "name": "Media (unspecified)",
-          "total": 7902773,
-          "groups": [
-            {
-              "name": "FREEDOM CAUCUS FUND",
-              "amount_cents": 7902773
-            }
-          ]
-        }
-      ]
+      "total": 0,
+      "categories": []
     },
     {
       "key": "support_conley",
@@ -418,29 +333,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092120261599176324",
-      "original_sub_id": "",
-      "transaction_id": "E98750110BBD64E839B9",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-08-04",
-      "amount_cents": 5275,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": false,
-      "filing_form": "F3X",
-      "filing_date": "2026-09-18",
-      "file_number": 2013084,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609189904321779",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4100820261612130526",
       "original_sub_id": "",
       "transaction_id": "500264669",
@@ -462,213 +354,6 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4092120261599176356",
-      "original_sub_id": "",
-      "transaction_id": "E0778A62E85284DF5A68",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-08-11",
-      "amount_cents": 1440,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": false,
-      "filing_form": "F3X",
-      "filing_date": "2026-09-18",
-      "file_number": 2013084,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609189904321795",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4092120261599176376",
-      "original_sub_id": "",
-      "transaction_id": "E1AE31F1B4EFB46C7B4F",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-08-19",
-      "amount_cents": 60,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": false,
-      "filing_form": "F3X",
-      "filing_date": "2026-09-18",
-      "file_number": 2013084,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609189904321805",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4091620261598620149",
-      "original_sub_id": "",
-      "transaction_id": "E20B11D24B850490DA55",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-09-01",
-      "amount_cents": 5675,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-16",
-      "file_number": 2012171,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609169904219022",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4091620261598620150",
-      "original_sub_id": "",
-      "transaction_id": "E09C325ABF3C04F68BD7",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-09-09",
-      "amount_cents": 1150,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-16",
-      "file_number": 2012171,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609169904219023",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4091620261598620151",
-      "original_sub_id": "",
-      "transaction_id": "E93B4F0BECA5840A29D6",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-09-15",
-      "amount_cents": 12680895,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "PBK COMMUNICATIONS, LLC",
-      "description": "IE- BOEBERT- MEDIA BUY",
-      "type": "Media (unspecified)",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-16",
-      "file_number": 2012171,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609169904219023",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4091620261598620152",
-      "original_sub_id": "",
-      "transaction_id": "E295A61D8B57B4431993",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-09-16",
-      "amount_cents": 3315,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-16",
-      "file_number": 2012171,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609169904219024",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101220261612273117",
-      "original_sub_id": "",
-      "transaction_id": "E81A1A68F819F4AFDAEA",
-      "candidate": "conley",
-      "candidate_id": "H6CO04202",
-      "disposition": "oppose_conley",
-      "date": "2026-09-22",
-      "amount_cents": 7902773,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "PBK COMMUNICATIONS, LLC",
-      "description": "IE- LAUBACHER- MEDIA BUY",
-      "type": "Media (unspecified)",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-12",
-      "file_number": 2020016,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610129908666404",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4101220261612273121",
-      "original_sub_id": "",
-      "transaction_id": "EE125CCEF00774AB5ACF",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-09-22",
-      "amount_cents": 23708320,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "PBK COMMUNICATIONS, LLC",
-      "description": "IE- BOEBERT- MEDIA BUY",
-      "type": "Media (unspecified)",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-12",
-      "file_number": 2020016,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610129908666407",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4101220261612273125",
-      "original_sub_id": "",
-      "transaction_id": "E951E3A176C0A4BCCB71",
-      "candidate": "lawler",
-      "candidate_id": "H0CO03165",
-      "disposition": "support_lawler",
-      "date": "2026-09-22",
-      "amount_cents": 17625,
-      "group": "FREEDOM CAUCUS FUND",
-      "group_id": "C00552851",
-      "payee": "FREEDOM CAUCUS FUND",
-      "description": "IE- BOEBERT - DONATION PROCESSING",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-12",
-      "file_number": 2020016,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610129908666409",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "A"
     },
     {
       "source_id": "4100820261612130811",
@@ -811,10 +496,9 @@
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
   "fetch": {
-    "source": "FEC processed Schedule E",
-    "scope": "Complete 2026 general election, original and regular IE notices deduplicated",
-    "all_batches_complete": true,
-    "source_pages_across_races": 19,
-    "race_raw_records": 122
+    "source": "FEC processed Schedule E: complete House district",
+    "all_district_pages_complete": true,
+    "includes_missing_candidate_id_records": true,
+    "source_pages_this_district": 1
   }
 }

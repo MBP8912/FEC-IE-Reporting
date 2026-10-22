@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T20:58:00-04:00",
+  "generated_at": "2026-10-21T21:08:12-04:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -43,14 +43,14 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 141,
-    "pages": 19,
+    "api_rows": 142,
+    "pages": 2,
     "included_rows": 127,
     "excluded": {
       "memo_item": 2,
       "other_election": 3,
       "repeated_transaction_or_amendment": 9,
-      "notice_regular_duplicates": 0
+      "notice_regular_duplicates": 1
     }
   },
   "totals": {
@@ -3713,10 +3713,9 @@
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
   "fetch": {
-    "source": "FEC processed Schedule E",
-    "scope": "Complete 2026 general election, original and regular IE notices deduplicated",
-    "all_batches_complete": true,
-    "source_pages_across_races": 19,
-    "race_raw_records": 141
+    "source": "FEC processed Schedule E: complete House district",
+    "all_district_pages_complete": true,
+    "includes_missing_candidate_id_records": true,
+    "source_pages_this_district": 2
   }
 }
