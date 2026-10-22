@@ -64,8 +64,9 @@ h1 span{color:#76889b}
 .axis-text{fill:#9aa9ba;font-size:11px;font-weight:650}
 .grid-line{stroke:#e9edf3;stroke-width:1}
 .chart-pending{display:grid;place-items:center;width:100%;height:250px;color:#99a8b8;font-size:12px}
-.chart-segment{cursor:help}
-.chart-segment:hover{opacity:.8}
+.chart-segment{cursor:pointer;transition:opacity .15s}
+.chart-segment:hover{opacity:.78}
+.chart-segment:focus-visible{stroke:#23324a;stroke-width:2;outline:1px solid #23324a}
 .chart-note{border-top:1px solid #f0f3f7;padding:13px 27px 16px;margin:0;color:#a0abba;font-size:11px}
 .table-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
 .table-actions input{border-radius:8px;border:1px solid #dee7f0;background:white;padding:10px 12px;color:#425a74;font-size:12px;min-width:212px}
@@ -127,7 +128,20 @@ td .amount-link.blue-link{color:#426caa}
 .detail-dialog header p{font-size:12px;color:#8798aa;margin:9px 0 0}
 #detail-close{position:absolute;right:22px;top:20px;width:35px;height:35px;border-radius:50%;border:0;background:#f0f4f8;font-size:24px;color:#63778f}
 .detail-scroller{max-height:60vh;overflow:auto}
-.detail-scroller table{min-width:850px}
+.detail-scroller .source-table{min-width:1010px}
+.detail-scroller .daily-breakdown-table{min-width:600px}
+.daily-breakdown{padding:18px 24px 22px;border-bottom:1px solid #e5ebf3;background:#fcfdff}
+.daily-breakdown-header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.daily-breakdown-header h3,.detail-source-heading{font-size:13px;letter-spacing:-.015em;color:#3b516c;margin:0;font-weight:800}
+.daily-breakdown-header p{font-size:11px;color:#8596aa;margin:0}
+.daily-breakdown-table thead{background:#f4f7fb}
+.daily-breakdown-table td{font-size:12px;padding:11px 17px}
+.daily-breakdown-table td.spender-column{font-weight:750;color:#344b67}
+.daily-breakdown-table td.category-column{color:#536b87}
+.daily-breakdown-table td.num{font-weight:800;color:#2f4967}
+.detail-source-heading{padding:16px 28px 12px;background:#fff}
+.source-table td.spender-column{font-weight:720;color:#344b67}
+.source-table td.category-column{font-weight:700;color:#607791}
 .detail-scroller td{vertical-align:top;white-space:normal;line-height:1.5}
 .detail-scroller .date-column{white-space:nowrap}
 .detail-scroller td strong{display:block;color:#334c68}

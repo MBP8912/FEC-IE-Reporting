@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f5f7fb">
   <meta name="description" content="NY-17 independent expenditures for the 2026 general election, grouped by candidate, group, day, and type. Each expenditure linked to its FEC source.">
   <title>NY-17 • 2026 Independent Expenditure Reporting</title>
-  <link rel="stylesheet" href="./assets/styles.css?v=20261021-iep1">
-  <script defer src="./assets/app.js?v=20261021-iep1"></script>
+  <link rel="stylesheet" href="./assets/styles.css?v=20261021-clickable-bars-v1">
+  <script defer src="./assets/app.js?v=20261021-clickable-bars-v1"></script>
 </head>
 <body>
   <div class="page">
@@ -67,8 +67,8 @@
           </div>
         </div>
         <div id="legend" class="legend" aria-label="Spending dispositions"></div>
-        <div id="chart-scroller" class="chart-scroller"><div id="chart" class="chart-host" role="img" aria-label="Daily spending stacked bar chart"><div class="chart-pending">Awaiting FEC expenditure records</div></div></div>
-        <p class="chart-note" id="chart-note">Each bar represents one expenditure date. Hover or focus a bar segment to view its amount.</p>
+        <div id="chart-scroller" class="chart-scroller"><div id="chart" class="chart-host" role="group" aria-label="Interactive daily spending chart, select a colored segment for details"><div class="chart-pending">Awaiting FEC expenditure records</div></div></div>
+        <p class="chart-note" id="chart-note">Click a colored segment to see its spenders, spending categories, amounts and original FEC records.</p>
       </section>
 
       <section class="panel group-section" aria-labelledby="groups-heading">
@@ -117,7 +117,20 @@
   </div>
   <dialog id="detail-dialog" class="detail-dialog">
     <header><div class="kicker">SOURCE RECORDS</div><h2 id="detail-title"></h2><p id="detail-summary"></p><button type="button" id="detail-close" aria-label="Close details">×</button></header>
-    <div class="detail-scroller"><table><thead><tr><th>Date</th><th>Spending group / payee</th><th>Description / type</th><th>Disposition</th><th class="num">Amount / FEC source</th></tr></thead><tbody id="detail-rows"></tbody></table></div>
+    <div class="detail-scroller" id="detail-scroller">
+      <section class="daily-breakdown" id="daily-breakdown" hidden aria-label="Daily spending summarized by spender and category">
+        <div class="daily-breakdown-header"><h3>Spending breakdown</h3><p id="daily-breakdown-note"></p></div>
+        <table class="daily-breakdown-table">
+          <thead><tr><th scope="col">Spender</th><th scope="col">Category of spend</th><th scope="col" class="num">Amount</th></tr></thead>
+          <tbody id="daily-breakdown-rows"></tbody>
+        </table>
+      </section>
+      <h3 class="detail-source-heading" id="detail-source-heading" hidden>Individual expenditures and original FEC records</h3>
+      <table class="source-table">
+        <thead><tr><th scope="col">Date</th><th scope="col">Spender</th><th scope="col">Category of spend</th><th scope="col">Original description / payee</th><th scope="col">Disposition</th><th scope="col" class="num">Amount / FEC source</th></tr></thead>
+        <tbody id="detail-rows"></tbody>
+      </table>
+    </div>
     <div class="dialog-foot">Descriptions are from the original FEC itemization. Spend categories are standardized by this dashboard for browsing.</div>
   </dialog>
 </body>

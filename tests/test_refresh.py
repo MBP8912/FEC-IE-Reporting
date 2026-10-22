@@ -82,6 +82,29 @@ class TestIE(unittest.TestCase):
         b=record(sub_id="12",transaction_id="EXP2",is_notice=False)
         rows,ct=unique_rows([a,b])
         self.assertEqual(len(rows),2)
+    def test_daily_drilldown_matches_stacked_bar_and_category_totals(self):
+        sample = [
+            record(sub_id="11", transaction_id="ONE", expenditure_amount=100, expenditure_description="DIRECT MAIL", committee_name="Spender A"),
+            record(sub_id="12", transaction_id="TWO", expenditure_amount=250, expenditure_description="DIRECT MAIL", committee_name="Spender A"),
+            record(sub_id="13", transaction_id="THREE", expenditure_amount=30, expenditure_description="DIGITAL ADS", committee_name="Spender B"),
+            record(sub_id="14", transaction_id="FOUR", candidate_id="H6NY17171", support_oppose_indicator="O", expenditure_amount=70),
+            record(sub_id="15", transaction_id="FIVE", expenditure_date="2026-10-18", expenditure_amount=120),
+        ]
+        rows, excluded = unique_rows(sample)
+        result = summarize(rows, excluded, len(sample), 1)
+        day = next(row for row in result["daily"] if row["date"] == "2026-10-17")
+        segment = [row for row in result["transactions"]
+                   if row["date"] == "2026-10-17" and row["disposition"] == "support_lawler"]
+        self.assertEqual(day["support_lawler"], sum(row["amount_cents"] for row in segment))
+        totals_by_spender_category = {}
+        for item in segment:
+            key = (item["group"], item["type"])
+            totals_by_spender_category[key] = totals_by_spender_category.get(key, 0) + item["amount_cents"]
+        self.assertEqual(totals_by_spender_category[("Spender A", "Mail")], 35000)
+        self.assertEqual(totals_by_spender_category[("Spender B", "Digital")], 3000)
+        self.assertEqual(sum(totals_by_spender_category.values()), day["support_lawler"])
+        self.assertEqual(len([row for row in result["transactions"] if row["date"] == "2026-10-17" and row["disposition"] == "oppose_conley"]), 1)
+
     def test_sums_reconcile(self):
         a=record(sub_id="11",transaction_id="A",expenditure_amount=2000)
         b=record(sub_id="12",transaction_id="B",candidate_id="H6NY17171",support_oppose_indicator="O")

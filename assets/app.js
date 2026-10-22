@@ -80,7 +80,7 @@ function drawChart(){
  var width=Math.max(830,plotW+104),height=320,ml=76,mr=24,mt=15,mb=53,plotH=height-mt-mb;
  var actualPlotW=width-ml-mr;
  target.style.width=width+"px";
- var chart=svg("svg",{width:width,height:height,viewBox:"0 0 "+width+" "+height,role:"img","aria-label":"Daily FEC independent spending by disposition"});
+ var chart=svg("svg",{width:width,height:height,viewBox:"0 0 "+width+" "+height,role:"group","aria-label":"Interactive daily FEC spending: select a colored bar segment to view its spenders, categories, and amounts"});
  function ypos(v){return mt+plotH*(1-v/maxAxis)}
  for(i=0;i<=4;i++){
    var val=maxAxis*i/4,y=ypos(val);
@@ -96,9 +96,22 @@ function drawChart(){
    DATA.disposition_order.forEach(function(d){
      var v=day[d]||0;
      if(v===0)return;
-     var segment=svg("rect",{x:xx,y:ypos(running+v),width:barW,height:Math.max(1,v/maxAxis*plotH),rx:1.5,fill:DATA.colors[d],"class":"chart-segment",tabindex:0});
-     var title=svg("title");title.textContent=readableDate(day.date)+" • "+DATA.disposition_labels[d]+": "+fullDollar(v);
-     segment.append(title);chart.append(segment);running+=v;
+     var label=readableDate(day.date)+" • "+DATA.disposition_labels[d]+": "+fullDollar(v);
+     var segment=svg("rect",{
+       x:xx,y:ypos(running+v),width:barW,height:Math.max(1,v/maxAxis*plotH),
+       rx:1.5,fill:DATA.colors[d],"class":"chart-segment",
+       tabindex:0,role:"button","aria-label":label+". View spender, category of spend, and amount."
+     });
+     var title=svg("title");title.textContent=label+" — click to view spending breakdown";
+     segment.append(title);
+     segment.addEventListener("click",function(){openDetails({date:day.date,disposition:d})});
+     segment.addEventListener("keydown",function(event){
+       if(event.key==="Enter"||event.key===" "){
+         event.preventDefault();
+         openDetails({date:day.date,disposition:d});
+       }
+     });
+     chart.append(segment);running+=v;
    });
    if(i%labelsStep===0||i===days.length-1){
      var x=svg("text",{x:xx+barW/2,y:height-17,"text-anchor":"middle","class":"axis-text"});
@@ -107,7 +120,7 @@ function drawChart(){
  });
  target.append(chart);
  $("chart-note").textContent="Daily expenditure amounts · "+shortDate(days[0].date)+" to "+shortDate(days[days.length-1].date)+
-   " · "+days.length+" date"+(days.length===1?"":"s")+" shown. Hover or focus a stacked segment for the reported amount.";
+   " · "+days.length+" date"+(days.length===1?"":"s")+" shown. Click a colored segment to see its spenders, spending categories, amounts and original FEC records.";
  scroller.scrollLeft=chartWindow==="all"?scroller.scrollWidth:0;
 }
 function recordButton(amount,criteria,kind){
@@ -172,8 +185,12 @@ function makePivot(){
 function sourceRow(item){
  var tr=e("tr");
  tr.append(e("td","date-column",readableDate(item.date)));
- var group=e("td");group.append(e("strong","",item.group));group.append(e("small","",item.payee?"Paid to: "+item.payee:"Payee not reported"));tr.append(group);
- var description=e("td");description.append(e("strong","",item.description));description.append(e("small","",item.type));tr.append(description);
+ tr.append(e("td","spender-column",item.group));
+ tr.append(e("td","category-column",item.type));
+ var description=e("td");
+ description.append(e("strong","",item.description));
+ description.append(e("small","",item.payee?"Paid to: "+item.payee:"Payee not reported"));
+ tr.append(description);
  tr.append(e("td","",DATA.disposition_labels[item.disposition]||item.disposition));
  var last=e("td","num");last.append(e("strong","",fullDollar(item.amount_cents)));
  var url=escSource(item.pdf_url);
@@ -182,21 +199,58 @@ function sourceRow(item){
  if(item.notice)last.append(e("small","","24/48-hour notice"));
  tr.append(last);return tr;
 }
+function showChartBreakdown(items,show){
+ var panel=$("daily-breakdown"), heading=$("detail-source-heading");
+ panel.hidden=!show;
+ heading.hidden=!show;
+ var rows=$("daily-breakdown-rows");
+ rows.replaceChildren();
+ if(!show)return;
+ // These are the same deduplicated transactions underlying the bar segment.
+ var buckets=new Map();
+ items.forEach(function(item){
+   var key=JSON.stringify([item.group,item.type]);
+   var entry=buckets.get(key);
+   if(!entry){entry={spender:item.group,category:item.type,amount_cents:0};buckets.set(key,entry)}
+   entry.amount_cents+=item.amount_cents;
+ });
+ var list=[...buckets.values()].sort(function(a,b){
+   return b.amount_cents-a.amount_cents||
+          a.spender.localeCompare(b.spender)||
+          a.category.localeCompare(b.category);
+ });
+ list.forEach(function(item){
+   var tr=e("tr");
+   tr.append(e("td","spender-column",item.spender));
+   tr.append(e("td","category-column",item.category));
+   tr.append(e("td","num",""));
+   tr.lastChild.textContent=fullDollar(item.amount_cents);
+   rows.append(tr);
+ });
+ var total=items.reduce(function(sum,item){return sum+item.amount_cents},0);
+ $("daily-breakdown-note").textContent=list.length.toLocaleString()+" spender/category combination"+
+   (list.length===1?"":"s")+" · "+fullDollar(total)+" total.";
+}
 function openDetails(criteria){
  if(!DATA)return;
  criteria=criteria||{};
  var items=DATA.transactions.filter(function(t){
   return(!criteria.group||t.group===criteria.group)&&
          (!criteria.disposition||t.disposition===criteria.disposition)&&
+         (!criteria.date||t.date===criteria.date)&&
          (!criteria.type||t.type===criteria.type);
  });
- var title=[criteria.group,criteria.disposition?DATA.disposition_labels[criteria.disposition]:null,criteria.type].filter(Boolean).join(" / ");
+ var title=[criteria.date?readableDate(criteria.date):null,
+            criteria.disposition?DATA.disposition_labels[criteria.disposition]:null,
+            criteria.group,criteria.type].filter(Boolean).join(" / ");
  $("detail-title").textContent=title||"All independent expenditures";
  var sum=items.reduce(function(s,t){return s+t.amount_cents},0);
  $("detail-summary").textContent=items.length.toLocaleString()+" source expenditure"+(items.length===1?"":"s")+" • "+fullDollar(sum);
+ showChartBreakdown(items,Boolean(criteria.date&&criteria.disposition));
  var body=$("detail-rows");body.replaceChildren();
  items.sort(function(a,b){return b.amount_cents-a.amount_cents||b.date.localeCompare(a.date)});
  items.forEach(function(item){body.append(sourceRow(item))});
+ $("detail-scroller").scrollTop=0;
  var dialog=$("detail-dialog");if(dialog.showModal)dialog.showModal();else dialog.setAttribute("open","");
 }
 function downloadCsv(){

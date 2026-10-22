@@ -25,11 +25,16 @@ def verify():
     page = read("").decode("utf-8")
     if "NY-17 • 2026 Independent Expenditure Reporting" not in page:
         raise RuntimeError("Public HTML does not contain expected NY-17 title")
-    for expected in ('id="groups-table"', 'id="pivot"', 'id="chart"', 'id="detail-dialog"'):
+    for expected in ('id="groups-table"', 'id="pivot"', 'id="chart"', 'id="detail-dialog"',
+                     'id="daily-breakdown"', 'id="daily-breakdown-rows"',
+                     'Category of spend', 'v=20261021-clickable-bars-v1'):
         if expected not in page:
             raise RuntimeError(f"Missing dashboard element: {expected}")
     script = read("assets/app.js").decode("utf-8")
-    if not all(x in script for x in ("function drawChart", "function groupTable", "function makePivot", "function openDetails")):
+    if not all(x in script for x in ("function drawChart", "function groupTable", "function makePivot",
+                                     "function openDetails", "function showChartBreakdown",
+                                     'openDetails({date:day.date,disposition:d})',
+                                     't.date===criteria.date')):
         raise RuntimeError("Frontend script does not contain the expected chart and drilldowns")
     styles = read("assets/styles.css").decode("utf-8")
     if ".headline-metrics" not in styles:

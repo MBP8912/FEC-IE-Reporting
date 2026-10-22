@@ -8,6 +8,8 @@ Public NY-17 pilot dashboard for spending in the 2026 general election, benefiti
 
 Two candidate-benefit headline totals, each broken into support and opposition spending; daily stacked chart separated into four dispositions; sortable spending-group table; expandable disposition / spending type / group pivot; original FEC expenditure descriptions and source-image links; transaction-level CSV export.
 
+**Daily chart drilldown:** Click (or focus and press Enter on) a colored bar segment to open the underlying expenditures for that date and support/oppose disposition. The popup begins with subtotals by **spender × category of spend**, with the **amount** for each combination. Below that, individual FEC items retain their expenditure date, spender, normalized spending category, original description, payee, amount, and source-document link. The sum of the breakdown rows equals the selected colored bar segment.
+
 ## Data source and deduplication
 
 Source: processed FEC Schedule E API, with cycle 2026, House NY-17, most_recent=true, expenditure dates from January 1, 2025 to November 3, 2026. **Both** periodic reports and 24/48-hour expedited notices are included. Only transactions explicitly designated for the 2026 general election and pertaining to the two nominees are counted. Daily values use the FEC expenditure date.
