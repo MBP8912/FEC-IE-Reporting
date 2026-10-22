@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T20:37:23-04:00",
+  "generated_at": "2026-10-21T20:46:47-04:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -41,12 +41,11 @@
   "counts": {
     "api_rows": 362,
     "pages": 4,
-    "included_rows": 316,
+    "included_rows": 298,
     "excluded": {
+      "other_candidate": 24,
       "memo_item": 3,
       "other_election": 31,
-      "other_candidate": 2,
-      "repeated_transaction_or_amendment": 4,
       "notice_regular_duplicates": 6
     }
   },
@@ -54,10 +53,10 @@
     "support_lawler": 132201507,
     "oppose_conley": 700237590,
     "support_conley": 158866263,
-    "oppose_lawler": 318180767,
+    "oppose_lawler": 287113317,
     "benefit_lawler": 832439097,
-    "benefit_conley": 477047030,
-    "all": 1309486127
+    "benefit_conley": 445979580,
+    "all": 1278418677
   },
   "daily": [
     {
@@ -105,8 +104,8 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 20165,
-      "total": 20165
+      "oppose_lawler": 10165,
+      "total": 10165
     },
     {
       "date": "2026-06-28",
@@ -125,14 +124,6 @@
       "total": 2624
     },
     {
-      "date": "2026-07-10",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 30606,
-      "total": 30606
-    },
-    {
       "date": "2026-07-13",
       "support_lawler": 0,
       "oppose_conley": 0,
@@ -141,28 +132,12 @@
       "total": 105651
     },
     {
-      "date": "2026-07-14",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 3077,
-      "total": 3077
-    },
-    {
       "date": "2026-07-19",
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 1414,
       "total": 1414
-    },
-    {
-      "date": "2026-08-02",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 44915,
-      "total": 44915
     },
     {
       "date": "2026-08-05",
@@ -181,14 +156,6 @@
       "total": 11107
     },
     {
-      "date": "2026-08-16",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 35163,
-      "total": 35163
-    },
-    {
       "date": "2026-08-21",
       "support_lawler": 506333,
       "oppose_conley": 506332,
@@ -203,14 +170,6 @@
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 50000
-    },
-    {
-      "date": "2026-08-30",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 38937,
-      "total": 38937
     },
     {
       "date": "2026-08-31",
@@ -273,16 +232,8 @@
       "support_lawler": 0,
       "oppose_conley": 22500000,
       "support_conley": 0,
-      "oppose_lawler": 75110818,
-      "total": 97610818
-    },
-    {
-      "date": "2026-09-13",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 31848,
-      "total": 31848
+      "oppose_lawler": 50005389,
+      "total": 72505389
     },
     {
       "date": "2026-09-14",
@@ -357,14 +308,6 @@
       "total": 23113361
     },
     {
-      "date": "2026-09-27",
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 44486,
-      "total": 44486
-    },
-    {
       "date": "2026-09-28",
       "support_lawler": 0,
       "oppose_conley": 101696346,
@@ -393,8 +336,8 @@
       "support_lawler": 5319831,
       "oppose_conley": 5319830,
       "support_conley": 35435300,
-      "oppose_lawler": 22488467,
-      "total": 68563428
+      "oppose_lawler": 21765478,
+      "total": 67840439
     },
     {
       "date": "2026-10-02",
@@ -449,8 +392,8 @@
       "support_lawler": 12886755,
       "oppose_conley": 169577639,
       "support_conley": 6512920,
-      "oppose_lawler": 9831800,
-      "total": 198809114
+      "oppose_lawler": 4831800,
+      "total": 193809114
     },
     {
       "date": "2026-10-10",
@@ -599,14 +542,6 @@
       "oppose_lawler": 0
     },
     {
-      "name": "PLANNED PARENTHOOD VOTES",
-      "total": 31059005,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 31059005
-    },
-    {
       "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
       "total": 28877479,
       "support_lawler": 28877479,
@@ -744,11 +679,11 @@
     },
     {
       "name": "ACTIVATE AMERICA",
-      "total": 313781,
+      "total": 280098,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 313781
+      "oppose_lawler": 280098
     },
     {
       "name": "FIELD TEAM 6, INC.",
@@ -781,6 +716,14 @@
       "oppose_conley": 0,
       "support_conley": 35500,
       "oppose_lawler": 4000
+    },
+    {
+      "name": "PLANNED PARENTHOOD VOTES",
+      "total": 25238,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 25238
     }
   ],
   "pivot": [
@@ -1136,7 +1079,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lawler",
-      "total": 318180767,
+      "total": 287113317,
       "categories": [
         {
           "name": "TV",
@@ -1158,7 +1101,7 @@
         },
         {
           "name": "Digital",
-          "total": 198183442,
+          "total": 168183442,
           "groups": [
             {
               "name": "HMP",
@@ -1173,10 +1116,6 @@
               "amount_cents": 45706182
             },
             {
-              "name": "PLANNED PARENTHOOD VOTES",
-              "amount_cents": 30000000
-            },
-            {
               "name": "AMERICAN DEMOCRACY PROJECT",
               "amount_cents": 3861000
             },
@@ -1188,7 +1127,7 @@
         },
         {
           "name": "Mail",
-          "total": 38819190,
+          "total": 38785507,
           "groups": [
             {
               "name": "EDF ACTION VOTES",
@@ -1204,7 +1143,7 @@
             },
             {
               "name": "ACTIVATE AMERICA",
-              "amount_cents": 79968
+              "amount_cents": 46285
             }
           ]
         },
@@ -1220,11 +1159,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 809655,
+          "total": 29238,
           "groups": [
             {
               "name": "PLANNED PARENTHOOD VOTES",
-              "amount_cents": 805655
+              "amount_cents": 25238
             },
             {
               "name": "NEIGHBOR VOICES PAC",
@@ -1298,12 +1237,8 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 407217,
+          "total": 153867,
           "groups": [
-            {
-              "name": "PLANNED PARENTHOOD VOTES",
-              "amount_cents": 253350
-            },
             {
               "name": "GUARDRAILS ACTION INC.",
               "amount_cents": 150000
@@ -1503,29 +1438,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4100220261600396277",
-      "original_sub_id": "",
-      "transaction_id": "500757162",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-06-03",
-      "amount_cents": 10000,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
-      "description": "STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503762",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "A"
-    },
-    {
       "source_id": "4081320261580941598",
       "original_sub_id": "",
       "transaction_id": "500757151",
@@ -1572,29 +1484,6 @@
       "amendment_indicator": "A"
     },
     {
-      "source_id": "4091620261598620038",
-      "original_sub_id": "",
-      "transaction_id": "BE2760",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-07-10",
-      "amount_cents": 30606,
-      "group": "ACTIVATE AMERICA",
-      "group_id": "C00640300",
-      "payee": "MURPHY, CHERYL K.",
-      "description": "POSTAGE",
-      "type": "Mail",
-      "notice": false,
-      "filing_form": "F3X",
-      "filing_date": "2026-09-15",
-      "file_number": 2012080,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609159904215696",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "A"
-    },
-    {
       "source_id": "4100820261612130463",
       "original_sub_id": "",
       "transaction_id": "500264617",
@@ -1618,29 +1507,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4091620261598620051",
-      "original_sub_id": "",
-      "transaction_id": "BE2784",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-07-14",
-      "amount_cents": 3077,
-      "group": "ACTIVATE AMERICA",
-      "group_id": "C00640300",
-      "payee": "VAN ZWALENBURG, NANCY",
-      "description": "POSTAGE",
-      "type": "Mail",
-      "notice": false,
-      "filing_form": "F3X",
-      "filing_date": "2026-09-15",
-      "file_number": 2012080,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609159904215702",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "A"
-    },
-    {
       "source_id": "4100220261600396671",
       "original_sub_id": "",
       "transaction_id": "500761738",
@@ -1659,29 +1525,6 @@
       "filing_date": "2026-10-02",
       "file_number": 2016197,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610029908504294",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4100220261600396274",
-      "original_sub_id": "",
-      "transaction_id": "500763364",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-08-02",
-      "amount_cents": 44915,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503760",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "A"
@@ -1730,29 +1573,6 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584717",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4100220261600396275",
-      "original_sub_id": "",
-      "transaction_id": "500763365",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-08-16",
-      "amount_cents": 35163,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503761",
-      "election_type": "G2026",
-      "original_category_code": "004",
       "amendment_indicator": "A"
     },
     {
@@ -1846,29 +1666,6 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4100220261600396276",
-      "original_sub_id": "",
-      "transaction_id": "500763366",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-08-30",
-      "amount_cents": 38937,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503761",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "A"
     },
     {
       "source_id": "4090420261595780124",
@@ -2259,98 +2056,6 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609179904297920",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4100220261600396269",
-      "original_sub_id": "",
-      "transaction_id": "500763363",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-09-11",
-      "amount_cents": 25000000,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "CHANGE MEDIA GROUP",
-      "description": "ESTIMATED COST OF PRODUCTION AND DISSEMINATION OF DIGITAL AD",
-      "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503758",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4100220261600396278",
-      "original_sub_id": "",
-      "transaction_id": "500766924",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-09-11",
-      "amount_cents": 55550,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503762",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4100220261600396279",
-      "original_sub_id": "",
-      "transaction_id": "500766923",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-09-11",
-      "amount_cents": 49879,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD HUDSON PECONIC ACTION FUND, INC",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-01",
-      "file_number": 2016146,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908503763",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "A"
-    },
-    {
-      "source_id": "4101120261612230099",
-      "original_sub_id": "",
-      "transaction_id": "500768890",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-09-13",
-      "amount_cents": 31848,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612678",
-      "election_type": "G2026",
-      "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
@@ -3251,29 +2956,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4101120261612230100",
-      "original_sub_id": "",
-      "transaction_id": "500768891",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-09-27",
-      "amount_cents": 44486,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD ACTION FUND, INC.",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612679",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4100320261600422102",
       "original_sub_id": "",
       "transaction_id": "SE24.5918",
@@ -3846,144 +3528,6 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610029908510730",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230101",
-      "original_sub_id": "",
-      "transaction_id": "500768897",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-01",
-      "amount_cents": 247450,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612679",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230102",
-      "original_sub_id": "",
-      "transaction_id": "500768898",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-01",
-      "amount_cents": 74250,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
-      "description": "ESTIMATED COST OF LIST RENTALS",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612680",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230103",
-      "original_sub_id": "",
-      "transaction_id": "500768899",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-01",
-      "amount_cents": 50000,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD EMPIRE STATE ACTS",
-      "description": "ESTIMATED COST OF SUPPLIES",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612680",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230104",
-      "original_sub_id": "",
-      "transaction_id": "500768893",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-01",
-      "amount_cents": 222189,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD HUDSON PECONIC ACTION FUND, INC",
-      "description": "ESTIMATED COST OF STAFF TIME FOR VOTER COMMUNICATIONS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612681",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230105",
-      "original_sub_id": "",
-      "transaction_id": "500768895",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-01",
-      "amount_cents": 29100,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD HUDSON PECONIC ACTION FUND, INC",
-      "description": "ESTIMATED COST OF LIST RENTALS",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612681",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230106",
-      "original_sub_id": "",
-      "transaction_id": "500768896",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-01",
-      "amount_cents": 100000,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "PLANNED PARENTHOOD HUDSON PECONIC ACTION FUND, INC",
-      "description": "ESTIMATED COST OF SUPPLIES",
-      "type": "Other / Unclassified",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612682",
-      "election_type": "G2026",
-      "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
@@ -5295,29 +4839,6 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908619683",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4101120261612230098",
-      "original_sub_id": "",
-      "transaction_id": "500768900",
-      "candidate": "lawler",
-      "candidate_id": "H2NY17162",
-      "disposition": "oppose_lawler",
-      "date": "2026-10-09",
-      "amount_cents": 5000000,
-      "group": "PLANNED PARENTHOOD VOTES",
-      "group_id": "C00489799",
-      "payee": "CHANGE MEDIA GROUP",
-      "description": "ESTIMATED COST OF PRODUCTION AND DISSEMINATION OF DIGITAL AD",
-      "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-11",
-      "file_number": 2019415,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612678",
-      "election_type": "G2026",
-      "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
