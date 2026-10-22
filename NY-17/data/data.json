@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T21:08:10-04:00",
+  "generated_at": "2026-10-21T20:48:43-04:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -12,16 +12,12 @@
     "lawler": {
       "name": "Mike Lawler",
       "id": "H2NY17162",
-      "party": "Republican",
-      "surname": "lawler",
-      "given": "Mike"
+      "party": "Republican"
     },
     "conley": {
       "name": "Cait Conley",
       "id": "H6NY17171",
-      "party": "Democratic",
-      "surname": "conley",
-      "given": "Cait"
+      "party": "Democratic"
     }
   },
   "disposition_order": [
@@ -8112,11 +8108,5 @@
       "amendment_indicator": "N"
     }
   ],
-  "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
-  "fetch": {
-    "source": "FEC processed Schedule E: complete House district",
-    "all_district_pages_complete": true,
-    "includes_missing_candidate_id_records": true,
-    "source_pages_this_district": 4
-  }
+  "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed."
 }
