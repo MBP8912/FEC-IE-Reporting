@@ -1,6 +1,6 @@
 {
-  "status": "not_initialized",
-  "generated_at": null,
+  "status": "ok",
+  "generated_at": "2026-10-21T21:08:10-04:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -8,15 +8,497 @@
     "to": "2026-11-03",
     "election": "2026 general"
   },
-  "totals": {},
-  "groups": [],
-  "daily": [],
-  "pivot": [],
-  "transactions": [],
+  "candidates": {
+    "lawler": {
+      "name": "Lauren Boebert",
+      "id": "H0CO03165",
+      "party": "Republican",
+      "surname": "boebert",
+      "given": "Lauren"
+    },
+    "conley": {
+      "name": "Eileen Laubacher",
+      "id": "H6CO04202",
+      "party": "Democratic",
+      "surname": "laubacher",
+      "given": "Eileen"
+    }
+  },
+  "disposition_order": [
+    "support_lawler",
+    "oppose_conley",
+    "support_conley",
+    "oppose_lawler"
+  ],
+  "disposition_labels": {
+    "support_lawler": "Support Boebert",
+    "oppose_conley": "Oppose Laubacher",
+    "support_conley": "Support Laubacher",
+    "oppose_lawler": "Oppose Boebert"
+  },
+  "colors": {
+    "support_lawler": "#C85553",
+    "oppose_conley": "#EBA59A",
+    "support_conley": "#396BBA",
+    "oppose_lawler": "#8EB4ED"
+  },
   "counts": {
-    "api_rows": 0,
-    "pages": 0,
-    "included_rows": 0,
-    "excluded": {}
+    "api_rows": 79,
+    "pages": 1,
+    "included_rows": 10,
+    "excluded": {
+      "other_election": 68,
+      "other_candidate": 1,
+      "notice_regular_duplicates": 0
+    }
+  },
+  "totals": {
+    "support_lawler": 5800,
+    "oppose_conley": 0,
+    "support_conley": 5088243,
+    "oppose_lawler": 150000000,
+    "benefit_lawler": 5800,
+    "benefit_conley": 155088243,
+    "all": 155094043
+  },
+  "daily": [
+    {
+      "date": "2026-07-07",
+      "support_lawler": 5250,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 5250
+    },
+    {
+      "date": "2026-07-14",
+      "support_lawler": 525,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 525
+    },
+    {
+      "date": "2026-07-22",
+      "support_lawler": 25,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 25
+    },
+    {
+      "date": "2026-08-05",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 51322,
+      "oppose_lawler": 0,
+      "total": 51322
+    },
+    {
+      "date": "2026-09-30",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 4492,
+      "oppose_lawler": 0,
+      "total": 4492
+    },
+    {
+      "date": "2026-10-05",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 4769162,
+      "oppose_lawler": 0,
+      "total": 4769162
+    },
+    {
+      "date": "2026-10-08",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 150000000,
+      "total": 150000000
+    },
+    {
+      "date": "2026-10-19",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 263267,
+      "oppose_lawler": 0,
+      "total": 263267
+    }
+  ],
+  "groups": [
+    {
+      "name": "INVEST IN TOMORROW COALITION PAC",
+      "total": 150000000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 150000000
+    },
+    {
+      "name": "AB PAC",
+      "total": 4769162,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 4769162,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "VOTEVETS",
+      "total": 263267,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 263267,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "FIELD TEAM 6, INC.",
+      "total": 55814,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 55814,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "FREEDOM CAUCUS FUND",
+      "total": 5800,
+      "support_lawler": 5800,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    }
+  ],
+  "pivot": [
+    {
+      "key": "support_lawler",
+      "name": "Support Boebert",
+      "total": 5800,
+      "categories": [
+        {
+          "name": "Other / Unclassified",
+          "total": 5800,
+          "groups": [
+            {
+              "name": "FREEDOM CAUCUS FUND",
+              "amount_cents": 5800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oppose_conley",
+      "name": "Oppose Laubacher",
+      "total": 0,
+      "categories": []
+    },
+    {
+      "key": "support_conley",
+      "name": "Support Laubacher",
+      "total": 5088243,
+      "categories": [
+        {
+          "name": "Digital",
+          "total": 267759,
+          "groups": [
+            {
+              "name": "VOTEVETS",
+              "amount_cents": 263267
+            },
+            {
+              "name": "FIELD TEAM 6, INC.",
+              "amount_cents": 4492
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "total": 51322,
+          "groups": [
+            {
+              "name": "FIELD TEAM 6, INC.",
+              "amount_cents": 51322
+            }
+          ]
+        },
+        {
+          "name": "Production",
+          "total": 37975,
+          "groups": [
+            {
+              "name": "AB PAC",
+              "amount_cents": 37975
+            }
+          ]
+        },
+        {
+          "name": "Print",
+          "total": 4731187,
+          "groups": [
+            {
+              "name": "AB PAC",
+              "amount_cents": 4731187
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oppose_lawler",
+      "name": "Oppose Boebert",
+      "total": 150000000,
+      "categories": [
+        {
+          "name": "Production",
+          "total": 150000000,
+          "groups": [
+            {
+              "name": "INVEST IN TOMORROW COALITION PAC",
+              "amount_cents": 150000000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "source_id": "4090920261596090286",
+      "original_sub_id": "",
+      "transaction_id": "E70FBE0401660478B914",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-07-07",
+      "amount_cents": 5250,
+      "group": "FREEDOM CAUCUS FUND",
+      "group_id": "C00552851",
+      "payee": "FREEDOM CAUCUS FUND",
+      "description": "IE- BOEBERT - DONATION PROCESSING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-08-20",
+      "file_number": 2008148,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202608209899627760",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4090920261596090293",
+      "original_sub_id": "",
+      "transaction_id": "EE5FAF2F24C2241E68F2",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-07-14",
+      "amount_cents": 525,
+      "group": "FREEDOM CAUCUS FUND",
+      "group_id": "C00552851",
+      "payee": "FREEDOM CAUCUS FUND",
+      "description": "IE- BOEBERT - DONATION PROCESSING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-08-20",
+      "file_number": 2008148,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202608209899627764",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4090920261596090317",
+      "original_sub_id": "",
+      "transaction_id": "EC2131310D3824801B60",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-07-22",
+      "amount_cents": 25,
+      "group": "FREEDOM CAUCUS FUND",
+      "group_id": "C00552851",
+      "payee": "FREEDOM CAUCUS FUND",
+      "description": "IE- BOEBERT - DONATION PROCESSING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-08-20",
+      "file_number": 2008148,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202608209899627776",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4100820261612130526",
+      "original_sub_id": "",
+      "transaction_id": "500264669",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-08-05",
+      "amount_cents": 51322,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "SMS TEXTING",
+      "type": "Text",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-07",
+      "file_number": 2017911,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908562173",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4100820261612130811",
+      "original_sub_id": "",
+      "transaction_id": "500274708",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 4492,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "EMAIL SERVICES",
+      "type": "Digital",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-07",
+      "file_number": 2017911,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908562316",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4100820261612130182",
+      "original_sub_id": "",
+      "transaction_id": "501362650",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-05",
+      "amount_cents": 3045187,
+      "group": "AB PAC",
+      "group_id": "C00492140",
+      "payee": "ADQUICK",
+      "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
+      "type": "Print",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-07",
+      "file_number": 2018051,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908568582",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4100820261612130216",
+      "original_sub_id": "",
+      "transaction_id": "501362745",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-05",
+      "amount_cents": 37975,
+      "group": "AB PAC",
+      "group_id": "C00492140",
+      "payee": "BERNI CONSULTING LLC",
+      "description": "PRODUCTION- ESTIMATED COST",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-07",
+      "file_number": 2018051,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908568599",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4100820261612130317",
+      "original_sub_id": "",
+      "transaction_id": "501362675",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-05",
+      "amount_cents": 1686000,
+      "group": "AB PAC",
+      "group_id": "C00492140",
+      "payee": "LAMAR COMPANIES",
+      "description": "BILLBOARD ADVERTISING- ESTIMATED COST",
+      "type": "Print",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-07",
+      "file_number": 2018051,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908568649",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101020261612210482",
+      "original_sub_id": "",
+      "transaction_id": "SE.4158",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-08",
+      "amount_cents": 150000000,
+      "group": "INVEST IN TOMORROW COALITION PAC",
+      "group_id": "C00936997",
+      "payee": "TUSK STRATEGIES",
+      "description": "AD PRODUCTION AND BUY",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-10",
+      "file_number": 2019265,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908601892",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102020261614372482",
+      "original_sub_id": "",
+      "transaction_id": "500014532",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-19",
+      "amount_cents": 263267,
+      "group": "VOTEVETS",
+      "group_id": "C00418897",
+      "payee": "SCALE TO WIN, INC.",
+      "description": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-20",
+      "file_number": 2032952,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347909",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    }
+  ],
+  "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
+  "fetch": {
+    "source": "FEC processed Schedule E: complete House district",
+    "all_district_pages_complete": true,
+    "includes_missing_candidate_id_records": true,
+    "source_pages_this_district": 1
   }
 }
