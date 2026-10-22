@@ -18,6 +18,19 @@ def dataset(rows):
                 generated_at="2026-10-22T09:00:00-04:00",transactions=rows)
 
 class RecentTests(unittest.TestCase):
+    def test_pilot_only_and_placement_above_timeline(self):
+        html=(ROOT/"NY-17"/"index.html").read_text(encoding="utf-8")
+        self.assertLess(html.index('id="recent48-groups"'),
+                        html.index('class="panel chart-section"'))
+        self.assertIn('src="./recent48.js',html)
+        self.assertIn('Spending reported in the last 48 hours',html)
+        script=(ROOT/"NY-17"/"recent48.js").read_text(encoding="utf-8")
+        self.assertIn('["Spender","Disposition","Purpose","Amount","Date"]',script)
+        self.assertIn('48*60*60*1000',script)
+        for race in ("CO-4","CO-5","IA-1","MN-1","NE-2","WI-1","NY-19","CA-13"):
+            other=(ROOT/race/"index.html").read_text(encoding="utf-8")
+            self.assertNotIn('id="recent48-groups"',other)
+
     def test_datetime_parsing(self):
         self.assertIsNone(parse_receipt("2026-10-21"))
         self.assertEqual(parse_receipt("2026-10-21T13:00:00"),

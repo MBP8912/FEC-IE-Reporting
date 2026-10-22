@@ -27,8 +27,10 @@ jobs:
           python-version: '3.12'
       - name: Test election scope, nine-race mapping, classifications and duplicate removal
         run: python -m unittest discover -s tests -v
-      - name: Check frontend JavaScript syntax
-        run: node --check assets/app.js
+      - name: Check shared dashboard and NY-17 pilot JavaScript syntax
+        run: |
+          node --check assets/app.js
+          node --check NY-17/recent48.js
       - name: Apply race-specific categories to verified historical expenditures
         run: python scripts/reclassify_cached.py
       - name: Refresh NY-17 filing-receipt timestamps for the rolling 48-hour pilot
