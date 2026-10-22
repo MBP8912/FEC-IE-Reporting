@@ -8,7 +8,8 @@ const DAY={timeZone:"UTC",month:"short",day:"numeric",year:"numeric"};
 function cell(tag,content,className){
   const n=document.createElement(tag);
   if(className)n.className=className;
-  if(content!==undefined)n.textContent=String(content);
+  // null is deliberately used for empty DOM containers; do not render it as text.
+  if(content!==undefined&&content!==null)n.textContent=String(content);
   return n;
 }
 function fmt(date){return new Intl.DateTimeFormat("en-US",ET).format(new Date(date))+" ET"}

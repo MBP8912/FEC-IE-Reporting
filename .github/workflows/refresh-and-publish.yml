@@ -31,6 +31,7 @@ jobs:
         run: |
           node --check assets/app.js
           node --check NY-17/recent48.js
+          node --test tests/test_recent48_ui.cjs
       - name: Apply race-specific categories to verified historical expenditures
         run: python scripts/reclassify_cached.py
       - name: Refresh NY-17 filing-receipt timestamps for the rolling 48-hour pilot
