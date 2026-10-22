@@ -260,7 +260,7 @@ function downloadCsv(){
  var cell=function(v){var s=String(v==null?"":v);return '"'+s.replaceAll('"','""')+'"';};
  var txt=[headers].concat(lines).map(function(row){return row.map(cell).join(",")}).join("\r\n");
  var url=URL.createObjectURL(new Blob(["\ufeff"+txt],{type:"text/csv;charset=utf-8"}));
- var a=e("a");a.href=url;a.download="ny17-independent-expenditures-2026-general.csv";document.body.append(a);a.click();a.remove();
+ var a=e("a");a.href=url;a.download=String(DATA.district||"NY-17").toLowerCase()+"-independent-expenditures-2026-general.csv";document.body.append(a);a.click();a.remove();
  setTimeout(function(){URL.revokeObjectURL(url)},1500);
 }
 function build(data){

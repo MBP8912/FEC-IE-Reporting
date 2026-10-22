@@ -1,4 +1,4 @@
-name: NY-17 independent expenditures - refresh and publish
+name: 2026 IE reporting - nine districts
 
 on:
   workflow_dispatch:
@@ -13,52 +13,62 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ny17-ie-pages-v2
+  group: ie-nine-district-pages
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test election filtering, deduplication and categories
+      - name: Test election scope, nine-race mapping, classifications and duplicate removal
         run: python -m unittest discover -s tests -v
-      - name: Check dashboard script syntax
+      - name: Check frontend JavaScript syntax
         run: node --check assets/app.js
-      - name: Refresh unique general-election Schedule E transactions
+      - name: Fetch all unique general-election IE transactions, resuming saved cursor
         id: refresh
         continue-on-error: true
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
-        run: python scripts/refresh.py
-      - name: Explain FEC data failures
+        run: python scripts/refresh_all.py
+      - name: Explain FEC API failure
         if: steps.refresh.outcome != 'success'
-        run: echo "FEC refresh failed. Deploying last previously verified data file, without inventing amounts."
-      - name: Assemble district directory and standalone NY-17 dashboard
+        run: echo "FEC source unavailable. Previously verified race snapshots remain intact."
+      - name: Package all nine individual dashboards
         run: |
-          mkdir -p _site/NY-17/data _site/assets
+          mkdir -p _site/assets
           cp index.html _site/
-          cp NY-17/index.html _site/NY-17/
           cp assets/* _site/assets/
-          cp NY-17/data/data.json _site/NY-17/data/data.json
+          for race in NY-17 CO-4 CO-5 IA-1 MN-1 NE-2 WI-1 NY-19 CA-13; do
+            mkdir -p "_site/$race/data"
+            cp "$race/index.html" "_site/$race/"
+            cp "$race/data/data.json" "_site/$race/data/"
+          done
           touch _site/.nojekyll
-      - name: Save verified dataset artifact for independent archiving
-        if: steps.refresh.outcome == 'success'
+      - name: Save verified snapshots and resumption checkpoint
         uses: actions/upload-artifact@v4
         with:
-          name: ie-verified-data
-          path: NY-17/data/data.json
-          retention-days: 5
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        continue-on-error: true
+          name: ie-all-district-data
+          path: |
+            NY-17/data/data.json
+            CO-4/data/data.json
+            CO-5/data/data.json
+            IA-1/data/data.json
+            MN-1/data/data.json
+            NE-2/data/data.json
+            WI-1/data/data.json
+            NY-19/data/data.json
+            CA-13/data/data.json
+            data/ingest_checkpoint.json
+          retention-days: 7
+      - uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Upload Pages website
-        uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
@@ -69,35 +79,31 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Publish to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
-      - name: Check out source for site verification
-        uses: actions/checkout@v4
-      - name: Verify the public page, browser assets and FEC dataset
+      - uses: actions/checkout@v4
+      - name: Verify live root redirect and nine separate dashboards
         run: python scripts/verify_site.py
 
   archive:
     runs-on: ubuntu-latest
     needs: build
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
-      - name: Check out code and previous verified dataset
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Download updated verified dataset
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
-          name: ie-verified-data
-          path: NY-17/data
-      - name: Commit and archive refreshed FEC data
+          name: ie-all-district-data
+          path: .
+      - name: Archive candidate-specific FEC snapshots and resumption cursor
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add NY-17/data/data.json
+          git add -A NY-17/data CO-4/data CO-5/data IA-1/data MN-1/data NE-2/data WI-1/data NY-19/data CA-13/data data/ingest_checkpoint.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Archive unique NY-17 IE transactions [skip ci]'
+            git commit -m 'Archive Schedule E reports and cursor [skip ci]'
             git pull --rebase -X theirs origin main
             git push
           fi

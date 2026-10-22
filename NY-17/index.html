@@ -6,14 +6,14 @@
   <meta name="theme-color" content="#f5f7fb">
   <meta name="description" content="NY-17 independent expenditures for the 2026 general election, grouped by candidate, group, day, and type. Each expenditure linked to its FEC source.">
   <title>NY-17 • 2026 Independent Expenditure Reporting</title>
-  <link rel="stylesheet" href="../assets/styles.css?v=20261021-ny17-directory">
-  <script defer src="../assets/app.js?v=20261021-ny17-directory"></script>
+  <link rel="stylesheet" href="../assets/styles.css?v=20261021-nine-districts">
+  <script defer src="../assets/app.js?v=20261021-nine-districts"></script>
 </head>
 <body>
   <div class="page">
     <header class="topbar">
       <div class="brand"><span class="brand-symbol">IE<span>17</span></span><div><strong>NY-17</strong><small>2026 Election Spending</small></div></div>
-      <nav aria-label="Navigation and source"><a href="../">All races</a><a href="https://www.fec.gov/data/independent-expenditures/?data_type=processed&most_recent=true&candidate_office_state=NY&candidate_office_district=17" target="_blank" rel="noopener noreferrer">FEC source <span aria-hidden="true">↗</span></a></nav>
+      <nav aria-label="Navigation and source"><a href="https://www.fec.gov/data/independent-expenditures/?data_type=processed&most_recent=true&candidate_office_state=NY&candidate_office_district=17" target="_blank" rel="noopener noreferrer">FEC source <span aria-hidden="true">↗</span></a></nav>
     </header>
 
     <main>
@@ -82,7 +82,7 @@
 
       <section class="panel group-section" aria-labelledby="groups-heading">
         <div class="panel-header row-wrap">
-          <div><h2 id="groups-heading">Independent expenditures by group</h2><p>Four dispositions shown separately. Click an amount to review individual filings.</p></div>
+          <div><h2 id="groups-heading">Independent expenditures by group</h2><p>Click an amount to review individual filings.</p></div>
           <div class="table-actions"><label for="group-search" class="sr-only">Search spender</label><input id="group-search" placeholder="Search a spending group" type="search"><button type="button" id="csv-download" class="secondary-button" disabled>↓ Export records</button></div>
         </div>
         <div class="table-scroll">
@@ -99,17 +99,9 @@
             <tfoot id="group-footer"></tfoot>
           </table>
         </div>
-        <div class="table-bottom"><span id="group-count">No data loaded</span><span>Numbers are independent expenditure amounts, not contributions to campaigns</span></div>
+        <div class="table-bottom"><span id="group-count">No data loaded</span></div>
       </section>
 
-      <section class="method">
-        <div class="method-heading"><span class="method-icon">i</span><h2>About these figures</h2></div>
-        <div class="method-grid">
-          <article><h3>2026 general election only</h3><p>Transactions designated for the November 2026 general election; includes reports in both 2025 and 2026. Excludes primary, other elections, and unrelated candidates.</p></article>
-          <article><h3>Not campaign expenditures</h3><p>Independent expenditures are third-party spending. “Benefiting” combines reports supporting one candidate and opposing their opponent; it does not imply coordination.</p></article>
-          <article><h3>Deduplicated source records</h3><p>Data includes regular Schedule E filings and expedited 24/48-hour notices. Where records refer to the same transaction, the dashboard counts it once. Original FEC descriptions remain available.</p></article>
-        </div>
-      </section>
       <div class="warnings" id="warnings" hidden></div>
     </main>
 

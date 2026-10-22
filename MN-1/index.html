@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="MN-1 independent expenditures for the 2026 general election, grouped by candidate, group, day, and type. Each expenditure linked to its FEC source.">
+  <title>MN-1 • 2026 Independent Expenditure Reporting</title>
+  <link rel="stylesheet" href="../assets/styles.css?v=20261021-nine-districts">
+  <script defer src="../assets/app.js?v=20261021-nine-districts"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand"><span class="brand-symbol">IE<span>01</span></span><div><strong>MN-1</strong><small>2026 Election Spending</small></div></div>
+      <nav aria-label="Navigation and source"><a href="https://www.fec.gov/data/independent-expenditures/?data_type=processed&most_recent=true&candidate_office_state=MN&candidate_office_district=01" target="_blank" rel="noopener noreferrer">FEC source <span aria-hidden="true">↗</span></a></nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="eyebrow-circle"></span> 2026 GENERAL ELECTION / SCHEDULE E</div>
+        <h1>MN-1 Independent<br>Expenditure Spending <span>2026</span></h1>
+        <p>Outside spending reported to the FEC to support or oppose <strong>Brad Finstad</strong> and <strong>Jake Johnson</strong>, with underlying expenditures and original descriptions linked throughout.</p>
+        <div class="hero-meta">
+          <span> <span class="mini-icon">▦</span> 2025–2026 cycle · General only </span>
+          <span> <span class="mini-icon">↻</span> Refresh scheduled hourly </span>
+          <span id="last-updated"> <span class="mini-icon">◷</span> Awaiting verified FEC data </span>
+        </div>
+      </section>
+
+      <div id="status" class="status pending" role="status" aria-live="polite">Loading FEC Schedule E records…</div>
+
+      <section class="headline-metrics" aria-label="Independent spending benefiting candidates">
+        <article class="metric lawler">
+          <div class="metric-title"><span class="dot red"></span><span>SPENDING BENEFITING FINSTAD</span><span class="pill">REPUBLICAN</span></div>
+          <div class="big-number" id="lawler-total">—</div>
+          <div class="metric-desc">Independent expenditures directly supporting Finstad or opposing Johnson</div>
+          <div class="metric-rows">
+            <div><span>Support Finstad</span><strong id="lawler-support">—</strong></div>
+            <div><span>Oppose Johnson</span><strong id="conley-oppose">—</strong></div>
+          </div>
+        </article>
+        <article class="metric conley">
+          <div class="metric-title"><span class="dot blue"></span><span>SPENDING BENEFITING JOHNSON</span><span class="pill">DEMOCRATIC</span></div>
+          <div class="big-number" id="conley-total">—</div>
+          <div class="metric-desc">Independent expenditures directly supporting Johnson or opposing Finstad</div>
+          <div class="metric-rows">
+            <div><span>Support Johnson</span><strong id="conley-support">—</strong></div>
+            <div><span>Oppose Finstad</span><strong id="lawler-oppose">—</strong></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="headline-foot" aria-label="Source details">
+        <span><strong id="total-records">—</strong> distinct expenditure entries</span>
+        <span><strong id="total-groups">—</strong> spending groups</span>
+        <span><strong id="dedup-note">—</strong> repeated reports reconciled</span>
+      </section>
+
+      <section class="panel chart-section" aria-labelledby="daily-heading">
+        <div class="panel-header">
+          <div><div class="kicker">SPENDING TIMELINE</div><h2 id="daily-heading">Daily independent expenditures</h2><p>Expenditure date, stacked by how the spending was designated</p></div>
+          <div class="segmented" aria-label="Chart time range">
+            <button type="button" class="active" data-window="30" aria-pressed="true">30 days</button>
+            <button type="button" data-window="90" aria-pressed="false">90 days</button>
+            <button type="button" data-window="all" aria-pressed="false">All dates</button>
+          </div>
+        </div>
+        <div id="legend" class="legend" aria-label="Spending dispositions"></div>
+        <div id="chart-scroller" class="chart-scroller"><div id="chart" class="chart-host" role="group" aria-label="Interactive daily spending chart, select a colored segment for details"><div class="chart-pending">Awaiting FEC expenditure records</div></div></div>
+        <p class="chart-note" id="chart-note">Click a colored segment to see its spenders, spending categories, amounts and original FEC records.</p>
+      </section>
+
+      <section class="panel pivot-section" aria-labelledby="pivot-heading">
+        <div class="panel-header row-wrap">
+          <div><h2 id="pivot-heading">Spending by type and disposition</h2><p>Expand a disposition, then a spending category, to see each group's spending. Click a group to see its underlying transactions.</p></div>
+          <div><button id="expand-all" class="secondary-button" type="button">Expand all</button></div>
+        </div>
+        <div class="pivot-headers"><span>Disposition / category / group</span><span>Reported expenditure</span></div>
+        <div id="pivot" class="pivot"><div class="table-placeholder">Waiting for verified expenditures</div></div>
+      </section>
+
+      <section class="panel group-section" aria-labelledby="groups-heading">
+        <div class="panel-header row-wrap">
+          <div><h2 id="groups-heading">Independent expenditures by group</h2><p>Click an amount to review individual filings.</p></div>
+          <div class="table-actions"><label for="group-search" class="sr-only">Search spender</label><input id="group-search" placeholder="Search a spending group" type="search"><button type="button" id="csv-download" class="secondary-button" disabled>↓ Export records</button></div>
+        </div>
+        <div class="table-scroll">
+          <table id="groups-table">
+            <thead><tr>
+              <th scope="col"><button data-sort="name">Spending group <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="total">Total <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="support_lawler">Support Finstad <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="oppose_conley">Oppose Johnson <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="support_conley">Support Johnson <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="oppose_lawler">Oppose Finstad <span aria-hidden="true">↕</span></button></th>
+            </tr></thead>
+            <tbody id="group-rows"><tr><td colspan="6" class="table-placeholder">Waiting for verified FEC records</td></tr></tbody>
+            <tfoot id="group-footer"></tfoot>
+          </table>
+        </div>
+        <div class="table-bottom"><span id="group-count">No data loaded</span></div>
+      </section>
+
+      <div class="warnings" id="warnings" hidden></div>
+    </main>
+
+    <footer class="footer"><div><strong>MN-1 / PUBLIC FEC DATA</strong><p>Independent presentation of Federal Election Commission data. Not affiliated with candidates, spending groups, or the FEC.</p></div><div><a href="https://www.fec.gov/data/independent-expenditures/" target="_blank" rel="noopener noreferrer">FEC independent expenditures ↗</a><a href="https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-3x/" target="_blank" rel="noopener noreferrer">Reporting rules ↗</a></div></footer>
+  </div>
+  <dialog id="detail-dialog" class="detail-dialog">
+    <header><div class="kicker">SOURCE RECORDS</div><h2 id="detail-title"></h2><p id="detail-summary"></p><button type="button" id="detail-close" aria-label="Close details">×</button></header>
+    <div class="detail-scroller" id="detail-scroller">
+      <section class="daily-breakdown" id="daily-breakdown" hidden aria-label="Daily spending summarized by spender and category">
+        <div class="daily-breakdown-header"><h3>Spending breakdown</h3><p id="daily-breakdown-note"></p></div>
+        <table class="daily-breakdown-table">
+          <thead><tr><th scope="col">Spender</th><th scope="col">Category of spend</th><th scope="col" class="num">Amount</th></tr></thead>
+          <tbody id="daily-breakdown-rows"></tbody>
+        </table>
+      </section>
+      <h3 class="detail-source-heading" id="detail-source-heading" hidden>Individual expenditures and original FEC records</h3>
+      <table class="source-table">
+        <thead><tr><th scope="col">Date</th><th scope="col">Spender</th><th scope="col">Category of spend</th><th scope="col">Original description / payee</th><th scope="col">Disposition</th><th scope="col" class="num">Amount / FEC source</th></tr></thead>
+        <tbody id="detail-rows"></tbody>
+      </table>
+    </div>
+    <div class="dialog-foot">Descriptions are from the original FEC itemization. Spend categories are standardized by this dashboard for browsing.</div>
+  </dialog>
+</body>
+</html>

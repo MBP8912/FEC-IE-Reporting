@@ -1,0 +1,22 @@
+{
+  "status": "not_initialized",
+  "district": "NE-2",
+  "generated_at": null,
+  "period": {
+    "cycle": 2026,
+    "from": "2025-01-01",
+    "to": "2026-11-03",
+    "election": "2026 general"
+  },
+  "totals": {},
+  "groups": [],
+  "daily": [],
+  "pivot": [],
+  "transactions": [],
+  "counts": {
+    "api_rows": 0,
+    "pages": 0,
+    "included_rows": 0,
+    "excluded": {}
+  }
+}

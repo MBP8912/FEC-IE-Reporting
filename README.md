@@ -1,49 +1,25 @@
-# NY-17 Independent Expenditure Spending 2026
+# 2026 Independent Expenditure Dashboards
 
-Public NY-17 pilot dashboard for spending in the 2026 general election, benefiting or opposing Mike Lawler (H2NY17162) and Cait Conley (H6NY17171).
+The root URL redirects directly to **NY-17**, not a race selection page.
 
-**Main race directory:** https://mbp8912.github.io/FEC-IE-Reporting/
+| District | Republican | Democrat / DFL | Dashboard |
+|---|---|---|---|
+| NY-17 | Mike Lawler | Cait Conley | [NY-17](https://mbp8912.github.io/FEC-IE-Reporting/NY-17/) |
+| CO-4 | Lauren Boebert | Eileen Laubacher | [CO-4](https://mbp8912.github.io/FEC-IE-Reporting/CO-4/) |
+| CO-5 | Jeff Crank | Jessica Killin | [CO-5](https://mbp8912.github.io/FEC-IE-Reporting/CO-5/) |
+| IA-1 | Mariannette Miller-Meeks | Christina Bohannan | [IA-1](https://mbp8912.github.io/FEC-IE-Reporting/IA-1/) |
+| MN-1 | Brad Finstad | Jake Johnson | [MN-1](https://mbp8912.github.io/FEC-IE-Reporting/MN-1/) |
+| NE-2 | Brinker Harding | Denise Powell | [NE-2](https://mbp8912.github.io/FEC-IE-Reporting/NE-2/) |
+| WI-1 | Bryan Steil | Mitchell Berman | [WI-1](https://mbp8912.github.io/FEC-IE-Reporting/WI-1/) |
+| NY-19 | Peter Oberacker | Josh Riley | [NY-19](https://mbp8912.github.io/FEC-IE-Reporting/NY-19/) |
+| CA-13 | Kevin Lincoln | Adam Gray | [CA-13](https://mbp8912.github.io/FEC-IE-Reporting/CA-13/) |
 
-**NY-17 dashboard:** https://mbp8912.github.io/FEC-IE-Reporting/NY-17/
+Each race uses the completed NY-17 layout: candidate totals with support/oppose subtotals, daily stacked spending chart (click a colored segment for spender, category and amount), an expandable disposition → spending type → group table, and an independently sortable group table. The latter two appear **type first, group second**. The former “Who Is Spending,” “What the Money Funded,” extra spending disclaimer, and entire “About these figures” section are absent.
 
-The repository is organized for separate race dashboards. NY-17 is in `NY-17/index.html`, its verified spending data is in `NY-17/data/data.json`, shared browser assets are in `assets/`, and the root `index.html` is the race-selection directory.
+**Data:** FEC processed Schedule E; 2026-cycle general election expenditures dated January 1, 2025 through November 3, 2026. Expedited 24/48-hour notices and periodic reports are reconciled using identifiers and conservative duplicate matching. All monetary totals use integer cents. This is third-party independent expenditure spending, not candidate fundraising.
 
-## Features
+**Automatic refresh:** Nine candidate-specific datasets live at `<district>/data/data.json`. GitHub Actions queries the FEC for both nominees in each race (up to ten IDs per API request). Since the FEC caps pages at 100 results and the shared DEMO_KEY is rate-limited, collection saves verified pagination progress in `data/ingest_checkpoint.json` and resumes on its next scheduled hourly run. A district only displays verified complete totals; until then, it shows a clearly marked pending status. For more efficient refreshes, register a free [OpenFEC API key](https://api.open.fec.gov/developers/) and add it as a GitHub Actions secret named `FEC_API_KEY`.
 
-Two candidate-benefit headline totals, each broken into support and opposition spending; daily stacked chart separated into four dispositions; sortable spending-group table; expandable disposition / spending type / group pivot; original FEC expenditure descriptions and source-image links; transaction-level CSV export.
+**NY-17 exceptions remain NY-17 only:** The September 11, 2026 LCV Victory Fund AD BUY is labeled Digital; CLF's NY-17 MEDIA PLACEMENT records are labeled TV. No other race inherits these classifications. Original FEC descriptions and source links remain unchanged.
 
-**Daily chart drilldown:** Click (or focus and press Enter on) a colored bar segment to open the underlying expenditures for that date and support/oppose disposition. The popup begins with subtotals by **spender × category of spend**, with the **amount** for each combination. Below that, individual FEC items retain their expenditure date, spender, normalized spending category, original description, payee, amount, and source-document link. The sum of the breakdown rows equals the selected colored bar segment.
-
-## Data source and deduplication
-
-Source: processed FEC Schedule E API, with cycle 2026, House NY-17, most_recent=true, expenditure dates from January 1, 2025 to November 3, 2026. **Both** periodic reports and 24/48-hour expedited notices are included. Only transactions explicitly designated for the 2026 general election and pertaining to the two nominees are counted. Daily values use the FEC expenditure date.
-
-Data reconciliation:
-1. Collapse identical FEC sub_id values.
-2. Reconcile amended/duplicated records using original_sub_id or filer-candidate-direction-transaction identifiers, preferring newer reports.
-3. If a 24/48-hour notice and periodic filing both describe the same expenditure, using identical filer, candidate, disposition, date, amount, payee and normalized description, count it once, preferring the periodic filing.
-4. Preserve otherwise distinct identical-amount transactions within the same report class.
-5. Exclude memo items, unrelated candidates, and primary/special/other-election records.
-
-Classification standardizes reported descriptions conservatively. Generic MEDIA PLACEMENT is Media (unspecified), not automatically classified as TV. The original FEC description is always shown in transaction details. Unclassifiable descriptions are Other / Unclassified.
-
-### NY-17-specific one-off category overrides (not general rules)
-
-Per the dashboard owner's directions, the following **NY-17 only** records are manually classified in `scripts/refresh.py` by FEC committee ID, candidate, original description and (for LCV) expenditure date:
-
-- **LCV VICTORY FUND (C00486845):** the September 11, 2026 `AD BUY` entry, $457,000.00, is **Digital**.
-- **CLF (C00504530):** its NY-17 `MEDIA PLACEMENT` expenditure entries ($4,829,985.45 total in the verified October 21 dataset) are **TV**. This does **not** affect CLF's distinct `DIGITAL PLACEMENT` or `MEDIA PRODUCTION` expenditures.
-
-These adjustments affect only the standardized display category, including the pivot table and clickable daily-chart breakdown. They do **not** change expenditures' amounts, support/oppose disposition, deduplication, dates, group names, or original FEC descriptions. The general classifier continues to categorize an unqualified `AD BUY` or `MEDIA PLACEMENT` as `Media (unspecified)` for other groups, records, or races.
-
-All amounts are processed as integer cents. Spending benefiting a candidate equals expenditures reported to support them plus expenditures reported to oppose their opponent. These are NOT contributions to the candidate or proof of coordination.
-
-## Update and hosting
-
-A GitHub Actions workflow tests parsing, deduplication, frontend JavaScript and categories; fetches current FEC data; archives successfully verified JSON at `NY-17/data/data.json`; publishes the GitHub Pages race directory and NY-17 dashboard. Approximately hourly refreshes are scheduled. Failed API calls never overwrite an earlier verified dataset.
-
-A free OpenFEC API key is recommended as a repository Actions secret named FEC_API_KEY. Without it the workflow uses the shared DEMO_KEY, which may be rate-limited.
-
-References: https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/reporting-independent-expenditures-form-3x/ and https://www.fec.gov/campaign-finance-data/independent-expenditures-file-description/
-
-This is an independent public-data presentation, unaffiliated with the FEC or candidates.
+This is an independent display of [FEC data](https://www.fec.gov/data/independent-expenditures/), not affiliated with the FEC, nominees, or spending groups.
