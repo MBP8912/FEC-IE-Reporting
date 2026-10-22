@@ -43,7 +43,7 @@ COLORS = {
     "oppose_lawler": "#8EB4ED",
 }
 CATEGORIES = [
-    "TV", "Digital", "Media (unspecified)", "Mail", "Text", "Field / Canvassing",
+    "TV", "Digital", "Billboard", "Media (unspecified)", "Mail", "Text", "Field / Canvassing",
     "Polling", "Radio", "Production", "Print", "Research",
     "Consulting", "Events", "Other / Unclassified",
 ]
@@ -225,34 +225,81 @@ def classify(description, category_description=""):
     return "Other / Unclassified"
 
 
-def classify_ny17_override(committee_id, candidate_id, expenditure_date, description,
-                           category_description=""):
-    """Apply ONLY user-verified NY-17 corrections; do not generalize to other races.
+# These are manually reviewed, per-race category corrections — not general
+# description matching rules. Keys contain the actual FEC spending committee ID
+# and the normalized, ORIGINAL Schedule E expenditure description.
+RACE_CATEGORY_OVERRIDES = {
+    "CO-5": {
+        ("C00960435", "placed media tv and connected tv"): "TV",  # No Going Back PAC
+        ("C00473918", "mailhouse"): "Mail",                      # Women Vote
+    },
+    "IA-1": {
+        ("C00504530", "media placement"): "TV",                 # CLF
+        ("C00486845", "ad buy"): "TV",                          # LCV Victory Fund
+    },
+    "MN-1": {
+        ("C00486845", "ad buy"): "TV",                          # LCV Victory Fund
+    },
+    "NE-2": {
+        ("C00504530", "media placement"): "TV",                 # CLF
+    },
+    "WI-1": {
+        ("C00835959", "ie steil media buy"): "TV",               # Fairshake
+        ("C00504530", "media placement"): "TV",                 # CLF
+        ("C00573261", "media buy"): "Digital",                  # End Citizens United
+    },
+    "CA-13": {
+        ("C00504530", "media placement"): "TV",                 # CLF
+    },
+}
+BILLBOARD_OVERRIDE_RACES = frozenset({"WI-1", "CA-13"})
+AB_PAC_COMMITTEE_ID = "C00492140"
 
-    Keep the original FEC description. This function changes the dashboard's
-    display category only, not its amounts, disposition, grouping or dedup keys.
+
+def manual_spend_category(committee_id, candidate_id, expenditure_date, description):
+    """Return a manual category only for the precise race, filer and description.
+
+    Original descriptions, cents, dates, filing links, and dispositions must
+    remain untouched. For nonmatches, return None: let the standard classifier
+    (or existing archived label) decide.
     """
-    automatic = classify(description, category_description)
-    if COMMITTEE_KEY != "NY-17":
-        return automatic
-
     filer = str(committee_id or "").strip().upper()
     candidate = str(candidate_id or "").strip().upper()
     date_str = str(expenditure_date or "")[:10]
     text = norm(description)
 
-    # One specific LCV Victory Fund AD BUY reported September 11, 2026.
-    if (filer == "C00486845" and candidate == "H2NY17162"
-            and date_str == "2026-09-11" and text == "ad buy"):
-        return "Digital"
+    # Prior NY-17 user-reviewed exceptions must not leak to other districts.
+    if COMMITTEE_KEY == "NY-17":
+        if (filer == "C00486845" and candidate == "H2NY17162"
+                and date_str == "2026-09-11" and text == "ad buy"):
+            return "Digital"
+        if (filer == "C00504530" and candidate == "H6NY17171"
+                and text == "media placement"):
+            return "TV"
 
-    # CLF's NY-17 MEDIA PLACEMENT items; preserve CLF's DIGITAL PLACEMENT
-    # and MEDIA PRODUCTION transactions in their existing categories.
-    if (filer == "C00504530" and candidate == "H6NY17171"
-            and text == "media placement"):
-        return "TV"
+    # AB PAC's two specifically requested races get a separate Billboard
+    # category for billed/estimated billboard advertising, not all print ads.
+    if (COMMITTEE_KEY in BILLBOARD_OVERRIDE_RACES
+            and filer == AB_PAC_COMMITTEE_ID
+            and (text == "billboard advertising" or
+                 text.startswith("billboard advertising "))):
+        return "Billboard"
 
-    return automatic
+    return RACE_CATEGORY_OVERRIDES.get(COMMITTEE_KEY, {}).get((filer, text))
+
+
+def classify_for_race(committee_id, candidate_id, expenditure_date, description,
+                      category_description=""):
+    """Classify using a specific override when present, otherwise generic rules."""
+    return (manual_spend_category(committee_id, candidate_id, expenditure_date, description)
+            or classify(description, category_description))
+
+
+def classify_ny17_override(committee_id, candidate_id, expenditure_date, description,
+                           category_description=""):
+    """Backward-compatible interface for the initial NY-17 regression tests."""
+    return classify_for_race(committee_id, candidate_id, expenditure_date,
+                             description, category_description)
 
 
 def source_url(row):
@@ -299,7 +346,7 @@ def normalize_row(row):
         "group_id": str(row.get("committee_id") or "").upper().strip(),
         "payee": str(row.get("payee_name") or "").strip(),
         "description": description or "Description not reported",
-        "type": classify_ny17_override(
+        "type": classify_for_race(
             row.get("committee_id"), CANDIDATES[person]["id"],
             day.isoformat(), description, str(row.get("category_code_full") or "")),
 

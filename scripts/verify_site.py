@@ -40,6 +40,21 @@ def verify():
             allowed={config["republican"]["id"],config["democratic"]["id"]}
             if any(item["candidate_id"] not in allowed for item in entries):
                 raise RuntimeError("Incorrect nominee ID in "+district)
+            # The displayed type and pivot must reflect every documented,
+            # narrowly scoped manual correction, even if the FEC API was rate-limited.
+            import refresh as core
+            import refresh_all as multi
+            multi.set_race(district)
+            for item in entries:
+                category = core.manual_spend_category(
+                    item.get("group_id"), item.get("candidate_id"),
+                    item.get("date"), item.get("description"))
+                if category and item.get("type") != category:
+                    raise RuntimeError("Unapplied classification override: "+district+
+                                       " / "+str(item.get("source_id")))
+            for section in obj["pivot"]:
+                if section["total"] != sum(cat["total"] for cat in section["categories"]):
+                    raise RuntimeError("Pivot type totals mismatch in "+district)
             done.append((district,len(entries),money))
         elif data.get("status")=="not_initialized": pending.append(district)
         else: raise RuntimeError("Unknown data state for "+district)

@@ -20,6 +20,27 @@ Each race uses the completed NY-17 layout: candidate totals with support/oppose 
 
 **Automatic refresh:** Nine candidate-specific datasets live at `<district>/data/data.json`. GitHub Actions queries the FEC for both nominees in each race (up to ten IDs per API request). Since the FEC caps pages at 100 results and the shared DEMO_KEY is rate-limited, collection saves verified pagination progress in `data/ingest_checkpoint.json` and resumes on its next scheduled hourly run. A district only displays verified complete totals; until then, it shows a clearly marked pending status. For more efficient refreshes, register a free [OpenFEC API key](https://api.open.fec.gov/developers/) and add it as a GitHub Actions secret named `FEC_API_KEY`.
 
-**NY-17 exceptions remain NY-17 only:** The September 11, 2026 LCV Victory Fund AD BUY is labeled Digital; CLF's NY-17 MEDIA PLACEMENT records are labeled TV. No other race inherits these classifications. Original FEC descriptions and source links remain unchanged.
+## Narrow, race-specific spending type corrections
+
+The dashboard owner's classifications apply **only to the named filer and spending description in the indicated race**. They are implemented in `scripts/refresh.py`, tested by `tests/test_manual_categories.py`, and applied to archived data by `scripts/reclassify_cached.py` even during FEC API rate limits.
+
+| District | Spender (FEC committee) | Original FEC description | Display category |
+|---|---|---|---|
+| NY-17 | LCV Victory Fund (C00486845), Sept. 11 only | AD BUY | Digital |
+| NY-17 | CLF (C00504530) | MEDIA PLACEMENT | TV |
+| CO-5 | No Going Back PAC (C00960435) | PLACED MEDIA: TV AND CONNECTED TV | TV |
+| CO-5 | Women Vote (C00473918) | MAILHOUSE | Mail |
+| IA-1 | CLF (C00504530) | MEDIA PLACEMENT | TV |
+| IA-1 | LCV Victory Fund (C00486845) | AD BUY | TV |
+| MN-1 | LCV Victory Fund (C00486845) | AD BUY | TV |
+| NE-2 | CLF (C00504530) | MEDIA PLACEMENT | TV |
+| WI-1 | Fairshake (C00835959) | IE-STEIL-MEDIA BUY | TV |
+| WI-1 | CLF (C00504530) | MEDIA PLACEMENT | TV |
+| WI-1 | End Citizens United (C00573261) | MEDIA BUY | Digital |
+| WI-1 | AB PAC (C00492140) | BILLBOARD ADVERTISING (estimated/actual cost) | Billboard |
+| CA-13 | CLF (C00504530) | MEDIA PLACEMENT | TV |
+| CA-13 | AB PAC (C00492140) | BILLBOARD ADVERTISING (estimated/actual cost) | Billboard |
+
+This does **not** change a race's dollar totals or original FEC text. Other descriptions (e.g., CLF DIGITAL PLACEMENT and MEDIA PRODUCTION), groups, and races retain their general categories. The new Billboard category is deliberately limited to AB PAC's specified WI-1 and CA-13 expenditures.
 
 This is an independent display of [FEC data](https://www.fec.gov/data/independent-expenditures/), not affiliated with the FEC, nominees, or spending groups.

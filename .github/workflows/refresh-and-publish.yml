@@ -29,6 +29,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Check frontend JavaScript syntax
         run: node --check assets/app.js
+      - name: Apply race-specific categories to verified historical expenditures
+        run: python scripts/reclassify_cached.py
       - name: Fetch all unique general-election IE transactions, resuming saved cursor
         id: refresh
         continue-on-error: true
