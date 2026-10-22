@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-22T06:56:29-04:00",
+  "generated_at": "2026-10-22T09:25:34-04:00",
   "district": "MN-1",
   "period": {
     "cycle": 2026,
@@ -43,22 +43,23 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 245,
+    "api_rows": 249,
     "pages": 3,
-    "included_rows": 138,
+    "included_rows": 141,
     "excluded": {
       "other_election": 37,
+      "repeated_transaction_or_amendment": 1,
       "notice_regular_duplicates": 70
     }
   },
   "totals": {
-    "support_lawler": 21299619,
+    "support_lawler": 29896283,
     "oppose_conley": 156393830,
     "support_conley": 43325452,
-    "oppose_lawler": 286412430,
-    "benefit_lawler": 177693449,
-    "benefit_conley": 329737882,
-    "all": 507431331
+    "oppose_lawler": 296412430,
+    "benefit_lawler": 186290113,
+    "benefit_conley": 339737882,
+    "all": 526027995
   },
   "daily": [
     {
@@ -350,6 +351,14 @@
       "total": 6934822
     },
     {
+      "date": "2026-09-30",
+      "support_lawler": 28564,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 28564
+    },
+    {
       "date": "2026-10-01",
       "support_lawler": 4599619,
       "oppose_conley": 0,
@@ -474,18 +483,26 @@
       "support_lawler": 12500000,
       "oppose_conley": 25000000,
       "support_conley": 120834,
-      "oppose_lawler": 118834,
-      "total": 37739668
+      "oppose_lawler": 10118834,
+      "total": 47739668
+    },
+    {
+      "date": "2026-10-20",
+      "support_lawler": 8568100,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 8568100
     }
   ],
   "groups": [
     {
       "name": "YOUR COMMUNITY PAC",
-      "total": 233124245,
+      "total": 243124245,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 233124245
+      "oppose_lawler": 243124245
     },
     {
       "name": "THANK YOU FOR YOUR ATTENTION TO THIS MATTER PAC",
@@ -528,6 +545,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "SAVE AMERICAN FREEDOM",
+      "total": 13568100,
+      "support_lawler": 12768100,
+      "oppose_conley": 800000,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "CONSERVATIVES FOR AMERICA",
       "total": 10000000,
       "support_lawler": 10000000,
@@ -542,14 +567,6 @@
       "oppose_conley": 0,
       "support_conley": 2661059,
       "oppose_lawler": 2463424
-    },
-    {
-      "name": "SAVE AMERICAN FREEDOM",
-      "total": 5000000,
-      "support_lawler": 4200000,
-      "oppose_conley": 800000,
-      "support_conley": 0,
-      "oppose_lawler": 0
     },
     {
       "name": "MAGA INC.",
@@ -582,14 +599,32 @@
       "oppose_conley": 0,
       "support_conley": 18250,
       "oppose_lawler": 16250
+    },
+    {
+      "name": "MINNESOTA CITIZENS CONCERNED FOR LIFE, INC. FEDERAL PAC",
+      "total": 28564,
+      "support_lawler": 28564,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
     }
   ],
   "pivot": [
     {
       "key": "support_lawler",
       "name": "Support Finstad",
-      "total": 21299619,
+      "total": 29896283,
       "categories": [
+        {
+          "name": "Text",
+          "total": 8568100,
+          "groups": [
+            {
+              "name": "SAVE AMERICAN FREEDOM",
+              "amount_cents": 8568100
+            }
+          ]
+        },
         {
           "name": "Radio",
           "total": 4650000,
@@ -597,6 +632,16 @@
             {
               "name": "DEFENDING MAIN STREET SUPERPAC INC.",
               "amount_cents": 4650000
+            }
+          ]
+        },
+        {
+          "name": "Print",
+          "total": 28564,
+          "groups": [
+            {
+              "name": "MINNESOTA CITIZENS CONCERNED FOR LIFE, INC. FEDERAL PAC",
+              "amount_cents": 28564
             }
           ]
         },
@@ -733,15 +778,15 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Finstad",
-      "total": 286412430,
+      "total": 296412430,
       "categories": [
         {
           "name": "TV",
-          "total": 180150430,
+          "total": 190150430,
           "groups": [
             {
               "name": "YOUR COMMUNITY PAC",
-              "amount_cents": 155983763
+              "amount_cents": 165983763
             },
             {
               "name": "LCV VICTORY FUND",
@@ -2462,7 +2507,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092720261599666089",
+      "source_id": "4102120261614734329",
       "original_sub_id": "",
       "transaction_id": "500338228",
       "candidate": "conley",
@@ -2475,11 +2520,11 @@
       "payee": "MERRIMACK SERVICES LLC",
       "description": "FIELD ORGANIZING",
       "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-27",
-      "file_number": 2015332,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609279908420231",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-19",
+      "file_number": 2031236,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916231492",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -2597,6 +2642,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610099908598333",
       "election_type": "G2026",
       "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102120261614735173",
+      "original_sub_id": "",
+      "transaction_id": "SE.6023",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "support_lawler",
+      "date": "2026-09-30",
+      "amount_cents": 28564,
+      "group": "MINNESOTA CITIZENS CONCERNED FOR LIFE, INC. FEDERAL PAC",
+      "group_id": "C00129171",
+      "payee": "THE JOHN ROBERTS COMPANY",
+      "description": "NEWSPAPER ADVERTISEMENT",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-12",
+      "file_number": 2019868,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610129908644463",
+      "election_type": "G2026",
+      "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
@@ -3842,6 +3910,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102120261614735796",
+      "original_sub_id": "",
+      "transaction_id": "SE.5196",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 10000000,
+      "group": "YOUR COMMUNITY PAC",
+      "group_id": "C00886614",
+      "payee": "SKDKNICKERBOCKER LLC",
+      "description": "TV ADVERTISING (ESTIMATE)",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035021,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797018",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102020261614372599",
       "original_sub_id": "",
       "transaction_id": "500233383",
@@ -3975,6 +4066,29 @@
       "filing_date": "2026-10-19",
       "file_number": 2030936,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916216792",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102120261614734206",
+      "original_sub_id": "",
+      "transaction_id": "SE.4368",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "support_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 8568100,
+      "group": "SAVE AMERICAN FREEDOM",
+      "group_id": "C00819508",
+      "payee": "NORTH COUNTRY STRATEGIES LLC",
+      "description": "DIGITAL MEDIA & TEXTING",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-20",
+      "file_number": 2033833,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921438213",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
