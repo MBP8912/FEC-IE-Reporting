@@ -1,10 +1,69 @@
 {
-  "status": "pending",
+  "status": "ok",
   "district": "CA-13",
   "window_hours": 48,
+  "candidate_names": {
+    "lawler": "Lincoln",
+    "conley": "Gray"
+  },
+  "disposition_labels": {
+    "support_lawler": "Support Lincoln",
+    "oppose_conley": "Oppose Gray",
+    "support_conley": "Support Gray",
+    "oppose_lawler": "Oppose Lincoln"
+  },
   "notice_only": true,
-  "checked_at": null,
-  "source_data_generated_at": null,
+  "selection": "original_expeditious_24_48_hour_IE_notices",
+  "accepted_forms": [
+    "F24",
+    "F5"
+  ],
+  "checked_at": "2026-10-22T15:37:54+00:00",
+  "source_data_generated_at": "2026-10-22T11:31:15-04:00",
   "unresolved_recent_items": 0,
-  "items": []
+  "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
+  "items": [
+    {
+      "source_id": "4102020261614372345",
+      "file_number": "2032195",
+      "reported_at": "2026-10-20T16:50:21+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "CIVIC RENEWAL FUND INC.",
+      "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING  / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 4633636,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916297042"
+    },
+    {
+      "source_id": "4101820261613738093",
+      "file_number": "2029738",
+      "reported_at": "2026-10-18T03:52:15+00:00",
+      "expenditure_date": "2026-10-09",
+      "spender": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F5",
+      "purpose": "AD PRODUCTION",
+      "spend_type": "Production",
+      "amount_cents": 157143,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916176294"
+    },
+    {
+      "source_id": "4101720261613726605",
+      "file_number": "2029382",
+      "reported_at": "2026-10-17T18:52:19+00:00",
+      "expenditure_date": "2026-10-16",
+      "spender": "CIVIC RENEWAL FUND INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING  / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 4633636,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168624"
+    }
+  ]
 }

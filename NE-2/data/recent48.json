@@ -1,10 +1,125 @@
 {
-  "status": "pending",
+  "status": "ok",
   "district": "NE-2",
   "window_hours": 48,
+  "candidate_names": {
+    "lawler": "Harding",
+    "conley": "Powell"
+  },
+  "disposition_labels": {
+    "support_lawler": "Support Harding",
+    "oppose_conley": "Oppose Powell",
+    "support_conley": "Support Powell",
+    "oppose_lawler": "Oppose Harding"
+  },
   "notice_only": true,
-  "checked_at": null,
-  "source_data_generated_at": null,
+  "selection": "original_expeditious_24_48_hour_IE_notices",
+  "accepted_forms": [
+    "F24",
+    "F5"
+  ],
+  "checked_at": "2026-10-22T15:37:54+00:00",
+  "source_data_generated_at": "2026-10-22T11:30:04-04:00",
   "unresolved_recent_items": 0,
-  "items": []
+  "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
+  "items": [
+    {
+      "source_id": "4102020261614372678",
+      "file_number": "2033100",
+      "reported_at": "2026-10-20T21:25:19+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "CFFE PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIRECT MAIL - ESTIMATE",
+      "spend_type": "Mail",
+      "amount_cents": 3105539,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916433236"
+    },
+    {
+      "source_id": "4102020261614372679",
+      "file_number": "2033100",
+      "reported_at": "2026-10-20T21:25:19+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "CFFE PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIRECT MAIL - ESTIMATE",
+      "spend_type": "Mail",
+      "amount_cents": 1133066,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916433236"
+    },
+    {
+      "source_id": "4102020261614372595",
+      "file_number": "2033080",
+      "reported_at": "2026-10-20T21:19:50+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING DENISE POWELL",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 12000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431914"
+    },
+    {
+      "source_id": "4102020261614372596",
+      "file_number": "2033080",
+      "reported_at": "2026-10-20T21:19:50+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING DENISE POWELL",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 8000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431915"
+    },
+    {
+      "source_id": "4102020261614372356",
+      "file_number": "2032195",
+      "reported_at": "2026-10-20T16:50:21+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "CIVIC RENEWAL FUND INC.",
+      "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING  / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 4980130,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916297047"
+    },
+    {
+      "source_id": "4101820261613748226",
+      "file_number": "2029922",
+      "reported_at": "2026-10-18T19:28:27+00:00",
+      "expenditure_date": "2026-10-18",
+      "spender": "PROGRESSIVE TURNOUT PROJECT",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "FIELD ORGANIZING",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 1596348,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916180567"
+    },
+    {
+      "source_id": "4101720261613726612",
+      "file_number": "2029382",
+      "reported_at": "2026-10-17T18:52:19+00:00",
+      "expenditure_date": "2026-10-16",
+      "spender": "CIVIC RENEWAL FUND INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING  / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 4980130,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168627"
+    }
+  ]
 }
