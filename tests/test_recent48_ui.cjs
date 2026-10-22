@@ -109,7 +109,7 @@ test("pending receipt timestamps do not render invented or null values", async (
   const elements = await render({status: "pending", items: []});
   const note = elements.get("recent48-note").textContent;
   const body = elements.get("recent48-groups").textContent;
-  assert.match(note, /not yet been verified/);
+  assert.match(note, /not yet verified/);
   assert.doesNotMatch(body + note, /\bnull\b/i);
 });
 
