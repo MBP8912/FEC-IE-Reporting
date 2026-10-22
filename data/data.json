@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-21T20:21:40-04:00",
+  "generated_at": "2026-10-21T20:29:45-04:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -903,6 +903,16 @@
       "total": 700237590,
       "categories": [
         {
+          "name": "TV",
+          "total": 482998545,
+          "groups": [
+            {
+              "name": "CLF",
+              "amount_cents": 482998545
+            }
+          ]
+        },
+        {
           "name": "Digital",
           "total": 181522366,
           "groups": [
@@ -917,16 +927,6 @@
             {
               "name": "MAGA INC.",
               "amount_cents": 3379863
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 482998545,
-          "groups": [
-            {
-              "name": "CLF",
-              "amount_cents": 482998545
             }
           ]
         },
@@ -1158,7 +1158,7 @@
         },
         {
           "name": "Digital",
-          "total": 152483442,
+          "total": 198183442,
           "groups": [
             {
               "name": "HMP",
@@ -1167,6 +1167,10 @@
             {
               "name": "EDF ACTION VOTES",
               "amount_cents": 50000000
+            },
+            {
+              "name": "LCV VICTORY FUND",
+              "amount_cents": 45706182
             },
             {
               "name": "PLANNED PARENTHOOD VOTES",
@@ -1179,20 +1183,6 @@
             {
               "name": "NEW YORKERS FOR A RETURN TO FAIR AND HONEST GOVERNMENT",
               "amount_cents": 825000
-            },
-            {
-              "name": "LCV VICTORY FUND",
-              "amount_cents": 6182
-            }
-          ]
-        },
-        {
-          "name": "Media (unspecified)",
-          "total": 45700000,
-          "groups": [
-            {
-              "name": "LCV VICTORY FUND",
-              "amount_cents": 45700000
             }
           ]
         },
@@ -2261,7 +2251,7 @@
       "group_id": "C00486845",
       "payee": "RISING TIDE INTERACTIVE",
       "description": "AD BUY",
-      "type": "Media (unspecified)",
+      "type": "Digital",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-17",
@@ -2859,7 +2849,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-09-25",
@@ -3296,7 +3286,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-02",
@@ -4308,7 +4298,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-09",
@@ -5205,7 +5195,7 @@
       "group_id": "C00504530",
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
-      "type": "Media (unspecified)",
+      "type": "TV",
       "notice": true,
       "filing_form": "F24",
       "filing_date": "2026-10-16",
