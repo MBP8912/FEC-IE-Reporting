@@ -4,7 +4,10 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from refresh import as_cents, classify, normalize_row, unique_rows, summarize, is_2026_general
+from refresh import (
+    as_cents, classify, classify_ny17_override, normalize_row,
+    unique_rows, summarize, is_2026_general,
+)
 
 def record(**changes):
     base = {
@@ -49,6 +52,89 @@ class TestIE(unittest.TestCase):
         self.assertEqual(classify("EMAIL SERVICES"), "Digital")
         self.assertEqual(classify("VOTER DATA"), "Research")
         self.assertEqual(classify("Miscellaneous services"), "Other / Unclassified")
+    def test_ny17_lcv_ad_buy_digital_only_on_september_11(self):
+        base = record(
+            committee_id="C00486845", committee_name="LCV VICTORY FUND",
+            expenditure_date="2026-09-11", expenditure_description="AD BUY",
+            candidate_id="H2NY17162", support_oppose_indicator="O",
+            expenditure_amount=457000,
+        )
+        normalized, error = normalize_row(base)
+        self.assertIsNone(error)
+        self.assertEqual(normalized["type"], "Digital")
+        self.assertEqual(normalized["amount_cents"], 45700000)
+        self.assertEqual(normalized["description"], "AD BUY")
+
+        other_date, _ = normalize_row(dict(base, expenditure_date="2026-09-12"))
+        self.assertEqual(other_date["type"], "Media (unspecified)")
+        other_filer, _ = normalize_row(dict(base, committee_id="C99999999"))
+        self.assertEqual(other_filer["type"], "Media (unspecified)")
+        other_description, _ = normalize_row(dict(base, expenditure_description="MEDIA PRODUCTION"))
+        self.assertEqual(other_description["type"], "Production")
+
+    def test_ny17_clf_media_placement_tv_but_no_general_relabeling(self):
+        base = record(
+            committee_id="C00504530", committee_name="CLF",
+            candidate_id="H6NY17171", support_oppose_indicator="O",
+            expenditure_date="2026-09-21", expenditure_description="MEDIA PLACEMENT",
+            expenditure_amount=928807.13,
+        )
+        normalized, error = normalize_row(base)
+        self.assertIsNone(error)
+        self.assertEqual(normalized["type"], "TV")
+        self.assertEqual(normalized["amount_cents"], 92880713)
+        self.assertEqual(normalized["description"], "MEDIA PLACEMENT")
+
+        clf_digital, _ = normalize_row(dict(base, expenditure_description="DIGITAL PLACEMENT"))
+        self.assertEqual(clf_digital["type"], "Digital")
+        clf_production, _ = normalize_row(dict(base, expenditure_description="MEDIA PRODUCTION"))
+        self.assertEqual(clf_production["type"], "Production")
+        another_filer, _ = normalize_row(dict(base, committee_id="C99999999"))
+        self.assertEqual(another_filer["type"], "Media (unspecified)")
+        self.assertEqual(classify("MEDIA PLACEMENT"), "Media (unspecified)")
+        self.assertEqual(classify("AD BUY"), "Media (unspecified)")
+
+        import refresh
+        from unittest.mock import patch
+        with patch.object(refresh, "COMMITTEE_KEY", "CO-5"):
+            self.assertEqual(
+                classify_ny17_override(
+                    "C00504530", "H6NY17171", "2026-09-21", "MEDIA PLACEMENT"),
+                "Media (unspecified)",
+            )
+
+    def test_ny17_overrides_reconcile_category_pivot_without_changing_amounts(self):
+        rows = [
+            record(sub_id="lc", transaction_id="lc", committee_id="C00486845",
+                   committee_name="LCV VICTORY FUND", candidate_id="H2NY17162",
+                   support_oppose_indicator="O", expenditure_date="2026-09-11",
+                   expenditure_description="AD BUY", expenditure_amount=457000),
+        ]
+        clf_amounts = [928807.13, 1001426.33, 1469743.44, 1430008.55]
+        clf_dates = ["2026-09-21", "2026-09-28", "2026-10-05", "2026-10-09"]
+        for i, (amount, date_str) in enumerate(zip(clf_amounts, clf_dates)):
+            rows.append(record(
+                sub_id="clf" + str(i), transaction_id="clf" + str(i),
+                committee_id="C00504530", committee_name="CLF",
+                candidate_id="H6NY17171", support_oppose_indicator="O",
+                expenditure_date=date_str, expenditure_description="MEDIA PLACEMENT",
+                expenditure_amount=amount,
+            ))
+        unique, excluded = unique_rows(rows)
+        result = summarize(unique, excluded, len(rows), 1)
+        self.assertEqual(len(unique), 5)
+        self.assertEqual(result["totals"]["oppose_lawler"], 45700000)
+        self.assertEqual(result["totals"]["oppose_conley"], 482998545)
+        self.assertEqual(result["totals"]["all"], 528698545)
+        for key, category, value in [
+            ("oppose_lawler", "Digital", 45700000),
+            ("oppose_conley", "TV", 482998545),
+        ]:
+            pivot = next(p for p in result["pivot"] if p["key"] == key)
+            category_row = next(p for p in pivot["categories"] if p["name"] == category)
+            self.assertEqual(category_row["total"], value)
+        self.assertTrue(all(x["description"] in ("AD BUY", "MEDIA PLACEMENT") for x in unique))
+
     def test_nominees_and_2026_general(self):
         x, err = normalize_row(record(candidate_id="H6NY17171", support_oppose_indicator="O"))
         self.assertIsNone(err)

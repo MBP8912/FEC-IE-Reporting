@@ -217,6 +217,36 @@ def classify(description, category_description=""):
     return "Other / Unclassified"
 
 
+def classify_ny17_override(committee_id, candidate_id, expenditure_date, description,
+                           category_description=""):
+    """Apply ONLY user-verified NY-17 corrections; do not generalize to other races.
+
+    Keep the original FEC description. This function changes the dashboard's
+    display category only, not its amounts, disposition, grouping or dedup keys.
+    """
+    automatic = classify(description, category_description)
+    if COMMITTEE_KEY != "NY-17":
+        return automatic
+
+    filer = str(committee_id or "").strip().upper()
+    candidate = str(candidate_id or "").strip().upper()
+    date_str = str(expenditure_date or "")[:10]
+    text = norm(description)
+
+    # One specific LCV Victory Fund AD BUY reported September 11, 2026.
+    if (filer == "C00486845" and candidate == "H2NY17162"
+            and date_str == "2026-09-11" and text == "ad buy"):
+        return "Digital"
+
+    # CLF's NY-17 MEDIA PLACEMENT items; preserve CLF's DIGITAL PLACEMENT
+    # and MEDIA PRODUCTION transactions in their existing categories.
+    if (filer == "C00504530" and candidate == "H6NY17171"
+            and text == "media placement"):
+        return "TV"
+
+    return automatic
+
+
 def source_url(row):
     pdf = str(row.get("pdf_url") or "")
     if pdf.startswith("https://docquery.fec.gov/") or pdf.startswith("https://www.fec.gov/"):
@@ -261,7 +291,10 @@ def normalize_row(row):
         "group_id": str(row.get("committee_id") or "").upper().strip(),
         "payee": str(row.get("payee_name") or "").strip(),
         "description": description or "Description not reported",
-        "type": classify(description, str(row.get("category_code_full") or "")),
+        "type": classify_ny17_override(
+            row.get("committee_id"), CANDIDATES[person]["id"],
+            day.isoformat(), description, str(row.get("category_code_full") or "")),
+
         "notice": bool(row.get("is_notice")),
         "filing_form": str(row.get("filing_form") or ""),
         "filing_date": str(row.get("filing_date") or "")[:10],

@@ -23,6 +23,15 @@ Data reconciliation:
 
 Classification standardizes reported descriptions conservatively. Generic MEDIA PLACEMENT is Media (unspecified), not automatically classified as TV. The original FEC description is always shown in transaction details. Unclassifiable descriptions are Other / Unclassified.
 
+### NY-17-specific one-off category overrides (not general rules)
+
+Per the dashboard owner's directions, the following **NY-17 only** records are manually classified in `scripts/refresh.py` by FEC committee ID, candidate, original description and (for LCV) expenditure date:
+
+- **LCV VICTORY FUND (C00486845):** the September 11, 2026 `AD BUY` entry, $457,000.00, is **Digital**.
+- **CLF (C00504530):** its NY-17 `MEDIA PLACEMENT` expenditure entries ($4,829,985.45 total in the verified October 21 dataset) are **TV**. This does **not** affect CLF's distinct `DIGITAL PLACEMENT` or `MEDIA PRODUCTION` expenditures.
+
+These adjustments affect only the standardized display category, including the pivot table and clickable daily-chart breakdown. They do **not** change expenditures' amounts, support/oppose disposition, deduplication, dates, group names, or original FEC descriptions. The general classifier continues to categorize an unqualified `AD BUY` or `MEDIA PLACEMENT` as `Media (unspecified)` for other groups, records, or races.
+
 All amounts are processed as integer cents. Spending benefiting a candidate equals expenditures reported to support them plus expenditures reported to oppose their opponent. These are NOT contributions to the candidate or proof of coordination.
 
 ## Update and hosting
