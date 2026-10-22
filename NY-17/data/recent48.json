@@ -2,7 +2,13 @@
   "status": "ok",
   "district": "NY-17",
   "window_hours": 48,
-  "checked_at": "2026-10-22T14:57:56+00:00",
+  "notice_only": true,
+  "selection": "original_expeditious_24_48_hour_IE_notices",
+  "accepted_forms": [
+    "F24",
+    "F5"
+  ],
+  "checked_at": "2026-10-22T15:17:26+00:00",
   "source_data_generated_at": "2026-10-22T10:01:35-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -14,12 +20,12 @@
       "expenditure_date": "2026-10-21",
       "spender": "AMERICA PAC",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PRINTING/POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 2391800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379097",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379097"
     },
     {
       "source_id": "4102120261614736058",
@@ -28,12 +34,12 @@
       "expenditure_date": "2026-10-21",
       "spender": "AMERICA PAC",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PRINTING/POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 2391800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379098",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379098"
     },
     {
       "source_id": "4102120261614735953",
@@ -42,12 +48,12 @@
       "expenditure_date": "2026-10-21",
       "spender": "CLF",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "MEDIA PRODUCTION",
       "spend_type": "Production",
       "amount_cents": 2000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931802461",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931802461"
     },
     {
       "source_id": "4102120261614735806",
@@ -56,12 +62,12 @@
       "expenditure_date": "2026-10-21",
       "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 38165,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797025",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797025"
     },
     {
       "source_id": "4102120261614734975",
@@ -70,12 +76,12 @@
       "expenditure_date": "2026-10-20",
       "spender": "THE GOVERNING MAJORITY FUND",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL SERVICES",
       "spend_type": "Mail",
       "amount_cents": 1757913,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864"
     },
     {
       "source_id": "4102120261614734974",
@@ -84,12 +90,12 @@
       "expenditure_date": "2026-10-20",
       "spender": "THE GOVERNING MAJORITY FUND",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL SERVICES",
       "spend_type": "Mail",
       "amount_cents": 1639919,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921459864"
     },
     {
       "source_id": "4102120261614399010",
@@ -98,12 +104,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 144000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583"
     },
     {
       "source_id": "4102120261614399009",
@@ -112,12 +118,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 56979,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583"
     },
     {
       "source_id": "4102120261614399013",
@@ -126,12 +132,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 32400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584"
     },
     {
       "source_id": "4102120261614399014",
@@ -140,12 +146,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 24300,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584"
     },
     {
       "source_id": "4102120261614399012",
@@ -154,12 +160,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437584"
     },
     {
       "source_id": "4102120261614399015",
@@ -168,12 +174,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437585",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437585"
     },
     {
       "source_id": "4102120261614399011",
@@ -182,12 +188,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 5400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921437583"
     },
     {
       "source_id": "4102120261614734110",
@@ -196,12 +202,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 7178325,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417138",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417138"
     },
     {
       "source_id": "4102120261614734127",
@@ -210,12 +216,12 @@
       "expenditure_date": "2026-10-15",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417146",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417146"
     },
     {
       "source_id": "4102120261614734108",
@@ -224,12 +230,12 @@
       "expenditure_date": "2026-10-15",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417137",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417137"
     },
     {
       "source_id": "4102120261614734134",
@@ -238,12 +244,12 @@
       "expenditure_date": "2026-10-20",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "TEXT MESSAGES",
       "spend_type": "Text",
       "amount_cents": 191776,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417150",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417150"
     },
     {
       "source_id": "4102120261614734124",
@@ -252,12 +258,12 @@
       "expenditure_date": "2026-10-20",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "TEXT MESSAGES",
       "spend_type": "Text",
       "amount_cents": 191776,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417145",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417145"
     },
     {
       "source_id": "4102020261614372585",
@@ -266,12 +272,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "NEIGHBOR VOICES PAC",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
       "spend_type": "Field / Canvassing",
       "amount_cents": 3000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909"
     },
     {
       "source_id": "4102020261614372589",
@@ -280,12 +286,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "NEIGHBOR VOICES PAC",
       "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "CANVASSING VIA TEXT - AGAINST MIKE LAWLER",
       "spend_type": "Field / Canvassing",
       "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431911",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431911"
     },
     {
       "source_id": "4102020261614372586",
@@ -294,12 +300,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "NEIGHBOR VOICES PAC",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
       "spend_type": "Field / Canvassing",
       "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431910",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431910"
     },
     {
       "source_id": "4102020261614372507",
@@ -308,12 +314,12 @@
       "expenditure_date": "2026-10-20",
       "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 43237,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916427532",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916427532"
     },
     {
       "source_id": "4102020261614372489",
@@ -322,12 +328,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "VOTEVETS",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
       "spend_type": "Digital",
       "amount_cents": 251517,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347913",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347913"
     },
     {
       "source_id": "4102020261614372375",
@@ -336,12 +342,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "EDF ACTION VOTES",
       "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "MAIL PRODUCTION AND POSTAGE (ESTIMATE)",
       "spend_type": "Mail",
       "amount_cents": 4831800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600"
     },
     {
       "source_id": "4102020261614372376",
@@ -350,12 +356,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "EDF ACTION VOTES",
       "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "RESEARCH (ESTIMATE)",
       "spend_type": "Research",
       "amount_cents": 34125,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916305600"
     },
     {
       "source_id": "4102020261614036046",
@@ -364,12 +370,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 83700,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589"
     },
     {
       "source_id": "4102020261614036051",
@@ -378,12 +384,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 83700,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
     },
     {
       "source_id": "4102020261614036060",
@@ -392,12 +398,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 83700,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594"
     },
     {
       "source_id": "4102020261614036054",
@@ -406,12 +412,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 70200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592"
     },
     {
       "source_id": "4102020261614036069",
@@ -420,12 +426,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 67500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235597",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235597"
     },
     {
       "source_id": "4102020261614036056",
@@ -434,12 +440,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 62100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592"
     },
     {
       "source_id": "4102020261614036024",
@@ -448,12 +454,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 54000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582"
     },
     {
       "source_id": "4102020261614036037",
@@ -462,12 +468,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 54000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235586",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235586"
     },
     {
       "source_id": "4102020261614036057",
@@ -476,12 +482,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 54000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593"
     },
     {
       "source_id": "4102020261614036040",
@@ -490,12 +496,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 43200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235587",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235587"
     },
     {
       "source_id": "4102020261614036052",
@@ -504,12 +510,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 37500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
     },
     {
       "source_id": "4102020261614036061",
@@ -518,12 +524,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235594"
     },
     {
       "source_id": "4102020261614036028",
@@ -532,12 +538,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235583",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235583"
     },
     {
       "source_id": "4102020261614036049",
@@ -546,12 +552,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235590",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235590"
     },
     {
       "source_id": "4102020261614036025",
@@ -560,12 +566,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 22500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235582"
     },
     {
       "source_id": "4102020261614036055",
@@ -574,12 +580,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 22500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235592"
     },
     {
       "source_id": "4102020261614036059",
@@ -588,12 +594,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593"
     },
     {
       "source_id": "4102020261614036047",
@@ -602,12 +608,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 15000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235589"
     },
     {
       "source_id": "4102020261614036058",
@@ -616,12 +622,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 15000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235593"
     },
     {
       "source_id": "4102020261614036042",
@@ -630,12 +636,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 10800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235588",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235588"
     },
     {
       "source_id": "4102020261614036053",
@@ -644,12 +650,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 7500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
     },
     {
       "source_id": "4102020261614372070",
@@ -658,12 +664,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "AMERICA PAC",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL MEDIA",
       "spend_type": "Digital",
       "amount_cents": 2432000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232615",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232615"
     },
     {
       "source_id": "4102020261614372095",
@@ -672,12 +678,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "AMERICA PAC",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL MEDIA",
       "spend_type": "Digital",
       "amount_cents": 2127915,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232627",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232627"
     },
     {
       "source_id": "4101920261614010044",
@@ -686,12 +692,12 @@
       "expenditure_date": "2026-10-19",
       "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 75947,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916213885",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916213885"
     },
     {
       "source_id": "4101920261614010027",
@@ -700,12 +706,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 25261,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916212291",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916212291"
     },
     {
       "source_id": "4101920261613760135",
@@ -714,12 +720,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 205128,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612"
     },
     {
       "source_id": "4101920261613760129",
@@ -728,12 +734,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 171600,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610"
     },
     {
       "source_id": "4101920261613760141",
@@ -742,12 +748,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 126400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614"
     },
     {
       "source_id": "4101920261613760142",
@@ -756,12 +762,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 126400,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614"
     },
     {
       "source_id": "4101920261613760137",
@@ -770,12 +776,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 99900,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612"
     },
     {
       "source_id": "4101920261613760138",
@@ -784,12 +790,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 64000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613"
     },
     {
       "source_id": "4101920261613760132",
@@ -798,12 +804,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 40500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611"
     },
     {
       "source_id": "4101920261613760131",
@@ -812,12 +818,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610"
     },
     {
       "source_id": "4101920261613760133",
@@ -826,12 +832,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611"
     },
     {
       "source_id": "4101920261613760139",
@@ -840,12 +846,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613"
     },
     {
       "source_id": "4101920261613760143",
@@ -854,12 +860,12 @@
       "expenditure_date": "2026-10-18",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "CANVASS",
       "spend_type": "Field / Canvassing",
       "amount_cents": 27000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184614"
     },
     {
       "source_id": "4101920261613760130",
@@ -868,12 +874,12 @@
       "expenditure_date": "2026-10-06",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184610"
     },
     {
       "source_id": "4101920261613760136",
@@ -882,12 +888,12 @@
       "expenditure_date": "2026-10-06",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184612"
     },
     {
       "source_id": "4101920261613760134",
@@ -896,12 +902,12 @@
       "expenditure_date": "2026-10-06",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184611"
     },
     {
       "source_id": "4101920261613760140",
@@ -910,12 +916,12 @@
       "expenditure_date": "2026-10-06",
       "spender": "FOOD AND WATER ACTION",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
       "purpose": "OUTREACH",
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613",
-      "notice": true,
-      "filing_form": "F5"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184613"
     },
     {
       "source_id": "4101920261614009075",
@@ -924,12 +930,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING DIALER",
       "spend_type": "Events",
       "amount_cents": 21712,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601"
     },
     {
       "source_id": "4101920261614009067",
@@ -938,12 +944,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597"
     },
     {
       "source_id": "4101920261614009068",
@@ -952,12 +958,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184597"
     },
     {
       "source_id": "4101920261614009069",
@@ -966,12 +972,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598"
     },
     {
       "source_id": "4101920261614009070",
@@ -980,12 +986,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184598"
     },
     {
       "source_id": "4101920261614009071",
@@ -994,12 +1000,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599"
     },
     {
       "source_id": "4101920261614009072",
@@ -1008,12 +1014,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184599"
     },
     {
       "source_id": "4101920261614009073",
@@ -1022,12 +1028,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600"
     },
     {
       "source_id": "4101920261614009074",
@@ -1036,12 +1042,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184600"
     },
     {
       "source_id": "4101920261614009076",
@@ -1050,12 +1056,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184601"
     },
     {
       "source_id": "4101920261614009052",
@@ -1064,12 +1070,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "AMERICAN DEMOCRACY PROJECT",
       "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADVERTISING",
       "spend_type": "Digital",
       "amount_cents": 3861000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184035",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184035"
     },
     {
       "source_id": "4101920261614009051",
@@ -1078,12 +1084,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "AMERICAN DEMOCRACY PROJECT",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADVERTISING",
       "spend_type": "Digital",
       "amount_cents": 2079000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184034",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184034"
     },
     {
       "source_id": "4101920261614009041",
@@ -1092,12 +1098,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "AMERICAN DEMOCRACY PROJECT",
       "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "MEDIA PRODUCTION",
       "spend_type": "Production",
       "amount_cents": 1447875,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029"
     },
     {
       "source_id": "4101920261614009040",
@@ -1106,12 +1112,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "AMERICAN DEMOCRACY PROJECT",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "MEDIA PRODUCTION",
       "spend_type": "Production",
       "amount_cents": 779625,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184029"
     },
     {
       "source_id": "4101920261614009027",
@@ -1120,12 +1126,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "CENTER FORWARD INITIATIVE INC (CFI)",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADVERTISING",
       "spend_type": "Digital",
       "amount_cents": 23500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183995",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183995"
     },
     {
       "source_id": "4101920261614009021",
@@ -1134,12 +1140,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "JDCA PAC",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADVERTISING - ESTIMATE",
       "spend_type": "Digital",
       "amount_cents": 4976635,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940"
     },
     {
       "source_id": "4101920261614009022",
@@ -1148,12 +1154,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "JDCA PAC",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONE BANKING - ESTIMATE",
       "spend_type": "Field / Canvassing",
       "amount_cents": 22392,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183940"
     },
     {
       "source_id": "4101920261614009023",
@@ -1162,12 +1168,12 @@
       "expenditure_date": "2026-10-12",
       "spender": "JDCA PAC",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONE BANKING - ESTIMATE",
       "spend_type": "Field / Canvassing",
       "amount_cents": 445,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183941",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916183941"
     },
     {
       "source_id": "4101820261613748127",
@@ -1176,12 +1182,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONE BANKING DIALER",
       "spend_type": "Field / Canvassing",
       "amount_cents": 9916,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175995",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175995"
     },
     {
       "source_id": "4101820261613748119",
@@ -1190,12 +1196,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991"
     },
     {
       "source_id": "4101820261613748120",
@@ -1204,12 +1210,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175991"
     },
     {
       "source_id": "4101820261613748121",
@@ -1218,12 +1224,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992"
     },
     {
       "source_id": "4101820261613748122",
@@ -1232,12 +1238,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175992"
     },
     {
       "source_id": "4101820261613748123",
@@ -1246,12 +1252,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993"
     },
     {
       "source_id": "4101820261613748124",
@@ -1260,12 +1266,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175993"
     },
     {
       "source_id": "4101820261613748125",
@@ -1274,12 +1280,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994"
     },
     {
       "source_id": "4101820261613748126",
@@ -1288,12 +1294,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "OUR TURN HUDSON VALLEY",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "PHONEBANKING",
       "spend_type": "Events",
       "amount_cents": 8100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175994"
     },
     {
       "source_id": "4101820261613748088",
@@ -1302,12 +1308,12 @@
       "expenditure_date": "2026-10-14",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175961",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175961"
     },
     {
       "source_id": "4101820261613748050",
@@ -1316,12 +1322,12 @@
       "expenditure_date": "2026-10-14",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
       "spend_type": "Mail",
       "amount_cents": 1470980,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175942",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175942"
     },
     {
       "source_id": "4101820261613748056",
@@ -1330,12 +1336,12 @@
       "expenditure_date": "2026-10-15",
       "spender": "NO GOING BACK PAC INC.",
       "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "TEXT MESSAGES",
       "spend_type": "Text",
       "amount_cents": 76276,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175945",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175945"
     },
     {
       "source_id": "4101720261613726602",
@@ -1344,12 +1350,12 @@
       "expenditure_date": "2026-10-17",
       "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
       "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "DIGITAL ADS",
       "spend_type": "Digital",
       "amount_cents": 25261,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168262",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916168262"
     },
     {
       "source_id": "4101720261613726462",
@@ -1358,18 +1364,12 @@
       "expenditure_date": "2026-10-16",
       "spender": "FIELD TEAM 6, INC.",
       "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
       "purpose": "ESTIMATE: SMS TEXTING",
       "spend_type": "Text",
       "amount_cents": 123597,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916161691",
-      "notice": true,
-      "filing_form": "F24"
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916161691"
     }
-  ],
-  "notice_only": true,
-  "selection": "original_expeditious_24_48_hour_IE_notices",
-  "accepted_forms": [
-    "F24",
-    "F5"
   ]
 }
