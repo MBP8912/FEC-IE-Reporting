@@ -71,6 +71,8 @@ jobs:
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Check out source for site verification
+        uses: actions/checkout@v4
       - name: Verify the public page, browser assets and FEC dataset
         run: python scripts/verify_site.py
 
