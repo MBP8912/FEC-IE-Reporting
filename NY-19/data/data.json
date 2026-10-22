@@ -1,6 +1,6 @@
 {
-  "status": "not_initialized",
-  "generated_at": null,
+  "status": "ok",
+  "generated_at": "2026-10-21T21:12:12-04:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -8,15 +8,893 @@
     "to": "2026-11-03",
     "election": "2026 general"
   },
-  "totals": {},
-  "groups": [],
-  "daily": [],
-  "pivot": [],
-  "transactions": [],
+  "candidates": {
+    "lawler": {
+      "name": "Peter Oberacker",
+      "id": "H6NY19268",
+      "party": "Republican",
+      "surname": "oberacker",
+      "given": "Peter"
+    },
+    "conley": {
+      "name": "Josh Riley",
+      "id": "H8NY22177",
+      "party": "Democratic",
+      "surname": "riley",
+      "given": "Josh"
+    }
+  },
+  "disposition_order": [
+    "support_lawler",
+    "oppose_conley",
+    "support_conley",
+    "oppose_lawler"
+  ],
+  "disposition_labels": {
+    "support_lawler": "Support Oberacker",
+    "oppose_conley": "Oppose Riley",
+    "support_conley": "Support Riley",
+    "oppose_lawler": "Oppose Oberacker"
+  },
+  "colors": {
+    "support_lawler": "#C85553",
+    "oppose_conley": "#EBA59A",
+    "support_conley": "#396BBA",
+    "oppose_lawler": "#8EB4ED"
+  },
   "counts": {
-    "api_rows": 0,
-    "pages": 0,
-    "included_rows": 0,
-    "excluded": {}
+    "api_rows": 50,
+    "pages": 1,
+    "included_rows": 24,
+    "excluded": {
+      "other_election": 14,
+      "other_candidate": 5,
+      "notice_regular_duplicates": 7
+    }
+  },
+  "totals": {
+    "support_lawler": 721303,
+    "oppose_conley": 0,
+    "support_conley": 5363758,
+    "oppose_lawler": 879053,
+    "benefit_lawler": 721303,
+    "benefit_conley": 6242811,
+    "all": 6964114
+  },
+  "daily": [
+    {
+      "date": "2026-05-07",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 71602,
+      "oppose_lawler": 0,
+      "total": 71602
+    },
+    {
+      "date": "2026-06-05",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 32346,
+      "oppose_lawler": 66553,
+      "total": 98899
+    },
+    {
+      "date": "2026-07-20",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1000,
+      "oppose_lawler": 0,
+      "total": 1000
+    },
+    {
+      "date": "2026-08-10",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1486100,
+      "oppose_lawler": 165000,
+      "total": 1651100
+    },
+    {
+      "date": "2026-08-13",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 5784,
+      "oppose_lawler": 0,
+      "total": 5784
+    },
+    {
+      "date": "2026-09-15",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 75726,
+      "oppose_lawler": 0,
+      "total": 75726
+    },
+    {
+      "date": "2026-10-15",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1114200,
+      "oppose_lawler": 0,
+      "total": 1114200
+    },
+    {
+      "date": "2026-10-16",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 2574000,
+      "oppose_lawler": 643500,
+      "total": 3217500
+    },
+    {
+      "date": "2026-10-18",
+      "support_lawler": 721303,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 721303
+    },
+    {
+      "date": "2026-10-19",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 3000,
+      "oppose_lawler": 4000,
+      "total": 7000
+    }
+  ],
+  "groups": [
+    {
+      "name": "AMERICAN DEMOCRACY PROJECT",
+      "total": 3217500,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 2574000,
+      "oppose_lawler": 643500
+    },
+    {
+      "name": "RURAL FREEDOM NETWORK",
+      "total": 1903111,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1671558,
+      "oppose_lawler": 231553
+    },
+    {
+      "name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+      "total": 1106700,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1106700,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+      "total": 721303,
+      "support_lawler": 721303,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "NEIGHBOR VOICES PAC",
+      "total": 14500,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 10500,
+      "oppose_lawler": 4000
+    },
+    {
+      "name": "SIERRA CLUB INDEPENDENT ACTION",
+      "total": 1000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1000,
+      "oppose_lawler": 0
+    }
+  ],
+  "pivot": [
+    {
+      "key": "support_lawler",
+      "name": "Support Oberacker",
+      "total": 721303,
+      "categories": [
+        {
+          "name": "Mail",
+          "total": 721303,
+          "groups": [
+            {
+              "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+              "amount_cents": 721303
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oppose_conley",
+      "name": "Oppose Riley",
+      "total": 0,
+      "categories": []
+    },
+    {
+      "key": "support_conley",
+      "name": "Support Riley",
+      "total": 5363758,
+      "categories": [
+        {
+          "name": "Digital",
+          "total": 2858700,
+          "groups": [
+            {
+              "name": "AMERICAN DEMOCRACY PROJECT",
+              "amount_cents": 1872000
+            },
+            {
+              "name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+              "amount_cents": 986700
+            }
+          ]
+        },
+        {
+          "name": "Field / Canvassing",
+          "total": 10500,
+          "groups": [
+            {
+              "name": "NEIGHBOR VOICES PAC",
+              "amount_cents": 10500
+            }
+          ]
+        },
+        {
+          "name": "Production",
+          "total": 702000,
+          "groups": [
+            {
+              "name": "AMERICAN DEMOCRACY PROJECT",
+              "amount_cents": 702000
+            }
+          ]
+        },
+        {
+          "name": "Print",
+          "total": 1671558,
+          "groups": [
+            {
+              "name": "RURAL FREEDOM NETWORK",
+              "amount_cents": 1671558
+            }
+          ]
+        },
+        {
+          "name": "Consulting",
+          "total": 120000,
+          "groups": [
+            {
+              "name": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+              "amount_cents": 120000
+            }
+          ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 1000,
+          "groups": [
+            {
+              "name": "SIERRA CLUB INDEPENDENT ACTION",
+              "amount_cents": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oppose_lawler",
+      "name": "Oppose Oberacker",
+      "total": 879053,
+      "categories": [
+        {
+          "name": "Digital",
+          "total": 468000,
+          "groups": [
+            {
+              "name": "AMERICAN DEMOCRACY PROJECT",
+              "amount_cents": 468000
+            }
+          ]
+        },
+        {
+          "name": "Field / Canvassing",
+          "total": 4000,
+          "groups": [
+            {
+              "name": "NEIGHBOR VOICES PAC",
+              "amount_cents": 4000
+            }
+          ]
+        },
+        {
+          "name": "Production",
+          "total": 175500,
+          "groups": [
+            {
+              "name": "AMERICAN DEMOCRACY PROJECT",
+              "amount_cents": 175500
+            }
+          ]
+        },
+        {
+          "name": "Print",
+          "total": 231553,
+          "groups": [
+            {
+              "name": "RURAL FREEDOM NETWORK",
+              "amount_cents": 231553
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "source_id": "4072820261539203671",
+      "original_sub_id": "",
+      "transaction_id": "SE.7548",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-05-07",
+      "amount_cents": 71602,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "VISTAPRINT",
+      "description": "PRINTING",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-07-14",
+      "file_number": 1992180,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874994981",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4072820261539203673",
+      "original_sub_id": "",
+      "transaction_id": "SE.7550",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-06-05",
+      "amount_cents": 66553,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "VISTAPRINT",
+      "description": "PRINTING",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-07-14",
+      "file_number": 1992180,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874994982",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4072820261539203672",
+      "original_sub_id": "",
+      "transaction_id": "SE.7549",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-06-05",
+      "amount_cents": 32346,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "VISTAPRINT",
+      "description": "PRINTING",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-07-14",
+      "file_number": 1992180,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202607149874994981",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4082620261585207242",
+      "original_sub_id": "",
+      "transaction_id": "500150176",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-07-20",
+      "amount_cents": 1000,
+      "group": "SIERRA CLUB INDEPENDENT ACTION",
+      "group_id": "C00483693",
+      "payee": "SIERRA CLUB",
+      "description": "WEBSITE ENDORSEMENT",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-08-12",
+      "file_number": 2005795,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202608129899487109",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101920261614009428",
+      "original_sub_id": "",
+      "transaction_id": "SE.7831",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-08-10",
+      "amount_cents": 165000,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "LAMAR ADVERTISING",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584704",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009427",
+      "original_sub_id": "",
+      "transaction_id": "SE.7830",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-08-10",
+      "amount_cents": 482900,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "LAMAR ADVERTISING",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584703",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009438",
+      "original_sub_id": "",
+      "transaction_id": "SE.7875",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-08-10",
+      "amount_cents": 308200,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "PARK OUTDOOR ADVERTISING",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584709",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009439",
+      "original_sub_id": "",
+      "transaction_id": "SE.7876",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-08-10",
+      "amount_cents": 220000,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "PARK OUTDOOR ADVERTISING",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584709",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009440",
+      "original_sub_id": "",
+      "transaction_id": "SE.7877",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-08-10",
+      "amount_cents": 440000,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "PARK OUTDOOR ADVERTISING",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584710",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009441",
+      "original_sub_id": "",
+      "transaction_id": "SE.7878",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-08-10",
+      "amount_cents": 35000,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "PARK OUTDOOR ADVERTISING",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584710",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009453",
+      "original_sub_id": "",
+      "transaction_id": "SE.7838",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-08-13",
+      "amount_cents": 5784,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "VISTAPRINT",
+      "description": "PRINTING",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584716",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009444",
+      "original_sub_id": "",
+      "transaction_id": "SE.7880",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-09-15",
+      "amount_cents": 23400,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "UPRINTING",
+      "description": "PRINTING",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584712",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101920261614009458",
+      "original_sub_id": "",
+      "transaction_id": "SE.7881",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-09-15",
+      "amount_cents": 52326,
+      "group": "RURAL FREEDOM NETWORK",
+      "group_id": "C00647966",
+      "payee": "VISTAPRINT",
+      "description": "PRINTING",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-08",
+      "file_number": 2018460,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908584719",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4101620261613164706",
+      "original_sub_id": "",
+      "transaction_id": "E4235DD2F15504C5E8E3",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-15",
+      "amount_cents": 120000,
+      "group": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+      "group_id": "C00030718",
+      "payee": "NATIONAL ASSOCIATION OF REALTORS",
+      "description": "ADMINISTRATIVE CONSULTING",
+      "type": "Consulting",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-16",
+      "file_number": 2028218,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610169916102501",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101620261613164707",
+      "original_sub_id": "",
+      "transaction_id": "EA4BB15BFDE964D1C8A4",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-15",
+      "amount_cents": 720000,
+      "group": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+      "group_id": "C00030718",
+      "payee": "AMBROSINO MUIR HANSEN CROUNSE",
+      "description": "DIGITAL AD BUYS, META & GIFS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-16",
+      "file_number": 2028218,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610169916102502",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101620261613164708",
+      "original_sub_id": "",
+      "transaction_id": "E36E7597904F643B2957",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-15",
+      "amount_cents": 266700,
+      "group": "NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE",
+      "group_id": "C00030718",
+      "payee": "BRIDGE IMPACT LLC",
+      "description": "DIGITAL AD BUYS, META & GIFS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-16",
+      "file_number": 2028218,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610169916102502",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101620261613166122",
+      "original_sub_id": "",
+      "transaction_id": "500228754",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-15",
+      "amount_cents": 7500,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-16",
+      "file_number": 2028673,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610169916152193",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101920261614009046",
+      "original_sub_id": "",
+      "transaction_id": "E-113",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-16",
+      "amount_cents": 175500,
+      "group": "AMERICAN DEMOCRACY PROJECT",
+      "group_id": "C00955393",
+      "payee": "STANDARD PRACTICE, LLC",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-18",
+      "file_number": 2030120,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184032",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101920261614009057",
+      "original_sub_id": "",
+      "transaction_id": "E-91",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-16",
+      "amount_cents": 468000,
+      "group": "AMERICAN DEMOCRACY PROJECT",
+      "group_id": "C00955393",
+      "payee": "STANDARD PRACTICE, LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-18",
+      "file_number": 2030120,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184037",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101920261614009045",
+      "original_sub_id": "",
+      "transaction_id": "E-111",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-16",
+      "amount_cents": 702000,
+      "group": "AMERICAN DEMOCRACY PROJECT",
+      "group_id": "C00955393",
+      "payee": "STANDARD PRACTICE, LLC",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-18",
+      "file_number": 2030120,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184031",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101920261614009056",
+      "original_sub_id": "",
+      "transaction_id": "E-89",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-16",
+      "amount_cents": 1872000,
+      "group": "AMERICAN DEMOCRACY PROJECT",
+      "group_id": "C00955393",
+      "payee": "STANDARD PRACTICE, LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-18",
+      "file_number": 2030120,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184037",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4101920261614010066",
+      "original_sub_id": "",
+      "transaction_id": "SE.1",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "support_lawler",
+      "date": "2026-10-18",
+      "amount_cents": 721303,
+      "group": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+      "group_id": "C00053553",
+      "payee": "MOORE A SERIES LLC",
+      "description": "PRINTING / POSTAGE / PAPER",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-19",
+      "file_number": 2031042,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916221020",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102020261614372587",
+      "original_sub_id": "",
+      "transaction_id": "500233363",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 4000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-20",
+      "file_number": 2033080,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431910",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102020261614372584",
+      "original_sub_id": "",
+      "transaction_id": "500233358",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-19",
+      "amount_cents": 3000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-20",
+      "file_number": 2033080,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    }
+  ],
+  "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
+  "fetch": {
+    "source": "FEC processed Schedule E: complete House district",
+    "all_district_pages_complete": true,
+    "includes_missing_candidate_id_records": true,
+    "source_pages_this_district": 1
   }
 }
