@@ -43,6 +43,11 @@ jobs:
       - name: Explain 48-hour receipt refresh interruptions
         if: steps.all_recent48.outcome != 'success'
         run: echo "FEC receipt metadata temporarily unavailable. Previously verified or explicitly pending recent reports remain unchanged."
+      - name: One-time audit of missing Planned Parenthood and Freedom Caucus notices
+        continue-on-error: true
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python scripts/diagnose_exceptions.py
       - name: Fetch all unique general-election IE transactions, resuming saved cursor
         id: refresh
         continue-on-error: true
