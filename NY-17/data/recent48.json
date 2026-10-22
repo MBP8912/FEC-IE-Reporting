@@ -2,7 +2,7 @@
   "status": "ok",
   "district": "NY-17",
   "window_hours": 48,
-  "checked_at": "2026-10-22T13:45:25+00:00",
+  "checked_at": "2026-10-22T14:01:31+00:00",
   "source_data_generated_at": "2026-10-22T09:29:13-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
