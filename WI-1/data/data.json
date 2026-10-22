@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-22T05:02:25-04:00",
+  "generated_at": "2026-10-22T07:56:15-04:00",
   "district": "WI-1",
   "period": {
     "cycle": 2026,
@@ -43,24 +43,24 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 138,
+    "api_rows": 142,
     "pages": 2,
-    "included_rows": 129,
+    "included_rows": 130,
     "excluded": {
       "other_candidate": 2,
       "memo_item": 1,
-      "repeated_transaction_or_amendment": 2,
+      "repeated_transaction_or_amendment": 5,
       "notice_regular_duplicates": 4
     }
   },
   "totals": {
     "support_lawler": 273475509,
     "oppose_conley": 219679576,
-    "support_conley": 103251434,
+    "support_conley": 103357012,
     "oppose_lawler": 163257431,
     "benefit_lawler": 493155085,
-    "benefit_conley": 266508865,
-    "all": 759663950
+    "benefit_conley": 266614443,
+    "all": 759769528
   },
   "daily": [
     {
@@ -70,6 +70,14 @@
       "support_conley": 37013,
       "oppose_lawler": 0,
       "total": 37013
+    },
+    {
+      "date": "2026-08-18",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 105578,
+      "oppose_lawler": 0,
+      "total": 105578
     },
     {
       "date": "2026-08-21",
@@ -507,10 +515,10 @@
     },
     {
       "name": "THE WISCO PROJECT PAC",
-      "total": 3635643,
+      "total": 3741221,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 2611893,
+      "support_conley": 2717471,
       "oppose_lawler": 1023750
     },
     {
@@ -794,7 +802,7 @@
     {
       "key": "support_conley",
       "name": "Support Berman",
-      "total": 103251434,
+      "total": 103357012,
       "categories": [
         {
           "name": "Digital",
@@ -906,11 +914,11 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 3408613,
+          "total": 3514191,
           "groups": [
             {
               "name": "THE WISCO PROJECT PAC",
-              "amount_cents": 1711893
+              "amount_cents": 1817471
             },
             {
               "name": "COMMUNITY CHANGE VOTERS",
@@ -1053,6 +1061,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609279908420822",
       "election_type": "G2026",
       "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102120261614734998",
+      "original_sub_id": "",
+      "transaction_id": "SE.4284",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "support_conley",
+      "date": "2026-08-18",
+      "amount_cents": 105578,
+      "group": "THE WISCO PROJECT PAC",
+      "group_id": "C00873901",
+      "payee": "WISCO PROJECT, INC.",
+      "description": "IN-KIND STAFF SALARY FOR INDEPENDENT EXPENDITURES 8/17-9/30 BERMAN",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2034092,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921460306",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -1217,7 +1248,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4090720261595828007",
+      "source_id": "4102120261614734266",
       "original_sub_id": "",
       "transaction_id": "500335483",
       "candidate": "conley",
@@ -1230,11 +1261,11 @@
       "payee": "MERRIMACK SERVICES LLC",
       "description": "FIELD ORGANIZING",
       "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-07",
-      "file_number": 2010967,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609079904104160",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-19",
+      "file_number": 2031236,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916231460",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -1286,7 +1317,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4091120261598241283",
+      "source_id": "4102120261614734280",
       "original_sub_id": "",
       "transaction_id": "500336697",
       "candidate": "conley",
@@ -1299,11 +1330,11 @@
       "payee": "MERRIMACK SERVICES LLC",
       "description": "FIELD ORGANIZING",
       "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-11",
-      "file_number": 2011594,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609119904194744",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-19",
+      "file_number": 2031236,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916231467",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -1677,7 +1708,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092020261598967105",
+      "source_id": "4102120261614734312",
       "original_sub_id": "",
       "transaction_id": "500337287",
       "candidate": "conley",
@@ -1690,11 +1721,11 @@
       "payee": "MERRIMACK SERVICES LLC",
       "description": "FIELD ORGANIZING",
       "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-20",
-      "file_number": 2014437,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609209908268646",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-19",
+      "file_number": 2031236,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916231483",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
