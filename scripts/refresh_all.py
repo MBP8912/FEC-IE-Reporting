@@ -41,6 +41,8 @@ QUERY_FINGERPRINT = hashlib.sha256(
     json.dumps({
         "districts": BATCHES, "cycle": 2026,
         "include_idless_candidates": True,
+        "verified_ny17_ppv_alias": "C00489799:LAWLER MICHAEL",
+        "verified_co4_misfiled_expenditure": "C00552851:H0CO03165:CO03",
         "min": core.DATA_START.isoformat(), "max": core.DATA_END.isoformat(),
         "sort": "-expenditure_date",
     }, sort_keys=True).encode()
@@ -108,6 +110,57 @@ def next_query(key,batch,cursor):
     return core.API_URL+"?"+urlencode(params,doseq=True)
 
 
+def fetch_co4_misfiled_boebert_notices(api_key):
+    """Retrieve a user-verified CO-4 exception coded by the filer as CO-3.
+
+    Freedom Caucus Fund's 2026 independent expenditures explicitly use
+    Lauren Boebert's official candidate ID H0CO03165, but report district 03.
+    Pull only that committee/candidate pair, not other CO-3 campaigns.
+    Paginate every result and retain only 2026 GENERAL election items.
+    """
+    params={
+        "api_key":api_key,"cycle":2026,
+        "committee_id":"C00552851",
+        "candidate_id":"H0CO03165",
+        "is_notice":"true",
+        "min_date":core.DATA_START.isoformat(),
+        "max_date":core.DATA_END.isoformat(),
+        "most_recent":"true","per_page":PAGE_SIZE,"sort":"-expenditure_date",
+    }
+    seen=set()
+    cursor={}
+    accepted=[]
+    for page in range(30):
+        payload=core.request_json(core.API_URL+"?"+urlencode(dict(params,**cursor)),
+                                  attempts=1 if api_key=="DEMO_KEY" else 3)
+        rows=payload.get("results")
+        if not isinstance(rows,list):
+            raise RuntimeError("FEC returned invalid Freedom Caucus Fund Schedule E page")
+        for row in rows:
+            filer=str(row.get("committee_id") or "").upper()
+            candidate=str(row.get("candidate_id") or "").upper()
+            state=core.norm(row.get("candidate_office_state"))
+            reported_district=core.norm(row.get("candidate_office_district")).lstrip("0")
+            if (filer=="C00552851" and candidate=="H0CO03165"
+                    and state=="co" and reported_district in ("3","4")
+                    and core.is_2026_general(row)):
+                accepted.append(row)
+        if len(rows)<PAGE_SIZE:
+            print("CO-4 cross-district exception: "+str(len(accepted))+
+                  " general-election Freedom Caucus Fund notices from "+
+                  str(page+1)+" FEC API page(s).",flush=True)
+            return accepted,page+1
+        next_page=(payload.get("pagination") or {}).get("last_indexes") or {}
+        cursor={str(k):str(v) for k,v in next_page.items() if v is not None and str(v)}
+        if "last_index" not in cursor:
+            raise RuntimeError("Incomplete FEC seek pagination for CO-4 exception")
+        marker=tuple(sorted(cursor.items()))
+        if marker in seen:
+            raise RuntimeError("Repeated FEC seek cursor for CO-4 exception")
+        seen.add(marker)
+    raise RuntimeError("FEC CO-4 exception exceeded the safe pagination bound")
+
+
 def capture_pages(state,key,maximum_pages):
     """Publish a race only when its entire district query is complete."""
     requests=0
@@ -127,11 +180,27 @@ def capture_pages(state,key,maximum_pages):
         rows=response.get("results")
         if not isinstance(rows,list):
             raise RuntimeError("FEC returned no results list; not publishing")
+        # Do not mark the base district complete if its one verified
+        # out-of-district Boebert filing search fails: stale complete results
+        # are safer than publishing a known-understated CO-4 total.
+        supplemental=[]
+        supplemental_pages=0
+        if len(rows)<PAGE_SIZE and name=="CO-4":
+            try:
+                supplemental,supplemental_pages=fetch_co4_misfiled_boebert_notices(key)
+            except Exception as exc:
+                save_state(state)
+                print("CO-4 supplementary FEC notices unavailable ("+str(exc)+
+                      "); retaining last complete CO-4 figures until retry.",flush=True)
+                return False
         # Keep original candidate ID (even when blank), name and expenditure.
+        # The existing source/transaction deduplicator reconciles supplemental
+        # notices against regular Form 3X items already in the base query.
         state["rows"].extend(compact(row) for row in rows)
-        state["pages"]+=1
-        state["race_pages"]+=1
-        requests+=1
+        state["rows"].extend(compact(row) for row in supplemental)
+        state["pages"]+=1+supplemental_pages
+        state["race_pages"]+=1+supplemental_pages
+        requests+=1+supplemental_pages
         if len(rows)<PAGE_SIZE:
             finalize_one_race(name,state["rows"],state["race_pages"])
             state["completed_races"].append(name)
