@@ -18,11 +18,25 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-23T14:01:56+00:00",
-  "source_data_generated_at": "2026-10-23T06:55:14-04:00",
+  "checked_at": "2026-10-23T15:00:32+00:00",
+  "source_data_generated_at": "2026-10-23T10:02:00-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4102220261615046302",
+      "file_number": "2035401",
+      "reported_at": "2026-10-22T01:07:23+00:00",
+      "expenditure_date": "2026-10-06",
+      "spender": "ROLLING SEA ACTION FUND",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "MEDIA PLACEMENT. & PRODUCTION",
+      "spend_type": "Media (unspecified)",
+      "amount_cents": 15000000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934381794"
+    },
     {
       "source_id": "4102020261614372678",
       "file_number": "2033100",
