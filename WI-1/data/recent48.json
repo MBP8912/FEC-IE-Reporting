@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-23T01:57:39+00:00",
-  "source_data_generated_at": "2026-10-22T18:53:38-04:00",
+  "checked_at": "2026-10-23T02:57:42+00:00",
+  "source_data_generated_at": "2026-10-22T21:57:43-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -274,34 +274,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 14904000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916180576"
-    },
-    {
-      "source_id": "4101820261613748152",
-      "file_number": "2029730",
-      "reported_at": "2026-10-18T02:43:52+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST - DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 235000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916176210"
-    },
-    {
-      "source_id": "4101820261613748153",
-      "file_number": "2029730",
-      "reported_at": "2026-10-18T02:43:52+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "SEIU COPE (SERVICE EMPLOYEES INTERNATIONAL UNION COMMITTEE ON POLITICAL EDUCATION)",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST - DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 235000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916176211"
     }
   ]
 }
