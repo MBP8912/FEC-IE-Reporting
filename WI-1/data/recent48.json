@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-22T23:49:21+00:00",
+  "checked_at": "2026-10-23T01:11:10+00:00",
   "source_data_generated_at": "2026-10-22T18:53:38-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -302,48 +302,6 @@
       "spend_type": "Digital",
       "amount_cents": 235000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916176211"
-    },
-    {
-      "source_id": "4101820261613748085",
-      "file_number": "2029681",
-      "reported_at": "2026-10-18T00:35:55+00:00",
-      "expenditure_date": "2026-10-09",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 1951024,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175959"
-    },
-    {
-      "source_id": "4101820261613748047",
-      "file_number": "2029681",
-      "reported_at": "2026-10-18T00:35:55+00:00",
-      "expenditure_date": "2026-10-09",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 1951023,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175940"
-    },
-    {
-      "source_id": "4101820261613748058",
-      "file_number": "2029681",
-      "reported_at": "2026-10-18T00:35:55+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 144996,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610179916175946"
     }
   ]
 }
