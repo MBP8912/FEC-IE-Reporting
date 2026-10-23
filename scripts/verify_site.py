@@ -17,6 +17,11 @@ def verify():
         if name not in js: raise RuntimeError("Missing shared script method "+name)
     css=read("assets/styles.css").decode("utf-8")
     if ".headline-metrics" not in css: raise RuntimeError("Missing CSS")
+    if ".spiros-ie-header" not in css or ".spiros-ie-logo" not in css:
+        raise RuntimeError("Missing shared Spiros Consulting header styles")
+    logo=read("assets/spiros-consulting-logo.png")
+    if not logo.startswith(bytes.fromhex("89504e470d0a1a0a")) or len(logo)<1000:
+        raise RuntimeError("Spiros Consulting PNG is missing or invalid")
     shared_recent=read("assets/recent48.js").decode("utf-8")
     if ("function view(payload)" not in shared_recent or
         'cell("details",null,"recent48-disclosure")' not in shared_recent or
@@ -28,6 +33,11 @@ def verify():
         page=read(district+"/").decode("utf-8")
         if "<title>"+district+" • 2026 Independent Expenditure Reporting</title>" not in page:
             raise RuntimeError("Wrong dashboard title "+district)
+        if ('class="topbar spiros-ie-header"' not in page or
+            'class="spiros-ie-logo"' not in page or
+            'src="../assets/spiros-consulting-logo.png"' not in page or
+            'alt="Spiros Consulting"' not in page):
+            raise RuntimeError("Spiros Consulting header missing from "+district)
         a=page.index('class="panel pivot-section"')
         b=page.index('class="panel group-section"')
         if a>b: raise RuntimeError("Pivot below group in "+district)
@@ -109,7 +119,7 @@ def verify():
             done.append((district,len(entries),money))
         elif data.get("status")=="not_initialized": pending.append(district)
         else: raise RuntimeError("Unknown data state for "+district)
-    print("VERIFIED: All nine direct race pages, collapsed expedited-notice-only 48h panels, shared JS/CSS, and reconciled expenditure totals.",flush=True)
+    print("VERIFIED: All nine direct IE dashboards have Spiros Consulting branding, notice-only 48h panels, and reconciled totals.",flush=True)
     for district,n,amt in done:
         print(f"DATA VERIFIED {district}: {n} unique expenditures, ${amt/100:,.2f}",flush=True)
     if pending:

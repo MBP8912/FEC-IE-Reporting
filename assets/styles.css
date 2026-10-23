@@ -247,3 +247,22 @@ td .amount-link.blue-link{color:#426caa}
 @media(max-width:380px){
   .recent48-overview-metrics{grid-template-columns:1fr}
 }
+
+/* Spiros Consulting branding: same logo and header proportions as the approved
+   CA-13 48-hour fundraising pilot, adapted to IE's existing topbar. */
+.spiros-ie-header {height:auto;min-height:120px;padding:11px 0;gap:16px}
+.spiros-ie-header .brand {gap:12px;min-width:0;align-items:center}
+.spiros-ie-logo {display:block;flex:none;width:126px;height:auto;max-width:30vw;padding:4px;border-radius:7px;background:white;box-shadow:0 0 0 1px #e4e9f0}
+@media(max-width:670px) {
+ .spiros-ie-header {min-height:98px;padding:9px 0;gap:10px}
+ .spiros-ie-logo {width:92px}
+ .spiros-ie-header .brand {gap:8px}
+ .spiros-ie-header .brand strong {font-size:15px}
+ .spiros-ie-header .brand small {letter-spacing:.05em;font-size:9px}
+ .spiros-ie-header nav a {font-size:10px;padding:9px;white-space:nowrap}
+}
+@media(max-width:400px) {
+ .spiros-ie-logo {width:82px}
+ .spiros-ie-header .brand-symbol {display:none}
+ .spiros-ie-header nav a {font-size:9px;padding:8px}
+}
