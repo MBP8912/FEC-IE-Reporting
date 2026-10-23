@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-23T05:58:00-04:00",
+  "generated_at": "2026-10-23T09:07:32-04:00",
   "district": "MN-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 249,
+    "api_rows": 258,
     "pages": 3,
-    "included_rows": 141,
+    "included_rows": 150,
     "excluded": {
       "other_election": 37,
       "repeated_transaction_or_amendment": 1,
@@ -53,13 +53,13 @@
     }
   },
   "totals": {
-    "support_lawler": 29896283,
-    "oppose_conley": 156393830,
-    "support_conley": 43325452,
-    "oppose_lawler": 296412430,
-    "benefit_lawler": 186290113,
-    "benefit_conley": 339737882,
-    "all": 526027995
+    "support_lawler": 34111840,
+    "oppose_conley": 158893830,
+    "support_conley": 43445607,
+    "oppose_lawler": 296532584,
+    "benefit_lawler": 193005670,
+    "benefit_conley": 339978191,
+    "all": 532983861
   },
   "daily": [
     {
@@ -490,9 +490,33 @@
       "date": "2026-10-20",
       "support_lawler": 8568100,
       "oppose_conley": 0,
+      "support_conley": 39600,
+      "oppose_lawler": 39600,
+      "total": 8647300
+    },
+    {
+      "date": "2026-10-21",
+      "support_lawler": 3215557,
+      "oppose_conley": 0,
+      "support_conley": 47600,
+      "oppose_lawler": 47600,
+      "total": 3310757
+    },
+    {
+      "date": "2026-10-22",
+      "support_lawler": 1000000,
+      "oppose_conley": 2500000,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 8568100
+      "total": 3500000
+    },
+    {
+      "date": "2026-10-23",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 32955,
+      "oppose_lawler": 32954,
+      "total": 65909
     }
   ],
   "groups": [
@@ -514,9 +538,9 @@
     },
     {
       "name": "DEFENDING MAIN STREET SUPERPAC INC.",
-      "total": 51019619,
-      "support_lawler": 7099619,
-      "oppose_conley": 43920000,
+      "total": 54519619,
+      "support_lawler": 8099619,
+      "oppose_conley": 46420000,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -562,11 +586,19 @@
     },
     {
       "name": "TAKEACTION MN FEDERAL FUND",
-      "total": 5124483,
+      "total": 5364792,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 2661059,
-      "oppose_lawler": 2463424
+      "support_conley": 2781214,
+      "oppose_lawler": 2583578
+    },
+    {
+      "name": "AMERICAN LIBERTY FOUNDATION",
+      "total": 3215557,
+      "support_lawler": 3215557,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
     },
     {
       "name": "MAGA INC.",
@@ -613,8 +645,18 @@
     {
       "key": "support_lawler",
       "name": "Support Finstad",
-      "total": 29896283,
+      "total": 34111840,
       "categories": [
+        {
+          "name": "Digital",
+          "total": 3215557,
+          "groups": [
+            {
+              "name": "AMERICAN LIBERTY FOUNDATION",
+              "amount_cents": 3215557
+            }
+          ]
+        },
         {
           "name": "Text",
           "total": 8568100,
@@ -627,11 +669,11 @@
         },
         {
           "name": "Radio",
-          "total": 4650000,
+          "total": 5650000,
           "groups": [
             {
               "name": "DEFENDING MAIN STREET SUPERPAC INC.",
-              "amount_cents": 4650000
+              "amount_cents": 5650000
             }
           ]
         },
@@ -668,7 +710,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Johnson",
-      "total": 156393830,
+      "total": 158893830,
       "categories": [
         {
           "name": "TV",
@@ -699,6 +741,16 @@
           ]
         },
         {
+          "name": "Radio",
+          "total": 2500000,
+          "groups": [
+            {
+              "name": "DEFENDING MAIN STREET SUPERPAC INC.",
+              "amount_cents": 2500000
+            }
+          ]
+        },
+        {
           "name": "Other / Unclassified",
           "total": 800000,
           "groups": [
@@ -713,7 +765,7 @@
     {
       "key": "support_conley",
       "name": "Support Johnson",
-      "total": 43325452,
+      "total": 43445607,
       "categories": [
         {
           "name": "Digital",
@@ -751,7 +803,7 @@
         },
         {
           "name": "Print",
-          "total": 1903207,
+          "total": 1936162,
           "groups": [
             {
               "name": "AB PAC",
@@ -759,17 +811,17 @@
             },
             {
               "name": "TAKEACTION MN FEDERAL FUND",
-              "amount_cents": 197635
+              "amount_cents": 230590
             }
           ]
         },
         {
           "name": "Other / Unclassified",
-          "total": 2463424,
+          "total": 2550624,
           "groups": [
             {
               "name": "TAKEACTION MN FEDERAL FUND",
-              "amount_cents": 2463424
+              "amount_cents": 2550624
             }
           ]
         }
@@ -778,7 +830,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Finstad",
-      "total": 296412430,
+      "total": 296532584,
       "categories": [
         {
           "name": "TV",
@@ -833,12 +885,22 @@
           ]
         },
         {
-          "name": "Other / Unclassified",
-          "total": 2464347,
+          "name": "Print",
+          "total": 32954,
           "groups": [
             {
               "name": "TAKEACTION MN FEDERAL FUND",
-              "amount_cents": 2463424
+              "amount_cents": 32954
+            }
+          ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 2551547,
+          "groups": [
+            {
+              "name": "TAKEACTION MN FEDERAL FUND",
+              "amount_cents": 2550624
             },
             {
               "name": "LCV VICTORY FUND",
@@ -4071,6 +4133,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102220261615046888",
+      "original_sub_id": "",
+      "transaction_id": "SE.7193",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 39600,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2036289,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940904851",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046889",
+      "original_sub_id": "",
+      "transaction_id": "SE.7194",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-20",
+      "amount_cents": 39600,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2036289,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940904851",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102120261614734206",
       "original_sub_id": "",
       "transaction_id": "SE.4368",
@@ -4091,6 +4199,167 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921438213",
       "election_type": "G2026",
       "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046891",
+      "original_sub_id": "",
+      "transaction_id": "SE.7196",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 47600,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2036289,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940904852",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046890",
+      "original_sub_id": "",
+      "transaction_id": "SE.7195",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-21",
+      "amount_cents": 47600,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2036289,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940904852",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046997",
+      "original_sub_id": "",
+      "transaction_id": "E436A0CFF4D3A45CC9BF",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "support_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 3215557,
+      "group": "AMERICAN LIBERTY FOUNDATION",
+      "group_id": "C00830042",
+      "payee": "RING LIMITED",
+      "description": "DIGITAL ADS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2038024,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035089",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046960",
+      "original_sub_id": "",
+      "transaction_id": "SE.6919",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 2500000,
+      "group": "DEFENDING MAIN STREET SUPERPAC INC.",
+      "group_id": "C00540203",
+      "payee": "POLARIS PUBLIC AFFAIRS (THROUGH AMERICAN EXPRESS)",
+      "description": "RADIO PRODUCTION & ADS",
+      "type": "Radio",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2037646,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941013360",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046961",
+      "original_sub_id": "",
+      "transaction_id": "SE.6920",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "support_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 1000000,
+      "group": "DEFENDING MAIN STREET SUPERPAC INC.",
+      "group_id": "C00540203",
+      "payee": "POLARIS PUBLIC AFFAIRS (THROUGH AMERICAN EXPRESS)",
+      "description": "RADIO ADS",
+      "type": "Radio",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2037646,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941013360",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046887",
+      "original_sub_id": "",
+      "transaction_id": "SE.7198",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 32954,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "MINUTEMAN PRESS",
+      "description": "PRINTED LITERATURE IN ADVOCACY OF JAKE JOHNSON",
+      "type": "Print",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2036289,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940904850",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046886",
+      "original_sub_id": "",
+      "transaction_id": "SE.7197",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 32955,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "MINUTEMAN PRESS",
+      "description": "PRINTED LITERATURE IN ADVOCACY OF JAKE JOHNSON",
+      "type": "Print",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2036289,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940904850",
+      "election_type": "G2026",
+      "original_category_code": "004",
       "amendment_indicator": "N"
     }
   ],
