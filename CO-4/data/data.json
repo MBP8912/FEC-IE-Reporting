@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-23T04:59:14-04:00",
+  "generated_at": "2026-10-23T07:56:08-04:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 93,
+    "api_rows": 94,
     "pages": 2,
-    "included_rows": 19,
+    "included_rows": 20,
     "excluded": {
       "other_election": 68,
       "other_candidate": 1,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 36429555,
+    "support_lawler": 39423488,
     "oppose_conley": 0,
     "support_conley": 5088243,
     "oppose_lawler": 150000000,
-    "benefit_lawler": 36429555,
+    "benefit_lawler": 39423488,
     "benefit_conley": 155088243,
-    "all": 191517798
+    "all": 194511731
   },
   "daily": [
     {
@@ -190,6 +190,14 @@
       "support_conley": 263267,
       "oppose_lawler": 0,
       "total": 263267
+    },
+    {
+      "date": "2026-10-21",
+      "support_lawler": 2993933,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 2993933
     }
   ],
   "groups": [
@@ -218,6 +226,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "AMERICAN LIBERTY FOUNDATION",
+      "total": 2993933,
+      "support_lawler": 2993933,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "VOTEVETS",
       "total": 263267,
       "support_lawler": 0,
@@ -238,8 +254,18 @@
     {
       "key": "support_lawler",
       "name": "Support Boebert",
-      "total": 36429555,
+      "total": 39423488,
       "categories": [
+        {
+          "name": "Digital",
+          "total": 2993933,
+          "groups": [
+            {
+              "name": "AMERICAN LIBERTY FOUNDATION",
+              "amount_cents": 2993933
+            }
+          ]
+        },
         {
           "name": "Media (unspecified)",
           "total": 36389215,
@@ -773,6 +799,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347909",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615047000",
+      "original_sub_id": "",
+      "transaction_id": "E8B5E41B7A20E485BA95",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 2993933,
+      "group": "AMERICAN LIBERTY FOUNDATION",
+      "group_id": "C00830042",
+      "payee": "RING LIMITED",
+      "description": "DIGITAL ADS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2038024,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035090",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     }
   ],

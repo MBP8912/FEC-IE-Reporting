@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-23T04:59:15-04:00",
+  "generated_at": "2026-10-23T07:56:09-04:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 154,
+    "api_rows": 162,
     "pages": 2,
-    "included_rows": 134,
+    "included_rows": 142,
     "excluded": {
       "memo_item": 3,
       "other_election": 3,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 109886812,
-    "oppose_conley": 370962556,
+    "support_lawler": 116745641,
+    "oppose_conley": 374726756,
     "support_conley": 11608302,
-    "oppose_lawler": 143247910,
-    "benefit_lawler": 480849368,
-    "benefit_conley": 154856212,
-    "all": 635705580
+    "oppose_lawler": 174988392,
+    "benefit_lawler": 491472397,
+    "benefit_conley": 186596694,
+    "all": 678069091
   },
   "daily": [
     {
@@ -332,8 +332,16 @@
       "support_lawler": 4877049,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 2783360,
-      "total": 7660409
+      "oppose_lawler": 34403092,
+      "total": 39280141
+    },
+    {
+      "date": "2026-10-21",
+      "support_lawler": 6858829,
+      "oppose_conley": 3764200,
+      "support_conley": 0,
+      "oppose_lawler": 120750,
+      "total": 10743779
     },
     {
       "date": "2026-10-22",
@@ -363,11 +371,19 @@
     },
     {
       "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "total": 70017197,
-      "support_lawler": 39073872,
-      "oppose_conley": 30943325,
+      "total": 77645597,
+      "support_lawler": 42938072,
+      "oppose_conley": 34707525,
       "support_conley": 0,
       "oppose_lawler": 0
+    },
+    {
+      "name": "HMP",
+      "total": 71324787,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 71324787
     },
     {
       "name": "AB PAC",
@@ -384,14 +400,6 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 44194245
-    },
-    {
-      "name": "HMP",
-      "total": 39705055,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 39705055
     },
     {
       "name": "VOTEVETS",
@@ -450,12 +458,28 @@
       "oppose_lawler": 0
     },
     {
+      "name": "AMERICAN LIBERTY FOUNDATION",
+      "total": 2994629,
+      "support_lawler": 2994629,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
       "total": 818883,
       "support_lawler": 818883,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
+    },
+    {
+      "name": "SCIENCE VICTORY FUND",
+      "total": 120750,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 120750
     },
     {
       "name": "NEIGHBOR VOICES PAC",
@@ -478,15 +502,19 @@
     {
       "key": "support_lawler",
       "name": "Support Crank",
-      "total": 109886812,
+      "total": 116745641,
       "categories": [
         {
           "name": "Digital",
-          "total": 10164560,
+          "total": 13159189,
           "groups": [
             {
               "name": "DEFENDING MAIN STREET SUPERPAC INC.",
               "amount_cents": 8914560
+            },
+            {
+              "name": "AMERICAN LIBERTY FOUNDATION",
+              "amount_cents": 2994629
             },
             {
               "name": "BUILDING AMERICAN GREATNESS PAC",
@@ -550,8 +578,12 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 319553,
+          "total": 4083753,
           "groups": [
+            {
+              "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+              "amount_cents": 3764200
+            },
             {
               "name": "CIVIC RENEWAL FUND INC.",
               "amount_cents": 319553
@@ -560,11 +592,11 @@
         },
         {
           "name": "Production",
-          "total": 2247357,
+          "total": 2347357,
           "groups": [
             {
               "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-              "amount_cents": 2247357
+              "amount_cents": 2347357
             }
           ]
         },
@@ -587,7 +619,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Killin",
-      "total": 370962556,
+      "total": 374726756,
       "categories": [
         {
           "name": "TV",
@@ -657,8 +689,12 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 319553,
+          "total": 4083753,
           "groups": [
+            {
+              "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+              "amount_cents": 3764200
+            },
             {
               "name": "CIVIC RENEWAL FUND INC.",
               "amount_cents": 319553
@@ -755,26 +791,30 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Crank",
-      "total": 143247910,
+      "total": 174988392,
       "categories": [
         {
           "name": "TV",
-          "total": 46619200,
+          "total": 54395200,
           "groups": [
+            {
+              "name": "HMP",
+              "amount_cents": 30067200
+            },
             {
               "name": "VOTEVETS",
               "amount_cents": 24328000
-            },
-            {
-              "name": "HMP",
-              "amount_cents": 22291200
             }
           ]
         },
         {
           "name": "Digital",
-          "total": 58037000,
+          "total": 81695000,
           "groups": [
+            {
+              "name": "HMP",
+              "amount_cents": 37995000
+            },
             {
               "name": "WOMEN VOTE",
               "amount_cents": 25000000
@@ -782,10 +822,6 @@
             {
               "name": "AB PAC",
               "amount_cents": 18700000
-            },
-            {
-              "name": "HMP",
-              "amount_cents": 14337000
             }
           ]
         },
@@ -805,15 +841,19 @@
         },
         {
           "name": "Production",
-          "total": 5697305,
+          "total": 6003787,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 3076855
+              "amount_cents": 3262587
             },
             {
               "name": "AB PAC",
               "amount_cents": 2620450
+            },
+            {
+              "name": "SCIENCE VICTORY FUND",
+              "amount_cents": 120750
             }
           ]
         }
@@ -3835,6 +3875,75 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102220261615046528",
+      "original_sub_id": "",
+      "transaction_id": "500691930",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 23658000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "SKDKNICKERBOCKER LLC",
+      "description": "DIGITAL ADVERTISING - ESTIMATE",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388548",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046558",
+      "original_sub_id": "",
+      "transaction_id": "500691931",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 185732,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "THREE POINT MEDIA, LLC",
+      "description": "MEDIA PRODUCTION - ESTIMATE",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388563",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046617",
+      "original_sub_id": "",
+      "transaction_id": "500691932",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 7776000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "WATERFRONT STRATEGIES INC.",
+      "description": "TELEVISION ADVERTISING - ESTIMATE",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388593",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102120261614735833",
       "original_sub_id": "",
       "transaction_id": "SE24.39950",
@@ -3878,6 +3987,121 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921438217",
       "election_type": "G2026",
       "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615047018",
+      "original_sub_id": "",
+      "transaction_id": "SE24.39984",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "oppose_conley",
+      "date": "2026-10-21",
+      "amount_cents": 3764200,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "CAMPAIGN HQ",
+      "description": "CANVASSING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2038255,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229943857508",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615047230",
+      "original_sub_id": "",
+      "transaction_id": "500039611",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 120750,
+      "group": "SCIENCE VICTORY FUND",
+      "group_id": "C00959502",
+      "payee": "EGRET STRATEGIES LLC",
+      "description": "BILLBOARD AD PRODUCTION AND BUY (ESTIMATE)",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039012,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944824735",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615047003",
+      "original_sub_id": "",
+      "transaction_id": "E461AA8B05D76408181C",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 2994629,
+      "group": "AMERICAN LIBERTY FOUNDATION",
+      "group_id": "C00830042",
+      "payee": "RING LIMITED",
+      "description": "DIGITAL ADS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2038024,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035092",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615047017",
+      "original_sub_id": "",
+      "transaction_id": "SE24.39983",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 3764200,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "CAMPAIGN HQ",
+      "description": "CANVASSING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2038255,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229943857508",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615047040",
+      "original_sub_id": "",
+      "transaction_id": "SE24.39982",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-21",
+      "amount_cents": 100000,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "TARGETED VICTORY LLC",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2038255,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229943857519",
+      "election_type": "G2026",
+      "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
