@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-23T06:55:20-04:00",
+  "generated_at": "2026-10-23T10:02:04-04:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 142,
+    "api_rows": 147,
     "pages": 2,
-    "included_rows": 120,
+    "included_rows": 125,
     "excluded": {
       "other_election": 19,
       "notice_regular_duplicates": 3
@@ -55,10 +55,10 @@
     "support_lawler": 21871713,
     "oppose_conley": 505891441,
     "support_conley": 10133568,
-    "oppose_lawler": 118157876,
+    "oppose_lawler": 178019028,
     "benefit_lawler": 527763154,
-    "benefit_conley": 128291444,
-    "all": 656054598
+    "benefit_conley": 188152596,
+    "all": 715915750
   },
   "daily": [
     {
@@ -420,6 +420,14 @@
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 4633636
+    },
+    {
+      "date": "2026-10-20",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 59861152,
+      "total": 59861152
     }
   ],
   "groups": [
@@ -433,11 +441,11 @@
     },
     {
       "name": "HMP",
-      "total": 58087362,
+      "total": 117948514,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 58087362
+      "oppose_lawler": 117948514
     },
     {
       "name": "BDA PAC",
@@ -833,15 +841,25 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lincoln",
-      "total": 118157876,
+      "total": 178019028,
       "categories": [
         {
-          "name": "Digital",
-          "total": 69018928,
+          "name": "TV",
+          "total": 35640000,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 53948414
+              "amount_cents": 35640000
+            }
+          ]
+        },
+        {
+          "name": "Digital",
+          "total": 88894685,
+          "groups": [
+            {
+              "name": "HMP",
+              "amount_cents": 73824171
             },
             {
               "name": "PLANNED PARENTHOOD AFFILIATES OF CALIFORNIA VOTES PAC",
@@ -851,7 +869,7 @@
         },
         {
           "name": "Production",
-          "total": 49138948,
+          "total": 53484343,
           "groups": [
             {
               "name": "BDA PAC",
@@ -859,7 +877,7 @@
             },
             {
               "name": "HMP",
-              "amount_cents": 4138948
+              "amount_cents": 8484343
             }
           ]
         }
@@ -3623,6 +3641,121 @@
       "filing_date": "2026-10-20",
       "file_number": 2032195,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916297042",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046472",
+      "original_sub_id": "",
+      "transaction_id": "500691961",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 1645395,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "CONEXION POLITICAL, LLC",
+      "description": "MEDIA PRODUCTION - ESTIMATE",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388520",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046561",
+      "original_sub_id": "",
+      "transaction_id": "500691962",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 1500000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "TKO POLITICAL, LLC",
+      "description": "MEDIA PRODUCTION - ESTIMATE",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388565",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046571",
+      "original_sub_id": "",
+      "transaction_id": "500691963",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 1200000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "TRILOGY INTERACTIVE LLC",
+      "description": "MEDIA PRODUCTION - ESTIMATE",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388570",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046572",
+      "original_sub_id": "",
+      "transaction_id": "500691964",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 19875757,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "TRILOGY INTERACTIVE LLC",
+      "description": "DIGITAL ADVERTISING - ESTIMATE",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388570",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102220261615046625",
+      "original_sub_id": "",
+      "transaction_id": "500691965",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 35640000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "WATERFRONT STRATEGIES INC.",
+      "description": "TELEVISION ADVERTISING - ESTIMATE",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-21",
+      "file_number": 2035562,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388597",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"

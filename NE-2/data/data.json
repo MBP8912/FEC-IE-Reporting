@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-23T06:55:14-04:00",
+  "generated_at": "2026-10-23T10:02:00-04:00",
   "district": "NE-2",
   "period": {
     "cycle": 2026,
@@ -3349,7 +3349,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4101520261612641383",
+      "source_id": "4102220261615046302",
       "original_sub_id": "",
       "transaction_id": "WFT202696150-1",
       "candidate": "conley",
@@ -3364,9 +3364,9 @@
       "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-15",
-      "file_number": 2024174,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159909075802",
+      "filing_date": "2026-10-21",
+      "file_number": 2035401,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934381794",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "A"
