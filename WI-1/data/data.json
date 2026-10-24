@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-24T04:54:43-04:00",
+  "generated_at": "2026-10-24T07:52:36-04:00",
   "district": "WI-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 169,
+    "api_rows": 181,
     "pages": 2,
-    "included_rows": 156,
+    "included_rows": 168,
     "excluded": {
       "other_candidate": 2,
       "memo_item": 1,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 328267854,
-    "oppose_conley": 233651043,
-    "support_conley": 105797677,
-    "oppose_lawler": 312452331,
-    "benefit_lawler": 561918897,
-    "benefit_conley": 418250008,
-    "all": 980168905
+    "support_lawler": 335212826,
+    "oppose_conley": 365263350,
+    "support_conley": 105811605,
+    "oppose_lawler": 414123631,
+    "benefit_lawler": 700476176,
+    "benefit_conley": 519935236,
+    "all": 1220411412
   },
   "daily": [
     {
@@ -299,9 +299,9 @@
       "date": "2026-10-09",
       "support_lawler": 38907500,
       "oppose_conley": 6896664,
-      "support_conley": 2482585,
-      "oppose_lawler": 9846357,
-      "total": 58133106
+      "support_conley": 2495085,
+      "oppose_lawler": 9853857,
+      "total": 58153106
     },
     {
       "date": "2026-10-10",
@@ -361,19 +361,19 @@
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 10611885,
-      "oppose_conley": 6603898,
+      "support_lawler": 17215783,
+      "oppose_conley": 112866205,
       "support_conley": 2321250,
       "oppose_lawler": 2321250,
-      "total": 21858283
+      "total": 134724488
     },
     {
       "date": "2026-10-20",
       "support_lawler": 19131117,
       "oppose_conley": 5069420,
       "support_conley": 0,
-      "oppose_lawler": 146994900,
-      "total": 171195437
+      "oppose_lawler": 247218900,
+      "total": 271419437
     },
     {
       "date": "2026-10-21",
@@ -385,11 +385,19 @@
     },
     {
       "date": "2026-10-22",
-      "support_lawler": 316730,
-      "oppose_conley": 10000000,
+      "support_lawler": 358884,
+      "oppose_conley": 35350000,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 10316730
+      "total": 35708884
+    },
+    {
+      "date": "2026-10-23",
+      "support_lawler": 298920,
+      "oppose_conley": 0,
+      "support_conley": 1428,
+      "oppose_lawler": 1439800,
+      "total": 1740148
     }
   ],
   "groups": [
@@ -403,9 +411,9 @@
     },
     {
       "name": "CLF",
-      "total": 108050000,
+      "total": 214312307,
       "support_lawler": 0,
-      "oppose_conley": 108050000,
+      "oppose_conley": 214312307,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -418,18 +426,26 @@
       "oppose_lawler": 0
     },
     {
+      "name": "314 ACTION FUND",
+      "total": 101663800,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 101663800
+    },
+    {
       "name": "AMERICAN MAJORITY ACTION PAC",
-      "total": 99615120,
-      "support_lawler": 99615120,
+      "total": 99956194,
+      "support_lawler": 99956194,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
     },
     {
       "name": "WISCONSIN WORKING PAC",
-      "total": 62975510,
+      "total": 88325510,
       "support_lawler": 0,
-      "oppose_conley": 62975510,
+      "oppose_conley": 88325510,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -458,20 +474,20 @@
       "oppose_lawler": 0
     },
     {
+      "name": "CIVIC RENEWAL FUND INC.",
+      "total": 28767985,
+      "support_lawler": 20869209,
+      "oppose_conley": 7898776,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "IN UNION USA",
       "total": 25847240,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 6461811,
       "oppose_lawler": 19385429
-    },
-    {
-      "name": "CIVIC RENEWAL FUND INC.",
-      "total": 22164087,
-      "support_lawler": 14265311,
-      "oppose_conley": 7898776,
-      "support_conley": 0,
-      "oppose_lawler": 0
     },
     {
       "name": "CENTER FORWARD INITIATIVE INC (CFI)",
@@ -515,10 +531,10 @@
     },
     {
       "name": "THE WISCO PROJECT PAC",
-      "total": 8236750,
+      "total": 8238178,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 5013000,
+      "support_conley": 5014428,
       "oppose_lawler": 3223750
     },
     {
@@ -626,6 +642,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "WORKING AMERICA",
+      "total": 20000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 12500,
+      "oppose_lawler": 7500
+    },
+    {
       "name": "GRASSROOTS NORTH SHORE",
       "total": 4745,
       "support_lawler": 0,
@@ -638,7 +662,7 @@
     {
       "key": "support_lawler",
       "name": "Support Steil",
-      "total": 328267854,
+      "total": 335212826,
       "categories": [
         {
           "name": "TV",
@@ -676,7 +700,7 @@
         },
         {
           "name": "Mail",
-          "total": 149407624,
+          "total": 156011522,
           "groups": [
             {
               "name": "AMERICAN MAJORITY ACTION PAC",
@@ -691,12 +715,12 @@
               "amount_cents": 23764057
             },
             {
-              "name": "CENTER FORWARD INITIATIVE INC (CFI)",
-              "amount_cents": 17134100
+              "name": "CIVIC RENEWAL FUND INC.",
+              "amount_cents": 20369201
             },
             {
-              "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 13765303
+              "name": "CENTER FORWARD INITIATIVE INC (CFI)",
+              "amount_cents": 17134100
             },
             {
               "name": "NRA VICTORY FUND, INC.",
@@ -706,7 +730,7 @@
         },
         {
           "name": "Text",
-          "total": 3696180,
+          "total": 3738334,
           "groups": [
             {
               "name": "SAVE AMERICAN FREEDOM",
@@ -718,17 +742,17 @@
             },
             {
               "name": "AMERICAN MAJORITY ACTION PAC",
-              "amount_cents": 16660
+              "amount_cents": 58814
             }
           ]
         },
         {
           "name": "Field / Canvassing",
-          "total": 33822145,
+          "total": 34121065,
           "groups": [
             {
               "name": "AMERICAN MAJORITY ACTION PAC",
-              "amount_cents": 33554412
+              "amount_cents": 33853332
             },
             {
               "name": "CIVIC RENEWAL FUND INC.",
@@ -793,15 +817,15 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Berman",
-      "total": 233651043,
+      "total": 365263350,
       "categories": [
         {
           "name": "TV",
-          "total": 136909700,
+          "total": 225672007,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 89250000
+              "amount_cents": 178012307
             },
             {
               "name": "WISCONSIN WORKING PAC",
@@ -811,11 +835,11 @@
         },
         {
           "name": "Digital",
-          "total": 42629209,
+          "total": 60129209,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 17500000
+              "amount_cents": 35000000
             },
             {
               "name": "WISCONSIN WORKING PAC",
@@ -833,8 +857,12 @@
         },
         {
           "name": "Media (unspecified)",
-          "total": 10000000,
+          "total": 34000000,
           "groups": [
+            {
+              "name": "WISCONSIN WORKING PAC",
+              "amount_cents": 24000000
+            },
             {
               "name": "AMERICANS 4 SECURITY PAC",
               "amount_cents": 10000000
@@ -877,11 +905,11 @@
         },
         {
           "name": "Production",
-          "total": 2650000,
+          "total": 4000000,
           "groups": [
             {
               "name": "WISCONSIN WORKING PAC",
-              "amount_cents": 1350000
+              "amount_cents": 2700000
             },
             {
               "name": "CLF",
@@ -904,11 +932,11 @@
     {
       "key": "support_conley",
       "name": "Support Berman",
-      "total": 105797677,
+      "total": 105811605,
       "categories": [
         {
           "name": "Digital",
-          "total": 3586843,
+          "total": 3599343,
           "groups": [
             {
               "name": "THE WISCO PROJECT PAC",
@@ -921,6 +949,10 @@
             {
               "name": "FIELD TEAM 6, INC.",
               "amount_cents": 16843
+            },
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 12500
             }
           ]
         },
@@ -958,11 +990,15 @@
         },
         {
           "name": "Text",
-          "total": 105476,
+          "total": 106904,
           "groups": [
             {
               "name": "FIELD TEAM 6, INC.",
               "amount_cents": 105476
+            },
+            {
+              "name": "THE WISCO PROJECT PAC",
+              "amount_cents": 1428
             }
           ]
         },
@@ -1045,7 +1081,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Steil",
-      "total": 312452331,
+      "total": 414123631,
       "categories": [
         {
           "name": "TV",
@@ -1059,7 +1095,7 @@
         },
         {
           "name": "Digital",
-          "total": 80507600,
+          "total": 80515100,
           "groups": [
             {
               "name": "HMP",
@@ -1072,6 +1108,10 @@
             {
               "name": "THE WISCO PROJECT PAC",
               "amount_cents": 3100000
+            },
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 7500
             }
           ]
         },
@@ -1101,8 +1141,12 @@
         },
         {
           "name": "Production",
-          "total": 5837802,
+          "total": 107501602,
           "groups": [
+            {
+              "name": "314 ACTION FUND",
+              "amount_cents": 101663800
+            },
             {
               "name": "HMP",
               "amount_cents": 4937802
@@ -3014,6 +3058,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615074019",
+      "original_sub_id": "",
+      "transaction_id": "501367420",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-09",
+      "amount_cents": 7500,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-22",
+      "file_number": 2039502,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944918010",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4101320261612398100",
       "original_sub_id": "",
       "transaction_id": "E-2222",
@@ -3080,6 +3147,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610099908597644",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615074007",
+      "original_sub_id": "",
+      "transaction_id": "501367362",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "support_conley",
+      "date": "2026-10-09",
+      "amount_cents": 12500,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-22",
+      "file_number": 2039502,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944918006",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -4141,6 +4231,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615119318",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6575",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "oppose_conley",
+      "date": "2026-10-19",
+      "amount_cents": 17500000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "FLEXPOINT MEDIA",
+      "description": "DIGITAL PLACEMENT",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039683,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964351",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119319",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6695",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "oppose_conley",
+      "date": "2026-10-19",
+      "amount_cents": 88762307,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "FLEXPOINT MEDIA",
+      "description": "MEDIA PLACEMENT",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039683,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964352",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102020261614372609",
       "original_sub_id": "",
       "transaction_id": "500233414",
@@ -4256,6 +4392,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615119466",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37657",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 6603898,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039996,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116715",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102020261614036080",
       "original_sub_id": "",
       "transaction_id": "F57.000003",
@@ -4320,6 +4479,29 @@
       "filing_date": "2026-10-21",
       "file_number": 2035227,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379286",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119546",
+      "original_sub_id": "",
+      "transaction_id": "500112173",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-20",
+      "amount_cents": 100224000,
+      "group": "314 ACTION FUND",
+      "group_id": "C00633248",
+      "payee": "WATERFRONT STRATEGIES",
+      "description": "ADVERTISING & MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040290,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159351",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -4693,6 +4875,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615120003",
+      "original_sub_id": "",
+      "transaction_id": "SE.4175",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 24000000,
+      "group": "WISCONSIN WORKING PAC",
+      "group_id": "C00890343",
+      "payee": "FIREWALL PLACEMENT",
+      "description": "'RISK' AD BUY 10/24-11/3",
+      "type": "Media (unspecified)",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040884,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197070",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615120004",
+      "original_sub_id": "",
+      "transaction_id": "SE.4176",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 1350000,
+      "group": "WISCONSIN WORKING PAC",
+      "group_id": "C00890343",
+      "payee": "FIREWALL PLACEMENT",
+      "description": "'RISK' AD PRODUCTION 10/24-11/3",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040884,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197070",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102220261615047159",
       "original_sub_id": "",
       "transaction_id": "C0239108BFAE5771D47A",
@@ -4711,6 +4939,98 @@
       "filing_date": "2026-10-22",
       "file_number": 2038707,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944749898",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119813",
+      "original_sub_id": "",
+      "transaction_id": "67A2B81B034383728DFA",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "support_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 42154,
+      "group": "AMERICAN MAJORITY ACTION PAC",
+      "group_id": "C00952994",
+      "payee": "VOTER GRAVITY INC.",
+      "description": "VOTER DATA-PHONE BANK AND TEXT MESSAGE",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040693,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945183404",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119832",
+      "original_sub_id": "",
+      "transaction_id": "500112178",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 1439800,
+      "group": "314 ACTION FUND",
+      "group_id": "C00633248",
+      "payee": "DECLARATION MEDIA",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040724,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196329",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615120029",
+      "original_sub_id": "",
+      "transaction_id": "SE.4310",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 1428,
+      "group": "THE WISCO PROJECT PAC",
+      "group_id": "C00873901",
+      "payee": "WISCO PROJECT, INC.",
+      "description": "IN - KIND - TEXTING ON 10/23 TO SUPPORT BERMAN",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040889,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197094",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119803",
+      "original_sub_id": "",
+      "transaction_id": "9061915BF8AD2901F6B2",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "support_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 298920,
+      "group": "AMERICAN MAJORITY ACTION PAC",
+      "group_id": "C00952994",
+      "payee": "AMERICAN MAJORITY ACTION INC.",
+      "description": "CONTRACTED CANVASSING AND PHONE BANKING AND STAFF TIME",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040693,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945183399",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"

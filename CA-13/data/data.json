@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-24T04:54:45-04:00",
+  "generated_at": "2026-10-24T07:52:39-04:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,22 +43,22 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 147,
+    "api_rows": 151,
     "pages": 2,
-    "included_rows": 125,
+    "included_rows": 129,
     "excluded": {
       "other_election": 19,
       "notice_regular_duplicates": 3
     }
   },
   "totals": {
-    "support_lawler": 21871713,
-    "oppose_conley": 505891441,
+    "support_lawler": 26505349,
+    "oppose_conley": 557892112,
     "support_conley": 10133568,
     "oppose_lawler": 178019028,
-    "benefit_lawler": 527763154,
+    "benefit_lawler": 584397461,
     "benefit_conley": 188152596,
-    "all": 715915750
+    "all": 772550057
   },
   "daily": [
     {
@@ -408,18 +408,18 @@
     {
       "date": "2026-10-16",
       "support_lawler": 6045401,
-      "oppose_conley": 0,
+      "oppose_conley": 28000000,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 6045401
+      "total": 34045401
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 0,
-      "oppose_conley": 4633636,
+      "support_lawler": 4633636,
+      "oppose_conley": 27334307,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 4633636
+      "total": 31967943
     },
     {
       "date": "2026-10-20",
@@ -428,14 +428,22 @@
       "support_conley": 0,
       "oppose_lawler": 59861152,
       "total": 59861152
+    },
+    {
+      "date": "2026-10-21",
+      "support_lawler": 0,
+      "oppose_conley": 1300000,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 1300000
     }
   ],
   "groups": [
     {
       "name": "CLF",
-      "total": 484531397,
+      "total": 536532068,
       "support_lawler": 0,
-      "oppose_conley": 484531397,
+      "oppose_conley": 536532068,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -457,8 +465,8 @@
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
-      "total": 20000953,
-      "support_lawler": 13949937,
+      "total": 24634589,
+      "support_lawler": 18583573,
       "oppose_conley": 6051016,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -556,7 +564,7 @@
     {
       "key": "support_lawler",
       "name": "Support Lincoln",
-      "total": 21871713,
+      "total": 26505349,
       "categories": [
         {
           "name": "Digital",
@@ -574,11 +582,11 @@
         },
         {
           "name": "Mail",
-          "total": 16453071,
+          "total": 21086707,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 13518747
+              "amount_cents": 18152383
             },
             {
               "name": "NO GOING BACK PAC INC.",
@@ -639,25 +647,25 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Gray",
-      "total": 505891441,
+      "total": 557892112,
       "categories": [
         {
           "name": "TV",
-          "total": 391131397,
+          "total": 413832068,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 391131397
+              "amount_cents": 413832068
             }
           ]
         },
         {
           "name": "Digital",
-          "total": 89589660,
+          "total": 117589660,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 88000000
+              "amount_cents": 116000000
             },
             {
               "name": "MAGA INC.",
@@ -715,11 +723,11 @@
         },
         {
           "name": "Production",
-          "total": 5547529,
+          "total": 6847529,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 5400000
+              "amount_cents": 6700000
             },
             {
               "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
@@ -3577,6 +3585,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615119215",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6568",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-16",
+      "amount_cents": 28000000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "STARBOARD ADVERTISING",
+      "description": "DIGITAL PLACEMENT",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039683,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964300",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4101720261613726605",
       "original_sub_id": "",
       "transaction_id": "SE24.37358",
@@ -3641,6 +3672,52 @@
       "filing_date": "2026-10-20",
       "file_number": 2032195,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916297042",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119216",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6672",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-19",
+      "amount_cents": 22700671,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "DEL RAY MEDIA LLC",
+      "description": "MEDIA PLACEMENT",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039683,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964300",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119448",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37637",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 4633636,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039996,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116706",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -3758,6 +3835,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388597",
       "election_type": "G2026",
       "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119217",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6756",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-21",
+      "amount_cents": 1300000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "THE HEREFORD AGENCY",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039683,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964301",
+      "election_type": "G2026",
+      "original_category_code": "004",
       "amendment_indicator": "N"
     }
   ],
