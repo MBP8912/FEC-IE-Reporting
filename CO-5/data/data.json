@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-24T05:53:27-04:00",
+  "generated_at": "2026-10-24T09:02:37-04:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 162,
+    "api_rows": 168,
     "pages": 2,
-    "included_rows": 142,
+    "included_rows": 148,
     "excluded": {
       "memo_item": 3,
       "other_election": 3,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 116745641,
-    "oppose_conley": 374726756,
+    "support_lawler": 125015808,
+    "oppose_conley": 377362196,
     "support_conley": 11608302,
-    "oppose_lawler": 174988392,
-    "benefit_lawler": 491472397,
-    "benefit_conley": 186596694,
-    "all": 678069091
+    "oppose_lawler": 177271752,
+    "benefit_lawler": 502378004,
+    "benefit_conley": 188880054,
+    "all": 691258058
   },
   "daily": [
     {
@@ -321,11 +321,11 @@
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 0,
+      "support_lawler": 5634728,
       "oppose_conley": 108114858,
       "support_conley": 410290,
       "oppose_lawler": 0,
-      "total": 108525148
+      "total": 114159876
     },
     {
       "date": "2026-10-20",
@@ -345,11 +345,19 @@
     },
     {
       "date": "2026-10-22",
+      "support_lawler": 2635439,
+      "oppose_conley": 2635440,
+      "support_conley": 0,
+      "oppose_lawler": 3702255,
+      "total": 8973134
+    },
+    {
+      "date": "2026-10-23",
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 3702255,
-      "total": 3702255
+      "oppose_lawler": 2283360,
+      "total": 2283360
     }
   ],
   "groups": [
@@ -371,9 +379,9 @@
     },
     {
       "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "total": 77645597,
-      "support_lawler": 42938072,
-      "oppose_conley": 34707525,
+      "total": 82916476,
+      "support_lawler": 45573511,
+      "oppose_conley": 37342965,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -387,11 +395,11 @@
     },
     {
       "name": "AB PAC",
-      "total": 46080386,
+      "total": 48363746,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 11059776,
-      "oppose_lawler": 35020610
+      "oppose_lawler": 37303970
     },
     {
       "name": "WOMEN VOTE",
@@ -402,20 +410,20 @@
       "oppose_lawler": 44194245
     },
     {
+      "name": "CIVIC RENEWAL FUND INC.",
+      "total": 28385800,
+      "support_lawler": 21117253,
+      "oppose_conley": 7268547,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "VOTEVETS",
       "total": 24693456,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 365456,
       "oppose_lawler": 24328000
-    },
-    {
-      "name": "CIVIC RENEWAL FUND INC.",
-      "total": 22751072,
-      "support_lawler": 15482525,
-      "oppose_conley": 7268547,
-      "support_conley": 0,
-      "oppose_lawler": 0
     },
     {
       "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
@@ -502,7 +510,7 @@
     {
       "key": "support_lawler",
       "name": "Support Crank",
-      "total": 116745641,
+      "total": 125015808,
       "categories": [
         {
           "name": "Digital",
@@ -534,23 +542,23 @@
         },
         {
           "name": "Mail",
-          "total": 72569378,
+          "total": 80839545,
           "groups": [
+            {
+              "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+              "amount_cents": 21784454
+            },
             {
               "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
               "amount_cents": 20698422
             },
             {
-              "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-              "amount_cents": 19149015
+              "name": "CIVIC RENEWAL FUND INC.",
+              "amount_cents": 20512496
             },
             {
               "name": "NO GOING BACK PAC INC.",
               "amount_cents": 17043500
-            },
-            {
-              "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 14877768
             },
             {
               "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
@@ -619,7 +627,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Killin",
-      "total": 374726756,
+      "total": 377362196,
       "categories": [
         {
           "name": "TV",
@@ -657,7 +665,7 @@
         },
         {
           "name": "Mail",
-          "total": 80804157,
+          "total": 83439597,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
@@ -665,7 +673,7 @@
             },
             {
               "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-              "amount_cents": 11198468
+              "amount_cents": 13833908
             },
             {
               "name": "CIVIC RENEWAL FUND INC.",
@@ -791,7 +799,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Crank",
-      "total": 174988392,
+      "total": 177271752,
       "categories": [
         {
           "name": "TV",
@@ -827,7 +835,7 @@
         },
         {
           "name": "Mail",
-          "total": 32894405,
+          "total": 35177765,
           "groups": [
             {
               "name": "WOMEN VOTE",
@@ -835,7 +843,7 @@
             },
             {
               "name": "AB PAC",
-              "amount_cents": 13700160
+              "amount_cents": 15983520
             }
           ]
         },
@@ -3829,6 +3837,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615119450",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37639",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 5634728,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039996,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116707",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102120261614735974",
       "original_sub_id": "",
       "transaction_id": "501359857",
@@ -4105,6 +4136,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102320261615120079",
+      "original_sub_id": "",
+      "transaction_id": "SE24.40034",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 1062898,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "TED PRILL DBA KAP PRINT LLC",
+      "description": "MAILER PRODUCTION",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040916,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199457",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615120088",
+      "original_sub_id": "",
+      "transaction_id": "SE24.40036",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 1572542,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "UNITED STATES POSTAL SERVICE",
+      "description": "MAILER POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040916,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199461",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102020261614372406",
       "original_sub_id": "",
       "transaction_id": "500017750",
@@ -4125,6 +4202,75 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916328739",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615120078",
+      "original_sub_id": "",
+      "transaction_id": "SE24.40033",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 1062897,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "TED PRILL DBA KAP PRINT LLC",
+      "description": "MAILER PRODUCTION",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040916,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199456",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615120087",
+      "original_sub_id": "",
+      "transaction_id": "SE24.40035",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 1572542,
+      "group": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
+      "group_id": "C00687103",
+      "payee": "UNITED STATES POSTAL SERVICE",
+      "description": "MAILER POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040916,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199461",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615120023",
+      "original_sub_id": "",
+      "transaction_id": "501359867",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 2283360,
+      "group": "AB PAC",
+      "group_id": "C00492140",
+      "payee": "BERNI CONSULTING LLC",
+      "description": "MAIL- ESTIMATED COST",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040885,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197080",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     }
   ],
