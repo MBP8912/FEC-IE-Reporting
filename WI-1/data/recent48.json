@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-24T15:51:21+00:00",
+  "checked_at": "2026-10-24T16:53:05+00:00",
   "source_data_generated_at": "2026-10-24T10:50:32-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -652,20 +652,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 611885,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235522"
-    },
-    {
-      "source_id": "4101920261614009955",
-      "file_number": "2030532",
-      "reported_at": "2026-10-19T16:33:30+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "THE WISCO PROJECT PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND STAFF SALARY ESTIMATE FOR INDEPENDENT EXPENDITURES 10/15 - 11/3 BERMAN",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1250000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916205269"
     }
   ]
 }
