@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-24T01:13:36+00:00",
+  "checked_at": "2026-10-24T01:57:21+00:00",
   "source_data_generated_at": "2026-10-23T18:17:32-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -64,62 +64,6 @@
       "spend_type": "Mail",
       "amount_cents": 721303,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916221020"
-    },
-    {
-      "source_id": "4101920261614009056",
-      "file_number": "2030120",
-      "reported_at": "2026-10-19T01:15:52+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "AMERICAN DEMOCRACY PROJECT",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 1872000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184037"
-    },
-    {
-      "source_id": "4101920261614009045",
-      "file_number": "2030120",
-      "reported_at": "2026-10-19T01:15:52+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "AMERICAN DEMOCRACY PROJECT",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 702000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184031"
-    },
-    {
-      "source_id": "4101920261614009057",
-      "file_number": "2030120",
-      "reported_at": "2026-10-19T01:15:52+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "AMERICAN DEMOCRACY PROJECT",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 468000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184037"
-    },
-    {
-      "source_id": "4101920261614009046",
-      "file_number": "2030120",
-      "reported_at": "2026-10-19T01:15:52+00:00",
-      "expenditure_date": "2026-10-16",
-      "spender": "AMERICAN DEMOCRACY PROJECT",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 175500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610189916184032"
     }
   ]
 }
