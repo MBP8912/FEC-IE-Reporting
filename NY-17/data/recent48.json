@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-24T17:47:35+00:00",
+  "checked_at": "2026-10-24T18:55:24+00:00",
   "source_data_generated_at": "2026-10-24T12:53:11-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1632,34 +1632,6 @@
       "spend_type": "Digital",
       "amount_cents": 2127915,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232627"
-    },
-    {
-      "source_id": "4101920261614010044",
-      "file_number": "2030823",
-      "reported_at": "2026-10-19T18:51:30+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 75947,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916213885"
-    },
-    {
-      "source_id": "4101920261614010027",
-      "file_number": "2030746",
-      "reported_at": "2026-10-19T18:09:22+00:00",
-      "expenditure_date": "2026-10-18",
-      "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 25261,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916212291"
     }
   ]
 }
