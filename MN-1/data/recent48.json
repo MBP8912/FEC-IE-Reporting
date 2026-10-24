@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-24T19:45:46+00:00",
+  "checked_at": "2026-10-24T20:48:25+00:00",
   "source_data_generated_at": "2026-10-24T13:47:41-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -372,20 +372,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 10000000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916300647"
-    },
-    {
-      "source_id": "4101920261614010059",
-      "file_number": "2030936",
-      "reported_at": "2026-10-19T19:59:58+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "DEFENDING MAIN STREET SUPERPAC INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "RADIO ADS",
-      "spend_type": "Radio",
-      "amount_cents": 2500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916216792"
     }
   ]
 }
