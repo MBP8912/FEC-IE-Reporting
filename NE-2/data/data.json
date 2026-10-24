@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-24T07:52:35-04:00",
+  "generated_at": "2026-10-24T10:50:30-04:00",
   "district": "NE-2",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 420,
+    "api_rows": 421,
     "pages": 5,
-    "included_rows": 160,
+    "included_rows": 161,
     "excluded": {
       "other_election": 140,
       "memo_item": 1,
@@ -55,13 +55,13 @@
     }
   },
   "totals": {
-    "support_lawler": 19595357,
+    "support_lawler": 24575487,
     "oppose_conley": 163729040,
     "support_conley": 57900407,
     "oppose_lawler": 162395254,
-    "benefit_lawler": 183324397,
+    "benefit_lawler": 188304527,
     "benefit_conley": 220295661,
-    "all": 403620058
+    "all": 408600188
   },
   "daily": [
     {
@@ -426,11 +426,11 @@
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 0,
+      "support_lawler": 4980130,
       "oppose_conley": 4980130,
       "support_conley": 1153066,
       "oppose_lawler": 3105539,
-      "total": 9238735
+      "total": 14218865
     }
   ],
   "groups": [
@@ -452,8 +452,8 @@
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
-      "total": 22031407,
-      "support_lawler": 15377507,
+      "total": 27011537,
+      "support_lawler": 20357637,
       "oppose_conley": 6653900,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -591,15 +591,15 @@
     {
       "key": "support_lawler",
       "name": "Support Harding",
-      "total": 19595357,
+      "total": 24575487,
       "categories": [
         {
           "name": "Mail",
-          "total": 18929760,
+          "total": 23909890,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 14792890
+              "amount_cents": 19773020
             },
             {
               "name": "NO GOING BACK PAC INC.",
@@ -4632,6 +4632,29 @@
       "filing_date": "2026-10-20",
       "file_number": 2033080,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431915",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102320261615119457",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37648",
+      "candidate": "lawler",
+      "candidate_id": "H6NE02208",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 4980130,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-22",
+      "file_number": 2039996,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116710",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
