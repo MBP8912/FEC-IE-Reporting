@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-25T05:53:17-04:00",
+  "generated_at": "2026-10-25T09:02:42-04:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 468,
+    "api_rows": 497,
     "pages": 5,
-    "included_rows": 399,
+    "included_rows": 428,
     "excluded": {
       "other_election": 35,
       "memo_item": 5,
@@ -55,13 +55,13 @@
     }
   },
   "totals": {
-    "support_lawler": 230353242,
-    "oppose_conley": 1033179549,
-    "support_conley": 176953034,
-    "oppose_lawler": 441435036,
-    "benefit_lawler": 1263532791,
-    "benefit_conley": 618388070,
-    "all": 1881920861
+    "support_lawler": 231972755,
+    "oppose_conley": 1034871318,
+    "support_conley": 190283695,
+    "oppose_lawler": 441729036,
+    "benefit_lawler": 1266844073,
+    "benefit_conley": 632012731,
+    "all": 1898856804
   },
   "daily": [
     {
@@ -445,8 +445,8 @@
       "support_lawler": 12886755,
       "oppose_conley": 169577639,
       "support_conley": 6512920,
-      "oppose_lawler": 9831800,
-      "total": 198809114
+      "oppose_lawler": 10125800,
+      "total": 199103114
     },
     {
       "date": "2026-10-10",
@@ -538,19 +538,19 @@
     },
     {
       "date": "2026-10-22",
-      "support_lawler": 2714707,
-      "oppose_conley": 0,
-      "support_conley": 2251865,
+      "support_lawler": 4334220,
+      "oppose_conley": 1691769,
+      "support_conley": 2734154,
       "oppose_lawler": 1001385,
-      "total": 5967957
+      "total": 9761528
     },
     {
       "date": "2026-10-23",
       "support_lawler": 57849,
       "oppose_conley": 0,
-      "support_conley": 12679517,
+      "support_conley": 25527889,
       "oppose_lawler": 8054842,
-      "total": 20792208
+      "total": 33640580
     }
   ],
   "groups": [
@@ -628,9 +628,9 @@
     },
     {
       "name": "NO GOING BACK PAC INC.",
-      "total": 38060051,
-      "support_lawler": 15204743,
-      "oppose_conley": 22855308,
+      "total": 41371333,
+      "support_lawler": 16824256,
+      "oppose_conley": 24547077,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -683,6 +683,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "HUMAN RIGHTS CAMPAIGN EQUALITY VOTES PAC",
+      "total": 12500000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 12500000,
+      "oppose_lawler": 0
+    },
+    {
       "name": "THE GOVERNING MAJORITY FUND",
       "total": 12191056,
       "support_lawler": 0,
@@ -724,10 +732,18 @@
     },
     {
       "name": "FOOD AND WATER ACTION",
-      "total": 2409787,
+      "total": 2803980,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 2409787,
+      "support_conley": 2803980,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+      "total": 1857857,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1857857,
       "oppose_lawler": 0
     },
     {
@@ -737,14 +753,6 @@
       "oppose_conley": 0,
       "support_conley": 1626526,
       "oppose_lawler": 156502
-    },
-    {
-      "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
-      "total": 1509485,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 1509485,
-      "oppose_lawler": 0
     },
     {
       "name": "NEW YORKERS FOR A RETURN TO FAIR AND HONEST GOVERNMENT",
@@ -788,10 +796,10 @@
     },
     {
       "name": "OUR TURN HUDSON VALLEY",
-      "total": 532936,
+      "total": 615032,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 532936,
+      "support_conley": 615032,
       "oppose_lawler": 0
     },
     {
@@ -801,6 +809,14 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
+    },
+    {
+      "name": "POPULAR DEMOCRACY PAC",
+      "total": 294000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 294000
     },
     {
       "name": "ACTIVATE AMERICA",
@@ -828,10 +844,10 @@
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 39500,
+      "total": 45500,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 35500,
+      "support_conley": 41500,
       "oppose_lawler": 4000
     }
   ],
@@ -839,7 +855,7 @@
     {
       "key": "support_lawler",
       "name": "Support Lawler",
-      "total": 230353242,
+      "total": 231972755,
       "categories": [
         {
           "name": "Digital",
@@ -877,7 +893,7 @@
         },
         {
           "name": "Mail",
-          "total": 78918250,
+          "total": 80358025,
           "groups": [
             {
               "name": "CENTER FORWARD INITIATIVE INC (CFI)",
@@ -888,12 +904,12 @@
               "amount_cents": 19564629
             },
             {
-              "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
-              "amount_cents": 16235760
+              "name": "NO GOING BACK PAC INC.",
+              "amount_cents": 16416284
             },
             {
-              "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 14976509
+              "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
+              "amount_cents": 16235760
             },
             {
               "name": "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS SEPARATE SEGREGATED FUND (CRNA-PAC)",
@@ -903,11 +919,11 @@
         },
         {
           "name": "Text",
-          "total": 228234,
+          "total": 407972,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 228234
+              "amount_cents": 407972
             }
           ]
         },
@@ -966,7 +982,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Conley",
-      "total": 1033179549,
+      "total": 1034871318,
       "categories": [
         {
           "name": "TV",
@@ -1002,11 +1018,11 @@
         },
         {
           "name": "Mail",
-          "total": 44777983,
+          "total": 46217758,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 22154834
+              "amount_cents": 23594609
             },
             {
               "name": "THE GOVERNING MAJORITY FUND",
@@ -1020,7 +1036,7 @@
         },
         {
           "name": "Text",
-          "total": 2860704,
+          "total": 3112698,
           "groups": [
             {
               "name": "AMERICA PAC",
@@ -1028,7 +1044,7 @@
             },
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 700474
+              "amount_cents": 952468
             }
           ]
         },
@@ -1057,7 +1073,7 @@
     {
       "key": "support_conley",
       "name": "Support Conley",
-      "total": 176953034,
+      "total": 190283695,
       "categories": [
         {
           "name": "TV",
@@ -1071,11 +1087,15 @@
         },
         {
           "name": "Digital",
-          "total": 62608003,
+          "total": 75108003,
           "groups": [
             {
               "name": "EDUCATORS UNITED FOR PUBLIC SCHOOLS",
               "amount_cents": 51266800
+            },
+            {
+              "name": "HUMAN RIGHTS CAMPAIGN EQUALITY VOTES PAC",
+              "amount_cents": 12500000
             },
             {
               "name": "JDCA PAC",
@@ -1119,11 +1139,15 @@
         },
         {
           "name": "Mail",
-          "total": 13911217,
+          "total": 14259589,
           "groups": [
             {
               "name": "EQUALITY PAC",
               "amount_cents": 13911217
+            },
+            {
+              "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+              "amount_cents": 348372
             }
           ]
         },
@@ -1139,7 +1163,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 80676119,
+          "total": 81076312,
           "groups": [
             {
               "name": "BATTLEGROUND NEW YORK",
@@ -1147,11 +1171,11 @@
             },
             {
               "name": "FOOD AND WATER ACTION",
-              "amount_cents": 2409787
+              "amount_cents": 2803980
             },
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 35500
+              "amount_cents": 41500
             },
             {
               "name": "JDCA PAC",
@@ -1211,11 +1235,11 @@
         },
         {
           "name": "Events",
-          "total": 523020,
+          "total": 605116,
           "groups": [
             {
               "name": "OUR TURN HUDSON VALLEY",
-              "amount_cents": 523020
+              "amount_cents": 605116
             }
           ]
         },
@@ -1234,7 +1258,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lawler",
-      "total": 441435036,
+      "total": 441729036,
       "categories": [
         {
           "name": "TV",
@@ -1256,7 +1280,7 @@
         },
         {
           "name": "Digital",
-          "total": 245002942,
+          "total": 245296942,
           "groups": [
             {
               "name": "HMP",
@@ -1285,6 +1309,10 @@
             {
               "name": "NEW YORKERS FOR A RETURN TO FAIR AND HONEST GOVERNMENT",
               "amount_cents": 825000
+            },
+            {
+              "name": "POPULAR DEMOCRACY PAC",
+              "amount_cents": 294000
             }
           ]
         },
@@ -5407,6 +5435,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610119908612678",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146073",
+      "original_sub_id": "",
+      "transaction_id": "PDT.E.19",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-09",
+      "amount_cents": 294000,
+      "group": "POPULAR DEMOCRACY PAC",
+      "group_id": "C00736009",
+      "payee": "CENTER FOR POPULAR DEMOCRACY ACTION",
+      "description": "DIGITAL ADVERTISING (10/9/26-11/3/26)",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040955,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199631",
+      "election_type": "G2026",
+      "original_category_code": "24A",
       "amendment_indicator": "N"
     },
     {
@@ -10286,6 +10337,75 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102420261615146115",
+      "original_sub_id": "",
+      "transaction_id": "SE.1194671",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 72256,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040964,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199668",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146134",
+      "original_sub_id": "",
+      "transaction_id": "SE.1194115.2",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 1439775,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "DIRECT MAIL: PRINTING AND POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040964,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199677",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146142",
+      "original_sub_id": "",
+      "transaction_id": "SE.1194670.2",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "oppose_conley",
+      "date": "2026-10-22",
+      "amount_cents": 179738,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040964,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199681",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102220261615046942",
       "original_sub_id": "",
       "transaction_id": "IE-48785-E",
@@ -10355,6 +10475,282 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102420261615135064",
+      "original_sub_id": "",
+      "transaction_id": "F57.4992",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 60680,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "BACCHUS, CHARLES",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199912",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135065",
+      "original_sub_id": "",
+      "transaction_id": "F57.4988",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 82421,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "CERAVOLE, PATRICIA",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199912",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135066",
+      "original_sub_id": "",
+      "transaction_id": "F57.4993",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 13500,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "CHODAN, JOY",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199912",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135067",
+      "original_sub_id": "",
+      "transaction_id": "F57.4983",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 27000,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "DAYEM, NEZAR",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199913",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135068",
+      "original_sub_id": "",
+      "transaction_id": "F57.4991",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 35100,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "EDISON, CLAUDIA",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199913",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135069",
+      "original_sub_id": "",
+      "transaction_id": "F57.4990",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 27000,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "GRISELDA LARA, LAURA",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199913",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135070",
+      "original_sub_id": "",
+      "transaction_id": "F57.4984",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 13500,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "JOVANOVIC, MIRIAM",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199914",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135071",
+      "original_sub_id": "",
+      "transaction_id": "F57.4985",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 18900,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "KENT, TIMOTHY",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199914",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135072",
+      "original_sub_id": "",
+      "transaction_id": "F57.4989",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 27000,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "PEARSON, MICHAEL",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199914",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135073",
+      "original_sub_id": "",
+      "transaction_id": "F57.4987",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 27000,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "PERUSO, ROCCO",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199915",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135074",
+      "original_sub_id": "",
+      "transaction_id": "F57.4982",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 13500,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "PIERRE, LEFRAN",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199915",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135075",
+      "original_sub_id": "",
+      "transaction_id": "F57.4986",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 48592,
+      "group": "FOOD AND WATER ACTION",
+      "group_id": "C90019357",
+      "payee": "REDA, SAHER",
+      "description": "OUTREACH",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041020,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199915",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102320261615119473",
       "original_sub_id": "",
       "transaction_id": "500135415",
@@ -10375,6 +10771,213 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945143217",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146271",
+      "original_sub_id": "",
+      "transaction_id": "500236148",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199765",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146001",
+      "original_sub_id": "",
+      "transaction_id": "SE.4369",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "ALVARADO, BRIAN JOEL",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199525",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146002",
+      "original_sub_id": "",
+      "transaction_id": "SE.4371",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "CASTILLO, JASMINE",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199525",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146003",
+      "original_sub_id": "",
+      "transaction_id": "SE.4373",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "MONTOYA, JHOAN",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199526",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146004",
+      "original_sub_id": "",
+      "transaction_id": "SE.4370",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "PISCO, MIA",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199526",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146005",
+      "original_sub_id": "",
+      "transaction_id": "SE.4375",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "QUISPE, KIMBERLY",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199527",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146006",
+      "original_sub_id": "",
+      "transaction_id": "SE.4374",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "SANDOVAL, EVA",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199527",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146007",
+      "original_sub_id": "",
+      "transaction_id": "SE.4376",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 25396,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "SCALE TO WIN",
+      "description": "PHONEBANKING DIALER",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199528",
+      "election_type": "G2026",
+      "original_category_code": "007",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146008",
+      "original_sub_id": "",
+      "transaction_id": "SE.4372",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 8100,
+      "group": "OUR TURN HUDSON VALLEY",
+      "group_id": "C00904961",
+      "payee": "TOVAR-MONTOYA, YECENIA",
+      "description": "PHONEBANKING",
+      "type": "Events",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040929,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199528",
+      "election_type": "G2026",
+      "original_category_code": "007",
       "amendment_indicator": "N"
     },
     {
@@ -10421,6 +11024,52 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944746655",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146101",
+      "original_sub_id": "",
+      "transaction_id": "SE.1194115.1",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "support_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 1439775,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "DIRECT MAIL: PRINTING AND POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040964,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199661",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146114",
+      "original_sub_id": "",
+      "transaction_id": "SE.1194670.1",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "support_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 179738,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040964,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199667",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -10490,6 +11139,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945162479",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146725",
+      "original_sub_id": "",
+      "transaction_id": "500372008",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 348372,
+      "group": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+      "group_id": "C00348540",
+      "payee": "RESONANCE CAMPAIGNS",
+      "description": "MAILERS (ESTIMATE)",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041343,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201085",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -10582,6 +11254,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945162479",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146535",
+      "original_sub_id": "",
+      "transaction_id": "500774257",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 12500000,
+      "group": "HUMAN RIGHTS CAMPAIGN EQUALITY VOTES PAC",
+      "group_id": "C00508440",
+      "payee": "RENEGADE ADVISORS LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041190,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945200592",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {

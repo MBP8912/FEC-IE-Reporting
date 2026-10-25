@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-25T05:53:18-04:00",
+  "generated_at": "2026-10-25T09:02:43-04:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 94,
+    "api_rows": 98,
     "pages": 2,
-    "included_rows": 20,
+    "included_rows": 24,
     "excluded": {
       "other_election": 68,
       "other_candidate": 1,
@@ -56,11 +56,11 @@
   "totals": {
     "support_lawler": 39423488,
     "oppose_conley": 0,
-    "support_conley": 5088243,
-    "oppose_lawler": 150000000,
+    "support_conley": 6300743,
+    "oppose_lawler": 150007500,
     "benefit_lawler": 39423488,
-    "benefit_conley": 155088243,
-    "all": 194511731
+    "benefit_conley": 156308243,
+    "all": 195731731
   },
   "daily": [
     {
@@ -184,6 +184,14 @@
       "total": 150000000
     },
     {
+      "date": "2026-10-09",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 12500,
+      "oppose_lawler": 7500,
+      "total": 20000
+    },
+    {
       "date": "2026-10-19",
       "support_lawler": 0,
       "oppose_conley": 0,
@@ -198,6 +206,14 @@
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 2993933
+    },
+    {
+      "date": "2026-10-22",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1200000,
+      "oppose_lawler": 0,
+      "total": 1200000
     }
   ],
   "groups": [
@@ -232,6 +248,14 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
+    },
+    {
+      "name": "WORKING AMERICA",
+      "total": 1220000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1212500,
+      "oppose_lawler": 7500
     },
     {
       "name": "VOTEVETS",
@@ -297,12 +321,16 @@
     {
       "key": "support_conley",
       "name": "Support Laubacher",
-      "total": 5088243,
+      "total": 6300743,
       "categories": [
         {
           "name": "Digital",
-          "total": 267759,
+          "total": 1480259,
           "groups": [
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 1212500
+            },
             {
               "name": "VOTEVETS",
               "amount_cents": 263267
@@ -348,8 +376,18 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Boebert",
-      "total": 150000000,
+      "total": 150007500,
       "categories": [
+        {
+          "name": "Digital",
+          "total": 7500,
+          "groups": [
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 7500
+            }
+          ]
+        },
         {
           "name": "Production",
           "total": 150000000,
@@ -779,6 +817,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102420261615135092",
+      "original_sub_id": "",
+      "transaction_id": "501367363",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-09",
+      "amount_cents": 7500,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200140",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135108",
+      "original_sub_id": "",
+      "transaction_id": "501367401",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-09",
+      "amount_cents": 12500,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200145",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102020261614372482",
       "original_sub_id": "",
       "transaction_id": "500014532",
@@ -820,6 +904,52 @@
       "filing_date": "2026-10-22",
       "file_number": 2038024,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035090",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135143",
+      "original_sub_id": "",
+      "transaction_id": "501372792",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 1080000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200157",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135181",
+      "original_sub_id": "",
+      "transaction_id": "501372793",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 120000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "SNAPCHAT",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200170",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
