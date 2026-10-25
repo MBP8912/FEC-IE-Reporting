@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-25T19:47:04+00:00",
+  "checked_at": "2026-10-25T20:49:33+00:00",
   "source_data_generated_at": "2026-10-25T14:56:48-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1674,20 +1674,6 @@
       "spend_type": "Digital",
       "amount_cents": 43237,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916427532"
-    },
-    {
-      "source_id": "4102020261614372489",
-      "file_number": "2032952",
-      "reported_at": "2026-10-20T20:44:16+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "VOTEVETS",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
-      "spend_type": "Digital",
-      "amount_cents": 251517,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347913"
     }
   ]
 }
