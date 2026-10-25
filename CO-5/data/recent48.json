@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-25T18:56:44+00:00",
-  "source_data_generated_at": "2026-10-25T11:52:32-04:00",
+  "checked_at": "2026-10-25T19:47:04+00:00",
+  "source_data_generated_at": "2026-10-25T14:56:51-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -498,20 +498,6 @@
       "spend_type": "Digital",
       "amount_cents": 365456,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916347910"
-    },
-    {
-      "source_id": "4102020261614372406",
-      "file_number": "2032655",
-      "reported_at": "2026-10-20T19:15:32+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "WOMEN VOTE",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILHOUSE",
-      "spend_type": "Mail",
-      "amount_cents": 3702255,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916328739"
     }
   ]
 }
