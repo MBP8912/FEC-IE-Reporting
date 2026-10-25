@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-25T04:54:08-04:00",
+  "generated_at": "2026-10-25T07:50:50-04:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 50,
+    "api_rows": 53,
     "pages": 1,
-    "included_rows": 24,
+    "included_rows": 27,
     "excluded": {
       "other_election": 14,
       "other_candidate": 5,
@@ -55,11 +55,11 @@
   "totals": {
     "support_lawler": 721303,
     "oppose_conley": 0,
-    "support_conley": 5363758,
-    "oppose_lawler": 879053,
+    "support_conley": 5375758,
+    "oppose_lawler": 885053,
     "benefit_lawler": 721303,
-    "benefit_conley": 6242811,
-    "all": 6964114
+    "benefit_conley": 6260811,
+    "all": 6982114
   },
   "daily": [
     {
@@ -141,6 +141,14 @@
       "support_conley": 3000,
       "oppose_lawler": 4000,
       "total": 7000
+    },
+    {
+      "date": "2026-10-22",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 12000,
+      "oppose_lawler": 6000,
+      "total": 18000
     }
   ],
   "groups": [
@@ -178,11 +186,11 @@
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 14500,
+      "total": 32500,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 10500,
-      "oppose_lawler": 4000
+      "support_conley": 22500,
+      "oppose_lawler": 10000
     },
     {
       "name": "SIERRA CLUB INDEPENDENT ACTION",
@@ -220,7 +228,7 @@
     {
       "key": "support_conley",
       "name": "Support Riley",
-      "total": 5363758,
+      "total": 5375758,
       "categories": [
         {
           "name": "Digital",
@@ -238,11 +246,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 10500,
+          "total": 22500,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 10500
+              "amount_cents": 22500
             }
           ]
         },
@@ -291,7 +299,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Oberacker",
-      "total": 879053,
+      "total": 885053,
       "categories": [
         {
           "name": "Digital",
@@ -305,11 +313,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 4000,
+          "total": 10000,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 4000
+              "amount_cents": 10000
             }
           ]
         },
@@ -885,6 +893,75 @@
       "filing_date": "2026-10-20",
       "file_number": 2033080,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146269",
+      "original_sub_id": "",
+      "transaction_id": "500236145",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199764",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146265",
+      "original_sub_id": "",
+      "transaction_id": "500236139",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199762",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146266",
+      "original_sub_id": "",
+      "transaction_id": "500236141",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199762",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"

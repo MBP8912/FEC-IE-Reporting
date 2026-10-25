@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-25T04:54:04-04:00",
+  "generated_at": "2026-10-25T07:50:47-04:00",
   "district": "NE-2",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 421,
+    "api_rows": 429,
     "pages": 5,
-    "included_rows": 161,
+    "included_rows": 169,
     "excluded": {
       "other_election": 140,
       "memo_item": 1,
@@ -57,11 +57,11 @@
   "totals": {
     "support_lawler": 24575487,
     "oppose_conley": 163729040,
-    "support_conley": 57900407,
-    "oppose_lawler": 162395254,
+    "support_conley": 61263133,
+    "oppose_lawler": 165508293,
     "benefit_lawler": 188304527,
-    "benefit_conley": 220295661,
-    "all": 408600188
+    "benefit_conley": 226771426,
+    "all": 415075953
   },
   "daily": [
     {
@@ -431,6 +431,22 @@
       "support_conley": 1153066,
       "oppose_lawler": 3105539,
       "total": 14218865
+    },
+    {
+      "date": "2026-10-22",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1956566,
+      "oppose_lawler": 3113039,
+      "total": 5069605
+    },
+    {
+      "date": "2026-10-24",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1406160,
+      "oppose_lawler": 0,
+      "total": 1406160
     }
   ],
   "groups": [
@@ -459,6 +475,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "CFFE PAC",
+      "total": 19030354,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 3408869,
+      "oppose_lawler": 15621485
+    },
+    {
       "name": "NO GOING BACK PAC INC.",
       "total": 16132269,
       "support_lawler": 3907421,
@@ -475,19 +499,11 @@
       "oppose_lawler": 0
     },
     {
-      "name": "CFFE PAC",
-      "total": 14791749,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 2275803,
-      "oppose_lawler": 12515946
-    },
-    {
       "name": "PROGRESSIVE TURNOUT PROJECT",
-      "total": 12596509,
+      "total": 14002669,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 12596509,
+      "support_conley": 14002669,
       "oppose_lawler": 0
     },
     {
@@ -547,12 +563,20 @@
       "oppose_lawler": 0
     },
     {
-      "name": "NEIGHBOR VOICES PAC",
-      "total": 259000,
+      "name": "WORKING AMERICA",
+      "total": 800000,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 160500,
-      "oppose_lawler": 98500
+      "support_conley": 800000,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "NEIGHBOR VOICES PAC",
+      "total": 290000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 184000,
+      "oppose_lawler": 106000
     },
     {
       "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
@@ -735,11 +759,11 @@
     {
       "key": "support_conley",
       "name": "Support Powell",
-      "total": 57900407,
+      "total": 61263133,
       "categories": [
         {
           "name": "Digital",
-          "total": 7282511,
+          "total": 8082511,
           "groups": [
             {
               "name": "HEALTHCARE FOR ACTION PAC",
@@ -752,6 +776,10 @@
             {
               "name": "NEBRASKA APPLESEED ACTION FUND",
               "amount_cents": 1000000
+            },
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 800000
             },
             {
               "name": "FIELD TEAM 6, INC.",
@@ -771,11 +799,11 @@
         },
         {
           "name": "Mail",
-          "total": 3249434,
+          "total": 4382500,
           "groups": [
             {
               "name": "CFFE PAC",
-              "amount_cents": 2275803
+              "amount_cents": 3408869
             },
             {
               "name": "COMMUNITY CHANGE VOTERS",
@@ -803,23 +831,23 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 12967176,
+          "total": 14396836,
           "groups": [
             {
               "name": "PROGRESSIVE TURNOUT PROJECT",
-              "amount_cents": 12596509
+              "amount_cents": 14002669
             },
             {
               "name": "MOMSRISING TOGETHER",
               "amount_cents": 266667
             },
             {
-              "name": "LGBTQ CONNECTION PAC",
-              "amount_cents": 58500
+              "name": "NEIGHBOR VOICES PAC",
+              "amount_cents": 69000
             },
             {
-              "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 45500
+              "name": "LGBTQ CONNECTION PAC",
+              "amount_cents": 58500
             }
           ]
         },
@@ -890,7 +918,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Harding",
-      "total": 162395254,
+      "total": 165508293,
       "categories": [
         {
           "name": "TV",
@@ -914,21 +942,21 @@
         },
         {
           "name": "Mail",
-          "total": 12515946,
+          "total": 15621485,
           "groups": [
             {
               "name": "CFFE PAC",
-              "amount_cents": 12515946
+              "amount_cents": 15621485
             }
           ]
         },
         {
           "name": "Field / Canvassing",
-          "total": 7500,
+          "total": 15000,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 7500
+              "amount_cents": 15000
             }
           ]
         },
@@ -4655,6 +4683,190 @@
       "filing_date": "2026-10-22",
       "file_number": 2039996,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116710",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146010",
+      "original_sub_id": "",
+      "transaction_id": "500071733",
+      "candidate": "lawler",
+      "candidate_id": "H6NE02208",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 3105539,
+      "group": "CFFE PAC",
+      "group_id": "C00744920",
+      "payee": "DELIVER STRATEGIES, LLC",
+      "description": "DIRECT MAIL - ESTIMATE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040930,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199529",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146278",
+      "original_sub_id": "",
+      "transaction_id": "500236162",
+      "candidate": "lawler",
+      "candidate_id": "H6NE02208",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 7500,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST BRINKER HARDING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199768",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146011",
+      "original_sub_id": "",
+      "transaction_id": "500071734",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 1133066,
+      "group": "CFFE PAC",
+      "group_id": "C00744920",
+      "payee": "DELIVER STRATEGIES, LLC",
+      "description": "DIRECT MAIL - ESTIMATE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040930,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199530",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146276",
+      "original_sub_id": "",
+      "transaction_id": "500236159",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 7500,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING DENISE POWELL",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199767",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146277",
+      "original_sub_id": "",
+      "transaction_id": "500236160",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 16000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING DENISE POWELL",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199768",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135150",
+      "original_sub_id": "",
+      "transaction_id": "501372806",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 720000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200159",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135188",
+      "original_sub_id": "",
+      "transaction_id": "501372807",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 80000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "SNAPCHAT",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200172",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146814",
+      "original_sub_id": "",
+      "transaction_id": "500345541",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-24",
+      "amount_cents": 1406160,
+      "group": "PROGRESSIVE TURNOUT PROJECT",
+      "group_id": "C00580068",
+      "payee": "MERRIMACK SERVICES LLC",
+      "description": "FIELD ORGANIZING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041399,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201235",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
