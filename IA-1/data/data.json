@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-25T06:52:10-04:00",
+  "generated_at": "2026-10-25T09:51:35-04:00",
   "district": "IA-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 554,
+    "api_rows": 560,
     "pages": 6,
-    "included_rows": 458,
+    "included_rows": 464,
     "excluded": {
       "memo_item": 6,
       "other_candidate": 6,
@@ -57,11 +57,11 @@
   "totals": {
     "support_lawler": 100599217,
     "oppose_conley": 590050774,
-    "support_conley": 261670805,
-    "oppose_lawler": 731848783,
+    "support_conley": 264923411,
+    "oppose_lawler": 731882533,
     "benefit_lawler": 690649991,
-    "benefit_conley": 993519588,
-    "all": 1684169579
+    "benefit_conley": 996805944,
+    "all": 1687455935
   },
   "daily": [
     {
@@ -785,12 +785,28 @@
       "total": 15401296
     },
     {
+      "date": "2026-10-22",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 435750,
+      "oppose_lawler": 33750,
+      "total": 469500
+    },
+    {
       "date": "2026-10-23",
       "support_lawler": 750000,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 750000
+    },
+    {
+      "date": "2026-10-24",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 2816856,
+      "oppose_lawler": 0,
+      "total": 2816856
     }
   ],
   "groups": [
@@ -923,19 +939,19 @@
       "oppose_lawler": 0
     },
     {
+      "name": "PROGRESSIVE TURNOUT PROJECT",
+      "total": 17036103,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 17036103,
+      "oppose_lawler": 0
+    },
+    {
       "name": "AMERICAN CONSERVATION COALITION PAC (ACC PAC)",
       "total": 14852551,
       "support_lawler": 14852551,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
-    },
-    {
-      "name": "PROGRESSIVE TURNOUT PROJECT",
-      "total": 14219247,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 14219247,
       "oppose_lawler": 0
     },
     {
@@ -1067,6 +1083,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "WORKING AMERICA",
+      "total": 400000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 400000,
+      "oppose_lawler": 0
+    },
+    {
       "name": "INDIGO PAC",
       "total": 320003,
       "support_lawler": 0,
@@ -1075,20 +1099,20 @@
       "oppose_lawler": 320003
     },
     {
+      "name": "NEIGHBOR VOICES PAC",
+      "total": 307366,
+      "support_lawler": 0,
+      "oppose_conley": 35600,
+      "support_conley": 182283,
+      "oppose_lawler": 89483
+    },
+    {
       "name": "ACTIVATE AMERICA",
       "total": 249145,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 249145
-    },
-    {
-      "name": "NEIGHBOR VOICES PAC",
-      "total": 237866,
-      "support_lawler": 0,
-      "oppose_conley": 35600,
-      "support_conley": 146533,
-      "oppose_lawler": 55733
     },
     {
       "name": "THOMAS PAINE SOCIETY L.L.C.",
@@ -1375,7 +1399,7 @@
     {
       "key": "support_conley",
       "name": "Support Bohannan",
-      "total": 261670805,
+      "total": 264923411,
       "categories": [
         {
           "name": "TV",
@@ -1389,7 +1413,7 @@
         },
         {
           "name": "Digital",
-          "total": 94589035,
+          "total": 94989035,
           "groups": [
             {
               "name": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
@@ -1410,6 +1434,10 @@
             {
               "name": "MOMSRISING TOGETHER",
               "amount_cents": 1203609
+            },
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 400000
             },
             {
               "name": "FIELD TEAM 6, INC.",
@@ -1459,15 +1487,15 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 38500832,
+          "total": 41353438,
           "groups": [
+            {
+              "name": "PROGRESSIVE TURNOUT PROJECT",
+              "amount_cents": 17036103
+            },
             {
               "name": "CFFE PAC",
               "amount_cents": 16449429
-            },
-            {
-              "name": "PROGRESSIVE TURNOUT PROJECT",
-              "amount_cents": 14219247
             },
             {
               "name": "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS SEPARATE SEGREGATED FUND (CRNA-PAC)",
@@ -1486,12 +1514,12 @@
               "amount_cents": 266667
             },
             {
-              "name": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
-              "amount_cents": 140102
+              "name": "NEIGHBOR VOICES PAC",
+              "amount_cents": 148683
             },
             {
-              "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 112933
+              "name": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
+              "amount_cents": 140102
             }
           ]
         },
@@ -1580,7 +1608,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Miller-Meeks",
-      "total": 731848783,
+      "total": 731882533,
       "categories": [
         {
           "name": "TV",
@@ -1668,7 +1696,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 1027333,
+          "total": 1061083,
           "groups": [
             {
               "name": "CAMPAIGN FOR WORKING CLASS COMMUNITIES",
@@ -1676,7 +1704,7 @@
             },
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 52000
+              "amount_cents": 85750
             },
             {
               "name": "PLANNED PARENTHOOD VOTES",
@@ -12298,6 +12326,121 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102420261615146324",
+      "original_sub_id": "",
+      "transaction_id": "500236230",
+      "candidate": "lawler",
+      "candidate_id": "H8IA02043",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 33750,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST MARIANNETTE MILLER-MEEKS",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199791",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146319",
+      "original_sub_id": "",
+      "transaction_id": "500236223",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 2000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING CHRISTINA BOHANNAN",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199789",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146320",
+      "original_sub_id": "",
+      "transaction_id": "500236224",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 33750,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING CHRISTINA BOHANNAN",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-23",
+      "file_number": 2040977,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199789",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135129",
+      "original_sub_id": "",
+      "transaction_id": "501372764",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 360000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200152",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615135167",
+      "original_sub_id": "",
+      "transaction_id": "501372765",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 40000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "SNAPCHAT",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-23",
+      "file_number": 2041067,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200165",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102320261615119549",
       "original_sub_id": "",
       "transaction_id": "SE.4587",
@@ -12318,6 +12461,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159399",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102420261615146801",
+      "original_sub_id": "",
+      "transaction_id": "500345527",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-24",
+      "amount_cents": 2816856,
+      "group": "PROGRESSIVE TURNOUT PROJECT",
+      "group_id": "C00580068",
+      "payee": "MERRIMACK SERVICES LLC",
+      "description": "FIELD ORGANIZING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041399,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201229",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     }
   ],
