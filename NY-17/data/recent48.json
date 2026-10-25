@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-25T20:49:33+00:00",
+  "checked_at": "2026-10-25T21:49:36+00:00",
   "source_data_generated_at": "2026-10-25T14:56:48-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1618,62 +1618,6 @@
       "spend_type": "Text",
       "amount_cents": 191776,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921417145"
-    },
-    {
-      "source_id": "4102020261614372585",
-      "file_number": "2033080",
-      "reported_at": "2026-10-20T21:19:50+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 3000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431909"
-    },
-    {
-      "source_id": "4102020261614372589",
-      "file_number": "2033080",
-      "reported_at": "2026-10-20T21:19:50+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST MIKE LAWLER",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431911"
-    },
-    {
-      "source_id": "4102020261614372586",
-      "file_number": "2033080",
-      "reported_at": "2026-10-20T21:19:50+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916431910"
-    },
-    {
-      "source_id": "4102020261614372507",
-      "file_number": "2033007",
-      "reported_at": "2026-10-20T20:58:06+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 43237,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916427532"
     }
   ]
 }
