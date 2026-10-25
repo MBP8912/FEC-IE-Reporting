@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-24T23:43:16+00:00",
-  "source_data_generated_at": "2026-10-24T15:45:52-04:00",
+  "checked_at": "2026-10-25T01:03:20+00:00",
+  "source_data_generated_at": "2026-10-24T19:43:20-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -1604,34 +1604,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 7500,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916235591"
-    },
-    {
-      "source_id": "4102020261614372070",
-      "file_number": "2031285",
-      "reported_at": "2026-10-20T00:07:20+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "AMERICA PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL MEDIA",
-      "spend_type": "Digital",
-      "amount_cents": 2432000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232615"
-    },
-    {
-      "source_id": "4102020261614372095",
-      "file_number": "2031285",
-      "reported_at": "2026-10-20T00:07:20+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "AMERICA PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL MEDIA",
-      "spend_type": "Digital",
-      "amount_cents": 2127915,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916232627"
     }
   ]
 }
