@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-26T17:58:53+00:00",
+  "checked_at": "2026-10-26T19:12:09+00:00",
   "source_data_generated_at": "2026-10-26T13:06:44-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -694,48 +694,6 @@
       "spend_type": "Production",
       "amount_cents": 250000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219928477335"
-    },
-    {
-      "source_id": "4102120261614735366",
-      "file_number": "2034594",
-      "reported_at": "2026-10-21T19:04:58+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "THE WISCO PROJECT PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS 10/20 - 10/26/26 - STEIL",
-      "spend_type": "Digital",
-      "amount_cents": 2200000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219924733319"
-    },
-    {
-      "source_id": "4102120261614735365",
-      "file_number": "2034594",
-      "reported_at": "2026-10-21T19:04:58+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "THE WISCO PROJECT PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS 10/20 - 10/26/26 - BERMAN",
-      "spend_type": "Digital",
-      "amount_cents": 2200000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219924733319"
-    },
-    {
-      "source_id": "4102120261614735370",
-      "file_number": "2034594",
-      "reported_at": "2026-10-21T19:04:58+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "THE WISCO PROJECT PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "FLYERS - BERMAN",
-      "spend_type": "Print",
-      "amount_cents": 95529,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219924733321"
     }
   ]
 }
