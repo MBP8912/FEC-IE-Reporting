@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-26T19:58:29+00:00",
+  "checked_at": "2026-10-26T20:58:32+00:00",
   "source_data_generated_at": "2026-10-26T13:06:44-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -666,34 +666,6 @@
       "spend_type": "Text",
       "amount_cents": 69420,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379273"
-    },
-    {
-      "source_id": "4102120261614735430",
-      "file_number": "2034744",
-      "reported_at": "2026-10-21T19:59:55+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "TEA PARTY PATRIOTS CITIZENS FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA BUY",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 700000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219928477338"
-    },
-    {
-      "source_id": "4102120261614735423",
-      "file_number": "2034744",
-      "reported_at": "2026-10-21T19:59:55+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "TEA PARTY PATRIOTS CITIZENS FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 250000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219928477335"
     }
   ]
 }
