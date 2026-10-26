@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-26T20:58:32+00:00",
+  "checked_at": "2026-10-26T21:55:31+00:00",
   "source_data_generated_at": "2026-10-26T15:58:38-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1436,62 +1436,6 @@
       "spend_type": "Digital",
       "amount_cents": 1434362,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934379928"
-    },
-    {
-      "source_id": "4102120261614735790",
-      "file_number": "2035021",
-      "reported_at": "2026-10-21T21:43:09+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "YOUR COMMUNITY PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAIL PRODUCTION AND SHIPPING (ESTIMATE)",
-      "spend_type": "Mail",
-      "amount_cents": 2422974,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797015"
-    },
-    {
-      "source_id": "4102120261614735780",
-      "file_number": "2034987",
-      "reported_at": "2026-10-21T21:27:22+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "J STREET ACTION FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING SERVICES (ESTIMATE)",
-      "spend_type": "Digital",
-      "amount_cents": 20842300,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931796520"
-    },
-    {
-      "source_id": "4102120261614735781",
-      "file_number": "2034987",
-      "reported_at": "2026-10-21T21:27:22+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "J STREET ACTION FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND: PRODUCTION SERVICES (ESTIMATE) (FROM HOUSE MAJORITY PAC)",
-      "spend_type": "Production",
-      "amount_cents": 600000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931796521"
-    },
-    {
-      "source_id": "4102120261614735779",
-      "file_number": "2034987",
-      "reported_at": "2026-10-21T21:27:22+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "J STREET ACTION FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND: PRODUCTION SERVICES (ESTIMATE) (FROM HOUSE MAJORITY PAC)",
-      "spend_type": "Production",
-      "amount_cents": 407000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931796520"
     }
   ]
 }

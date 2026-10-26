@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-26T20:58:32+00:00",
+  "checked_at": "2026-10-26T21:55:31+00:00",
   "source_data_generated_at": "2026-10-26T15:58:31-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -442,34 +442,6 @@
       "spend_type": "Digital",
       "amount_cents": 500000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934377155"
-    },
-    {
-      "source_id": "4102120261614735833",
-      "file_number": "2035041",
-      "reported_at": "2026-10-21T21:54:11+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 1119849,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797371"
-    },
-    {
-      "source_id": "4102120261614735831",
-      "file_number": "2035041",
-      "reported_at": "2026-10-21T21:54:11+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER PRODUCTION",
-      "spend_type": "Mail",
-      "amount_cents": 819929,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219931797370"
     }
   ]
 }
