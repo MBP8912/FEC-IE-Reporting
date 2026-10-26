@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-26T04:11:56-04:00",
+  "generated_at": "2026-10-26T07:02:51-04:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,22 +43,22 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 151,
+    "api_rows": 156,
     "pages": 2,
-    "included_rows": 129,
+    "included_rows": 134,
     "excluded": {
       "other_election": 19,
       "notice_regular_duplicates": 3
     }
   },
   "totals": {
-    "support_lawler": 26505349,
-    "oppose_conley": 557892112,
+    "support_lawler": 32176945,
+    "oppose_conley": 558233484,
     "support_conley": 10133568,
     "oppose_lawler": 178019028,
-    "benefit_lawler": 584397461,
+    "benefit_lawler": 590410429,
     "benefit_conley": 188152596,
-    "all": 772550057
+    "all": 778563025
   },
   "daily": [
     {
@@ -415,11 +415,11 @@
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 4633636,
+      "support_lawler": 9267272,
       "oppose_conley": 27334307,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 31967943
+      "total": 36601579
     },
     {
       "date": "2026-10-20",
@@ -436,14 +436,22 @@
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 1300000
+    },
+    {
+      "date": "2026-10-23",
+      "support_lawler": 1037960,
+      "oppose_conley": 341372,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 1379332
     }
   ],
   "groups": [
     {
       "name": "CLF",
-      "total": 536532068,
+      "total": 536732068,
       "support_lawler": 0,
-      "oppose_conley": 536532068,
+      "oppose_conley": 536732068,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -465,9 +473,9 @@
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
-      "total": 24634589,
-      "support_lawler": 18583573,
-      "oppose_conley": 6051016,
+      "total": 30447557,
+      "support_lawler": 24255169,
+      "oppose_conley": 6192388,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -564,7 +572,7 @@
     {
       "key": "support_lawler",
       "name": "Support Lincoln",
-      "total": 26505349,
+      "total": 32176945,
       "categories": [
         {
           "name": "Digital",
@@ -581,12 +589,22 @@
           ]
         },
         {
-          "name": "Mail",
-          "total": 21086707,
+          "name": "Media (unspecified)",
+          "total": 896588,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 18152383
+              "amount_cents": 896588
+            }
+          ]
+        },
+        {
+          "name": "Mail",
+          "total": 25720343,
+          "groups": [
+            {
+              "name": "CIVIC RENEWAL FUND INC.",
+              "amount_cents": 22786019
             },
             {
               "name": "NO GOING BACK PAC INC.",
@@ -610,11 +628,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 177050,
+          "total": 318422,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 177050
+              "amount_cents": 318422
             }
           ]
         },
@@ -647,7 +665,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Gray",
-      "total": 557892112,
+      "total": 558233484,
       "categories": [
         {
           "name": "TV",
@@ -703,11 +721,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 177050,
+          "total": 318422,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 177050
+              "amount_cents": 318422
             }
           ]
         },
@@ -723,11 +741,11 @@
         },
         {
           "name": "Production",
-          "total": 6847529,
+          "total": 7047529,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 6700000
+              "amount_cents": 6900000
             },
             {
               "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
@@ -3723,6 +3741,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102520261615165417",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37745",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 4633636,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041515,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201814",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102220261615046472",
       "original_sub_id": "",
       "transaction_id": "500691961",
@@ -3858,6 +3899,98 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964301",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102520261615165442",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37692",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-23",
+      "amount_cents": 141372,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "PATRIOT GRASSROOTS",
+      "description": "CANVASSING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041515,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201827",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102520261615165044",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6778",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-23",
+      "amount_cents": 200000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "THE HEREFORD AGENCY",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041433,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201342",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102520261615165412",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37801",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 896588,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "GRAND STRATEGIES LLC",
+      "description": "TEXT MESSAGING / MEDIA PLACEMENT / MEDIA PRODUCTION",
+      "type": "Media (unspecified)",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041515,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201812",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102520261615165443",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37693",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 141372,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "PATRIOT GRASSROOTS",
+      "description": "CANVASSING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041515,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201827",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     }
   ],
