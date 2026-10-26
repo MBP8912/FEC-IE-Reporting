@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-26T17:06:37+00:00",
+  "checked_at": "2026-10-26T17:58:53+00:00",
   "source_data_generated_at": "2026-10-26T11:48:40-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -484,20 +484,6 @@
       "spend_type": "Mail",
       "amount_cents": 6625532,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219924732586"
-    },
-    {
-      "source_id": "4102120261614735300",
-      "file_number": "2034389",
-      "reported_at": "2026-10-21T17:24:30+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "CONSERVATIVES FOR AMERICAN EXCELLENCE INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION & ADVERTISEMENT",
-      "spend_type": "Production",
-      "amount_cents": 102480130,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219924727949"
     }
   ]
 }
