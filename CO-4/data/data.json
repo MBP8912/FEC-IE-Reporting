@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-26T05:08:04-04:00",
+  "generated_at": "2026-10-26T09:41:40-04:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 98,
+    "api_rows": 99,
     "pages": 2,
-    "included_rows": 24,
+    "included_rows": 25,
     "excluded": {
       "other_election": 68,
       "other_candidate": 1,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 39423488,
+    "support_lawler": 41275646,
     "oppose_conley": 0,
     "support_conley": 6300743,
     "oppose_lawler": 150007500,
-    "benefit_lawler": 39423488,
+    "benefit_lawler": 41275646,
     "benefit_conley": 156308243,
-    "all": 195731731
+    "all": 197583889
   },
   "daily": [
     {
@@ -214,6 +214,14 @@
       "support_conley": 1200000,
       "oppose_lawler": 0,
       "total": 1200000
+    },
+    {
+      "date": "2026-10-23",
+      "support_lawler": 1852158,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 1852158
     }
   ],
   "groups": [
@@ -250,6 +258,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "CIVIC RENEWAL FUND INC.",
+      "total": 1852158,
+      "support_lawler": 1852158,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "WORKING AMERICA",
       "total": 1220000,
       "support_lawler": 0,
@@ -278,7 +294,7 @@
     {
       "key": "support_lawler",
       "name": "Support Boebert",
-      "total": 39423488,
+      "total": 41275646,
       "categories": [
         {
           "name": "Digital",
@@ -292,11 +308,15 @@
         },
         {
           "name": "Media (unspecified)",
-          "total": 36389215,
+          "total": 38241373,
           "groups": [
             {
               "name": "FREEDOM CAUCUS FUND",
               "amount_cents": 36389215
+            },
+            {
+              "name": "CIVIC RENEWAL FUND INC.",
+              "amount_cents": 1852158
             }
           ]
         },
@@ -950,6 +970,29 @@
       "filing_date": "2026-10-23",
       "file_number": 2041067,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200170",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102520261615165407",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37796",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 1852158,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "GRAND STRATEGIES LLC",
+      "description": "TEXT MESSAGING / MEDIA PLACEMENT / MEDIA PRODUCTION",
+      "type": "Media (unspecified)",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-24",
+      "file_number": 2041515,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201809",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
