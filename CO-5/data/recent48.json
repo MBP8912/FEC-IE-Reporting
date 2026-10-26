@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-26T22:58:01+00:00",
+  "checked_at": "2026-10-26T23:52:11+00:00",
   "source_data_generated_at": "2026-10-26T15:58:31-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -414,34 +414,6 @@
       "spend_type": "Production",
       "amount_cents": 185732,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388563"
-    },
-    {
-      "source_id": "4102120261614735974",
-      "file_number": "2035200",
-      "reported_at": "2026-10-21T23:16:44+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "AB PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAIL- ESTIMATED COST",
-      "spend_type": "Mail",
-      "amount_cents": 2283360,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934377155"
-    },
-    {
-      "source_id": "4102120261614735975",
-      "file_number": "2035200",
-      "reported_at": "2026-10-21T23:16:44+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "AB PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING- ESTIMATED COST",
-      "spend_type": "Digital",
-      "amount_cents": 500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934377155"
     }
   ]
 }
