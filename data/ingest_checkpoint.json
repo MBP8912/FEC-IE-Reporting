@@ -1,1 +1,1 @@
-{"schema_version":2,"query_fingerprint":"fd47c837e40aa6280278c601a4902237ed94fb1f23e05a5e0d2c1c708da8b47c","status":"in_progress","batch":5,"cursor":{},"cursor_history":[],"rows":[],"pages":20,"race_pages":0,"completed_races":["NY-17","CO-4","CO-5","IA-1","MN-1"]}
+{"schema_version":2,"query_fingerprint":"fd47c837e40aa6280278c601a4902237ed94fb1f23e05a5e0d2c1c708da8b47c","status":"complete","completed_at":"2026-10-27T09:05:14.865825+00:00","pages":30,"completed_races":["NY-17","CO-4","CO-5","IA-1","MN-1","NE-2","WI-1","NY-19","CA-13"],"rows":[],"batch":0,"cursor":{}}
