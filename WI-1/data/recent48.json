@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T19:58:03+00:00",
+  "checked_at": "2026-10-27T20:57:20+00:00",
   "source_data_generated_at": "2026-10-27T12:06:29-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -554,20 +554,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 254,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944738758"
-    },
-    {
-      "source_id": "4102220261615047005",
-      "file_number": "2038024",
-      "reported_at": "2026-10-22T20:10:17+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "AMERICAN LIBERTY FOUNDATION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 2987870,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035093"
     }
   ]
 }

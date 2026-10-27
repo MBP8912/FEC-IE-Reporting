@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T19:58:03+00:00",
+  "checked_at": "2026-10-27T20:57:20+00:00",
   "source_data_generated_at": "2026-10-27T14:02:55-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1576,20 +1576,6 @@
       "spend_type": "Digital",
       "amount_cents": 37557,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944746655"
-    },
-    {
-      "source_id": "4102220261615047066",
-      "file_number": "2038286",
-      "reported_at": "2026-10-22T20:43:49+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "LEADERSHIP NOW PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 933333,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229943859220"
     }
   ]
 }
