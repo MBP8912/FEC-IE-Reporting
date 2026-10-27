@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T17:08:50+00:00",
+  "checked_at": "2026-10-27T18:02:22+00:00",
   "source_data_generated_at": "2026-10-27T11:10:31-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1226,34 +1226,6 @@
       "spend_type": "Production",
       "amount_cents": 100000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229943857520"
-    },
-    {
-      "source_id": "4102220261615046906",
-      "file_number": "2036995",
-      "reported_at": "2026-10-22T17:29:53+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "WOMEN SPEAK OUT PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER",
-      "spend_type": "Mail",
-      "amount_cents": 1349568,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940960477"
-    },
-    {
-      "source_id": "4102220261615046905",
-      "file_number": "2036995",
-      "reported_at": "2026-10-22T17:29:53+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "WOMEN SPEAK OUT PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER",
-      "spend_type": "Mail",
-      "amount_cents": 1349568,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940960477"
     }
   ]
 }
