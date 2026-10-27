@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T20:57:20+00:00",
-  "source_data_generated_at": "2026-10-27T12:06:29-04:00",
+  "checked_at": "2026-10-27T21:56:55+00:00",
+  "source_data_generated_at": "2026-10-27T16:57:21-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -470,90 +470,6 @@
       "spend_type": "Digital",
       "amount_cents": 7500,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944918010"
-    },
-    {
-      "source_id": "4102220261615047157",
-      "file_number": "2038707",
-      "reported_at": "2026-10-22T21:26:48+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL, PHONE BANK, TEXT MESSAGING",
-      "spend_type": "Mail",
-      "amount_cents": 17045668,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944749897"
-    },
-    {
-      "source_id": "4102220261615047159",
-      "file_number": "2038707",
-      "reported_at": "2026-10-22T21:26:48+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CONTRACTOR PAY-DOOR CANVASSING, PHONE BANK, STAFF PAY",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 316730,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944749898"
-    },
-    {
-      "source_id": "4102220261615047158",
-      "file_number": "2038707",
-      "reported_at": "2026-10-22T21:26:48+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "VOTER DATA-PHONE BANK, TEXT MESSAGE",
-      "spend_type": "Text",
-      "amount_cents": 16660,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944749898"
-    },
-    {
-      "source_id": "4102220261615047101",
-      "file_number": "2038523",
-      "reported_at": "2026-10-22T21:06:52+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "VOCES DE LA FRONTERA POLITICAL FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN - KIND - ESTIMATE STAFF COSTS - BERMAN",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 142043,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944738755"
-    },
-    {
-      "source_id": "4102220261615047096",
-      "file_number": "2038523",
-      "reported_at": "2026-10-22T21:06:52+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "VOCES DE LA FRONTERA POLITICAL FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN - KIND - ESTIMATE BUILDING & UTILITY COSTS - BERMAN",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 2839,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944738753"
-    },
-    {
-      "source_id": "4102220261615047107",
-      "file_number": "2038523",
-      "reported_at": "2026-10-22T21:06:52+00:00",
-      "expenditure_date": "2026-10-15",
-      "spender": "VOCES DE LA FRONTERA POLITICAL FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN - KIND - ESTIMATE WEBSITE COSTS - BERMAN",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 254,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944738758"
     }
   ]
 }
