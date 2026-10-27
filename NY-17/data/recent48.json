@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T22:56:22+00:00",
+  "checked_at": "2026-10-27T23:52:19+00:00",
   "source_data_generated_at": "2026-10-27T17:57:01-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1478,34 +1478,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 2677150,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944911440"
-    },
-    {
-      "source_id": "4102220261615047365",
-      "file_number": "2039285",
-      "reported_at": "2026-10-22T23:21:25+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "SAFETY & AFFORDABILITY PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PLACED MEDIA: TV AND CONNECTED TV",
-      "spend_type": "Digital",
-      "amount_cents": 91250000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944872592"
-    },
-    {
-      "source_id": "4102220261615047378",
-      "file_number": "2039285",
-      "reported_at": "2026-10-22T23:21:25+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "SAFETY & AFFORDABILITY PAC INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PLACED MEDIA: TV AND CONNECTED TV",
-      "spend_type": "Digital",
-      "amount_cents": 91250000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944872599"
     }
   ]
 }
