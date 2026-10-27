@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T14:11:41+00:00",
+  "checked_at": "2026-10-27T15:10:23+00:00",
   "source_data_generated_at": "2026-10-27T07:57:06-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -568,20 +568,6 @@
       "spend_type": "Digital",
       "amount_cents": 2987870,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035093"
-    },
-    {
-      "source_id": "4102220261615046830",
-      "file_number": "2036099",
-      "reported_at": "2026-10-22T14:34:32+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "AMERICANS 4 SECURITY PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA BUY",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 10000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229937680407"
     }
   ]
 }

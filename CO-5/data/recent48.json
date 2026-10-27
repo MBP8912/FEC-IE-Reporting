@@ -18,11 +18,39 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T14:11:41+00:00",
-  "source_data_generated_at": "2026-10-27T06:03:46-04:00",
+  "checked_at": "2026-10-27T15:10:23+00:00",
+  "source_data_generated_at": "2026-10-27T10:11:56-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4102620261615396889",
+      "file_number": "2042234",
+      "reported_at": "2026-10-26T21:30:00+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "CIVIC RENEWAL FUND INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING  / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 5634728,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258661"
+    },
+    {
+      "source_id": "4102620261615396808",
+      "file_number": "2042184",
+      "reported_at": "2026-10-26T20:27:23+00:00",
+      "expenditure_date": "2026-10-22",
+      "spender": "WOMEN VOTE",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "MAILHOUSE",
+      "spend_type": "Mail",
+      "amount_cents": 3719255,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945237373"
+    },
     {
       "source_id": "4102520261615165419",
       "file_number": "2041515",
@@ -288,20 +316,6 @@
       "spend_type": "Mail",
       "amount_cents": 2283360,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197080"
-    },
-    {
-      "source_id": "4102320261615119450",
-      "file_number": "2039996",
-      "reported_at": "2026-10-23T02:30:01+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING  / POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 5634728,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116707"
     },
     {
       "source_id": "4102220261615047230",
