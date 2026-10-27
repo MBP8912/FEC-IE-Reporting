@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T02:58:38+00:00",
+  "checked_at": "2026-10-27T03:58:25+00:00",
   "source_data_generated_at": "2026-10-26T19:52:12-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -372,48 +372,6 @@
       "spend_type": "Digital",
       "amount_cents": 2994629,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035092"
-    },
-    {
-      "source_id": "4102220261615046528",
-      "file_number": "2035562",
-      "reported_at": "2026-10-22T03:23:25+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING - ESTIMATE",
-      "spend_type": "Digital",
-      "amount_cents": 23658000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388548"
-    },
-    {
-      "source_id": "4102220261615046617",
-      "file_number": "2035562",
-      "reported_at": "2026-10-22T03:23:25+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TELEVISION ADVERTISING - ESTIMATE",
-      "spend_type": "TV",
-      "amount_cents": 7776000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388593"
-    },
-    {
-      "source_id": "4102220261615046558",
-      "file_number": "2035562",
-      "reported_at": "2026-10-22T03:23:25+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION - ESTIMATE",
-      "spend_type": "Production",
-      "amount_cents": 185732,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219934388563"
     }
   ]
 }
