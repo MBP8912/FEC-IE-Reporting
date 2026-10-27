@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T21:56:55+00:00",
-  "source_data_generated_at": "2026-10-27T14:02:55-04:00",
+  "checked_at": "2026-10-27T22:56:22+00:00",
+  "source_data_generated_at": "2026-10-27T17:57:01-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -1506,62 +1506,6 @@
       "spend_type": "Digital",
       "amount_cents": 91250000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944872599"
-    },
-    {
-      "source_id": "4102220261615047323",
-      "file_number": "2039178",
-      "reported_at": "2026-10-22T22:54:27+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "LCV VICTORY FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "AD BUY",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 31990000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944859297"
-    },
-    {
-      "source_id": "4102220261615047318",
-      "file_number": "2039178",
-      "reported_at": "2026-10-22T22:54:27+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "LCV VICTORY FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "AD BUY",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 17750000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944859294"
-    },
-    {
-      "source_id": "4102220261615047301",
-      "file_number": "2039178",
-      "reported_at": "2026-10-22T22:54:27+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "LCV VICTORY FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND: MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 2777000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944859286"
-    },
-    {
-      "source_id": "4102220261615047317",
-      "file_number": "2039178",
-      "reported_at": "2026-10-22T22:54:27+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "LCV VICTORY FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATE: AD PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 250000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944859294"
     }
   ]
 }

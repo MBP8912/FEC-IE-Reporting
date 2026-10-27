@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T21:56:55+00:00",
+  "checked_at": "2026-10-27T22:56:22+00:00",
   "source_data_generated_at": "2026-10-27T15:11:31-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1086,20 +1086,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 2500,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945050759"
-    },
-    {
-      "source_id": "4102220261615047227",
-      "file_number": "2039011",
-      "reported_at": "2026-10-22T22:12:19+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "WELCOMEPAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGING, DIGITAL ADVERTISING & WEBSITE SERVICES - ESTIMATE",
-      "spend_type": "Digital",
-      "amount_cents": 2000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944824733"
     }
   ]
 }
