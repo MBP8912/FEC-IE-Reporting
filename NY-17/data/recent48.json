@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T18:02:22+00:00",
-  "source_data_generated_at": "2026-10-27T10:11:53-04:00",
+  "checked_at": "2026-10-27T19:09:41+00:00",
+  "source_data_generated_at": "2026-10-27T14:02:55-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -1590,48 +1590,6 @@
       "spend_type": "Digital",
       "amount_cents": 933333,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229943859220"
-    },
-    {
-      "source_id": "4102220261615046942",
-      "file_number": "2037512",
-      "reported_at": "2026-10-22T18:53:08+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "FREE AND FAIR DEMOCRACY PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 1000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941002703"
-    },
-    {
-      "source_id": "4102220261615046930",
-      "file_number": "2037359",
-      "reported_at": "2026-10-22T18:28:46+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "EDF ACTION VOTES",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAIL PRODUCTION AND POSTAGE (ESTIMATE)",
-      "spend_type": "Mail",
-      "amount_cents": 4831800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940994914"
-    },
-    {
-      "source_id": "4102220261615046931",
-      "file_number": "2037359",
-      "reported_at": "2026-10-22T18:28:46+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "EDF ACTION VOTES",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "RESEARCH (ESTIMATE)",
-      "spend_type": "Research",
-      "amount_cents": 14625,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229940994914"
     }
   ]
 }

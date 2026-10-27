@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T18:02:22+00:00",
+  "checked_at": "2026-10-27T19:09:41+00:00",
   "source_data_generated_at": "2026-10-27T12:06:22-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -372,34 +372,6 @@
       "spend_type": "Digital",
       "amount_cents": 3215557,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941035089"
-    },
-    {
-      "source_id": "4102220261615046960",
-      "file_number": "2037646",
-      "reported_at": "2026-10-22T19:09:38+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "DEFENDING MAIN STREET SUPERPAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "RADIO PRODUCTION & ADS",
-      "spend_type": "Radio",
-      "amount_cents": 2500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941013360"
-    },
-    {
-      "source_id": "4102220261615046961",
-      "file_number": "2037646",
-      "reported_at": "2026-10-22T19:09:38+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "DEFENDING MAIN STREET SUPERPAC INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "RADIO ADS",
-      "spend_type": "Radio",
-      "amount_cents": 1000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941013360"
     }
   ]
 }
