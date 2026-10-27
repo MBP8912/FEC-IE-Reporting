@@ -18,11 +18,25 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-27T13:15:39+00:00",
-  "source_data_generated_at": "2026-10-27T05:05:14-04:00",
+  "checked_at": "2026-10-27T14:11:41+00:00",
+  "source_data_generated_at": "2026-10-27T09:15:40-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4102620261615396887",
+      "file_number": "2042234",
+      "reported_at": "2026-10-26T21:30:00+00:00",
+      "expenditure_date": "2026-10-19",
+      "spender": "CIVIC RENEWAL FUND INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING  / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 4633636,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258660"
+    },
     {
       "source_id": "4102520261615165417",
       "file_number": "2041515",
@@ -92,20 +106,6 @@
       "spend_type": "Production",
       "amount_cents": 200000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201342"
-    },
-    {
-      "source_id": "4102320261615119448",
-      "file_number": "2039996",
-      "reported_at": "2026-10-23T02:30:01+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING  / POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 4633636,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116706"
     },
     {
       "source_id": "4102320261615119215",

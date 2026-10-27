@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-27T06:03:46-04:00",
+  "generated_at": "2026-10-27T10:11:56-04:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 182,
+    "api_rows": 183,
     "pages": 2,
-    "included_rows": 162,
+    "included_rows": 163,
     "excluded": {
       "memo_item": 3,
       "other_election": 3,
@@ -57,10 +57,10 @@
     "support_lawler": 155207571,
     "oppose_conley": 391117354,
     "support_conley": 12713835,
-    "oppose_lawler": 177271752,
+    "oppose_lawler": 180991007,
     "benefit_lawler": 546324925,
-    "benefit_conley": 189985587,
-    "all": 736310512
+    "benefit_conley": 193704842,
+    "all": 740029767
   },
   "daily": [
     {
@@ -348,8 +348,8 @@
       "support_lawler": 16135439,
       "oppose_conley": 16135440,
       "support_conley": 1105533,
-      "oppose_lawler": 3702255,
-      "total": 37078667
+      "oppose_lawler": 7421510,
+      "total": 40797922
     },
     {
       "date": "2026-10-23",
@@ -403,11 +403,11 @@
     },
     {
       "name": "WOMEN VOTE",
-      "total": 44194245,
+      "total": 47913500,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 44194245
+      "oppose_lawler": 47913500
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
@@ -823,7 +823,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Crank",
-      "total": 177271752,
+      "total": 180991007,
       "categories": [
         {
           "name": "TV",
@@ -859,11 +859,11 @@
         },
         {
           "name": "Mail",
-          "total": 35177765,
+          "total": 38897020,
           "groups": [
             {
               "name": "WOMEN VOTE",
-              "amount_cents": 19194245
+              "amount_cents": 22913500
             },
             {
               "name": "AB PAC",
@@ -3861,29 +3861,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102320261615119450",
-      "original_sub_id": "",
-      "transaction_id": "SE24.37639",
-      "candidate": "lawler",
-      "candidate_id": "H6CO05142",
-      "disposition": "support_lawler",
-      "date": "2026-10-19",
-      "amount_cents": 5634728,
-      "group": "CIVIC RENEWAL FUND INC.",
-      "group_id": "C00953588",
-      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
-      "description": "PRINTING  / POSTAGE",
-      "type": "Mail",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-22",
-      "file_number": 2039996,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116707",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4102520261615165419",
       "original_sub_id": "",
       "transaction_id": "SE24.37747",
@@ -3905,6 +3882,29 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102620261615396889",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37639",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 5634728,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-26",
+      "file_number": 2042234,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258661",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
     },
     {
       "source_id": "4102120261614735974",
@@ -4316,6 +4316,29 @@
       "filing_date": "2026-10-20",
       "file_number": 2032655,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916328739",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102620261615396808",
+      "original_sub_id": "",
+      "transaction_id": "500017762",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 3719255,
+      "group": "WOMEN VOTE",
+      "group_id": "C00473918",
+      "payee": "THE STRATEGY GROUP",
+      "description": "MAILHOUSE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-26",
+      "file_number": 2042184,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945237373",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"

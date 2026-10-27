@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-27T06:03:42-04:00",
+  "generated_at": "2026-10-27T10:11:53-04:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -43,25 +43,25 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 527,
+    "api_rows": 543,
     "pages": 6,
-    "included_rows": 462,
+    "included_rows": 468,
     "excluded": {
       "memo_item": 5,
       "other_candidate": 4,
       "other_election": 31,
-      "repeated_transaction_or_amendment": 19,
+      "repeated_transaction_or_amendment": 29,
       "notice_regular_duplicates": 6
     }
   },
   "totals": {
-    "support_lawler": 235818838,
+    "support_lawler": 235903838,
     "oppose_conley": 1042120838,
-    "support_conley": 216290741,
-    "oppose_lawler": 441729036,
-    "benefit_lawler": 1277939676,
-    "benefit_conley": 658019777,
-    "all": 1935959453
+    "support_conley": 216745972,
+    "oppose_lawler": 446809275,
+    "benefit_lawler": 1278024676,
+    "benefit_conley": 663555247,
+    "all": 1941579923
   },
   "daily": [
     {
@@ -541,32 +541,40 @@
       "support_lawler": 4334220,
       "oppose_conley": 4571319,
       "support_conley": 2734154,
-      "oppose_lawler": 1001385,
-      "total": 12641078
+      "oppose_lawler": 1076385,
+      "total": 12716078
     },
     {
       "date": "2026-10-23",
       "support_lawler": 57849,
       "oppose_conley": 108888,
       "support_conley": 47418449,
-      "oppose_lawler": 8054842,
-      "total": 55640028
+      "oppose_lawler": 10795786,
+      "total": 58380972
     },
     {
       "date": "2026-10-24",
       "support_lawler": 3846083,
       "oppose_conley": 3761082,
-      "support_conley": 207940,
+      "support_conley": 663171,
       "oppose_lawler": 0,
-      "total": 7815105
+      "total": 8270336
+    },
+    {
+      "date": "2026-10-25",
+      "support_lawler": 85000,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 85000
     },
     {
       "date": "2026-10-26",
       "support_lawler": 0,
       "oppose_conley": 500000,
       "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 500000
+      "oppose_lawler": 2264295,
+      "total": 2764295
     }
   ],
   "groups": [
@@ -612,11 +620,11 @@
     },
     {
       "name": "BATTLEGROUND NEW YORK",
-      "total": 80362360,
+      "total": 85442599,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 79772870,
-      "oppose_lawler": 589490
+      "oppose_lawler": 5669729
     },
     {
       "name": "AMERICA PAC",
@@ -764,10 +772,10 @@
     },
     {
       "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
-      "total": 1857857,
+      "total": 2313088,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 1857857,
+      "support_conley": 2313088,
       "oppose_lawler": 0
     },
     {
@@ -828,8 +836,8 @@
     },
     {
       "name": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-      "total": 429545,
-      "support_lawler": 429545,
+      "total": 514545,
+      "support_lawler": 514545,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -879,11 +887,11 @@
     {
       "key": "support_lawler",
       "name": "Support Lawler",
-      "total": 235818838,
+      "total": 235903838,
       "categories": [
         {
           "name": "Digital",
-          "total": 140718998,
+          "total": 140803998,
           "groups": [
             {
               "name": "SAFETY & AFFORDABILITY PAC INC.",
@@ -911,7 +919,7 @@
             },
             {
               "name": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-              "amount_cents": 429545
+              "amount_cents": 514545
             }
           ]
         },
@@ -1097,7 +1105,7 @@
     {
       "key": "support_conley",
       "name": "Support Conley",
-      "total": 216290741,
+      "total": 216745972,
       "categories": [
         {
           "name": "TV",
@@ -1191,7 +1199,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 81495670,
+          "total": 81950901,
           "groups": [
             {
               "name": "BATTLEGROUND NEW YORK",
@@ -1200,6 +1208,10 @@
             {
               "name": "FOOD AND WATER ACTION",
               "amount_cents": 3223338
+            },
+            {
+              "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+              "amount_cents": 455231
             },
             {
               "name": "NEIGHBOR VOICES PAC",
@@ -1290,7 +1302,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lawler",
-      "total": 441729036,
+      "total": 446809275,
       "categories": [
         {
           "name": "TV",
@@ -1360,7 +1372,7 @@
         },
         {
           "name": "Mail",
-          "total": 51657524,
+          "total": 54612763,
           "groups": [
             {
               "name": "EDF ACTION VOTES",
@@ -1373,6 +1385,10 @@
             {
               "name": "EQUALITY PAC",
               "amount_cents": 7446839
+            },
+            {
+              "name": "BATTLEGROUND NEW YORK",
+              "amount_cents": 2955239
             },
             {
               "name": "ACTIVATE AMERICA",
@@ -1416,7 +1432,7 @@
         },
         {
           "name": "Production",
-          "total": 35903008,
+          "total": 35978008,
           "groups": [
             {
               "name": "HMP",
@@ -1436,17 +1452,17 @@
             },
             {
               "name": "BATTLEGROUND NEW YORK",
-              "amount_cents": 37500
+              "amount_cents": 112500
             }
           ]
         },
         {
           "name": "Print",
-          "total": 708492,
+          "total": 2758492,
           "groups": [
             {
               "name": "BATTLEGROUND NEW YORK",
-              "amount_cents": 551990
+              "amount_cents": 2601990
             },
             {
               "name": "RURAL FREEDOM NETWORK",
@@ -1997,7 +2013,7 @@
       "amendment_indicator": "A"
     },
     {
-      "source_id": "4090420261595780124",
+      "source_id": "4102620261615396556",
       "original_sub_id": "",
       "transaction_id": "SE24.3695",
       "candidate": "conley",
@@ -2010,11 +2026,11 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "DIGITAL PLACEMENT",
       "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-04",
-      "file_number": 2010878,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103597",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068524",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -2043,7 +2059,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4090420261595780125",
+      "source_id": "4102620261615396725",
       "original_sub_id": "",
       "transaction_id": "SE24.3705",
       "candidate": "conley",
@@ -2056,17 +2072,17 @@
       "payee": "SOMETHING ELSE STRATEGIES",
       "description": "MEDIA PRODUCTION",
       "type": "Production",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-04",
-      "file_number": 2010878,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609049904103598",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068608",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4091220261598268060",
+      "source_id": "4102620261615396563",
       "original_sub_id": "",
       "transaction_id": "SE24.3724",
       "candidate": "conley",
@@ -2079,11 +2095,11 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "DIGITAL PLACEMENT",
       "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-11",
-      "file_number": 2011647,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609119904198134",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068527",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -2296,7 +2312,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4091920261598950065",
+      "source_id": "4102620261615396580",
       "original_sub_id": "",
       "transaction_id": "SE24.3755",
       "candidate": "conley",
@@ -2309,11 +2325,11 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "DIGITAL PLACEMENT",
       "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-18",
-      "file_number": 2013953,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609189904424427",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068536",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -2802,7 +2818,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092620261599650059",
+      "source_id": "4102620261615396606",
       "original_sub_id": "",
       "transaction_id": "SE24.4805",
       "candidate": "conley",
@@ -2815,11 +2831,11 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "DIGITAL PLACEMENT",
       "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-25",
-      "file_number": 2015245,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609259908419085",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068549",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -2917,7 +2933,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092620261599650060",
+      "source_id": "4102620261615396620",
       "original_sub_id": "",
       "transaction_id": "SE24.4845",
       "candidate": "conley",
@@ -2930,11 +2946,11 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
       "type": "TV",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-25",
-      "file_number": 2015245,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609259908419086",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068556",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -3147,7 +3163,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092620261599650061",
+      "source_id": "4102620261615396728",
       "original_sub_id": "",
       "transaction_id": "SE24.4871",
       "candidate": "conley",
@@ -3157,14 +3173,14 @@
       "amount_cents": 1300000,
       "group": "CLF",
       "group_id": "C00504530",
-      "payee": "SOMETHING ELSE STRATEGIES LLC",
+      "payee": "SOMETHING ELSE STRATEGIES",
       "description": "MEDIA PRODUCTION",
       "type": "Production",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-25",
-      "file_number": 2015245,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609259908419086",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068610",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -3285,30 +3301,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4092620261599650062",
-      "original_sub_id": "",
-      "transaction_id": "SE24.4870",
-      "candidate": "conley",
-      "candidate_id": "H6NY17171",
-      "disposition": "oppose_conley",
-      "date": "2026-09-25",
-      "amount_cents": 500000,
-      "group": "CLF",
-      "group_id": "C00504530",
-      "payee": "SOMETHING ELSE STRATEGIES LLC",
-      "description": "MEDIA PRODUCTION",
-      "type": "Production",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-09-25",
-      "file_number": 2015245,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609259908419087",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
-      "source_id": "4100320261600422101",
+      "source_id": "4102620261615396639",
       "original_sub_id": "",
       "transaction_id": "SE24.5882",
       "candidate": "conley",
@@ -3321,11 +3314,34 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "DIGITAL PLACEMENT",
       "type": "Digital",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-02",
-      "file_number": 2016529,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610029908511889",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068565",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102620261615396729",
+      "original_sub_id": "",
+      "transaction_id": "SE24.4870",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "oppose_conley",
+      "date": "2026-09-25",
+      "amount_cents": 500000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "SOMETHING ELSE STRATEGIES",
+      "description": "MEDIA PRODUCTION",
+      "type": "Production",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068610",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -3354,7 +3370,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4100320261600422102",
+      "source_id": "4102620261615396651",
       "original_sub_id": "",
       "transaction_id": "SE24.5918",
       "candidate": "conley",
@@ -3367,11 +3383,11 @@
       "payee": "FLEXPOINT MEDIA",
       "description": "MEDIA PLACEMENT",
       "type": "TV",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-02",
-      "file_number": 2016529,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610029908511889",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027985,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916068571",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -10553,6 +10569,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102620261615396944",
+      "original_sub_id": "",
+      "transaction_id": "500372146",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-22",
+      "amount_cents": 75000,
+      "group": "BATTLEGROUND NEW YORK",
+      "group_id": "C00859355",
+      "payee": "ALSPAUGH, JOHN",
+      "description": "LITERATURE DESIGN SERVICES",
+      "type": "Production",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-26",
+      "file_number": 2042261,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258825",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102220261615046942",
       "original_sub_id": "",
       "transaction_id": "IE-48785-E",
@@ -11243,6 +11282,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102620261615396943",
+      "original_sub_id": "",
+      "transaction_id": "500372145",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 2740944,
+      "group": "BATTLEGROUND NEW YORK",
+      "group_id": "C00859355",
+      "payee": "ACCURATE INDUSTRIES LLC",
+      "description": "DIRECT MAIL POSTAGE & SHIPPING",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-26",
+      "file_number": 2042261,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258825",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102320261615119612",
       "original_sub_id": "",
       "transaction_id": "500860477",
@@ -11795,6 +11857,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102620261615396054",
+      "original_sub_id": "",
+      "transaction_id": "500372330",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-24",
+      "amount_cents": 455231,
+      "group": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+      "group_id": "C00348540",
+      "payee": "STONES PHONES",
+      "description": "GOTV CALLS (ESTIMATE)",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-25",
+      "file_number": 2041875,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202817",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102520261615155080",
       "original_sub_id": "",
       "transaction_id": "F57.5109",
@@ -12094,6 +12179,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4102620261615396015",
+      "original_sub_id": "",
+      "transaction_id": "77936132",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "support_lawler",
+      "date": "2026-10-25",
+      "amount_cents": 85000,
+      "group": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
+      "group_id": "C00032979",
+      "payee": "META PLATFORMS, INC.",
+      "description": "DIGITAL ADS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-25",
+      "file_number": 2041837,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202579",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102520261615165703",
       "original_sub_id": "",
       "transaction_id": "SE24.6789",
@@ -12114,6 +12222,52 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202532",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102620261615396945",
+      "original_sub_id": "",
+      "transaction_id": "500372149",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 214295,
+      "group": "BATTLEGROUND NEW YORK",
+      "group_id": "C00859355",
+      "payee": "GROSSMAN SOLUTIONS",
+      "description": "DIRECT MAIL DESIGN SERVICES - ESTIMATED COST",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-26",
+      "file_number": 2042261,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258826",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102620261615396946",
+      "original_sub_id": "",
+      "transaction_id": "500372148",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 2050000,
+      "group": "BATTLEGROUND NEW YORK",
+      "group_id": "C00859355",
+      "payee": "MIDSTATE PRINTING GROUP",
+      "description": "LITERATURE - ESTIMATED COST",
+      "type": "Print",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-26",
+      "file_number": 2042261,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258826",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     }
   ],
