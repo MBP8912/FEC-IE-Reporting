@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T03:05:48+00:00",
+  "checked_at": "2026-10-28T04:07:42+00:00",
   "source_data_generated_at": "2026-10-27T22:14:30-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1142,20 +1142,6 @@
       "spend_type": "Mail",
       "amount_cents": 1561169,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159230"
-    },
-    {
-      "source_id": "4102320261615119473",
-      "file_number": "2040149",
-      "reported_at": "2026-10-23T03:42:34+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "JDCA PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING - ESTIMATE",
-      "spend_type": "Digital",
-      "amount_cents": 1701865,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945143217"
     }
   ]
 }
