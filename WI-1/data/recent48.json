@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T22:01:16+00:00",
-  "source_data_generated_at": "2026-10-28T13:12:54-04:00",
+  "checked_at": "2026-10-28T22:59:03+00:00",
+  "source_data_generated_at": "2026-10-28T18:01:17-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -316,48 +316,6 @@
       "spend_type": "Text",
       "amount_cents": 138068,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199669"
-    },
-    {
-      "source_id": "4102320261615120029",
-      "file_number": "2040889",
-      "reported_at": "2026-10-23T22:46:49+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "THE WISCO PROJECT PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN - KIND - TEXTING ON 10/23 TO SUPPORT BERMAN",
-      "spend_type": "Text",
-      "amount_cents": 1428,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197094"
-    },
-    {
-      "source_id": "4102320261615120003",
-      "file_number": "2040884",
-      "reported_at": "2026-10-23T22:42:54+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "WISCONSIN WORKING PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "'RISK' AD BUY 10/24-11/3",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 24000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197070"
-    },
-    {
-      "source_id": "4102320261615120004",
-      "file_number": "2040884",
-      "reported_at": "2026-10-23T22:42:54+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "WISCONSIN WORKING PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "'RISK' AD PRODUCTION 10/24-11/3",
-      "spend_type": "Production",
-      "amount_cents": 1350000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197070"
     }
   ]
 }

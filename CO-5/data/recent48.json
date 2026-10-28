@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T22:01:16+00:00",
+  "checked_at": "2026-10-28T22:59:03+00:00",
   "source_data_generated_at": "2026-10-28T16:05:20-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -302,20 +302,6 @@
       "spend_type": "Mail",
       "amount_cents": 1062897,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199456"
-    },
-    {
-      "source_id": "4102320261615120023",
-      "file_number": "2040885",
-      "reported_at": "2026-10-23T22:44:17+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "AB PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAIL- ESTIMATED COST",
-      "spend_type": "Mail",
-      "amount_cents": 2283360,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197080"
     }
   ]
 }
