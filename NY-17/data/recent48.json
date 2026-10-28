@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T20:05:18+00:00",
+  "checked_at": "2026-10-28T21:04:38+00:00",
   "source_data_generated_at": "2026-10-28T15:17:16-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1016,76 +1016,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 1385,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196718"
-    },
-    {
-      "source_id": "4102320261615119825",
-      "file_number": "2040711",
-      "reported_at": "2026-10-23T20:45:27+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATED COST",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196281"
-    },
-    {
-      "source_id": "4102320261615119823",
-      "file_number": "2040711",
-      "reported_at": "2026-10-23T20:45:27+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATED COST",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 4166600,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196280"
-    },
-    {
-      "source_id": "4102320261615119824",
-      "file_number": "2040711",
-      "reported_at": "2026-10-23T20:45:27+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PAID CANVASSING STAFF EXPENSES",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 304500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196280"
-    },
-    {
-      "source_id": "4102320261615119772",
-      "file_number": "2040660",
-      "reported_at": "2026-10-23T20:05:38+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "EQUALITY PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL",
-      "spend_type": "Mail",
-      "amount_cents": 3208417,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945162479"
-    },
-    {
-      "source_id": "4102320261615119771",
-      "file_number": "2040660",
-      "reported_at": "2026-10-23T20:05:38+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "EQUALITY PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL",
-      "spend_type": "Mail",
-      "amount_cents": 3208417,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945162479"
     }
   ]
 }

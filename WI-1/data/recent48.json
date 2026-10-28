@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T20:05:18+00:00",
+  "checked_at": "2026-10-28T21:04:38+00:00",
   "source_data_generated_at": "2026-10-28T13:12:54-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -358,48 +358,6 @@
       "spend_type": "Production",
       "amount_cents": 1350000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197070"
-    },
-    {
-      "source_id": "4102320261615119832",
-      "file_number": "2040724",
-      "reported_at": "2026-10-23T20:52:46+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "314 ACTION FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 1439800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196329"
-    },
-    {
-      "source_id": "4102320261615119803",
-      "file_number": "2040693",
-      "reported_at": "2026-10-23T20:34:25+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CONTRACTED CANVASSING AND PHONE BANKING AND STAFF TIME",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 298920,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945183399"
-    },
-    {
-      "source_id": "4102320261615119813",
-      "file_number": "2040693",
-      "reported_at": "2026-10-23T20:34:25+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "VOTER DATA-PHONE BANK AND TEXT MESSAGE",
-      "spend_type": "Text",
-      "amount_cents": 42154,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945183404"
     }
   ]
 }
