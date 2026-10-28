@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T02:14:21+00:00",
+  "checked_at": "2026-10-28T03:05:48+00:00",
   "source_data_generated_at": "2026-10-27T18:56:26-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -764,62 +764,6 @@
       "spend_type": "Mail",
       "amount_cents": 2082245,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159246"
-    },
-    {
-      "source_id": "4102320261615119432",
-      "file_number": "2039986",
-      "reported_at": "2026-10-23T02:26:49+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116595"
-    },
-    {
-      "source_id": "4102320261615119423",
-      "file_number": "2039986",
-      "reported_at": "2026-10-23T02:26:49+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 833333,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116590"
-    },
-    {
-      "source_id": "4102320261615119438",
-      "file_number": "2039986",
-      "reported_at": "2026-10-23T02:26:49+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING - ESTIMATE",
-      "spend_type": "Print",
-      "amount_cents": 220000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116598"
-    },
-    {
-      "source_id": "4102320261615119445",
-      "file_number": "2039986",
-      "reported_at": "2026-10-23T02:26:49+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING - ESTIMATE",
-      "spend_type": "Print",
-      "amount_cents": 64333,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229945116601"
     }
   ]
 }
