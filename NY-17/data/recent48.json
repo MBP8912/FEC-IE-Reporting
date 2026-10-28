@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T21:04:38+00:00",
+  "checked_at": "2026-10-28T22:01:16+00:00",
   "source_data_generated_at": "2026-10-28T15:17:16-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -988,34 +988,6 @@
       "spend_type": "Events",
       "amount_cents": 8100,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199528"
-    },
-    {
-      "source_id": "4102320261615119916",
-      "file_number": "2040797",
-      "reported_at": "2026-10-23T21:34:44+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 57849,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196840"
-    },
-    {
-      "source_id": "4102320261615119894",
-      "file_number": "2040775",
-      "reported_at": "2026-10-23T21:22:18+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "LCV VICTORY FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "STAFF TIME FOR PRESS RELEASE (VIA DRAWDOWN)",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1385,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196718"
     }
   ]
 }
