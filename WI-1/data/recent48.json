@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T14:20:17+00:00",
+  "checked_at": "2026-10-28T15:14:40+00:00",
   "source_data_generated_at": "2026-10-28T09:25:47-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -400,20 +400,6 @@
       "spend_type": "Text",
       "amount_cents": 42154,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945183404"
-    },
-    {
-      "source_id": "4102320261615119546",
-      "file_number": "2040290",
-      "reported_at": "2026-10-23T14:22:16+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "314 ACTION FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ADVERTISING & MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 100224000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159351"
     }
   ]
 }
