@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T12:04:25+00:00",
-  "source_data_generated_at": "2026-10-28T03:28:28-04:00",
+  "checked_at": "2026-10-28T13:25:41+00:00",
+  "source_data_generated_at": "2026-10-28T08:04:33-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -750,20 +750,6 @@
       "spend_type": "Digital",
       "amount_cents": 750000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159399"
-    },
-    {
-      "source_id": "4102320261615119526",
-      "file_number": "2040257",
-      "reported_at": "2026-10-23T13:00:01+00:00",
-      "expenditure_date": "2026-10-21",
-      "spender": "AMERICAN CONSERVATION COALITION PAC (ACC PAC)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "NON-CONTRIBUTION ACCT: PRINTING / POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 2082245,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159246"
     }
   ]
 }
