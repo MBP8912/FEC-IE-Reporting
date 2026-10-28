@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T18:04:45+00:00",
+  "checked_at": "2026-10-28T19:17:10+00:00",
   "source_data_generated_at": "2026-10-28T11:14:48-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1086,34 +1086,6 @@
       "spend_type": "Mail",
       "amount_cents": 3208417,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945162479"
-    },
-    {
-      "source_id": "4102320261615119612",
-      "file_number": "2040539",
-      "reported_at": "2026-10-23T18:45:54+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "EDF ACTION VOTES",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAIL PRODUCTION AND POSTAGE (ESTIMATE)",
-      "spend_type": "Mail",
-      "amount_cents": 4831800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945161859"
-    },
-    {
-      "source_id": "4102320261615119613",
-      "file_number": "2040539",
-      "reported_at": "2026-10-23T18:45:54+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "EDF ACTION VOTES",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "RESEARCH (ESTIMATE)",
-      "spend_type": "Research",
-      "amount_cents": 14625,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945161860"
     }
   ]
 }
