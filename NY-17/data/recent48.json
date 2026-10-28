@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-28T15:14:40+00:00",
-  "source_data_generated_at": "2026-10-28T07:06:19-04:00",
+  "checked_at": "2026-10-28T16:13:16+00:00",
+  "source_data_generated_at": "2026-10-28T11:14:48-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -1114,20 +1114,6 @@
       "spend_type": "Research",
       "amount_cents": 14625,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945161860"
-    },
-    {
-      "source_id": "4102320261615119566",
-      "file_number": "2040338",
-      "reported_at": "2026-10-23T15:40:14+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "LITERATURE - ESTIMATED COST",
-      "spend_type": "Print",
-      "amount_cents": 550000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945159450"
     }
   ]
 }
