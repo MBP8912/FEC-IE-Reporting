@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-29T23:00:38+00:00",
+  "checked_at": "2026-10-29T23:56:44+00:00",
   "source_data_generated_at": "2026-10-29T17:06:56-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -568,20 +568,6 @@
       "spend_type": "Text",
       "amount_cents": 108888,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201589"
-    },
-    {
-      "source_id": "4102520261615165008",
-      "file_number": "2041425",
-      "reported_at": "2026-10-24T23:31:05+00:00",
-      "expenditure_date": "2026-10-24",
-      "spender": "D.R.I.V.E. - DEM, REP, IND VOTER ED (THE PAC OF THE INT'L BRHD OF TEAMSTERS)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 85000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201304"
     }
   ]
 }
