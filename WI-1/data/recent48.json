@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-29T17:15:00+00:00",
+  "checked_at": "2026-10-29T18:06:54+00:00",
   "source_data_generated_at": "2026-10-29T11:16:51-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -232,20 +232,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 6250000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945200830"
-    },
-    {
-      "source_id": "4102420261615146602",
-      "file_number": "2041252",
-      "reported_at": "2026-10-24T17:59:42+00:00",
-      "expenditure_date": "2026-10-24",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CONTRACTED CANVASSING, TEXT MESSAGING, PHONE BANKING, AND STAFF TIME",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 217140,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945200756"
     }
   ]
 }
