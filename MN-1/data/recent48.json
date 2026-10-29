@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-29T22:03:45+00:00",
+  "checked_at": "2026-10-29T23:00:38+00:00",
   "source_data_generated_at": "2026-10-29T15:19:37-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -120,20 +120,6 @@
       "spend_type": "Digital",
       "amount_cents": 67500000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201579"
-    },
-    {
-      "source_id": "4102420261615146809",
-      "file_number": "2041399",
-      "reported_at": "2026-10-24T22:48:38+00:00",
-      "expenditure_date": "2026-10-24",
-      "spender": "PROGRESSIVE TURNOUT PROJECT",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "FIELD ORGANIZING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 4043520,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201233"
     }
   ]
 }
