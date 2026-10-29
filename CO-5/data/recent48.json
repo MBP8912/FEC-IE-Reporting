@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-29T02:17:23+00:00",
+  "checked_at": "2026-10-29T03:07:52+00:00",
   "source_data_generated_at": "2026-10-28T19:56:09-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -134,34 +134,6 @@
       "spend_type": "Digital",
       "amount_cents": 13500000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201596"
-    },
-    {
-      "source_id": "4102420261615135142",
-      "file_number": "2041067",
-      "reported_at": "2026-10-24T02:59:48+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "WORKING AMERICA",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F5",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 945000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200157"
-    },
-    {
-      "source_id": "4102420261615135180",
-      "file_number": "2041067",
-      "reported_at": "2026-10-24T02:59:48+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "WORKING AMERICA",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F5",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 105000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945200169"
     }
   ]
 }
