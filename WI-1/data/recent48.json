@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T01:28:54+00:00",
+  "checked_at": "2026-10-30T03:09:39+00:00",
   "source_data_generated_at": "2026-10-29T19:00:44-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -162,48 +162,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 213781,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201848"
-    },
-    {
-      "source_id": "4102520261615165229",
-      "file_number": "2041487",
-      "reported_at": "2026-10-25T01:32:25+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PLACED MEDIA: TV AND CONNECTED TV",
-      "spend_type": "Digital",
-      "amount_cents": 63247500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201580"
-    },
-    {
-      "source_id": "4102520261615165219",
-      "file_number": "2041487",
-      "reported_at": "2026-10-25T01:32:25+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 3769564,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201575"
-    },
-    {
-      "source_id": "4102520261615165247",
-      "file_number": "2041487",
-      "reported_at": "2026-10-25T01:32:25+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL: PRINTING AND POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 3769564,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201589"
     }
   ]
 }

@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T01:28:54+00:00",
+  "checked_at": "2026-10-30T03:09:39+00:00",
   "source_data_generated_at": "2026-10-29T19:00:39-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -106,20 +106,6 @@
       "spend_type": "Media (unspecified)",
       "amount_cents": 1376452,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201806"
-    },
-    {
-      "source_id": "4102520261615165227",
-      "file_number": "2041487",
-      "reported_at": "2026-10-25T01:32:25+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PLACED MEDIA: TV AND CONNECTED TV",
-      "spend_type": "Digital",
-      "amount_cents": 67500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201579"
     }
   ]
 }
