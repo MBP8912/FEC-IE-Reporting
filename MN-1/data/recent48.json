@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T21:57:05+00:00",
+  "checked_at": "2026-10-30T22:58:01+00:00",
   "source_data_generated_at": "2026-10-30T09:24:00-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -428,34 +428,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 4500000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202823"
-    },
-    {
-      "source_id": "4102520261615165686",
-      "file_number": "2041803",
-      "reported_at": "2026-10-25T22:29:27+00:00",
-      "expenditure_date": "2026-10-24",
-      "spender": "TAKEACTION MN FEDERAL FUND",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CONTRACT FOR CANVASSERS AND MILEAGE",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 67200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202499"
-    },
-    {
-      "source_id": "4102520261615165685",
-      "file_number": "2041803",
-      "reported_at": "2026-10-25T22:29:27+00:00",
-      "expenditure_date": "2026-10-24",
-      "spender": "TAKEACTION MN FEDERAL FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CONTRACT FOR CANVASSERS AND MILEAGE",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 67200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202499"
     }
   ]
 }
