@@ -73,7 +73,13 @@ def verify():
                 keys.add(item.get("source_id"))
         data=json.loads(read(district+"/data/data.json"))
         if data.get("district")!=district: raise RuntimeError("Misassigned FEC data in "+district)
+        # The 'checked' timestamp on the recent panel is not proof of freshness:
+        # the feeder must actually use the same full-cycle dataset published
+        # beside it. Without this guard, panels can silently omit new notices.
         if data.get("status")=="ok":
+            if recent.get("source_data_generated_at")!=data.get("generated_at"):
+                raise RuntimeError("Stale 48-hour feed in "+district+
+                                   ": notice feed built from older Schedule E snapshot")
             if recent.get("status")=="pending":
                 raise RuntimeError("Verified "+district+" dataset still has an uninitialized recent feed")
             entries=data["transactions"]
