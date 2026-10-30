@@ -151,10 +151,13 @@ class TestAllRaces(unittest.TestCase):
         with patch.object(multi,"save_state") as save, \
              patch.object(core,"request_json") as query:
             self.assertFalse(multi.capture_pages(state,"TEST",0,fresh_races={"WI-1","NE-2"}))
-        self.assertEqual(state["batch"],idx+1)
+        # The next race in the established ordering is WI-1, also marked
+        # as freshly verified, so the cursor should skip both districts.
+        self.assertEqual(state["batch"],idx+2)
         self.assertEqual(state["rows"],[])
         self.assertEqual(state["cursor"],{})
         self.assertIn("NE-2",state["completed_races"])
+        self.assertIn("WI-1",state["completed_races"])
         query.assert_not_called()
         self.assertTrue(save.called)
 
