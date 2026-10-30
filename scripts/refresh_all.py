@@ -161,11 +161,68 @@ def fetch_co4_misfiled_boebert_notices(api_key):
     raise RuntimeError("FEC CO-4 exception exceeded the safe pagination bound")
 
 
-def capture_pages(state,key,maximum_pages):
+def refresh_priority_race(district, key, maximum_pages=20):
+    """Rebuild a complete high-priority district before the shared rate budget runs out.
+
+    Never merge a partial page into old financial totals or publish on FEC error.
+    In the hourly workflow, this makes WI-1 independent of its late position
+    in the nine-district resumable ingestion loop.
+    """
+    indexes=[i for i, batch in enumerate(BATCHES) if batch["district"]==district]
+    if len(indexes)!=1:
+        raise ValueError("Unknown priority district: "+str(district))
+    index=indexes[0]
+    rows=[]
+    cursor={}
+    seen=set()
+    for page in range(1, maximum_pages+1):
+        try:
+            response=core.request_json(next_query(key,index,cursor),
+                                       attempts=1 if key=="DEMO_KEY" else 3)
+        except Exception as exc:
+            print(f"PRIORITY {district} INCOMPLETE: FEC unavailable ({exc}); retaining verified snapshot.",flush=True)
+            return False
+        batch=response.get("results")
+        if not isinstance(batch,list):
+            print(f"PRIORITY {district} INCOMPLETE: invalid FEC results; retaining verified snapshot.",flush=True)
+            return False
+        rows.extend(compact(row) for row in batch)
+        if len(batch)<PAGE_SIZE:
+            if not rows:
+                print(f"PRIORITY {district} INCOMPLETE: empty FEC response; retaining verified snapshot.",flush=True)
+                return False
+            finalize_one_race(district,rows,page)
+            print(f"PRIORITY {district} COMPLETE: {page} pages, {len(rows)} source rows.",flush=True)
+            return True
+        last=(response.get("pagination") or {}).get("last_indexes") or {}
+        next_cursor={str(k):str(v) for k,v in last.items() if v is not None and str(v)}
+        marker=tuple(sorted(next_cursor.items()))
+        if "last_index" not in next_cursor or marker in seen:
+            print(f"PRIORITY {district} INCOMPLETE: invalid/repeated pagination cursor; retaining verified snapshot.",flush=True)
+            return False
+        seen.add(marker)
+        cursor=next_cursor
+    print(f"PRIORITY {district} INCOMPLETE: exceeded {maximum_pages} FEC pages; retaining verified snapshot.",flush=True)
+    return False
+
+
+def capture_pages(state,key,maximum_pages,fresh_races=frozenset()):
     """Publish a race only when its entire district query is complete."""
     requests=0
     while state["batch"]<len(BATCHES):
         name=BATCHES[state["batch"]]["district"]
+        if name in fresh_races:
+            # The separate priority scan completed after any checkpointed
+            # partial pages; discard those stale buffered rows safely.
+            state["completed_races"].append(name)
+            state["batch"]+=1
+            state["rows"]=[]
+            state["race_pages"]=0
+            state["cursor"]={}
+            state["cursor_history"]=[]
+            save_state(state)
+            print(f"PRIORITY {name}: already fully refreshed; skipping duplicate full-cycle query.",flush=True)
+            continue
         if requests>=maximum_pages:
             save_state(state)
             print("IN PROGRESS: "+name+"; rate-budget checkpoint saved.",flush=True)
@@ -272,7 +329,8 @@ def main():
     key=os.environ.get("FEC_API_KEY") or "DEMO_KEY"
     budget=22 if key=="DEMO_KEY" else 250
     state=read_state()
-    if capture_pages(state,key,budget):
+    freshly_verified={"WI-1"} if os.environ.get("WI1_PRIORITY_OK","").lower()=="true" else set()
+    if capture_pages(state,key,budget,fresh_races=freshly_verified):
         save_state({
             "schema_version":VERSION,"query_fingerprint":QUERY_FINGERPRINT,
             "status":"complete","completed_at":datetime.now(timezone.utc).isoformat(),
