@@ -26,7 +26,7 @@ function summary(data){
   var suppressed=(excluded.repeated_transaction_or_amendment||0)+(excluded.notice_regular_duplicates||0)+(excluded.duplicate_source_id||0);
   $("dedup-note").textContent=suppressed.toLocaleString();
   var date=new Date(data.generated_at);
-  if(!Number.isNaN(date.getTime()))$("last-updated").textContent="◷ Checked "+date.toLocaleString("en-US",{timeZone:"America/New_York",month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"});
+  if(!Number.isNaN(date.getTime()))$("last-updated").textContent="◷ Full FEC scan "+date.toLocaleString("en-US",{timeZone:"America/New_York",month:"short",day:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"});
   status("Verified FEC data · "+data.transactions.length.toLocaleString()+" unique general-election Schedule E entries · "+
   data.groups.length.toLocaleString()+" spending groups. Details link to FEC source records.","good");
 }
