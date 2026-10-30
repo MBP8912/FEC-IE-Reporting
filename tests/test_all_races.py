@@ -77,4 +77,46 @@ class TestAllRaces(unittest.TestCase):
         self.assertFalse(finalized.called)
         self.assertTrue(saved.called)
 
+    def test_priority_wi_fetches_all_pages_before_publishing(self):
+        first={"results":[{"sub_id":str(i)} for i in range(100)],
+               "pagination":{"last_indexes":{"last_index":"100","last_expenditure_date":"2026-10-28"}}}
+        second={"results":[{"sub_id":str(i)} for i in range(100,200)],
+                "pagination":{"last_indexes":{"last_index":"200","last_expenditure_date":"2026-10-20"}}}
+        third={"results":[{"sub_id":"200"}],"pagination":{}}
+        with patch.object(core,"request_json",side_effect=[first,second,third]) as query, \
+             patch.object(multi,"finalize_one_race") as finalize:
+            self.assertTrue(multi.refresh_priority_race("WI-1","TEST"))
+        self.assertEqual(query.call_count,3)
+        for call in query.call_args_list:
+            self.assertIn("candidate_office_state=WI",call.args[0])
+            self.assertIn("candidate_office_district=01",call.args[0])
+        self.assertEqual(finalize.call_count,1)
+        self.assertEqual(finalize.call_args.args[0],"WI-1")
+        self.assertEqual(len(finalize.call_args.args[1]),201)
+        self.assertEqual(finalize.call_args.args[2],3)
+
+    def test_priority_wi_rate_limit_preserves_existing_snapshot(self):
+        first={"results":[{"sub_id":str(i)} for i in range(100)],
+               "pagination":{"last_indexes":{"last_index":"100","last_expenditure_date":"2026-10-28"}}}
+        with patch.object(core,"request_json",side_effect=[first,RuntimeError("FEC HTTP 429")]), \
+             patch.object(multi,"finalize_one_race") as finalize:
+            self.assertFalse(multi.refresh_priority_race("WI-1","TEST"))
+        finalize.assert_not_called()
+
+    def test_bulk_scan_skips_wi_if_priority_scan_finished(self):
+        state=multi.new_state()
+        idx=next(i for i,b in enumerate(multi.BATCHES) if b["district"]=="WI-1")
+        state["batch"]=idx
+        state["rows"]=[{"sub_id":"old-checkpointed-row"}]
+        state["cursor"]={"last_index":"old"}
+        with patch.object(multi,"save_state") as save, \
+             patch.object(core,"request_json") as query:
+            self.assertFalse(multi.capture_pages(state,"TEST",0,fresh_races={"WI-1"}))
+        self.assertEqual(state["batch"],idx+1)
+        self.assertEqual(state["rows"],[])
+        self.assertEqual(state["cursor"],{})
+        self.assertIn("WI-1",state["completed_races"])
+        query.assert_not_called()
+        self.assertTrue(save.called)
+
 if __name__=="__main__":unittest.main()
