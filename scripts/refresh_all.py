@@ -162,11 +162,11 @@ def fetch_co4_misfiled_boebert_notices(api_key):
 
 
 def refresh_priority_race(district, key, maximum_pages=20):
-    """Rebuild a complete high-priority district before the shared rate budget runs out.
+    """Rebuild a complete priority district independently of the shared cursor.
 
     Never merge a partial page into old financial totals or publish on FEC error.
-    In the hourly workflow, this makes WI-1 independent of its late position
-    in the nine-district resumable ingestion loop.
+    WI-1 and NE-2 run ahead of the bulk nine-race scan, so an HTTP 429 on an
+    earlier district cannot prevent their own complete verified refresh.
     """
     indexes=[i for i, batch in enumerate(BATCHES) if batch["district"]==district]
     if len(indexes)!=1:
@@ -329,7 +329,11 @@ def main():
     key=os.environ.get("FEC_API_KEY") or "DEMO_KEY"
     budget=22 if key=="DEMO_KEY" else 250
     state=read_state()
-    freshly_verified={"WI-1"} if os.environ.get("WI1_PRIORITY_OK","").lower()=="true" else set()
+    freshly_verified={
+        district for district,flag in (
+            ("WI-1","WI1_PRIORITY_OK"),("NE-2","NE2_PRIORITY_OK"))
+        if os.environ.get(flag,"").lower()=="true"
+    }
     if capture_pages(state,key,budget,fresh_races=freshly_verified):
         save_state({
             "schema_version":VERSION,"query_fingerprint":QUERY_FINGERPRINT,
