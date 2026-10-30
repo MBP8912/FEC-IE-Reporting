@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T03:09:39+00:00",
+  "checked_at": "2026-10-30T04:10:55+00:00",
   "source_data_generated_at": "2026-10-29T19:56:46-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -36,62 +36,6 @@
       "spend_type": "Mail",
       "amount_cents": 4633636,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258660"
-    },
-    {
-      "source_id": "4102520261615165417",
-      "file_number": "2041515",
-      "reported_at": "2026-10-25T03:30:01+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING  / POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 4633636,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201814"
-    },
-    {
-      "source_id": "4102520261615165412",
-      "file_number": "2041515",
-      "reported_at": "2026-10-25T03:30:01+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGING / MEDIA PLACEMENT / MEDIA PRODUCTION",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 896588,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201812"
-    },
-    {
-      "source_id": "4102520261615165442",
-      "file_number": "2041515",
-      "reported_at": "2026-10-25T03:30:01+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 141372,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201827"
-    },
-    {
-      "source_id": "4102520261615165443",
-      "file_number": "2041515",
-      "reported_at": "2026-10-25T03:30:01+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 141372,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201827"
     }
   ]
 }
