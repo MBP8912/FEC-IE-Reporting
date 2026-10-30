@@ -43,6 +43,15 @@ jobs:
       - name: Explain WI-1 priority refresh interruptions
         if: steps.wi1_priority.outcome != 'success'
         run: echo "WI-1 full FEC scan unavailable; retaining the last verified WI-1 totals."
+      - name: Refresh complete NE-2 dataset before the shared FEC rate budget
+        id: ne2_priority
+        continue-on-error: true
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python scripts/refresh_priority_ne.py
+      - name: Explain NE-2 priority refresh interruptions
+        if: steps.ne2_priority.outcome != 'success'
+        run: echo "NE-2 full FEC scan unavailable; retaining the last verified NE-2 totals."
       - name: Refresh notice-only 48-hour receipt timestamps for all nine races
         id: all_recent48
         continue-on-error: true
@@ -58,7 +67,17 @@ jobs:
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
           WI1_PRIORITY_OK: ${{ steps.wi1_priority.outcome == 'success' }}
+          NE2_PRIORITY_OK: ${{ steps.ne2_priority.outcome == 'success' }}
         run: python scripts/refresh_all.py
+      - name: Rebuild 48-hour notice feeds from the just-refreshed full-cycle data
+        id: post_refresh_recent48
+        continue-on-error: true
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python scripts/update_recent_all.py
+      - name: Explain post-refresh receipt lookup interruptions
+        if: steps.post_refresh_recent48.outcome != 'success'
+        run: echo "The post-refresh 48-hour notice feed was not rebuilt; live validation will prevent publishing mismatched timestamps."
       - name: Explain FEC API failure
         if: steps.refresh.outcome != 'success'
         run: echo "FEC source unavailable. Previously verified race snapshots remain intact."
