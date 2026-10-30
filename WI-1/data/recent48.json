@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T04:10:55+00:00",
-  "source_data_generated_at": "2026-10-29T19:00:44-04:00",
+  "checked_at": "2026-10-30T05:08:42+00:00",
+  "source_data_generated_at": "2026-10-30T00:11:00-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -78,20 +78,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 132505,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945203136"
-    },
-    {
-      "source_id": "4102520261615165515",
-      "file_number": "2041519",
-      "reported_at": "2026-10-25T04:50:07+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "VOCES DE LA FRONTERA POLITICAL FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "FLYERS - BERMAN",
-      "spend_type": "Print",
-      "amount_cents": 6200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945201866"
     }
   ]
 }
