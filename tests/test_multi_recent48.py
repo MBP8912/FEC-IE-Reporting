@@ -72,6 +72,29 @@ class MultiRecentTests(unittest.TestCase):
                 self.assertEqual(sum(t["amount_cents"] for t in report["items"]),200000)
                 self.assertNotIn("HMP",[t["spender"] for t in report["items"]])
 
+    def test_recent_feed_uses_newly_refreshed_ne2_records(self):
+        data=sample("NE-2")
+        data["generated_at"]="2026-10-22T10:59:00-04:00"
+        data["transactions"].append({
+            "source_id":"new-NE2","file_number":54321,"filing_date":"2026-10-22",
+            "date":"2026-10-22","group":"Newly Reported Fund",
+            "description":"NEW EXPENDITURE","type":"Digital",
+            "disposition":"support_conley","notice":True,"filing_form":"F24",
+            "amount_cents":1250000,"pdf_url":"https://docquery.fec.gov/cgi-bin/fecimg/?54321"
+        })
+        report=notice.build_payload(data,{"12345":RECEIVED,"12346":RECEIVED,"54321":RECEIVED},NOW)
+        self.assertEqual(report["source_data_generated_at"],data["generated_at"])
+        self.assertIn("new-NE2",{x["source_id"] for x in report["items"]})
+        self.assertEqual(report["status"],"ok")
+
+    def test_workflow_rebuilds_notice_feeds_after_full_cycle_ingestion(self):
+        yaml=(ROOT/".github"/"workflows"/"refresh-and-publish.yml").read_text(encoding="utf-8")
+        self.assertLess(yaml.index("run: python scripts/refresh_priority_ne.py"),
+                        yaml.index("run: python scripts/refresh_all.py"))
+        self.assertLess(yaml.index("run: python scripts/refresh_all.py"),
+                        yaml.rindex("run: python scripts/update_recent_all.py"))
+        self.assertIn("NE2_PRIORITY_OK:",yaml)
+
     def test_unverified_dataset_is_pending_not_an_invented_zero(self):
         sources={district:sample(district) for district in RACE_CODES}
         sources["CA-13"]={"district":"CA-13","status":"not_initialized","transactions":[]}
