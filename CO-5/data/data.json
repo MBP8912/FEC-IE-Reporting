@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-30T03:28:15-04:00",
+  "generated_at": "2026-10-30T08:04:01-04:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -43,24 +43,24 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 183,
-    "pages": 2,
-    "included_rows": 163,
+    "api_rows": 202,
+    "pages": 3,
+    "included_rows": 181,
     "excluded": {
       "memo_item": 3,
       "other_election": 3,
-      "repeated_transaction_or_amendment": 13,
+      "repeated_transaction_or_amendment": 14,
       "notice_regular_duplicates": 1
     }
   },
   "totals": {
-    "support_lawler": 155207571,
-    "oppose_conley": 391117354,
-    "support_conley": 12713835,
-    "oppose_lawler": 180991007,
-    "benefit_lawler": 546324925,
-    "benefit_conley": 193704842,
-    "all": 740029767
+    "support_lawler": 162403903,
+    "oppose_conley": 418117354,
+    "support_conley": 14568068,
+    "oppose_lawler": 228965017,
+    "benefit_lawler": 580521257,
+    "benefit_conley": 243533085,
+    "all": 824054342
   },
   "daily": [
     {
@@ -265,11 +265,11 @@
     },
     {
       "date": "2026-10-07",
-      "support_lawler": 7855328,
+      "support_lawler": 7054655,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 23328000,
-      "total": 31183328
+      "total": 30382655
     },
     {
       "date": "2026-10-08",
@@ -321,11 +321,11 @@
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 11269455,
+      "support_lawler": 16904182,
       "oppose_conley": 108114858,
       "support_conley": 410290,
       "oppose_lawler": 0,
-      "total": 119794603
+      "total": 125429330
     },
     {
       "date": "2026-10-20",
@@ -355,19 +355,51 @@
       "date": "2026-10-23",
       "support_lawler": 1638736,
       "oppose_conley": 255158,
-      "support_conley": 0,
+      "support_conley": 918,
       "oppose_lawler": 2283360,
-      "total": 4177254
+      "total": 4178172
+    },
+    {
+      "date": "2026-10-26",
+      "support_lawler": 0,
+      "oppose_conley": 27000000,
+      "support_conley": 1851825,
+      "oppose_lawler": 56200,
+      "total": 28908025
+    },
+    {
+      "date": "2026-10-27",
+      "support_lawler": 2068592,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 47917810,
+      "total": 49986402
+    },
+    {
+      "date": "2026-10-28",
+      "support_lawler": 293686,
+      "oppose_conley": 0,
+      "support_conley": 1490,
+      "oppose_lawler": 0,
+      "total": 295176
     }
   ],
   "groups": [
     {
       "name": "NO GOING BACK PAC INC.",
-      "total": 274209000,
-      "support_lawler": 40409650,
-      "oppose_conley": 233799350,
+      "total": 301215100,
+      "support_lawler": 40415750,
+      "oppose_conley": 260799350,
       "support_conley": 0,
       "oppose_lawler": 0
+    },
+    {
+      "name": "HMP",
+      "total": 116459237,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 116459237
     },
     {
       "name": "CONSERVATIVES FOR AMERICAN EXCELLENCE INC.",
@@ -386,20 +418,12 @@
       "oppose_lawler": 0
     },
     {
-      "name": "HMP",
-      "total": 71324787,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 71324787
-    },
-    {
       "name": "AB PAC",
-      "total": 48363746,
+      "total": 51147106,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 11059776,
-      "oppose_lawler": 37303970
+      "oppose_lawler": 40087330
     },
     {
       "name": "WOMEN VOTE",
@@ -411,8 +435,8 @@
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
-      "total": 35914421,
-      "support_lawler": 28390716,
+      "total": 41549148,
+      "support_lawler": 34025443,
       "oppose_conley": 7523705,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -458,6 +482,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "AMERICAN LIBERTY FOUNDATION",
+      "total": 5063221,
+      "support_lawler": 5063221,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "SAVE AMERICAN FREEDOM",
       "total": 3757200,
       "support_lawler": 3757200,
@@ -466,43 +498,35 @@
       "oppose_lawler": 0
     },
     {
-      "name": "AMERICAN LIBERTY FOUNDATION",
-      "total": 2994629,
-      "support_lawler": 2994629,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0
-    },
-    {
       "name": "WORKING AMERICA",
-      "total": 1050000,
+      "total": 2927400,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 1050000,
-      "oppose_lawler": 0
+      "support_conley": 2871200,
+      "oppose_lawler": 56200
     },
     {
       "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
-      "total": 818883,
-      "support_lawler": 818883,
+      "total": 305796,
+      "support_lawler": 305796,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 166034,
+      "total": 196659,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 166034,
+      "support_conley": 196659,
       "oppose_lawler": 0
     },
     {
       "name": "SCIENCE VICTORY FUND",
-      "total": 120750,
+      "total": 123158,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 0,
+      "support_conley": 2408,
       "oppose_lawler": 120750
     },
     {
@@ -518,7 +542,7 @@
     {
       "key": "support_lawler",
       "name": "Support Crank",
-      "total": 155207571,
+      "total": 162403903,
       "categories": [
         {
           "name": "Digital",
@@ -558,11 +582,11 @@
         },
         {
           "name": "Mail",
-          "total": 95265472,
+          "total": 102168118,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 26147223
+              "amount_cents": 31781950
             },
             {
               "name": "NO GOING BACK PAC INC.",
@@ -577,14 +601,14 @@
               "amount_cents": 20698422
             },
             {
-              "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
-              "amount_cents": 800673
+              "name": "AMERICAN LIBERTY FOUNDATION",
+              "amount_cents": 2068592
             }
           ]
         },
         {
           "name": "Text",
-          "total": 7232150,
+          "total": 7525836,
           "groups": [
             {
               "name": "SAVE AMERICAN FREEDOM",
@@ -596,7 +620,11 @@
             },
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 1074950
+              "amount_cents": 1081050
+            },
+            {
+              "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+              "amount_cents": 287586
             }
           ]
         },
@@ -643,7 +671,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Killin",
-      "total": 391117354,
+      "total": 418117354,
       "categories": [
         {
           "name": "TV",
@@ -657,11 +685,11 @@
         },
         {
           "name": "Digital",
-          "total": 21071204,
+          "total": 48071204,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 13500000
+              "amount_cents": 40500000
             },
             {
               "name": "MAGA INC.",
@@ -758,15 +786,15 @@
     {
       "key": "support_conley",
       "name": "Support Killin",
-      "total": 12713835,
+      "total": 14568068,
       "categories": [
         {
           "name": "Digital",
-          "total": 1426854,
+          "total": 3250462,
           "groups": [
             {
               "name": "WORKING AMERICA",
-              "amount_cents": 1050000
+              "amount_cents": 2871200
             },
             {
               "name": "VOTEVETS",
@@ -775,6 +803,10 @@
             {
               "name": "FIELD TEAM 6, INC.",
               "amount_cents": 11398
+            },
+            {
+              "name": "SCIENCE VICTORY FUND",
+              "amount_cents": 2408
             }
           ]
         },
@@ -790,11 +822,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 166034,
+          "total": 196659,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 166034
+              "amount_cents": 196659
             }
           ]
         },
@@ -823,15 +855,15 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Crank",
-      "total": 180991007,
+      "total": 228965017,
       "categories": [
         {
           "name": "TV",
-          "total": 54395200,
+          "total": 87227200,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 30067200
+              "amount_cents": 62899200
             },
             {
               "name": "VOTEVETS",
@@ -841,11 +873,11 @@
         },
         {
           "name": "Digital",
-          "total": 81695000,
+          "total": 94553650,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 37995000
+              "amount_cents": 50297450
             },
             {
               "name": "WOMEN VOTE",
@@ -853,13 +885,17 @@
             },
             {
               "name": "AB PAC",
-              "amount_cents": 18700000
+              "amount_cents": 19200000
+            },
+            {
+              "name": "WORKING AMERICA",
+              "amount_cents": 56200
             }
           ]
         },
         {
           "name": "Mail",
-          "total": 38897020,
+          "total": 41180380,
           "groups": [
             {
               "name": "WOMEN VOTE",
@@ -867,7 +903,7 @@
             },
             {
               "name": "AB PAC",
-              "amount_cents": 15983520
+              "amount_cents": 18266880
             }
           ]
         },
@@ -2573,29 +2609,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4100920261612183738",
-      "original_sub_id": "",
-      "transaction_id": "SE.4",
-      "candidate": "lawler",
-      "candidate_id": "H6CO05142",
-      "disposition": "support_lawler",
-      "date": "2026-10-07",
-      "amount_cents": 800673,
-      "group": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
-      "group_id": "C00053553",
-      "payee": "MOORE A SERIES LLC",
-      "description": "PRINTING / POSTAGE",
-      "type": "Mail",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-09",
-      "file_number": 2018750,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610099908591787",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4101520261612641028",
       "original_sub_id": "",
       "transaction_id": "SE.1189773.10",
@@ -3861,29 +3874,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102520261615165419",
-      "original_sub_id": "",
-      "transaction_id": "SE24.37747",
-      "candidate": "lawler",
-      "candidate_id": "H6CO05142",
-      "disposition": "support_lawler",
-      "date": "2026-10-19",
-      "amount_cents": 5634727,
-      "group": "CIVIC RENEWAL FUND INC.",
-      "group_id": "C00953588",
-      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
-      "description": "PRINTING  / POSTAGE",
-      "type": "Mail",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201815",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4102620261615396889",
       "original_sub_id": "",
       "transaction_id": "SE24.37639",
@@ -3902,6 +3892,52 @@
       "filing_date": "2026-10-26",
       "file_number": 2042234,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258661",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4102920261615839713",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37831",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 5634727,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043049,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271373",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839907",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37747",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 5634727,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271623",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "A"
@@ -4091,7 +4127,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102220261615047230",
+      "source_id": "4102920261615838161",
       "original_sub_id": "",
       "transaction_id": "500039611",
       "candidate": "lawler",
@@ -4106,12 +4142,12 @@
       "type": "Production",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-22",
-      "file_number": 2039012,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944824735",
+      "filing_date": "2026-10-28",
+      "file_number": 2042376,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259101",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
+      "amendment_indicator": "A"
     },
     {
       "source_id": "4102220261615047003",
@@ -4551,7 +4587,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102520261615165449",
+      "source_id": "4102920261615839937",
       "original_sub_id": "",
       "transaction_id": "SE24.37699",
       "candidate": "conley",
@@ -4566,12 +4602,12 @@
       "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201830",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271638",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
+      "amendment_indicator": "A"
     },
     {
       "source_id": "4102320261615120023",
@@ -4597,7 +4633,53 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102520261615165408",
+      "source_id": "4102920261615838273",
+      "original_sub_id": "",
+      "transaction_id": "500040630",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 109,
+      "group": "SCIENCE VICTORY FUND",
+      "group_id": "C00959502",
+      "payee": "STAND UP FOR SCIENCE",
+      "description": "IN-KIND: DIGITAL AD BUY (ESTIMATE)",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042437,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259328",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615838293",
+      "original_sub_id": "",
+      "transaction_id": "500040619",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 809,
+      "group": "SCIENCE VICTORY FUND",
+      "group_id": "C00959502",
+      "payee": "STAND UP FOR SCIENCE",
+      "description": "IN-KIND: DIGITAL AD BUY (ESTIMATE)",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042437,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259338",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839896",
       "original_sub_id": "",
       "transaction_id": "SE24.37797",
       "candidate": "lawler",
@@ -4612,15 +4694,15 @@
       "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201810",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271618",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
+      "amendment_indicator": "A"
     },
     {
-      "source_id": "4102520261615165448",
+      "source_id": "4102920261615839936",
       "original_sub_id": "",
       "transaction_id": "SE24.37698",
       "candidate": "lawler",
@@ -4635,9 +4717,377 @@
       "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201830",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271638",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4102920261615839175",
+      "original_sub_id": "",
+      "transaction_id": "SE.1195733",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "oppose_conley",
+      "date": "2026-10-26",
+      "amount_cents": 27000000,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "DEL RAY MEDIA LLC",
+      "description": "PLACED MEDIA: CONNECTED TV",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042824,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261363",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615417355",
+      "original_sub_id": "",
+      "transaction_id": "501374826",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 45000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-29",
+      "file_number": 2043721,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298560",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615417430",
+      "original_sub_id": "",
+      "transaction_id": "501374827",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 11200,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "SNAPCHAT",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-29",
+      "file_number": 2043721,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298585",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840460",
+      "original_sub_id": "",
+      "transaction_id": "500237916",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290742",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840461",
+      "original_sub_id": "",
+      "transaction_id": "500237917",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 14625,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290742",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840487",
+      "original_sub_id": "",
+      "transaction_id": "500237947",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 10000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290755",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615417310",
+      "original_sub_id": "",
+      "transaction_id": "501374715",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 1638000,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-29",
+      "file_number": 2043721,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298545",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615417386",
+      "original_sub_id": "",
+      "transaction_id": "501374716",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 183200,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "SNAPCHAT",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-29",
+      "file_number": 2043721,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298571",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839004",
+      "original_sub_id": "",
+      "transaction_id": "501359869",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 2283360,
+      "group": "AB PAC",
+      "group_id": "C00492140",
+      "payee": "BERNI CONSULTING LLC",
+      "description": "MAIL- ESTIMATED COST",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042744,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260855",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839005",
+      "original_sub_id": "",
+      "transaction_id": "501359870",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 500000,
+      "group": "AB PAC",
+      "group_id": "C00492140",
+      "payee": "BERNI CONSULTING LLC",
+      "description": "DIGITAL ADVERTISING- ESTIMATED COST",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042744,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260856",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839439",
+      "original_sub_id": "",
+      "transaction_id": "500693205",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 12302450,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "SKDKNICKERBOCKER LLC",
+      "description": "DIGITAL ADVERTISING - ESTIMATE",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042895,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261955",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839497",
+      "original_sub_id": "",
+      "transaction_id": "500693206",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 32832000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "WATERFRONT STRATEGIES INC.",
+      "description": "TELEVISION ADVERTISING - ESTIMATE",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042895,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261984",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615838789",
+      "original_sub_id": "",
+      "transaction_id": "EA0940F1FC0AE4380A66",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 2068592,
+      "group": "AMERICAN LIBERTY FOUNDATION",
+      "group_id": "C00830042",
+      "payee": "RIGHT POINT",
+      "description": "DIRECT MAIL",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042635,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259920",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615841259",
+      "original_sub_id": "",
+      "transaction_id": "500041137",
+      "candidate": "conley",
+      "candidate_id": "H6CO05324",
+      "disposition": "support_conley",
+      "date": "2026-10-28",
+      "amount_cents": 1490,
+      "group": "SCIENCE VICTORY FUND",
+      "group_id": "C00959502",
+      "payee": "STAND UP FOR SCIENCE",
+      "description": "IN-KIND: DIGITAL AD BUY (ESTIMATE)",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043866,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299135",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4102920261615841297",
+      "original_sub_id": "",
+      "transaction_id": "SE.4",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-28",
+      "amount_cents": 287586,
+      "group": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+      "group_id": "C00053553",
+      "payee": "I360 LLC",
+      "description": "SMS MESSAGING",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043884,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299166",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839205",
+      "original_sub_id": "",
+      "transaction_id": "SE.1197549",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "support_lawler",
+      "date": "2026-10-28",
+      "amount_cents": 6100,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "PT STRATEGY LLC",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042824,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261378",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -4648,6 +5098,6 @@
     "source": "FEC processed Schedule E: complete House district",
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
-    "source_pages_this_district": 2
+    "source_pages_this_district": 3
   }
 }
