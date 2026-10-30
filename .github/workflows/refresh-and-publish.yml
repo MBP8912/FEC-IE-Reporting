@@ -34,6 +34,15 @@ jobs:
           node --test tests/test_recent48_ui.cjs
       - name: Apply race-specific categories to verified historical expenditures
         run: python scripts/reclassify_cached.py
+      - name: Refresh complete WI-1 dataset first, before FEC rate limits affect later districts
+        id: wi1_priority
+        continue-on-error: true
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python scripts/refresh_priority_wi.py
+      - name: Explain WI-1 priority refresh interruptions
+        if: steps.wi1_priority.outcome != 'success'
+        run: echo "WI-1 full FEC scan unavailable; retaining the last verified WI-1 totals."
       - name: Refresh notice-only 48-hour receipt timestamps for all nine races
         id: all_recent48
         continue-on-error: true
@@ -48,6 +57,7 @@ jobs:
         continue-on-error: true
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+          WI1_PRIORITY_OK: ${{ steps.wi1_priority.outcome == 'success' }}
         run: python scripts/refresh_all.py
       - name: Explain FEC API failure
         if: steps.refresh.outcome != 'success'
