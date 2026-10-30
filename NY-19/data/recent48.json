@@ -18,9 +18,94 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T13:57:49+00:00",
-  "source_data_generated_at": "2026-10-30T06:13:12-04:00",
+  "checked_at": "2026-10-30T14:17:08+00:00",
+  "source_data_generated_at": "2026-10-30T09:57:51-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
-  "items": []
+  "items": [
+    {
+      "source_id": "4102920261615840685",
+      "file_number": "2043478",
+      "reported_at": "2026-10-29T18:00:45+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "SMS MESSAGING",
+      "spend_type": "Text",
+      "amount_cents": 205695,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297812"
+    },
+    {
+      "source_id": "4102920261615840392",
+      "file_number": "2043297",
+      "reported_at": "2026-10-29T15:55:48+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 11250,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290708"
+    },
+    {
+      "source_id": "4102920261615840385",
+      "file_number": "2043297",
+      "reported_at": "2026-10-29T15:55:48+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 11250,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290704"
+    },
+    {
+      "source_id": "4102920261615840391",
+      "file_number": "2043297",
+      "reported_at": "2026-10-29T15:55:48+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 6000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290707"
+    },
+    {
+      "source_id": "4102920261615840384",
+      "file_number": "2043297",
+      "reported_at": "2026-10-29T15:55:48+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 6000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290704"
+    },
+    {
+      "source_id": "4102920261615840386",
+      "file_number": "2043297",
+      "reported_at": "2026-10-29T15:55:48+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 6000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290705"
+    }
+  ]
 }
