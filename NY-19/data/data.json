@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-30T06:13:12-04:00",
+  "generated_at": "2026-10-30T09:57:51-04:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 53,
+    "api_rows": 59,
     "pages": 1,
-    "included_rows": 27,
+    "included_rows": 33,
     "excluded": {
       "other_election": 14,
       "other_candidate": 5,
@@ -53,13 +53,13 @@
     }
   },
   "totals": {
-    "support_lawler": 721303,
+    "support_lawler": 926998,
     "oppose_conley": 0,
-    "support_conley": 5375758,
-    "oppose_lawler": 885053,
-    "benefit_lawler": 721303,
-    "benefit_conley": 6260811,
-    "all": 6982114
+    "support_conley": 5399008,
+    "oppose_lawler": 902303,
+    "benefit_lawler": 926998,
+    "benefit_conley": 6301311,
+    "all": 7228309
   },
   "daily": [
     {
@@ -149,6 +149,14 @@
       "support_conley": 12000,
       "oppose_lawler": 6000,
       "total": 18000
+    },
+    {
+      "date": "2026-10-26",
+      "support_lawler": 205695,
+      "oppose_conley": 0,
+      "support_conley": 23250,
+      "oppose_lawler": 17250,
+      "total": 246195
     }
   ],
   "groups": [
@@ -178,19 +186,19 @@
     },
     {
       "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
-      "total": 721303,
-      "support_lawler": 721303,
+      "total": 926998,
+      "support_lawler": 926998,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 32500,
+      "total": 73000,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 22500,
-      "oppose_lawler": 10000
+      "support_conley": 45750,
+      "oppose_lawler": 27250
     },
     {
       "name": "SIERRA CLUB INDEPENDENT ACTION",
@@ -205,7 +213,7 @@
     {
       "key": "support_lawler",
       "name": "Support Oberacker",
-      "total": 721303,
+      "total": 926998,
       "categories": [
         {
           "name": "Mail",
@@ -214,6 +222,16 @@
             {
               "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
               "amount_cents": 721303
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "total": 205695,
+          "groups": [
+            {
+              "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+              "amount_cents": 205695
             }
           ]
         }
@@ -228,7 +246,7 @@
     {
       "key": "support_conley",
       "name": "Support Riley",
-      "total": 5375758,
+      "total": 5399008,
       "categories": [
         {
           "name": "Digital",
@@ -246,11 +264,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 22500,
+          "total": 45750,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 22500
+              "amount_cents": 45750
             }
           ]
         },
@@ -299,7 +317,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Oberacker",
-      "total": 885053,
+      "total": 902303,
       "categories": [
         {
           "name": "Digital",
@@ -313,11 +331,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 10000,
+          "total": 27250,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 10000
+              "amount_cents": 27250
             }
           ]
         },
@@ -962,6 +980,144 @@
       "filing_date": "2026-10-23",
       "file_number": 2040977,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945199762",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840391",
+      "original_sub_id": "",
+      "transaction_id": "500237833",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290707",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840392",
+      "original_sub_id": "",
+      "transaction_id": "500237834",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 11250,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290708",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840384",
+      "original_sub_id": "",
+      "transaction_id": "500237826",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290704",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840385",
+      "original_sub_id": "",
+      "transaction_id": "500237827",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 11250,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290704",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840386",
+      "original_sub_id": "",
+      "transaction_id": "500237828",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-26",
+      "amount_cents": 6000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043297,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290705",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840685",
+      "original_sub_id": "",
+      "transaction_id": "SE.6",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "support_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 205695,
+      "group": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
+      "group_id": "C00053553",
+      "payee": "I360 LLC",
+      "description": "SMS MESSAGING",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043478,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297812",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"

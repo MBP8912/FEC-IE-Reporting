@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-30T06:13:15-04:00",
+  "generated_at": "2026-10-30T09:57:52-04:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 163,
+    "api_rows": 169,
     "pages": 2,
-    "included_rows": 134,
+    "included_rows": 140,
     "excluded": {
       "other_election": 19,
       "repeated_transaction_or_amendment": 7,
@@ -53,13 +53,13 @@
     }
   },
   "totals": {
-    "support_lawler": 32176945,
+    "support_lawler": 38203839,
     "oppose_conley": 558233484,
     "support_conley": 10133568,
-    "oppose_lawler": 178019028,
-    "benefit_lawler": 590410429,
-    "benefit_conley": 188152596,
-    "all": 778563025
+    "oppose_lawler": 223596906,
+    "benefit_lawler": 596437323,
+    "benefit_conley": 233730474,
+    "all": 830167797
   },
   "daily": [
     {
@@ -416,11 +416,11 @@
     },
     {
       "date": "2026-10-19",
-      "support_lawler": 9267272,
+      "support_lawler": 13900908,
       "oppose_conley": 27334307,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 36601579
+      "total": 41235215
     },
     {
       "date": "2026-10-20",
@@ -440,11 +440,27 @@
     },
     {
       "date": "2026-10-23",
-      "support_lawler": 1037960,
+      "support_lawler": 1845242,
       "oppose_conley": 341372,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 1379332
+      "total": 2186614
+    },
+    {
+      "date": "2026-10-26",
+      "support_lawler": 10000,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 10000
+    },
+    {
+      "date": "2026-10-27",
+      "support_lawler": 575976,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 45577878,
+      "total": 46153854
     }
   ],
   "groups": [
@@ -458,11 +474,11 @@
     },
     {
       "name": "HMP",
-      "total": 117948514,
+      "total": 163526392,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 117948514
+      "oppose_lawler": 163526392
     },
     {
       "name": "BDA PAC",
@@ -474,8 +490,8 @@
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
-      "total": 30447557,
-      "support_lawler": 24255169,
+      "total": 35081193,
+      "support_lawler": 28888805,
       "oppose_conley": 6192388,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -513,6 +529,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "THE GUARDIAN SUPER PAC",
+      "total": 2219047,
+      "support_lawler": 2219047,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "MAGA INC.",
       "total": 1589660,
       "support_lawler": 0,
@@ -521,9 +545,9 @@
       "oppose_lawler": 0
     },
     {
-      "name": "THE GUARDIAN SUPER PAC",
-      "total": 1411765,
-      "support_lawler": 1411765,
+      "name": "MAKE AMERICA GREAT AGAIN ACTION INC",
+      "total": 1154144,
+      "support_lawler": 1154144,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -534,14 +558,6 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 1015000,
-      "oppose_lawler": 0
-    },
-    {
-      "name": "MAKE AMERICA GREAT AGAIN ACTION INC",
-      "total": 578168,
-      "support_lawler": 578168,
-      "oppose_conley": 0,
-      "support_conley": 0,
       "oppose_lawler": 0
     },
     {
@@ -567,14 +583,32 @@
       "oppose_conley": 0,
       "support_conley": 34583,
       "oppose_lawler": 0
+    },
+    {
+      "name": "BCF ACTION PAC",
+      "total": 10000,
+      "support_lawler": 10000,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
     }
   ],
   "pivot": [
     {
       "key": "support_lawler",
       "name": "Support Lincoln",
-      "total": 32176945,
+      "total": 38203839,
       "categories": [
+        {
+          "name": "TV",
+          "total": 807282,
+          "groups": [
+            {
+              "name": "THE GUARDIAN SUPER PAC",
+              "amount_cents": 807282
+            }
+          ]
+        },
         {
           "name": "Digital",
           "total": 4243327,
@@ -601,11 +635,11 @@
         },
         {
           "name": "Mail",
-          "total": 25720343,
+          "total": 30353979,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
-              "amount_cents": 22786019
+              "amount_cents": 27419655
             },
             {
               "name": "NO GOING BACK PAC INC.",
@@ -619,11 +653,11 @@
         },
         {
           "name": "Text",
-          "total": 578168,
+          "total": 1154144,
           "groups": [
             {
               "name": "MAKE AMERICA GREAT AGAIN ACTION INC",
-              "amount_cents": 578168
+              "amount_cents": 1154144
             }
           ]
         },
@@ -649,11 +683,15 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 262954,
+          "total": 272954,
           "groups": [
             {
               "name": "CIVIC RENEWAL FUND INC.",
               "amount_cents": 254140
+            },
+            {
+              "name": "BCF ACTION PAC",
+              "amount_cents": 10000
             },
             {
               "name": "THE CONSERVATIVE CAUCUS DBA AMERICANS FOR CONSTITUTIONAL LIBERTY",
@@ -868,25 +906,25 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lincoln",
-      "total": 178019028,
+      "total": 223596906,
       "categories": [
         {
           "name": "TV",
-          "total": 35640000,
+          "total": 71280000,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 35640000
+              "amount_cents": 71280000
             }
           ]
         },
         {
           "name": "Digital",
-          "total": 88894685,
+          "total": 98832563,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 73824171
+              "amount_cents": 83762049
             },
             {
               "name": "PLANNED PARENTHOOD AFFILIATES OF CALIFORNIA VOTES PAC",
@@ -3719,29 +3757,6 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102520261615165417",
-      "original_sub_id": "",
-      "transaction_id": "SE24.37745",
-      "candidate": "lawler",
-      "candidate_id": "H4CA09093",
-      "disposition": "support_lawler",
-      "date": "2026-10-19",
-      "amount_cents": 4633636,
-      "group": "CIVIC RENEWAL FUND INC.",
-      "group_id": "C00953588",
-      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
-      "description": "PRINTING  / POSTAGE",
-      "type": "Mail",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201814",
-      "election_type": "G2026",
-      "original_category_code": "",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4102620261615396887",
       "original_sub_id": "",
       "transaction_id": "SE24.37637",
@@ -3760,6 +3775,52 @@
       "filing_date": "2026-10-26",
       "file_number": 2042234,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258660",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4102920261615839711",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37829",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 4633636,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043049,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271372",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839905",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37745",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-19",
+      "amount_cents": 4633636,
+      "group": "CIVIC RENEWAL FUND INC.",
+      "group_id": "C00953588",
+      "payee": "MINUTE MAIL CONSULTING GROUP LLC",
+      "description": "PRINTING  / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271622",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "A"
@@ -3903,7 +3964,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102520261615165442",
+      "source_id": "4102920261615839930",
       "original_sub_id": "",
       "transaction_id": "SE24.37692",
       "candidate": "conley",
@@ -3918,12 +3979,12 @@
       "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201827",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271635",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
+      "amendment_indicator": "A"
     },
     {
       "source_id": "4102520261615165044",
@@ -3949,7 +4010,7 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4102520261615165412",
+      "source_id": "4102920261615839900",
       "original_sub_id": "",
       "transaction_id": "SE24.37801",
       "candidate": "lawler",
@@ -3964,15 +4025,15 @@
       "type": "Media (unspecified)",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201812",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271620",
       "election_type": "G2026",
       "original_category_code": "",
-      "amendment_indicator": "N"
+      "amendment_indicator": "A"
     },
     {
-      "source_id": "4102520261615165443",
+      "source_id": "4102920261615839931",
       "original_sub_id": "",
       "transaction_id": "SE24.37693",
       "candidate": "lawler",
@@ -3987,9 +4048,124 @@
       "type": "Field / Canvassing",
       "notice": true,
       "filing_form": "F24",
-      "filing_date": "2026-10-24",
-      "file_number": 2041515,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610249945201827",
+      "filing_date": "2026-10-29",
+      "file_number": 2043134,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271635",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4102920261615841001",
+      "original_sub_id": "",
+      "transaction_id": "SE.4604",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 807282,
+      "group": "THE GUARDIAN SUPER PAC",
+      "group_id": "C00797084",
+      "payee": "M2 PLACEMENT",
+      "description": "TELEVISION ADVERTISING",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043789,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298821",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615840595",
+      "original_sub_id": "",
+      "transaction_id": "SE.4163",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 10000,
+      "group": "BCF ACTION PAC",
+      "group_id": "C00692996",
+      "payee": "META",
+      "description": "ADVERTISING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043446,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297729",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839458",
+      "original_sub_id": "",
+      "transaction_id": "500693225",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 9937878,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "TRILOGY INTERACTIVE LLC",
+      "description": "DIGITAL ADVERTISING - ESTIMATE",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042895,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261965",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615839505",
+      "original_sub_id": "",
+      "transaction_id": "500693226",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 35640000,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "WATERFRONT STRATEGIES INC.",
+      "description": "TELEVISION ADVERTISING - ESTIMATE",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042895,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261988",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4102920261615838323",
+      "original_sub_id": "",
+      "transaction_id": "SE.1196904.2",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "support_lawler",
+      "date": "2026-10-27",
+      "amount_cents": 575976,
+      "group": "MAKE AMERICA GREAT AGAIN ACTION INC",
+      "group_id": "C00771477",
+      "payee": "LP BROKERING, LLC",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-28",
+      "file_number": 2042455,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259387",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
