@@ -20,6 +20,8 @@ Each race uses the completed NY-17 layout: candidate totals with support/oppose 
 
 **Automatic refresh:** Nine candidate-specific datasets live at `<district>/data/data.json`. GitHub Actions queries the FEC for both nominees in each race (up to ten IDs per API request). Since the FEC caps pages at 100 results and the shared DEMO_KEY is rate-limited, collection saves verified pagination progress in `data/ingest_checkpoint.json` and resumes on its next scheduled hourly run. A district only displays verified complete totals; until then, it shows a clearly marked pending status. For more efficient refreshes, register a free [OpenFEC API key](https://api.open.fec.gov/developers/) and add it as a GitHub Actions secret named `FEC_API_KEY`.
 
+**WI-1 freshness priority:** The hourly job now attempts a *complete* WI-1 district scan before making other FEC requests. A failed or partial priority scan leaves the last verified WI-1 totals unchanged. When this priority scan succeeds, the resumable nine-race updater skips re-fetching WI-1 during that same run, so the FEC request quota can serve other races. The timestamp on the dashboard shows the last **completed** FEC scan, not merely the last successful GitHub Pages deployment.
+
 ## Verified FEC record-inclusion exceptions
 
 Two locally scoped 2026 general-election exceptions are applied **during every FEC refresh**, not simply patched into the browser:
