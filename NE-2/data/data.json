@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-31T15:55:25-04:00",
+  "generated_at": "2026-10-31T19:54:49-04:00",
   "district": "NE-2",
   "period": {
     "cycle": 2026,
@@ -6137,6 +6137,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 5,
-    "scan_started_at": "2026-10-31T19:55:21.121467+00:00"
+    "scan_started_at": "2026-10-31T23:54:46.725701+00:00"
   }
 }
