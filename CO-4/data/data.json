@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-31T00:05:59-04:00",
+  "generated_at": "2026-10-31T10:00:20-04:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 113,
-    "pages": 2,
-    "included_rows": 39,
+    "api_rows": 120,
+    "pages": 3,
+    "included_rows": 46,
     "excluded": {
       "other_election": 68,
       "other_candidate": 1,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 59117911,
+    "support_lawler": 60045410,
     "oppose_conley": 0,
-    "support_conley": 10968421,
-    "oppose_lawler": 150009300,
-    "benefit_lawler": 59117911,
-    "benefit_conley": 160977721,
-    "all": 220095632
+    "support_conley": 13068790,
+    "oppose_lawler": 151844158,
+    "benefit_lawler": 60045410,
+    "benefit_conley": 164912948,
+    "all": 224958358
   },
   "daily": [
     {
@@ -241,11 +241,11 @@
     },
     {
       "date": "2026-10-26",
-      "support_lawler": 10000000,
+      "support_lawler": 10177499,
       "oppose_conley": 0,
       "support_conley": 2065500,
       "oppose_lawler": 1800,
-      "total": 12067300
+      "total": 12244799
     },
     {
       "date": "2026-10-27",
@@ -262,6 +262,22 @@
       "support_conley": 2001490,
       "oppose_lawler": 0,
       "total": 7001490
+    },
+    {
+      "date": "2026-10-29",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 2091958,
+      "oppose_lawler": 1834858,
+      "total": 3926816
+    },
+    {
+      "date": "2026-10-30",
+      "support_lawler": 750000,
+      "oppose_conley": 0,
+      "support_conley": 8411,
+      "oppose_lawler": 0,
+      "total": 758411
     }
   ],
   "groups": [
@@ -306,19 +322,27 @@
       "oppose_lawler": 0
     },
     {
-      "name": "WORKING AMERICA",
-      "total": 3287300,
+      "name": "BUILDING TOGETHER",
+      "total": 3669716,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 3278000,
+      "support_conley": 1834858,
+      "oppose_lawler": 1834858
+    },
+    {
+      "name": "WORKING AMERICA",
+      "total": 3544400,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 3535100,
       "oppose_lawler": 9300
     },
     {
       "name": "VOTEVETS",
-      "total": 2263267,
+      "total": 2271678,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 2263267,
+      "support_conley": 2271678,
       "oppose_lawler": 0
     },
     {
@@ -330,11 +354,27 @@
       "oppose_lawler": 0
     },
     {
+      "name": "WOMEN FOR AMERICA'S FREEDOM",
+      "total": 750000,
+      "support_lawler": 750000,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0
+    },
+    {
       "name": "SCIENCE VICTORY FUND",
       "total": 602178,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 602178,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "GOA VICTORY FUND",
+      "total": 177499,
+      "support_lawler": 177499,
+      "oppose_conley": 0,
+      "support_conley": 0,
       "oppose_lawler": 0
     },
     {
@@ -350,11 +390,11 @@
     {
       "key": "support_lawler",
       "name": "Support Boebert",
-      "total": 59117911,
+      "total": 60045410,
       "categories": [
         {
           "name": "Digital",
-          "total": 15493933,
+          "total": 16243933,
           "groups": [
             {
               "name": "PROTECT FREEDOM POLITICAL ACTION COMMITTEE",
@@ -363,6 +403,10 @@
             {
               "name": "AMERICAN LIBERTY FOUNDATION",
               "amount_cents": 2993933
+            },
+            {
+              "name": "WOMEN FOR AMERICA'S FREEDOM",
+              "amount_cents": 750000
             }
           ]
         },
@@ -382,11 +426,15 @@
         },
         {
           "name": "Mail",
-          "total": 2817040,
+          "total": 2994539,
           "groups": [
             {
               "name": "AMERICAN LIBERTY FOUNDATION",
               "amount_cents": 2817040
+            },
+            {
+              "name": "GOA VICTORY FUND",
+              "amount_cents": 177499
             }
           ]
         },
@@ -411,15 +459,15 @@
     {
       "key": "support_conley",
       "name": "Support Laubacher",
-      "total": 10968421,
+      "total": 13068790,
       "categories": [
         {
           "name": "Digital",
-          "total": 4147937,
+          "total": 4413448,
           "groups": [
             {
               "name": "WORKING AMERICA",
-              "amount_cents": 3278000
+              "amount_cents": 3535100
             },
             {
               "name": "SCIENCE VICTORY FUND",
@@ -427,7 +475,7 @@
             },
             {
               "name": "VOTEVETS",
-              "amount_cents": 263267
+              "amount_cents": 271678
             },
             {
               "name": "FIELD TEAM 6, INC.",
@@ -474,13 +522,23 @@
               "amount_cents": 4731187
             }
           ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 1834858,
+          "groups": [
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 1834858
+            }
+          ]
         }
       ]
     },
     {
       "key": "oppose_lawler",
       "name": "Oppose Boebert",
-      "total": 150009300,
+      "total": 151844158,
       "categories": [
         {
           "name": "Digital",
@@ -499,6 +557,16 @@
             {
               "name": "INVEST IN TOMORROW COALITION PAC",
               "amount_cents": 150000000
+            }
+          ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 1834858,
+          "groups": [
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 1834858
             }
           ]
         }
@@ -1243,6 +1311,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616034508",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37865",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-10-26",
+      "amount_cents": 177499,
+      "group": "GOA VICTORY FUND",
+      "group_id": "C00817122",
+      "payee": "DIRECT MAIL MARKETING GROUP",
+      "description": "PRINTING / POSTAGE",
+      "type": "Mail",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044080,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300044",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615840278",
       "original_sub_id": "",
       "transaction_id": "SE.8413",
@@ -1402,6 +1493,144 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035795",
+      "original_sub_id": "",
+      "transaction_id": "500041687",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 1834858,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST FOR TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044596,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304506",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035794",
+      "original_sub_id": "",
+      "transaction_id": "500041686",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 1834858,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST FOR TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044596,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304506",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261615882139",
+      "original_sub_id": "",
+      "transaction_id": "501375202",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 138300,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "META",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-30",
+      "file_number": 2044162,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300408",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261615882183",
+      "original_sub_id": "",
+      "transaction_id": "501375203",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 118800,
+      "group": "WORKING AMERICA",
+      "group_id": "C90011156",
+      "payee": "SNAPCHAT",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-10-30",
+      "file_number": 2044162,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300422",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036014",
+      "original_sub_id": "",
+      "transaction_id": "500014647",
+      "candidate": "conley",
+      "candidate_id": "H6CO04202",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 8411,
+      "group": "VOTEVETS",
+      "group_id": "C00418897",
+      "payee": "SCALE TO WIN, INC.",
+      "description": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044660,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305055",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035230",
+      "original_sub_id": "",
+      "transaction_id": "EA21E124EE2D74DEBA3B",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "support_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 750000,
+      "group": "WOMEN FOR AMERICA'S FREEDOM",
+      "group_id": "C00832626",
+      "payee": "FRONTLINE STRATEGIES LLC",
+      "description": "DIGITAL ADS",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044405,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301926",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -1409,6 +1638,7 @@
     "source": "FEC processed Schedule E: complete House district",
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
-    "source_pages_this_district": 2
+    "source_pages_this_district": 3,
+    "scan_started_at": "2026-10-31T14:00:18.411595+00:00"
   }
 }

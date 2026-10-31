@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "CO-4",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,67 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-31T13:42:17+00:00",
-  "source_data_generated_at": "2026-10-31T00:05:59-04:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-10-31T14:00:21+00:00",
+  "source_data_generated_at": "2026-10-31T10:00:20-04:00",
+  "unresolved_recent_items": 3,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4103020261616035795",
+      "file_number": "2044596",
+      "reported_at": "2026-10-30T21:44:41+00:00",
+      "expenditure_date": "2026-10-29",
+      "spender": "BUILDING TOGETHER",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 1834858,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304506"
+    },
+    {
+      "source_id": "4103020261616035794",
+      "file_number": "2044596",
+      "reported_at": "2026-10-30T21:44:41+00:00",
+      "expenditure_date": "2026-10-29",
+      "spender": "BUILDING TOGETHER",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 1834858,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304506"
+    },
+    {
+      "source_id": "4103020261615882139",
+      "file_number": "2044162",
+      "reported_at": "2026-10-30T13:22:23+00:00",
+      "expenditure_date": "2026-10-29",
+      "spender": "WORKING AMERICA",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 138300,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300408"
+    },
+    {
+      "source_id": "4103020261615882183",
+      "file_number": "2044162",
+      "reported_at": "2026-10-30T13:22:23+00:00",
+      "expenditure_date": "2026-10-29",
+      "spender": "WORKING AMERICA",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 118800,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300422"
+    },
     {
       "source_id": "4102920261615841375",
       "file_number": "2043933",
