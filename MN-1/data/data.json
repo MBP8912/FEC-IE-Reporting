@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-31T07:57:03-04:00",
+  "generated_at": "2026-10-31T11:56:01-04:00",
   "district": "MN-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 307,
+    "api_rows": 317,
     "pages": 4,
-    "included_rows": 199,
+    "included_rows": 209,
     "excluded": {
       "other_election": 37,
       "repeated_transaction_or_amendment": 1,
@@ -54,12 +54,12 @@
   },
   "totals": {
     "support_lawler": 38567950,
-    "oppose_conley": 315468830,
-    "support_conley": 65978953,
-    "oppose_lawler": 501151930,
-    "benefit_lawler": 354036780,
-    "benefit_conley": 567130883,
-    "all": 921167663
+    "oppose_conley": 322968830,
+    "support_conley": 79991880,
+    "oppose_lawler": 524674652,
+    "benefit_lawler": 361536780,
+    "benefit_conley": 604666532,
+    "all": 966203312
   },
   "daily": [
     {
@@ -515,8 +515,8 @@
       "support_lawler": 1601452,
       "oppose_conley": 2025000,
       "support_conley": 2104155,
-      "oppose_lawler": 2104154,
-      "total": 7834761
+      "oppose_lawler": 24604154,
+      "total": 30334761
     },
     {
       "date": "2026-10-24",
@@ -545,10 +545,10 @@
     {
       "date": "2026-10-27",
       "support_lawler": 2708462,
-      "oppose_conley": 0,
+      "oppose_conley": 7500000,
       "support_conley": 6983318,
       "oppose_lawler": 189717854,
-      "total": 199409634
+      "total": 206909634
     },
     {
       "date": "2026-10-28",
@@ -557,16 +557,24 @@
       "support_conley": 3538708,
       "oppose_lawler": 51292,
       "total": 3736196
+    },
+    {
+      "date": "2026-10-29",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 14012927,
+      "oppose_lawler": 1022722,
+      "total": 15035649
     }
   ],
   "groups": [
     {
       "name": "YOUR COMMUNITY PAC",
-      "total": 255624245,
+      "total": 278124245,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 255624245
+      "oppose_lawler": 278124245
     },
     {
       "name": "HMP",
@@ -609,6 +617,14 @@
       "oppose_lawler": 24125000
     },
     {
+      "name": "PROGRESSIVE TURNOUT PROJECT",
+      "total": 31811321,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 31811321,
+      "oppose_lawler": 0
+    },
+    {
       "name": "LCV VICTORY FUND",
       "total": 25006011,
       "support_lawler": 0,
@@ -617,11 +633,11 @@
       "oppose_lawler": 25006011
     },
     {
-      "name": "PROGRESSIVE TURNOUT PROJECT",
-      "total": 18821116,
+      "name": "CLF",
+      "total": 17050000,
       "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 18821116,
+      "oppose_conley": 17050000,
+      "support_conley": 0,
       "oppose_lawler": 0
     },
     {
@@ -657,14 +673,6 @@
       "oppose_lawler": 0
     },
     {
-      "name": "CLF",
-      "total": 9550000,
-      "support_lawler": 0,
-      "oppose_conley": 9550000,
-      "support_conley": 0,
-      "oppose_lawler": 0
-    },
-    {
       "name": "AMERICAN LIBERTY FOUNDATION",
       "total": 5924019,
       "support_lawler": 5924019,
@@ -687,6 +695,14 @@
       "oppose_conley": 2040530,
       "support_conley": 0,
       "oppose_lawler": 0
+    },
+    {
+      "name": "BUILDING TOGETHER",
+      "total": 2037344,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1018672,
+      "oppose_lawler": 1018672
     },
     {
       "name": "CLEAN WAVE",
@@ -738,11 +754,11 @@
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 74500,
+      "total": 82600,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 44250,
-      "oppose_lawler": 30250
+      "support_conley": 48300,
+      "oppose_lawler": 34300
     },
     {
       "name": "MINNESOTA CITIZENS CONCERNED FOR LIFE, INC. FEDERAL PAC",
@@ -850,7 +866,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Johnson",
-      "total": 315468830,
+      "total": 322968830,
       "categories": [
         {
           "name": "TV",
@@ -868,7 +884,7 @@
         },
         {
           "name": "Digital",
-          "total": 206198830,
+          "total": 213698830,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
@@ -880,7 +896,7 @@
             },
             {
               "name": "CLF",
-              "amount_cents": 7500000
+              "amount_cents": 15000000
             },
             {
               "name": "MAGA INC.",
@@ -927,7 +943,7 @@
     {
       "key": "support_conley",
       "name": "Support Johnson",
-      "total": 65978953,
+      "total": 79991880,
       "categories": [
         {
           "name": "Digital",
@@ -959,11 +975,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 31852782,
+          "total": 44847037,
           "groups": [
             {
               "name": "PROGRESSIVE TURNOUT PROJECT",
-              "amount_cents": 18821116
+              "amount_cents": 31811321
             },
             {
               "name": "BATTLEGROUND ALLIANCE PAC",
@@ -971,7 +987,7 @@
             },
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 44250
+              "amount_cents": 48300
             }
           ]
         },
@@ -1001,11 +1017,15 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 2969716,
+          "total": 3988388,
           "groups": [
             {
               "name": "TAKEACTION MN FEDERAL FUND",
               "amount_cents": 2969716
+            },
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 1018672
             }
           ]
         }
@@ -1014,7 +1034,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Finstad",
-      "total": 501151930,
+      "total": 524674652,
       "categories": [
         {
           "name": "TV",
@@ -1036,11 +1056,11 @@
         },
         {
           "name": "Digital",
-          "total": 117442982,
+          "total": 139942982,
           "groups": [
             {
               "name": "YOUR COMMUNITY PAC",
-              "amount_cents": 89640482
+              "amount_cents": 112140482
             },
             {
               "name": "AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES P E O P L E",
@@ -1058,11 +1078,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 30250,
+          "total": 34300,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 30250
+              "amount_cents": 34300
             }
           ]
         },
@@ -1092,11 +1112,15 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 2970639,
+          "total": 3989311,
           "groups": [
             {
               "name": "TAKEACTION MN FEDERAL FUND",
               "amount_cents": 2969716
+            },
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 1018672
             },
             {
               "name": "LCV VICTORY FUND",
@@ -4858,6 +4882,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616034369",
+      "original_sub_id": "",
+      "transaction_id": "SE.5240",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 12500000,
+      "group": "YOUR COMMUNITY PAC",
+      "group_id": "C00886614",
+      "payee": "SKDKNICKERBOCKER LLC",
+      "description": "DIGITAL ADVERTISING (ESTIMATE)",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044066,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299971",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616034370",
+      "original_sub_id": "",
+      "transaction_id": "SE.5242",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-23",
+      "amount_cents": 10000000,
+      "group": "YOUR COMMUNITY PAC",
+      "group_id": "C00886614",
+      "payee": "SKDKNICKERBOCKER LLC",
+      "description": "DIGITAL ADVERTISING (ESTIMATE)",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044066,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299972",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102220261615046886",
       "original_sub_id": "",
       "transaction_id": "SE.7197",
@@ -5341,6 +5411,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616034179",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6848",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "oppose_conley",
+      "date": "2026-10-27",
+      "amount_cents": 7500000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "FLEXPOINT MEDIA",
+      "description": "DIGITAL PLACEMENT",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044000,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299710",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615839382",
       "original_sub_id": "",
       "transaction_id": "500693155",
@@ -5684,6 +5777,167 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035832",
+      "original_sub_id": "",
+      "transaction_id": "500041724",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 1018672,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST FOR TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044596,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304525",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036219",
+      "original_sub_id": "",
+      "transaction_id": "500239070",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 2800,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST BRAD FINSTAD",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305207",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036220",
+      "original_sub_id": "",
+      "transaction_id": "500239071",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 1250,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST BRAD FINSTAD",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305208",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035833",
+      "original_sub_id": "",
+      "transaction_id": "500041725",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 1018672,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST FOR TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044596,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304525",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036217",
+      "original_sub_id": "",
+      "transaction_id": "500239068",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 1250,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JAKE JOHNSON",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305206",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036218",
+      "original_sub_id": "",
+      "transaction_id": "500239069",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 2800,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JAKE JOHNSON",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305207",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616034819",
+      "original_sub_id": "",
+      "transaction_id": "500346297",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 12990205,
+      "group": "PROGRESSIVE TURNOUT PROJECT",
+      "group_id": "C00580068",
+      "payee": "MERRIMACK SERVICES LLC",
+      "description": "FIELD ORGANIZING",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044127,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300297",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -5691,6 +5945,7 @@
     "source": "FEC processed Schedule E: complete House district",
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
-    "source_pages_this_district": 4
+    "source_pages_this_district": 4,
+    "scan_started_at": "2026-10-31T15:55:58.736165+00:00"
   }
 }
