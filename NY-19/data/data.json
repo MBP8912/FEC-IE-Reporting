@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-31T07:57:04-04:00",
+  "generated_at": "2026-10-31T12:58:09-04:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -1319,6 +1319,7 @@
     "source": "FEC processed Schedule E: complete House district",
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
-    "source_pages_this_district": 1
+    "source_pages_this_district": 1,
+    "scan_started_at": "2026-10-31T16:58:08.658663+00:00"
   }
 }

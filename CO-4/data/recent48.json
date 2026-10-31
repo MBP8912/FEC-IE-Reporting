@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "CO-4",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,25 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-31T15:56:06+00:00",
+  "checked_at": "2026-10-31T16:58:11+00:00",
   "source_data_generated_at": "2026-10-31T10:00:20-04:00",
-  "unresolved_recent_items": 3,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4103020261616036014",
+      "file_number": "2044660",
+      "reported_at": "2026-10-30T22:45:54+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "VOTEVETS",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
+      "spend_type": "Digital",
+      "amount_cents": 8411,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305055"
+    },
     {
       "source_id": "4103020261616035795",
       "file_number": "2044596",
@@ -52,6 +66,20 @@
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304506"
     },
     {
+      "source_id": "4103020261616035230",
+      "file_number": "2044405",
+      "reported_at": "2026-10-30T19:08:17+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "WOMEN FOR AMERICA'S FREEDOM",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADS",
+      "spend_type": "Digital",
+      "amount_cents": 750000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301926"
+    },
+    {
       "source_id": "4103020261615882139",
       "file_number": "2044162",
       "reported_at": "2026-10-30T13:22:23+00:00",
@@ -78,6 +106,20 @@
       "spend_type": "Digital",
       "amount_cents": 118800,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300422"
+    },
+    {
+      "source_id": "4103020261616034508",
+      "file_number": "2044080",
+      "reported_at": "2026-10-30T01:52:21+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "GOA VICTORY FUND",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PRINTING / POSTAGE",
+      "spend_type": "Mail",
+      "amount_cents": 177499,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300044"
     },
     {
       "source_id": "4102920261615841375",
