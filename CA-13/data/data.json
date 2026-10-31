@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-30T09:57:52-04:00",
+  "generated_at": "2026-10-31T09:38:29-04:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 169,
+    "api_rows": 172,
     "pages": 2,
-    "included_rows": 140,
+    "included_rows": 143,
     "excluded": {
       "other_election": 19,
       "repeated_transaction_or_amendment": 7,
@@ -54,12 +54,12 @@
   },
   "totals": {
     "support_lawler": 38203839,
-    "oppose_conley": 558233484,
+    "oppose_conley": 602307589,
     "support_conley": 10133568,
-    "oppose_lawler": 223596906,
-    "benefit_lawler": 596437323,
-    "benefit_conley": 233730474,
-    "all": 830167797
+    "oppose_lawler": 233534784,
+    "benefit_lawler": 640511428,
+    "benefit_conley": 243668352,
+    "all": 884179780
   },
   "daily": [
     {
@@ -441,18 +441,18 @@
     {
       "date": "2026-10-23",
       "support_lawler": 1845242,
-      "oppose_conley": 341372,
+      "oppose_conley": 21841372,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 2186614
+      "total": 23686614
     },
     {
       "date": "2026-10-26",
       "support_lawler": 10000,
-      "oppose_conley": 0,
+      "oppose_conley": 22574105,
       "support_conley": 0,
       "oppose_lawler": 0,
-      "total": 10000
+      "total": 22584105
     },
     {
       "date": "2026-10-27",
@@ -461,24 +461,32 @@
       "support_conley": 0,
       "oppose_lawler": 45577878,
       "total": 46153854
+    },
+    {
+      "date": "2026-10-28",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 9937878,
+      "total": 9937878
     }
   ],
   "groups": [
     {
       "name": "CLF",
-      "total": 536732068,
+      "total": 580806173,
       "support_lawler": 0,
-      "oppose_conley": 536732068,
+      "oppose_conley": 580806173,
       "support_conley": 0,
       "oppose_lawler": 0
     },
     {
       "name": "HMP",
-      "total": 163526392,
+      "total": 173464270,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 163526392
+      "oppose_lawler": 173464270
     },
     {
       "name": "BDA PAC",
@@ -704,25 +712,25 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Gray",
-      "total": 558233484,
+      "total": 602307589,
       "categories": [
         {
           "name": "TV",
-          "total": 413832068,
+          "total": 436406173,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 413832068
+              "amount_cents": 436406173
             }
           ]
         },
         {
           "name": "Digital",
-          "total": 117589660,
+          "total": 139089660,
           "groups": [
             {
               "name": "CLF",
-              "amount_cents": 116000000
+              "amount_cents": 137500000
             },
             {
               "name": "MAGA INC.",
@@ -906,7 +914,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lincoln",
-      "total": 223596906,
+      "total": 233534784,
       "categories": [
         {
           "name": "TV",
@@ -920,11 +928,11 @@
         },
         {
           "name": "Digital",
-          "total": 98832563,
+          "total": 108770441,
           "groups": [
             {
               "name": "HMP",
-              "amount_cents": 83762049
+              "amount_cents": 93699927
             },
             {
               "name": "PLANNED PARENTHOOD AFFILIATES OF CALIFORNIA VOTES PAC",
@@ -4010,6 +4018,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616034141",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6781",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-23",
+      "amount_cents": 21500000,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "STARBOARD ADVERTISING",
+      "description": "DIGITAL PLACEMENT",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044000,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299691",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615839900",
       "original_sub_id": "",
       "transaction_id": "SE24.37801",
@@ -4074,6 +4105,29 @@
       "filing_date": "2026-10-29",
       "file_number": 2043789,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298821",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616034142",
+      "original_sub_id": "",
+      "transaction_id": "SE24.6821",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "oppose_conley",
+      "date": "2026-10-26",
+      "amount_cents": 22574105,
+      "group": "CLF",
+      "group_id": "C00504530",
+      "payee": "DEL RAY MEDIA LLC",
+      "description": "MEDIA PLACEMENT",
+      "type": "TV",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044000,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299691",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -4166,6 +4220,29 @@
       "filing_date": "2026-10-28",
       "file_number": 2042455,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259387",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616034586",
+      "original_sub_id": "",
+      "transaction_id": "500693598",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-28",
+      "amount_cents": 9937878,
+      "group": "HMP",
+      "group_id": "C00495028",
+      "payee": "TRILOGY INTERACTIVE LLC",
+      "description": "DIGITAL ADVERTISING - ESTIMATE",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044083,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300099",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"

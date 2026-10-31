@@ -70,6 +70,7 @@ def new_state():
         "pages": 0,
         "race_pages": 0,
         "completed_races": [],
+        "race_started_at": None,
     }
 
 
@@ -218,6 +219,7 @@ def capture_pages(state,key,maximum_pages,fresh_races=frozenset()):
             state["batch"]+=1
             state["rows"]=[]
             state["race_pages"]=0
+            state["race_started_at"]=None
             state["cursor"]={}
             state["cursor_history"]=[]
             save_state(state)
@@ -227,6 +229,7 @@ def capture_pages(state,key,maximum_pages,fresh_races=frozenset()):
             save_state(state)
             print("IN PROGRESS: "+name+"; rate-budget checkpoint saved.",flush=True)
             return False
+        request_started_at=datetime.now(timezone.utc).isoformat()
         try:
             response=core.request_json(next_query(key,state["batch"],state["cursor"]),
                                        attempts=1 if key=="DEMO_KEY" else 3)
@@ -253,17 +256,21 @@ def capture_pages(state,key,maximum_pages,fresh_races=frozenset()):
         # Keep original candidate ID (even when blank), name and expenditure.
         # The existing source/transaction deduplicator reconciles supplemental
         # notices against regular Form 3X items already in the base query.
+        if not state["rows"]:
+            state["race_started_at"]=request_started_at
         state["rows"].extend(compact(row) for row in rows)
         state["rows"].extend(compact(row) for row in supplemental)
         state["pages"]+=1+supplemental_pages
         state["race_pages"]+=1+supplemental_pages
         requests+=1+supplemental_pages
         if len(rows)<PAGE_SIZE:
-            finalize_one_race(name,state["rows"],state["race_pages"])
+            finalize_one_race(name,state["rows"],state["race_pages"],
+                              scan_started_at=state.get("race_started_at"))
             state["completed_races"].append(name)
             state["batch"]+=1
             state["rows"]=[]
             state["race_pages"]=0
+            state["race_started_at"]=None
             state["cursor"]={}
             state["cursor_history"]=[]
         else:
@@ -305,7 +312,7 @@ def set_race(district):
     return config
 
 
-def finalize_one_race(district,raw,pages):
+def finalize_one_race(district,raw,pages,scan_started_at=None):
     """Count unique expenditures for both nominees, including ID-less FEC rows."""
     set_race(district)
     entries,excluded=core.unique_rows(raw)
@@ -315,6 +322,7 @@ def finalize_one_race(district,raw,pages):
         "all_district_pages_complete":True,
         "includes_missing_candidate_id_records":True,
         "source_pages_this_district":pages,
+        "scan_started_at":scan_started_at,
     }
     path=DATA_PATHS[district]
     path.parent.mkdir(parents=True,exist_ok=True)
@@ -342,9 +350,11 @@ def main():
             "rows":[],"batch":0,"cursor":{},
         })
         print("VERIFIED: all nine complete House district searches.",flush=True)
+        return 0
     else:
         print("CHECKPOINT SAVED; only complete district totals are published.",flush=True)
+        return 2
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

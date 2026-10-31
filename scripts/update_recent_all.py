@@ -69,7 +69,7 @@ def create_reports(data_by_race,receipt_times,now):
     return reports
 
 
-def refresh_all(now=None,root=ROOT,key=None):
+def refresh_all(now=None,root=ROOT,key=None,offline=False):
     now=now or datetime.now(timezone.utc)
     if now.tzinfo is None:
         raise ValueError("Now requires a timezone")
@@ -89,7 +89,9 @@ def refresh_all(now=None,root=ROOT,key=None):
     api_key=key or os.environ.get("FEC_API_KEY") or "DEMO_KEY"
     print("Recent IE: "+str(len(file_ids))+" verified notice filings across nine races; "
           +str(len(missing))+" need receipt timestamps.",flush=True)
-    for start in range(0,len(missing),LOOKUP_BATCH):
+    if offline and missing:
+        print("Offline publication: unresolved receipts remain explicitly partial.",flush=True)
+    for start in range(0,0 if offline else len(missing),LOOKUP_BATCH):
         batch=missing[start:start+LOOKUP_BATCH]
         try:
             receipts.update(notice.fetch_file_receipts(batch,api_key))
@@ -119,4 +121,4 @@ def refresh_all(now=None,root=ROOT,key=None):
 
 
 if __name__=="__main__":
-    refresh_all()
+    refresh_all(offline=os.environ.get("FEC_OFFLINE", "").lower()=="true")

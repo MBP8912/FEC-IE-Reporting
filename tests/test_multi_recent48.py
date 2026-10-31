@@ -89,11 +89,22 @@ class MultiRecentTests(unittest.TestCase):
 
     def test_workflow_rebuilds_notice_feeds_after_full_cycle_ingestion(self):
         yaml=(ROOT/".github"/"workflows"/"refresh-and-publish.yml").read_text(encoding="utf-8")
-        self.assertLess(yaml.index("run: python scripts/refresh_priority_ne.py"),
-                        yaml.index("run: python scripts/refresh_all.py"))
+        self.assertNotIn("run: python scripts/refresh_priority_",yaml)
         self.assertLess(yaml.index("run: python scripts/refresh_all.py"),
-                        yaml.rindex("run: python scripts/update_recent_all.py"))
-        self.assertIn("NE2_PRIORITY_OK:",yaml)
+                        yaml.index("run: python scripts/update_recent_all.py"))
+        self.assertEqual(yaml.count("run: python scripts/update_recent_all.py"),1)
+        self.assertIn("python scripts/check_freshness.py",yaml)
+
+    def test_offline_rebuild_never_queries_fec_and_marks_missing_receipts(self):
+        import tempfile
+        from unittest.mock import patch
+        sources={district:sample(district) for district in RACE_CODES}
+        with tempfile.TemporaryDirectory() as directory, \
+             patch.object(multi,"load_data",return_value=sources), \
+             patch.object(notice,"fetch_file_receipts") as fetch:
+            reports=multi.refresh_all(now=NOW,root=Path(directory),offline=True)
+        fetch.assert_not_called()
+        self.assertTrue(all(r["status"]=="partial" for r in reports.values()))
 
     def test_unverified_dataset_is_pending_not_an_invented_zero(self):
         sources={district:sample(district) for district in RACE_CODES}
