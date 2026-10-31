@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-10-30T23:55:49+00:00",
+  "checked_at": "2026-10-31T01:27:18+00:00",
   "source_data_generated_at": "2026-10-30T16:02:19-04:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1072,20 +1072,6 @@
       "spend_type": "Production",
       "amount_cents": 75000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945258825"
-    },
-    {
-      "source_id": "4102620261615396054",
-      "file_number": "2041875",
-      "reported_at": "2026-10-26T00:56:19+00:00",
-      "expenditure_date": "2026-10-24",
-      "spender": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "GOTV CALLS (ESTIMATE)",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 455231,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202817"
     }
   ]
 }
