@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-30T09:57:51-04:00",
+  "generated_at": "2026-10-31T07:57:04-04:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 59,
+    "api_rows": 66,
     "pages": 1,
-    "included_rows": 33,
+    "included_rows": 40,
     "excluded": {
       "other_election": 14,
       "other_candidate": 5,
@@ -55,11 +55,11 @@
   "totals": {
     "support_lawler": 926998,
     "oppose_conley": 0,
-    "support_conley": 5399008,
-    "oppose_lawler": 902303,
+    "support_conley": 6941046,
+    "oppose_lawler": 2436841,
     "benefit_lawler": 926998,
-    "benefit_conley": 6301311,
-    "all": 7228309
+    "benefit_conley": 9377887,
+    "all": 10304885
   },
   "daily": [
     {
@@ -157,6 +157,14 @@
       "support_conley": 23250,
       "oppose_lawler": 17250,
       "total": 246195
+    },
+    {
+      "date": "2026-10-29",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1542038,
+      "oppose_lawler": 1534538,
+      "total": 3076576
     }
   ],
   "groups": [
@@ -167,6 +175,14 @@
       "oppose_conley": 0,
       "support_conley": 2574000,
       "oppose_lawler": 643500
+    },
+    {
+      "name": "BUILDING TOGETHER",
+      "total": 3052076,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1526038,
+      "oppose_lawler": 1526038
     },
     {
       "name": "RURAL FREEDOM NETWORK",
@@ -194,11 +210,11 @@
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 73000,
+      "total": 97500,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 45750,
-      "oppose_lawler": 27250
+      "support_conley": 61750,
+      "oppose_lawler": 35750
     },
     {
       "name": "SIERRA CLUB INDEPENDENT ACTION",
@@ -246,7 +262,7 @@
     {
       "key": "support_conley",
       "name": "Support Riley",
-      "total": 5399008,
+      "total": 6941046,
       "categories": [
         {
           "name": "Digital",
@@ -264,11 +280,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 45750,
+          "total": 61750,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 45750
+              "amount_cents": 61750
             }
           ]
         },
@@ -304,8 +320,12 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 1000,
+          "total": 1527038,
           "groups": [
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 1526038
+            },
             {
               "name": "SIERRA CLUB INDEPENDENT ACTION",
               "amount_cents": 1000
@@ -317,7 +337,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Oberacker",
-      "total": 902303,
+      "total": 2436841,
       "categories": [
         {
           "name": "Digital",
@@ -331,11 +351,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 27250,
+          "total": 35750,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 27250
+              "amount_cents": 35750
             }
           ]
         },
@@ -356,6 +376,16 @@
             {
               "name": "RURAL FREEDOM NETWORK",
               "amount_cents": 231553
+            }
+          ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 1526038,
+          "groups": [
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 1526038
             }
           ]
         }
@@ -1118,6 +1148,167 @@
       "filing_date": "2026-10-29",
       "file_number": 2043478,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297812",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035871",
+      "original_sub_id": "",
+      "transaction_id": "500041763",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 1526038,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST FOR TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044596,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304544",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036197",
+      "original_sub_id": "",
+      "transaction_id": "500239037",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 1000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305196",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036198",
+      "original_sub_id": "",
+      "transaction_id": "500239039",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-29",
+      "amount_cents": 7500,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST PETER OBERACKER",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305197",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616035870",
+      "original_sub_id": "",
+      "transaction_id": "500041762",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 1526038,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST FOR TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044596,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304544",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036192",
+      "original_sub_id": "",
+      "transaction_id": "500239032",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 7500,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305194",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036193",
+      "original_sub_id": "",
+      "transaction_id": "500239033",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 1000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305194",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616036194",
+      "original_sub_id": "",
+      "transaction_id": "500239034",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 7500,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044677,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305195",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
