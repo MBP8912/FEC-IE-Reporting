@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "CO-4",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,25 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-01T14:03:11+00:00",
+  "checked_at": "2026-11-01T14:58:02+00:00",
   "source_data_generated_at": "2026-11-01T06:55:41-05:00",
-  "unresolved_recent_items": 1,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4103120261616077500",
+      "file_number": "2045128",
+      "reported_at": "2026-10-31T20:51:29+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "INVEST IN TOMORROW COALITION PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TEXTING PROGRAM (ESTIMATE)",
+      "spend_type": "Text",
+      "amount_cents": 1149542,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306552"
+    },
     {
       "source_id": "4103020261616036014",
       "file_number": "2044660",
