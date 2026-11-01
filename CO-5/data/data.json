@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T00:16:12-04:00",
+  "generated_at": "2026-11-01T04:07:59-05:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -5648,6 +5648,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-01T04:16:10.363102+00:00"
+    "scan_started_at": "2026-11-01T09:07:57.660998+00:00"
   }
 }
