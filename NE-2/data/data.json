@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T05:04:29-05:00",
+  "generated_at": "2026-11-01T09:03:11-05:00",
   "district": "NE-2",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 489,
+    "api_rows": 495,
     "pages": 5,
-    "included_rows": 220,
+    "included_rows": 226,
     "excluded": {
       "other_election": 140,
       "memo_item": 1,
@@ -57,11 +57,11 @@
   "totals": {
     "support_lawler": 35924307,
     "oppose_conley": 163997991,
-    "support_conley": 87783401,
+    "support_conley": 89016844,
     "oppose_lawler": 170844443,
     "benefit_lawler": 199922298,
-    "benefit_conley": 258627844,
-    "all": 458550142
+    "benefit_conley": 259861287,
+    "all": 459783585
   },
   "daily": [
     {
@@ -492,9 +492,9 @@
       "date": "2026-10-29",
       "support_lawler": 20125,
       "oppose_conley": 0,
-      "support_conley": 21269602,
+      "support_conley": 22503045,
       "oppose_lawler": 1586693,
-      "total": 22876420
+      "total": 24109863
     }
   ],
   "groups": [
@@ -556,10 +556,10 @@
     },
     {
       "name": "LGBTQ CONNECTION PAC",
-      "total": 9029227,
+      "total": 10262670,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 9029227,
+      "support_conley": 10262670,
       "oppose_lawler": 0
     },
     {
@@ -829,7 +829,7 @@
     {
       "key": "support_conley",
       "name": "Support Powell",
-      "total": 87783401,
+      "total": 89016844,
       "categories": [
         {
           "name": "Digital",
@@ -971,11 +971,11 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 12177107,
+          "total": 13410550,
           "groups": [
             {
               "name": "LGBTQ CONNECTION PAC",
-              "amount_cents": 8870977
+              "amount_cents": 10104420
             },
             {
               "name": "COMMUNITY CHANGE VOTERS",
@@ -5901,6 +5901,144 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103120261616077107",
+      "original_sub_id": "",
+      "transaction_id": "EDT.E.257",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 174310,
+      "group": "LGBTQ CONNECTION PAC",
+      "group_id": "C00722884",
+      "payee": "DOYLE, COLLEEN",
+      "description": "SALARY",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044720,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305471",
+      "election_type": "G2026",
+      "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077108",
+      "original_sub_id": "",
+      "transaction_id": "EDT.E.255",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 154774,
+      "group": "LGBTQ CONNECTION PAC",
+      "group_id": "C00722884",
+      "payee": "DE LA CRUZ, DARIUS",
+      "description": "SALARY",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044720,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305471",
+      "election_type": "G2026",
+      "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077109",
+      "original_sub_id": "",
+      "transaction_id": "EDT.E.259",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 111277,
+      "group": "LGBTQ CONNECTION PAC",
+      "group_id": "C00722884",
+      "payee": "BASSEKLE, GRACE",
+      "description": "SALARY",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044720,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305472",
+      "election_type": "G2026",
+      "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077110",
+      "original_sub_id": "",
+      "transaction_id": "EDT.E.253",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 224756,
+      "group": "LGBTQ CONNECTION PAC",
+      "group_id": "C00722884",
+      "payee": "DICAMILLO, NATHAN",
+      "description": "SALARY",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044720,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305472",
+      "election_type": "G2026",
+      "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077111",
+      "original_sub_id": "",
+      "transaction_id": "EDT.E.263",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 368842,
+      "group": "LGBTQ CONNECTION PAC",
+      "group_id": "C00722884",
+      "payee": "PAYROLL TAXES",
+      "description": "SALARY",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044720,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305473",
+      "election_type": "G2026",
+      "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077112",
+      "original_sub_id": "",
+      "transaction_id": "EDT.E.261",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-10-29",
+      "amount_cents": 199484,
+      "group": "LGBTQ CONNECTION PAC",
+      "group_id": "C00722884",
+      "payee": "MASON, WINSLOW",
+      "description": "SALARY",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044720,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305473",
+      "election_type": "G2026",
+      "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103020261616036213",
       "original_sub_id": "",
       "transaction_id": "500239063",
@@ -6137,6 +6275,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 5,
-    "scan_started_at": "2026-11-01T10:04:24.229796+00:00"
+    "scan_started_at": "2026-11-01T14:03:06.009037+00:00"
   }
 }

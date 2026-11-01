@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T05:04:09-05:00",
+  "generated_at": "2026-11-01T09:03:02-05:00",
   "district": "IA-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 768,
+    "api_rows": 772,
     "pages": 8,
-    "included_rows": 650,
+    "included_rows": 654,
     "excluded": {
       "other_candidate": 9,
       "memo_item": 6,
@@ -55,13 +55,13 @@
     }
   },
   "totals": {
-    "support_lawler": 114480280,
+    "support_lawler": 114778102,
     "oppose_conley": 592749910,
-    "support_conley": 305686750,
+    "support_conley": 320186750,
     "oppose_lawler": 867471653,
-    "benefit_lawler": 707230190,
-    "benefit_conley": 1173158403,
-    "all": 1880388593
+    "benefit_lawler": 707528012,
+    "benefit_conley": 1187658403,
+    "all": 1895186415
   },
   "daily": [
     {
@@ -847,6 +847,14 @@
       "support_conley": 17391234,
       "oppose_lawler": 1569808,
       "total": 19096750
+    },
+    {
+      "date": "2026-10-30",
+      "support_lawler": 297822,
+      "oppose_conley": 0,
+      "support_conley": 14500000,
+      "oppose_lawler": 0,
+      "total": 14797822
     }
   ],
   "groups": [
@@ -915,6 +923,14 @@
       "oppose_lawler": 51938130
     },
     {
+      "name": "CFFE PAC",
+      "total": 41101406,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 41101406,
+      "oppose_lawler": 0
+    },
+    {
       "name": "NO GOING BACK PAC INC.",
       "total": 37731989,
       "support_lawler": 4600654,
@@ -955,14 +971,6 @@
       "oppose_lawler": 0
     },
     {
-      "name": "CFFE PAC",
-      "total": 26601406,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 26601406,
-      "oppose_lawler": 0
-    },
-    {
       "name": "EDW ACTION FUND",
       "total": 22434362,
       "support_lawler": 0,
@@ -996,8 +1004,8 @@
     },
     {
       "name": "AMERICAN CONSERVATION COALITION PAC (ACC PAC)",
-      "total": 17253058,
-      "support_lawler": 17253058,
+      "total": 17550880,
+      "support_lawler": 17550880,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -1231,7 +1239,7 @@
     {
       "key": "support_lawler",
       "name": "Support Miller-Meeks",
-      "total": 114480280,
+      "total": 114778102,
       "categories": [
         {
           "name": "TV",
@@ -1315,11 +1323,11 @@
         },
         {
           "name": "Text",
-          "total": 614656,
+          "total": 912478,
           "groups": [
             {
               "name": "AMERICAN CONSERVATION COALITION PAC (ACC PAC)",
-              "amount_cents": 318262
+              "amount_cents": 616084
             },
             {
               "name": "NRA VICTORY FUND, INC.",
@@ -1485,7 +1493,7 @@
     {
       "key": "support_conley",
       "name": "Support Bohannan",
-      "total": 305686750,
+      "total": 320186750,
       "categories": [
         {
           "name": "TV",
@@ -1585,15 +1593,15 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 66026756,
+          "total": 80526756,
           "groups": [
+            {
+              "name": "CFFE PAC",
+              "amount_cents": 38949429
+            },
             {
               "name": "PROGRESSIVE TURNOUT PROJECT",
               "amount_cents": 33027158
-            },
-            {
-              "name": "CFFE PAC",
-              "amount_cents": 24449429
             },
             {
               "name": "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS SEPARATE SEGREGATED FUND (CRNA-PAC)",
@@ -16893,6 +16901,98 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077378",
+      "original_sub_id": "",
+      "transaction_id": "500071900",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 3333333,
+      "group": "CFFE PAC",
+      "group_id": "C00744920",
+      "payee": "OTG STRATEGIES",
+      "description": "CANVASSING - ESTIMATE",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045034,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306231",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077388",
+      "original_sub_id": "",
+      "transaction_id": "500071932",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 3666667,
+      "group": "CFFE PAC",
+      "group_id": "C00744920",
+      "payee": "OTG STRATEGIES",
+      "description": "CANVASSING - ESTIMATE",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045034,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306236",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077406",
+      "original_sub_id": "",
+      "transaction_id": "500071946",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 7500000,
+      "group": "CFFE PAC",
+      "group_id": "C00744920",
+      "payee": "THE OUTREACH TEAM INC.",
+      "description": "CANVASSING - ESTIMATE",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045034,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306245",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077414",
+      "original_sub_id": "",
+      "transaction_id": "SE24.37936",
+      "candidate": "lawler",
+      "candidate_id": "H8IA02043",
+      "disposition": "support_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 297822,
+      "group": "AMERICAN CONSERVATION COALITION PAC (ACC PAC)",
+      "group_id": "C00877233",
+      "payee": "RHUMB LINE STRATEGIES",
+      "description": "NON-CONTRIBUTION ACCT: TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045041,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306263",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -16901,6 +17001,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 8,
-    "scan_started_at": "2026-11-01T09:07:59.972509+00:00"
+    "scan_started_at": "2026-11-01T13:16:45.905928+00:00"
   }
 }
