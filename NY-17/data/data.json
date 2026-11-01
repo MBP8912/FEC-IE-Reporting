@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-10-31T23:09:04-04:00",
+  "generated_at": "2026-11-01T02:28:22-05:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -15379,6 +15379,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 7,
-    "scan_started_at": "2026-11-01T03:08:56.469507+00:00"
+    "scan_started_at": "2026-11-01T07:28:16.301817+00:00"
   }
 }
