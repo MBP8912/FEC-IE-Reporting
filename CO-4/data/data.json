@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T02:28:24-05:00",
+  "generated_at": "2026-11-01T06:55:41-05:00",
   "district": "CO-4",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 120,
+    "api_rows": 121,
     "pages": 3,
-    "included_rows": 46,
+    "included_rows": 47,
     "excluded": {
       "other_election": 68,
       "other_candidate": 1,
@@ -57,10 +57,10 @@
     "support_lawler": 60045410,
     "oppose_conley": 0,
     "support_conley": 13068790,
-    "oppose_lawler": 151844158,
+    "oppose_lawler": 152993700,
     "benefit_lawler": 60045410,
-    "benefit_conley": 164912948,
-    "all": 224958358
+    "benefit_conley": 166062490,
+    "all": 226107900
   },
   "daily": [
     {
@@ -276,18 +276,18 @@
       "support_lawler": 750000,
       "oppose_conley": 0,
       "support_conley": 8411,
-      "oppose_lawler": 0,
-      "total": 758411
+      "oppose_lawler": 1149542,
+      "total": 1907953
     }
   ],
   "groups": [
     {
       "name": "INVEST IN TOMORROW COALITION PAC",
-      "total": 150000000,
+      "total": 151149542,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 150000000
+      "oppose_lawler": 151149542
     },
     {
       "name": "FREEDOM CAUCUS FUND",
@@ -538,7 +538,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Boebert",
-      "total": 151844158,
+      "total": 152993700,
       "categories": [
         {
           "name": "Digital",
@@ -547,6 +547,16 @@
             {
               "name": "WORKING AMERICA",
               "amount_cents": 9300
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "total": 1149542,
+          "groups": [
+            {
+              "name": "INVEST IN TOMORROW COALITION PAC",
+              "amount_cents": 1149542
             }
           ]
         },
@@ -1587,6 +1597,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103120261616077500",
+      "original_sub_id": "",
+      "transaction_id": "SE.4265",
+      "candidate": "lawler",
+      "candidate_id": "H0CO03165",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 1149542,
+      "group": "INVEST IN TOMORROW COALITION PAC",
+      "group_id": "C00936997",
+      "payee": "TUSK STRATEGIES",
+      "description": "TEXTING PROGRAM (ESTIMATE)",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045128,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306552",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103020261616036014",
       "original_sub_id": "",
       "transaction_id": "500014647",
@@ -1639,6 +1672,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-01T07:28:22.716441+00:00"
+    "scan_started_at": "2026-11-01T11:55:38.714632+00:00"
   }
 }

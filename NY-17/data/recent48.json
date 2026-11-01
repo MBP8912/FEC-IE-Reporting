@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "NY-17",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,53 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-01T10:59:49+00:00",
-  "source_data_generated_at": "2026-11-01T02:28:22-05:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-11-01T11:55:41+00:00",
+  "source_data_generated_at": "2026-11-01T06:55:38-05:00",
+  "unresolved_recent_items": 21,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4103120261616077024",
+      "file_number": "2044687",
+      "reported_at": "2026-10-30T23:40:56+00:00",
+      "expenditure_date": "2026-10-28",
+      "spender": "NO GOING BACK PAC INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TEXT MESSAGES",
+      "spend_type": "Text",
+      "amount_cents": 314312,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305276"
+    },
+    {
+      "source_id": "4103120261616077034",
+      "file_number": "2044687",
+      "reported_at": "2026-10-30T23:40:56+00:00",
+      "expenditure_date": "2026-10-28",
+      "spender": "NO GOING BACK PAC INC.",
+      "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TEXT MESSAGES",
+      "spend_type": "Text",
+      "amount_cents": 32946,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305281"
+    },
+    {
+      "source_id": "4103120261616077019",
+      "file_number": "2044687",
+      "reported_at": "2026-10-30T23:40:56+00:00",
+      "expenditure_date": "2026-10-28",
+      "spender": "NO GOING BACK PAC INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TEXT MESSAGES",
+      "spend_type": "Text",
+      "amount_cents": 32946,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305274"
+    },
     {
       "source_id": "4103020261616036202",
       "file_number": "2044677",
