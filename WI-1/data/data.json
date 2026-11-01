@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T01:04:44-05:00",
+  "generated_at": "2026-11-01T05:59:47-05:00",
   "district": "WI-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 263,
+    "api_rows": 266,
     "pages": 3,
-    "included_rows": 247,
+    "included_rows": 250,
     "excluded": {
       "other_candidate": 2,
       "memo_item": 1,
@@ -54,13 +54,13 @@
     }
   },
   "totals": {
-    "support_lawler": 401329448,
-    "oppose_conley": 617048762,
+    "support_lawler": 401632432,
+    "oppose_conley": 617182414,
     "support_conley": 164748613,
     "oppose_lawler": 605511223,
-    "benefit_lawler": 1018378210,
+    "benefit_lawler": 1018814846,
     "benefit_conley": 770259836,
-    "all": 1788638046
+    "all": 1789074682
   },
   "daily": [
     {
@@ -434,10 +434,10 @@
     {
       "date": "2026-10-28",
       "support_lawler": 9954595,
-      "oppose_conley": 18675000,
+      "oppose_conley": 18808652,
       "support_conley": 4425343,
       "oppose_lawler": 17853652,
-      "total": 50908590
+      "total": 51042242
     },
     {
       "date": "2026-10-29",
@@ -454,6 +454,14 @@
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 351975
+    },
+    {
+      "date": "2026-10-31",
+      "support_lawler": 302984,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 302984
     }
   ],
   "groups": [
@@ -475,9 +483,9 @@
     },
     {
       "name": "NO GOING BACK PAC INC.",
-      "total": 223469627,
+      "total": 223603279,
       "support_lawler": 69384727,
-      "oppose_conley": 154084900,
+      "oppose_conley": 154218552,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -491,8 +499,8 @@
     },
     {
       "name": "AMERICAN MAJORITY ACTION PAC",
-      "total": 101869343,
-      "support_lawler": 101869343,
+      "total": 102172327,
+      "support_lawler": 102172327,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -742,7 +750,7 @@
     {
       "key": "support_lawler",
       "name": "Support Steil",
-      "total": 401329448,
+      "total": 401632432,
       "categories": [
         {
           "name": "TV",
@@ -826,7 +834,7 @@
         },
         {
           "name": "Text",
-          "total": 4698177,
+          "total": 4723006,
           "groups": [
             {
               "name": "SAVE AMERICAN FREEDOM",
@@ -838,7 +846,7 @@
             },
             {
               "name": "AMERICAN MAJORITY ACTION PAC",
-              "amount_cents": 195871
+              "amount_cents": 220700
             },
             {
               "name": "NRA VICTORY FUND, INC.",
@@ -852,11 +860,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 35970401,
+          "total": 36248556,
           "groups": [
             {
               "name": "AMERICAN MAJORITY ACTION PAC",
-              "amount_cents": 35488887
+              "amount_cents": 35767042
             },
             {
               "name": "CIVIC RENEWAL FUND INC.",
@@ -921,7 +929,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Berman",
-      "total": 617048762,
+      "total": 617182414,
       "categories": [
         {
           "name": "TV",
@@ -1005,11 +1013,11 @@
         },
         {
           "name": "Text",
-          "total": 2409304,
+          "total": 2542956,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 2409304
+              "amount_cents": 2542956
             }
           ]
         },
@@ -6560,6 +6568,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103120261616077021",
+      "original_sub_id": "",
+      "transaction_id": "SE.1197054",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "oppose_conley",
+      "date": "2026-10-28",
+      "amount_cents": 133652,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044687,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305275",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103020261616034532",
       "original_sub_id": "",
       "transaction_id": "500693570",
@@ -6995,6 +7026,52 @@
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077487",
+      "original_sub_id": "",
+      "transaction_id": "36FA92A461D724D27462",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "support_lawler",
+      "date": "2026-10-31",
+      "amount_cents": 278155,
+      "group": "AMERICAN MAJORITY ACTION PAC",
+      "group_id": "C00952994",
+      "payee": "AMERICAN MAJORITY ACTION INC.",
+      "description": "CONTRACTED CANVASSING, TEXT MESSAGING, PHONE BANKING, AND STAFF TIME",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045127,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306545",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103120261616077498",
+      "original_sub_id": "",
+      "transaction_id": "015DAB4B7B576A66A6E3",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "support_lawler",
+      "date": "2026-10-31",
+      "amount_cents": 24829,
+      "group": "AMERICAN MAJORITY ACTION PAC",
+      "group_id": "C00952994",
+      "payee": "VOTER GRAVITY INC.",
+      "description": "VOTER DATA-PHONE BANK, TEXT MESSAGE",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045127,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306551",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -7003,6 +7080,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-01T06:04:34.364182+00:00"
+    "scan_started_at": "2026-11-01T10:59:46.081791+00:00"
   }
 }
