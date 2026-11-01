@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T04:07:59-05:00",
+  "generated_at": "2026-11-01T08:16:45-05:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -43,11 +43,11 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 226,
+    "api_rows": 228,
     "pages": 3,
-    "included_rows": 201,
+    "included_rows": 202,
     "excluded": {
-      "other_candidate": 4,
+      "other_candidate": 5,
       "memo_item": 3,
       "other_election": 3,
       "repeated_transaction_or_amendment": 14,
@@ -58,10 +58,10 @@
     "support_lawler": 162403903,
     "oppose_conley": 418117354,
     "support_conley": 19175384,
-    "oppose_lawler": 248329955,
+    "oppose_lawler": 248722115,
     "benefit_lawler": 580521257,
-    "benefit_conley": 267505339,
-    "all": 848026596
+    "benefit_conley": 267897499,
+    "all": 848418756
   },
   "daily": [
     {
@@ -397,8 +397,8 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 21758,
-      "oppose_lawler": 0,
-      "total": 21758
+      "oppose_lawler": 392160,
+      "total": 413918
     }
   ],
   "groups": [
@@ -545,6 +545,14 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 1710568
+    },
+    {
+      "name": "PRINCIPLED PATRIOTS PAC",
+      "total": 392160,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 392160
     },
     {
       "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
@@ -926,7 +934,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Crank",
-      "total": 248329955,
+      "total": 248722115,
       "categories": [
         {
           "name": "TV",
@@ -1002,7 +1010,7 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 3923423,
+          "total": 4315583,
           "groups": [
             {
               "name": "BATTLEGROUND ALLIANCE PAC",
@@ -1011,6 +1019,10 @@
             {
               "name": "BUILDING TOGETHER",
               "amount_cents": 1423423
+            },
+            {
+              "name": "PRINCIPLED PATRIOTS PAC",
+              "amount_cents": 392160
             }
           ]
         }
@@ -5619,6 +5631,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103120261616077520",
+      "original_sub_id": "",
+      "transaction_id": "WFT20269301622-431",
+      "candidate": "lawler",
+      "candidate_id": "H6CO05142",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 392160,
+      "group": "PRINCIPLED PATRIOTS PAC",
+      "group_id": "C00960781",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "ESTIMATED COST: TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045186,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306669",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103020261616036015",
       "original_sub_id": "",
       "transaction_id": "500014648",
@@ -5648,6 +5683,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-01T09:07:57.660998+00:00"
+    "scan_started_at": "2026-11-01T13:16:42.676944+00:00"
   }
 }
