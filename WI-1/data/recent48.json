@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T21:04:28+00:00",
+  "checked_at": "2026-11-02T22:02:11+00:00",
   "source_data_generated_at": "2026-11-02T14:20:41-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -890,34 +890,6 @@
       "spend_type": "Mail",
       "amount_cents": 3158852,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259465"
-    },
-    {
-      "source_id": "4102920261615838289",
-      "file_number": "2042437",
-      "reported_at": "2026-10-28T21:49:35+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "SCIENCE VICTORY FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND: DIGITAL AD BUY (ESTIMATE)",
-      "spend_type": "Digital",
-      "amount_cents": 809,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259336"
-    },
-    {
-      "source_id": "4102920261615838292",
-      "file_number": "2042437",
-      "reported_at": "2026-10-28T21:49:35+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "SCIENCE VICTORY FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND: DIGITAL AD BUY (ESTIMATE)",
-      "spend_type": "Digital",
-      "amount_cents": 109,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259337"
     }
   ]
 }

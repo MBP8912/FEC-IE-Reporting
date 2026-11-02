@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T21:04:28+00:00",
-  "source_data_generated_at": "2026-11-02T13:15:22-05:00",
+  "checked_at": "2026-11-02T22:02:11+00:00",
+  "source_data_generated_at": "2026-11-02T17:02:10-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -806,20 +806,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 17381,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259523"
-    },
-    {
-      "source_id": "4102920261615838325",
-      "file_number": "2042455",
-      "reported_at": "2026-10-28T21:56:22+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "MAKE AMERICA GREAT AGAIN ACTION INC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 75832,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259388"
     }
   ]
 }

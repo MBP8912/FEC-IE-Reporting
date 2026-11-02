@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T21:04:28+00:00",
+  "checked_at": "2026-11-02T22:02:11+00:00",
   "source_data_generated_at": "2026-11-02T15:08:45-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -2052,34 +2052,6 @@
       "spend_type": "Production",
       "amount_cents": 26498,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259609"
-    },
-    {
-      "source_id": "4102920261615838259",
-      "file_number": "2042423",
-      "reported_at": "2026-10-28T21:43:40+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "THE GOVERNING MAJORITY FUND",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL SERVICES",
-      "spend_type": "Mail",
-      "amount_cents": 1823343,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259298"
-    },
-    {
-      "source_id": "4102920261615838258",
-      "file_number": "2042423",
-      "reported_at": "2026-10-28T21:43:40+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "THE GOVERNING MAJORITY FUND",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL SERVICES",
-      "spend_type": "Mail",
-      "amount_cents": 1757913,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259298"
     }
   ]
 }
