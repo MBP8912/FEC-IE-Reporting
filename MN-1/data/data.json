@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T16:56:08-05:00",
+  "generated_at": "2026-11-01T22:12:49-05:00",
   "district": "MN-1",
   "period": {
     "cycle": 2026,
@@ -6092,6 +6092,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 4,
-    "scan_started_at": "2026-11-01T21:56:03.998137+00:00"
+    "scan_started_at": "2026-11-02T03:12:46.499776+00:00"
   }
 }
