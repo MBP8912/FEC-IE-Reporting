@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T23:22:52-05:00",
+  "generated_at": "2026-11-02T04:29:02-05:00",
   "district": "WI-1",
   "period": {
     "cycle": 2026,
@@ -7080,6 +7080,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-02T03:12:55.919371+00:00"
+    "scan_started_at": "2026-11-02T09:28:52.626540+00:00"
   }
 }
