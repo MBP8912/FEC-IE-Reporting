@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-02T02:53:17-05:00",
+  "generated_at": "2026-11-02T08:36:28-05:00",
   "district": "IA-1",
   "period": {
     "cycle": 2026,
@@ -43,11 +43,11 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 772,
+    "api_rows": 775,
     "pages": 8,
-    "included_rows": 654,
+    "included_rows": 656,
     "excluded": {
-      "other_candidate": 9,
+      "other_candidate": 10,
       "memo_item": 6,
       "other_election": 35,
       "repeated_transaction_or_amendment": 65,
@@ -57,11 +57,11 @@
   "totals": {
     "support_lawler": 114778102,
     "oppose_conley": 592749910,
-    "support_conley": 320186750,
-    "oppose_lawler": 867471653,
+    "support_conley": 320195448,
+    "oppose_lawler": 868394494,
     "benefit_lawler": 707528012,
-    "benefit_conley": 1187658403,
-    "all": 1895186415
+    "benefit_conley": 1188589942,
+    "all": 1896117954
   },
   "daily": [
     {
@@ -853,8 +853,16 @@
       "support_lawler": 297822,
       "oppose_conley": 0,
       "support_conley": 14500000,
+      "oppose_lawler": 922841,
+      "total": 15720663
+    },
+    {
+      "date": "2026-10-31",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 8698,
       "oppose_lawler": 0,
-      "total": 14797822
+      "total": 8698
     }
   ],
   "groups": [
@@ -1068,10 +1076,10 @@
     },
     {
       "name": "VOTERS OF TOMORROW PAC",
-      "total": 4135093,
+      "total": 4143791,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 3592060,
+      "support_conley": 3600758,
       "oppose_lawler": 543033
     },
     {
@@ -1147,6 +1155,14 @@
       "oppose_lawler": 204100
     },
     {
+      "name": "OUR HERITAGE MATTERS",
+      "total": 1044081,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 1044081
+    },
+    {
       "name": "NEIGHBOR VOICES PAC",
       "total": 384926,
       "support_lawler": 0,
@@ -1201,14 +1217,6 @@
       "oppose_conley": 0,
       "support_conley": 125278,
       "oppose_lawler": 0
-    },
-    {
-      "name": "OUR HERITAGE MATTERS",
-      "total": 121240,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 121240
     },
     {
       "name": "RURAL FREEDOM NETWORK",
@@ -1493,7 +1501,7 @@
     {
       "key": "support_conley",
       "name": "Support Bohannan",
-      "total": 320186750,
+      "total": 320195448,
       "categories": [
         {
           "name": "TV",
@@ -1593,7 +1601,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 80526756,
+          "total": 80535454,
           "groups": [
             {
               "name": "CFFE PAC",
@@ -1629,7 +1637,7 @@
             },
             {
               "name": "VOTERS OF TOMORROW PAC",
-              "amount_cents": 5400
+              "amount_cents": 14098
             }
           ]
         },
@@ -1722,7 +1730,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Miller-Meeks",
-      "total": 867471653,
+      "total": 868394494,
       "categories": [
         {
           "name": "TV",
@@ -1744,7 +1752,7 @@
         },
         {
           "name": "Digital",
-          "total": 198342968,
+          "total": 199265809,
           "groups": [
             {
               "name": "AB PAC",
@@ -1775,16 +1783,16 @@
               "amount_cents": 1875000
             },
             {
+              "name": "OUR HERITAGE MATTERS",
+              "amount_cents": 1044081
+            },
+            {
               "name": "INDIGO PAC",
               "amount_cents": 320003
             },
             {
               "name": "WORKING AMERICA",
               "amount_cents": 204100
-            },
-            {
-              "name": "OUR HERITAGE MATTERS",
-              "amount_cents": 121240
             }
           ]
         },
@@ -16903,6 +16911,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110120261616134162",
+      "original_sub_id": "",
+      "transaction_id": "SE.4888",
+      "candidate": "lawler",
+      "candidate_id": "H8IA02043",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 922841,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045249,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306889",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103120261616077378",
       "original_sub_id": "",
       "transaction_id": "500071900",
@@ -16993,6 +17024,29 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110120261616134413",
+      "original_sub_id": "",
+      "transaction_id": "SE.25316",
+      "candidate": "conley",
+      "candidate_id": "H2IA02111",
+      "disposition": "support_conley",
+      "date": "2026-10-31",
+      "amount_cents": 8698,
+      "group": "VOTERS OF TOMORROW PAC",
+      "group_id": "C00833103",
+      "payee": "ACTBLUE FIELD TOOLS",
+      "description": "PHONE BANKING -  ESTIMATE",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045401,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307233",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -17001,6 +17055,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 8,
-    "scan_started_at": "2026-11-02T06:26:55.601778+00:00"
+    "scan_started_at": "2026-11-02T12:14:16.052576+00:00"
   }
 }

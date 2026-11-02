@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "MN-1",
   "window_hours": 48,
   "candidate_names": {
@@ -18,9 +18,9 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T12:14:24+00:00",
-  "source_data_generated_at": "2026-11-02T02:53:19-05:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-11-02T13:36:35+00:00",
+  "source_data_generated_at": "2026-11-02T08:36:30-05:00",
+  "unresolved_recent_items": 1,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
     {

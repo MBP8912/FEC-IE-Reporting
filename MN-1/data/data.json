@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-02T02:53:19-05:00",
+  "generated_at": "2026-11-02T08:36:30-05:00",
   "district": "MN-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 323,
+    "api_rows": 324,
     "pages": 4,
-    "included_rows": 215,
+    "included_rows": 216,
     "excluded": {
       "other_election": 37,
       "repeated_transaction_or_amendment": 1,
@@ -53,13 +53,13 @@
     }
   },
   "totals": {
-    "support_lawler": 38567950,
+    "support_lawler": 40071130,
     "oppose_conley": 322968830,
     "support_conley": 80120408,
     "oppose_lawler": 524803179,
-    "benefit_lawler": 361536780,
+    "benefit_lawler": 363039960,
     "benefit_conley": 604923587,
-    "all": 966460367
+    "all": 967963547
   },
   "daily": [
     {
@@ -568,11 +568,11 @@
     },
     {
       "date": "2026-10-30",
-      "support_lawler": 0,
+      "support_lawler": 1503180,
       "oppose_conley": 0,
       "support_conley": 88928,
       "oppose_lawler": 88927,
-      "total": 177855
+      "total": 1681035
     }
   ],
   "groups": [
@@ -602,8 +602,8 @@
     },
     {
       "name": "THANK YOU FOR YOUR ATTENTION TO THIS MATTER PAC",
-      "total": 119633300,
-      "support_lawler": 0,
+      "total": 121136480,
+      "support_lawler": 1503180,
       "oppose_conley": 119633300,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -781,7 +781,7 @@
     {
       "key": "support_lawler",
       "name": "Support Finstad",
-      "total": 38567950,
+      "total": 40071130,
       "categories": [
         {
           "name": "Digital",
@@ -819,11 +819,15 @@
         },
         {
           "name": "Text",
-          "total": 8714296,
+          "total": 10217476,
           "groups": [
             {
               "name": "SAVE AMERICAN FREEDOM",
               "amount_cents": 8568100
+            },
+            {
+              "name": "THANK YOU FOR YOUR ATTENTION TO THIS MATTER PAC",
+              "amount_cents": 1503180
             },
             {
               "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
@@ -6084,6 +6088,29 @@
       "election_type": "G2026",
       "original_category_code": "001",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110120261616134011",
+      "original_sub_id": "",
+      "transaction_id": "SE.4387",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "support_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 1503180,
+      "group": "THANK YOU FOR YOUR ATTENTION TO THIS MATTER PAC",
+      "group_id": "C00923516",
+      "payee": "COEFFICIENT GROUP LLC",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045209,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306747",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -6092,6 +6119,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 4,
-    "scan_started_at": "2026-11-02T07:53:17.517480+00:00"
+    "scan_started_at": "2026-11-02T13:36:28.310334+00:00"
   }
 }
