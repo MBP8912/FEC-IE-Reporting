@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "IA-1",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,39 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T13:36:35+00:00",
+  "checked_at": "2026-11-02T15:17:09+00:00",
   "source_data_generated_at": "2026-11-02T08:36:28-05:00",
-  "unresolved_recent_items": 2,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110120261616134413",
+      "file_number": "2045401",
+      "reported_at": "2026-11-01T18:10:58+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "VOTERS OF TOMORROW PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "PHONE BANKING -  ESTIMATE",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 8698,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307233"
+    },
+    {
+      "source_id": "4110120261616134162",
+      "file_number": "2045249",
+      "reported_at": "2026-11-01T02:56:11+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 922841,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306889"
+    },
     {
       "source_id": "4103120261616077414",
       "file_number": "2045041",

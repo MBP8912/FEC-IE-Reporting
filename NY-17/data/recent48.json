@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "NY-17",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,67 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T13:36:35+00:00",
+  "checked_at": "2026-11-02T15:17:09+00:00",
   "source_data_generated_at": "2026-11-02T06:18:25-05:00",
-  "unresolved_recent_items": 4,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110120261616134185",
+      "file_number": "2045249",
+      "reported_at": "2026-11-01T02:56:11+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 419968,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306900"
+    },
+    {
+      "source_id": "4110120261616134139",
+      "file_number": "2045246",
+      "reported_at": "2026-11-01T02:47:58+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "GOTV CALLS (ESTIMATES)",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 455231,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306875"
+    },
+    {
+      "source_id": "4110120261616134024",
+      "file_number": "2045214",
+      "reported_at": "2026-11-01T00:39:55+00:00",
+      "expenditure_date": "2026-10-28",
+      "spender": "NO GOING BACK PAC INC.",
+      "disposition": "oppose_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TEXT MESSAGES",
+      "spend_type": "Text",
+      "amount_cents": 48988,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306769"
+    },
+    {
+      "source_id": "4110120261616134018",
+      "file_number": "2045214",
+      "reported_at": "2026-11-01T00:39:55+00:00",
+      "expenditure_date": "2026-10-28",
+      "spender": "NO GOING BACK PAC INC.",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TEXT MESSAGES",
+      "spend_type": "Text",
+      "amount_cents": 48988,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306766"
+    },
     {
       "source_id": "4103120261616077345",
       "file_number": "2044982",
