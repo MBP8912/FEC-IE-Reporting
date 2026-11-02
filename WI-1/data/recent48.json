@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T22:02:11+00:00",
-  "source_data_generated_at": "2026-11-02T14:20:41-05:00",
+  "checked_at": "2026-11-02T23:00:09+00:00",
+  "source_data_generated_at": "2026-11-02T18:00:06-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -848,48 +848,6 @@
       "spend_type": "Mail",
       "amount_cents": 2677194,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259926"
-    },
-    {
-      "source_id": "4102920261615838588",
-      "file_number": "2042541",
-      "reported_at": "2026-10-28T22:32:07+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 138016,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259688"
-    },
-    {
-      "source_id": "4102920261615838407",
-      "file_number": "2042482",
-      "reported_at": "2026-10-28T22:09:32+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "IN UNION USA",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL PROGRAM",
-      "spend_type": "Mail",
-      "amount_cents": 3158853,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259465"
-    },
-    {
-      "source_id": "4102920261615838408",
-      "file_number": "2042482",
-      "reported_at": "2026-10-28T22:09:32+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "IN UNION USA",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL PROGRAM",
-      "spend_type": "Mail",
-      "amount_cents": 3158852,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259465"
     }
   ]
 }
