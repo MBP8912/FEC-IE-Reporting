@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T23:00:09+00:00",
+  "checked_at": "2026-11-02T23:54:48+00:00",
   "source_data_generated_at": "2026-11-02T18:00:06-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -806,48 +806,6 @@
       "spend_type": "Digital",
       "amount_cents": 5000000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260765"
-    },
-    {
-      "source_id": "4102920261615838831",
-      "file_number": "2042656",
-      "reported_at": "2026-10-28T23:33:22+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "SOMOS PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL - ESTIMATE",
-      "spend_type": "Mail",
-      "amount_cents": 1176521,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259996"
-    },
-    {
-      "source_id": "4102920261615417143",
-      "file_number": "2042999",
-      "reported_at": "2026-10-28T23:31:36+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "YOUTH CIVIC ACCELERATOR INC.",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F5",
-      "purpose": "PAID VOTER CONTACT PHONE CALLS",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 1265000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271221"
-    },
-    {
-      "source_id": "4102920261615838801",
-      "file_number": "2042635",
-      "reported_at": "2026-10-28T23:20:36+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "AMERICAN LIBERTY FOUNDATION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL",
-      "spend_type": "Mail",
-      "amount_cents": 2677194,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945259926"
     }
   ]
 }

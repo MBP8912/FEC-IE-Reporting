@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T23:00:09+00:00",
+  "checked_at": "2026-11-02T23:54:48+00:00",
   "source_data_generated_at": "2026-11-02T16:04:28-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -2038,62 +2038,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 908,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261198"
-    },
-    {
-      "source_id": "4102920261615838883",
-      "file_number": "2042668",
-      "reported_at": "2026-10-28T23:40:55+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 3578310,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260048"
-    },
-    {
-      "source_id": "4102920261615838882",
-      "file_number": "2042668",
-      "reported_at": "2026-10-28T23:40:55+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 1757175,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260047"
-    },
-    {
-      "source_id": "4102920261615838864",
-      "file_number": "2042668",
-      "reported_at": "2026-10-28T23:40:55+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER PRODUCTION",
-      "spend_type": "Mail",
-      "amount_cents": 1636284,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260038"
-    },
-    {
-      "source_id": "4102920261615838863",
-      "file_number": "2042668",
-      "reported_at": "2026-10-28T23:40:55+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAILER PRODUCTION",
-      "spend_type": "Mail",
-      "amount_cents": 1009334,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260038"
     }
   ]
 }
