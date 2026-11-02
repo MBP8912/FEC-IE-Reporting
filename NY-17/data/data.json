@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-02T00:25:41-05:00",
+  "generated_at": "2026-11-02T06:18:25-05:00",
   "district": "NY-17",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 688,
+    "api_rows": 692,
     "pages": 7,
-    "included_rows": 612,
+    "included_rows": 616,
     "excluded": {
       "memo_item": 5,
       "other_candidate": 4,
@@ -55,13 +55,13 @@
     }
   },
   "totals": {
-    "support_lawler": 439533390,
-    "oppose_conley": 1492087197,
-    "support_conley": 250514990,
-    "oppose_lawler": 516835023,
-    "benefit_lawler": 1931620587,
-    "benefit_conley": 767350013,
-    "all": 2698970600
+    "support_lawler": 439582378,
+    "oppose_conley": 1492136185,
+    "support_conley": 250970221,
+    "oppose_lawler": 517254991,
+    "benefit_lawler": 1931718563,
+    "benefit_conley": 768225212,
+    "all": 2699943775
   },
   "daily": [
     {
@@ -586,11 +586,11 @@
     },
     {
       "date": "2026-10-28",
-      "support_lawler": 45492532,
-      "oppose_conley": 45178220,
+      "support_lawler": 45541520,
+      "oppose_conley": 45227208,
       "support_conley": 13675209,
       "oppose_lawler": 31805417,
-      "total": 136151378
+      "total": 136249354
     },
     {
       "date": "2026-10-29",
@@ -604,9 +604,9 @@
       "date": "2026-10-30",
       "support_lawler": 1939035,
       "oppose_conley": 0,
-      "support_conley": 7130804,
-      "oppose_lawler": 0,
-      "total": 9069839
+      "support_conley": 7586035,
+      "oppose_lawler": 419968,
+      "total": 9945038
     }
   ],
   "groups": [
@@ -660,9 +660,9 @@
     },
     {
       "name": "NO GOING BACK PAC INC.",
-      "total": 65492561,
-      "support_lawler": 27511970,
-      "oppose_conley": 37980591,
+      "total": 65590537,
+      "support_lawler": 27560958,
+      "oppose_conley": 38029579,
       "support_conley": 0,
       "oppose_lawler": 0
     },
@@ -819,19 +819,19 @@
       "oppose_lawler": 1611431
     },
     {
+      "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+      "total": 3222821,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 3222821,
+      "oppose_lawler": 0
+    },
+    {
       "name": "PAY THE PEOPLE PAC",
       "total": 2850000,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 2850000,
-      "oppose_lawler": 0
-    },
-    {
-      "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
-      "total": 2767590,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 2767590,
       "oppose_lawler": 0
     },
     {
@@ -915,6 +915,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "OUR HERITAGE MATTERS",
+      "total": 419968,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 419968
+    },
+    {
       "name": "POPULAR DEMOCRACY PAC",
       "total": 294000,
       "support_lawler": 0,
@@ -975,7 +983,7 @@
     {
       "key": "support_lawler",
       "name": "Support Lawler",
-      "total": 439533390,
+      "total": 439582378,
       "categories": [
         {
           "name": "TV",
@@ -1049,11 +1057,11 @@
         },
         {
           "name": "Text",
-          "total": 1294582,
+          "total": 1343570,
           "groups": [
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 1294582
+              "amount_cents": 1343570
             }
           ]
         },
@@ -1112,7 +1120,7 @@
     {
       "key": "oppose_conley",
       "name": "Oppose Conley",
-      "total": 1492087197,
+      "total": 1492136185,
       "categories": [
         {
           "name": "TV",
@@ -1170,7 +1178,7 @@
         },
         {
           "name": "Text",
-          "total": 3865560,
+          "total": 3914548,
           "groups": [
             {
               "name": "AMERICA PAC",
@@ -1178,7 +1186,7 @@
             },
             {
               "name": "NO GOING BACK PAC INC.",
-              "amount_cents": 1705330
+              "amount_cents": 1754318
             }
           ]
         },
@@ -1207,7 +1215,7 @@
     {
       "key": "support_conley",
       "name": "Support Conley",
-      "total": 250514990,
+      "total": 250970221,
       "categories": [
         {
           "name": "TV",
@@ -1321,7 +1329,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 90069397,
+          "total": 90524628,
           "groups": [
             {
               "name": "BATTLEGROUND NEW YORK",
@@ -1333,7 +1341,7 @@
             },
             {
               "name": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
-              "amount_cents": 455231
+              "amount_cents": 910462
             },
             {
               "name": "NEIGHBOR VOICES PAC",
@@ -1456,7 +1464,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Lawler",
-      "total": 516835023,
+      "total": 517254991,
       "categories": [
         {
           "name": "TV",
@@ -1478,7 +1486,7 @@
         },
         {
           "name": "Digital",
-          "total": 302974042,
+          "total": 303394010,
           "groups": [
             {
               "name": "HMP",
@@ -1515,6 +1523,10 @@
             {
               "name": "NEW YORKERS FOR A RETURN TO FAIR AND HONEST GOVERNMENT",
               "amount_cents": 825000
+            },
+            {
+              "name": "OUR HERITAGE MATTERS",
+              "amount_cents": 419968
             },
             {
               "name": "POPULAR DEMOCRACY PAC",
@@ -14377,6 +14389,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110120261616134024",
+      "original_sub_id": "",
+      "transaction_id": "SE.1197309.2",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "oppose_conley",
+      "date": "2026-10-28",
+      "amount_cents": 48988,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045214,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306769",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103020261616034119",
       "original_sub_id": "",
       "transaction_id": "SE.1197047.2",
@@ -14947,6 +14982,29 @@
       "filing_date": "2026-10-30",
       "file_number": 2044687,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305276",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110120261616134018",
+      "original_sub_id": "",
+      "transaction_id": "SE.1197309.1",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "support_lawler",
+      "date": "2026-10-28",
+      "amount_cents": 48988,
+      "group": "NO GOING BACK PAC INC.",
+      "group_id": "C00960435",
+      "payee": "CREATIVE DIRECT",
+      "description": "TEXT MESSAGES",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045214,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306766",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -15642,6 +15700,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110120261616134185",
+      "original_sub_id": "",
+      "transaction_id": "SE.4911",
+      "candidate": "lawler",
+      "candidate_id": "H2NY17162",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-30",
+      "amount_cents": 419968,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045249,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306900",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103120261616077345",
       "original_sub_id": "",
       "transaction_id": "500373517",
@@ -15660,6 +15741,29 @@
       "filing_date": "2026-10-31",
       "file_number": 2044982,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306128",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110120261616134139",
+      "original_sub_id": "",
+      "transaction_id": "500373543",
+      "candidate": "conley",
+      "candidate_id": "H6NY17171",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 455231,
+      "group": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
+      "group_id": "C00348540",
+      "payee": "STONES PHONES",
+      "description": "GOTV CALLS (ESTIMATES)",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045246,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306875",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -15763,6 +15867,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 7,
-    "scan_started_at": "2026-11-02T05:25:33.252143+00:00"
+    "scan_started_at": "2026-11-02T11:18:20.467208+00:00"
   }
 }
