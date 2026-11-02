@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-01T17:56:26-05:00",
+  "generated_at": "2026-11-01T23:22:54-05:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -4254,6 +4254,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 2,
-    "scan_started_at": "2026-11-01T22:56:22.315883+00:00"
+    "scan_started_at": "2026-11-02T04:22:53.024503+00:00"
   }
 }
