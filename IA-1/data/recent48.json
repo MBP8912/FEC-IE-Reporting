@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-02T23:54:48+00:00",
+  "checked_at": "2026-11-03T01:30:32+00:00",
   "source_data_generated_at": "2026-11-02T16:04:28-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1968,76 +1968,6 @@
       "spend_type": "Mail",
       "amount_cents": 4675785,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261895"
-    },
-    {
-      "source_id": "4102920261615839067",
-      "file_number": "2042771",
-      "reported_at": "2026-10-29T00:53:35+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TV AD BUY",
-      "spend_type": "TV",
-      "amount_cents": 96319600,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261208"
-    },
-    {
-      "source_id": "4102920261615839073",
-      "file_number": "2042771",
-      "reported_at": "2026-10-29T00:53:35+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TV AD PRODUCTION, ALSO OPPOSING MARIANNETTE MILLER-MEEKS",
-      "spend_type": "TV",
-      "amount_cents": 8705808,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261211"
-    },
-    {
-      "source_id": "4102920261615839040",
-      "file_number": "2042771",
-      "reported_at": "2026-10-29T00:53:35+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR DIGITAL AD BUY AND PRODUCTION",
-      "spend_type": "Digital",
-      "amount_cents": 25000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261195"
-    },
-    {
-      "source_id": "4102920261615839041",
-      "file_number": "2042771",
-      "reported_at": "2026-10-29T00:53:35+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR GRASSROOTS ORGANIZING AND OUTREACH",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 20310,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261195"
-    },
-    {
-      "source_id": "4102920261615839046",
-      "file_number": "2042771",
-      "reported_at": "2026-10-29T00:53:35+00:00",
-      "expenditure_date": "2026-10-25",
-      "spender": "EVERYTOWN FOR GUN SAFETY VICTORY FUND (EVERYTOWN VICTORY FUND)",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR PHONE CALLS",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 908,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261198"
     }
   ]
 }
