@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T08:31:52-05:00",
+  "generated_at": "2026-11-03T13:08:20-05:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -1374,6 +1374,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 1,
-    "scan_started_at": "2026-11-03T13:31:51.846230+00:00"
+    "scan_started_at": "2026-11-03T18:08:19.869916+00:00"
   }
 }

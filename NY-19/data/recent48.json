@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T17:20:02+00:00",
-  "source_data_generated_at": "2026-11-03T08:31:52-05:00",
+  "checked_at": "2026-11-03T18:08:22+00:00",
+  "source_data_generated_at": "2026-11-03T13:08:20-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -120,20 +120,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 1526038,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304544"
-    },
-    {
-      "source_id": "4102920261615840685",
-      "file_number": "2043478",
-      "reported_at": "2026-10-29T18:00:45+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SMS MESSAGING",
-      "spend_type": "Text",
-      "amount_cents": 205695,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297812"
     }
   ]
 }

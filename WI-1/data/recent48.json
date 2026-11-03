@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T17:20:02+00:00",
-  "source_data_generated_at": "2026-11-03T08:31:51-05:00",
+  "checked_at": "2026-11-03T18:08:22+00:00",
+  "source_data_generated_at": "2026-11-03T13:08:19-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -554,34 +554,6 @@
       "spend_type": "Text",
       "amount_cents": 2198,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297921"
-    },
-    {
-      "source_id": "4102920261615840712",
-      "file_number": "2043482",
-      "reported_at": "2026-10-29T18:01:07+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "NRA VICTORY FUND, INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SMS MESSAGING",
-      "spend_type": "Text",
-      "amount_cents": 72786,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297843"
-    },
-    {
-      "source_id": "4102920261615840560",
-      "file_number": "2043419",
-      "reported_at": "2026-10-29T17:24:12+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "AMERICANS 4 SECURITY PAC",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CABLE TV",
-      "spend_type": "TV",
-      "amount_cents": 9000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297657"
     }
   ]
 }
