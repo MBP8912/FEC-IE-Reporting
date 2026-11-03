@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T20:13:30+00:00",
-  "source_data_generated_at": "2026-11-03T12:19:54-05:00",
+  "checked_at": "2026-11-03T21:10:20+00:00",
+  "source_data_generated_at": "2026-11-03T16:10:14-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -2318,62 +2318,6 @@
       "spend_type": "Digital",
       "amount_cents": 3000000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298960"
-    },
-    {
-      "source_id": "4102920261615840995",
-      "file_number": "2043789",
-      "reported_at": "2026-10-29T20:59:28+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "THE GUARDIAN SUPER PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TELEVISION ADVERTISING",
-      "spend_type": "TV",
-      "amount_cents": 807282,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298818"
-    },
-    {
-      "source_id": "4102920261615417312",
-      "file_number": "2043721",
-      "reported_at": "2026-10-29T20:18:42+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "WORKING AMERICA",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F5",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 636300,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298546"
-    },
-    {
-      "source_id": "4102920261615417388",
-      "file_number": "2043721",
-      "reported_at": "2026-10-29T20:18:42+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "WORKING AMERICA",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F5",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 71100,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298571"
-    },
-    {
-      "source_id": "4102920261615417357",
-      "file_number": "2043721",
-      "reported_at": "2026-10-29T20:18:42+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "WORKING AMERICA",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F5",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 900,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298561"
     }
   ]
 }
