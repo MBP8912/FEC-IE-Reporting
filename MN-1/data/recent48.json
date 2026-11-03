@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T13:31:58+00:00",
+  "checked_at": "2026-11-03T15:10:54+00:00",
   "source_data_generated_at": "2026-11-03T07:07:29-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -470,62 +470,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 1000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290692"
-    },
-    {
-      "source_id": "4102920261615839889",
-      "file_number": "2043134",
-      "reported_at": "2026-10-29T14:14:09+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGING / MEDIA PLACEMENT / MEDIA PRODUCTION",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 1376452,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271614"
-    },
-    {
-      "source_id": "4102920261615839831",
-      "file_number": "2043121",
-      "reported_at": "2026-10-29T14:06:10+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "BATTLEGROUND ALLIANCE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PAID CANVASSING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271565"
-    },
-    {
-      "source_id": "4102920261615839832",
-      "file_number": "2043121",
-      "reported_at": "2026-10-29T14:06:10+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "BATTLEGROUND ALLIANCE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PAID CANVASSING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 3300000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271566"
-    },
-    {
-      "source_id": "4102920261615839830",
-      "file_number": "2043121",
-      "reported_at": "2026-10-29T14:06:10+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "BATTLEGROUND ALLIANCE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "FIELD LITERATURE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 187416,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271565"
     }
   ]
 }

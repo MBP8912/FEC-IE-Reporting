@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T13:31:58+00:00",
+  "checked_at": "2026-11-03T15:10:54+00:00",
   "source_data_generated_at": "2026-11-03T07:07:27-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -2500,20 +2500,6 @@
       "spend_type": "Text",
       "amount_cents": 318262,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945288411"
-    },
-    {
-      "source_id": "4102920261615839811",
-      "file_number": "2043113",
-      "reported_at": "2026-10-29T13:59:33+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "MOMSRISING PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES(ESTIMATE)",
-      "spend_type": "Text",
-      "amount_cents": 150000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271544"
     }
   ]
 }
