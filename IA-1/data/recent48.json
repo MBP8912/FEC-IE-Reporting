@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T01:30:32+00:00",
-  "source_data_generated_at": "2026-11-02T16:04:28-05:00",
+  "checked_at": "2026-11-03T03:12:53+00:00",
+  "source_data_generated_at": "2026-11-02T22:12:47-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -1884,90 +1884,6 @@
       "spend_type": "Mail",
       "amount_cents": 2699136,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271433"
-    },
-    {
-      "source_id": "4102920261615839533",
-      "file_number": "2042895",
-      "reported_at": "2026-10-29T02:24:42+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING - ESTIMATE",
-      "spend_type": "Digital",
-      "amount_cents": 7322619,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945262002"
-    },
-    {
-      "source_id": "4102920261615839415",
-      "file_number": "2042895",
-      "reported_at": "2026-10-29T02:24:42+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION - ESTIMATE",
-      "spend_type": "Production",
-      "amount_cents": 2024032,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261943"
-    },
-    {
-      "source_id": "4102920261615839414",
-      "file_number": "2042895",
-      "reported_at": "2026-10-29T02:24:42+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION - ESTIMATE",
-      "spend_type": "Production",
-      "amount_cents": 769978,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261943"
-    },
-    {
-      "source_id": "4102920261615839537",
-      "file_number": "2042895",
-      "reported_at": "2026-10-29T02:24:42+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION - ESTIMATE",
-      "spend_type": "Production",
-      "amount_cents": 600000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945262004"
-    },
-    {
-      "source_id": "4102920261615839383",
-      "file_number": "2042895",
-      "reported_at": "2026-10-29T02:24:42+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION - ESTIMATE",
-      "spend_type": "Production",
-      "amount_cents": 200000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261927"
-    },
-    {
-      "source_id": "4102920261615839355",
-      "file_number": "2042881",
-      "reported_at": "2026-10-29T02:16:43+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "HMP",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL - ESTIMATE",
-      "spend_type": "Mail",
-      "amount_cents": 4675785,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261895"
     }
   ]
 }
