@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T23:06:48+00:00",
+  "checked_at": "2026-11-03T23:58:12+00:00",
   "source_data_generated_at": "2026-11-03T17:08:36-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -456,20 +456,6 @@
       "spend_type": "Digital",
       "amount_cents": 15000000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299727"
-    },
-    {
-      "source_id": "4103020261616034047",
-      "file_number": "2043979",
-      "reported_at": "2026-10-29T23:44:21+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "TEA PARTY PATRIOTS CITIZENS FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGE MARKETING",
-      "spend_type": "Text",
-      "amount_cents": 750000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299584"
     }
   ]
 }
