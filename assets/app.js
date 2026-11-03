@@ -143,6 +143,11 @@ function groupTable(){
  if(!DATA)return;
  var q=($("group-search").value||"").trim().toLowerCase();
  var groups=DATA.groups.filter(function(g){return g.name.toLowerCase().includes(q)});
+ // The table header is the source of column order; this also keeps the
+ // Mitchell columns aligned while an older CO-5 dataset awaits refresh.
+ var tableKinds=[].slice.call(document.querySelectorAll("#groups-table th button[data-sort]"))
+   .map(function(btn){return btn.dataset.sort})
+   .filter(function(key){return key!=="name"&&key!=="total"});
  groups.sort(function(a,b){
   var cmp=groupSort==="name"?a.name.localeCompare(b.name):Number(a[groupSort]||0)-Number(b[groupSort]||0);
   return sortDesc?-cmp:cmp;
@@ -152,16 +157,16 @@ function groupTable(){
   var g=groups[i],row=e("tr");
   row.append(e("td","group-name",g.name));
   var tdTotal=e("td","num");tdTotal.append(recordButton(g.total,{group:g.name}, ""));row.append(tdTotal);
-  DATA.disposition_order.forEach(function(kind){
+  tableKinds.forEach(function(kind){
     var td=e("td","num");td.append(recordButton(g[kind],{group:g.name,disposition:kind},
       kind.endsWith("_mitchell")?"teal-link":(kind==="support_lawler"||kind==="oppose_conley")?"red-link":"blue-link"));row.append(td);
   });
   body.append(row);
  }
- if(!groups.length){var empty=e("tr");var td=e("td","table-placeholder",q?"No matching groups":"No verified spending groups.");td.colSpan=2+DATA.disposition_order.length;empty.append(td);body.append(empty)}
+ if(!groups.length){var empty=e("tr");var td=e("td","table-placeholder",q?"No matching groups":"No verified spending groups.");td.colSpan=2+tableKinds.length;empty.append(td);body.append(empty)}
  var t=DATA.totals,foot=$("group-footer");foot.replaceChildren();
  var footerRow=e("tr","group-footer");footerRow.append(e("td","","TOTAL"));
- [null].concat(DATA.disposition_order).forEach(function(kind){
+ [null].concat(tableKinds).forEach(function(kind){
   var td=e("td","num");var amount=kind?t[kind]:t.all;
   var color=kind&&kind.endsWith("_mitchell")?"teal-link":
     kind==="support_lawler"||kind==="oppose_conley"?"red-link":"blue-link";
