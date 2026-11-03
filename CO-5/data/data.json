@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T06:16:15-05:00",
+  "generated_at": "2026-11-03T11:17:26-05:00",
   "district": "CO-5",
   "period": {
     "cycle": 2026,
@@ -22,32 +22,45 @@
       "party": "Democratic",
       "surname": "killin",
       "given": "Jessica"
+    },
+    "mitchell": {
+      "name": "Christopher Mitchell",
+      "id": "H4CO05071",
+      "party": "American Constitution",
+      "surname": "mitchell",
+      "given": "christopher"
     }
   },
   "disposition_order": [
     "support_lawler",
     "oppose_conley",
     "support_conley",
-    "oppose_lawler"
+    "oppose_lawler",
+    "support_mitchell",
+    "oppose_mitchell"
   ],
   "disposition_labels": {
     "support_lawler": "Support Crank",
     "oppose_conley": "Oppose Killin",
     "support_conley": "Support Killin",
-    "oppose_lawler": "Oppose Crank"
+    "oppose_lawler": "Oppose Crank",
+    "support_mitchell": "Support Mitchell",
+    "oppose_mitchell": "Oppose Mitchell"
   },
   "colors": {
     "support_lawler": "#C85553",
     "oppose_conley": "#EBA59A",
     "support_conley": "#396BBA",
-    "oppose_lawler": "#8EB4ED"
+    "oppose_lawler": "#8EB4ED",
+    "support_mitchell": "#18877B",
+    "oppose_mitchell": "#8ABDB3"
   },
   "counts": {
     "api_rows": 249,
     "pages": 3,
-    "included_rows": 220,
+    "included_rows": 227,
     "excluded": {
-      "other_candidate": 8,
+      "other_candidate": 1,
       "memo_item": 3,
       "other_election": 3,
       "repeated_transaction_or_amendment": 14,
@@ -61,7 +74,10 @@
     "oppose_lawler": 249772523,
     "benefit_lawler": 580521257,
     "benefit_conley": 269090250,
-    "all": 849611507
+    "all": 854297548,
+    "support_mitchell": 4686041,
+    "oppose_mitchell": 0,
+    "involving_mitchell": 4686041
   },
   "daily": [
     {
@@ -70,6 +86,8 @@
       "oppose_conley": 0,
       "support_conley": 1517,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 1517
     },
     {
@@ -78,6 +96,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 4300000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 4300000
     },
     {
@@ -86,6 +106,8 @@
       "oppose_conley": 0,
       "support_conley": 61171,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 61171
     },
     {
@@ -94,6 +116,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 182250,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 182250
     },
     {
@@ -102,6 +126,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 4300000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 4300000
     },
     {
@@ -110,6 +136,8 @@
       "oppose_conley": 0,
       "support_conley": 560,
       "oppose_lawler": 10338200,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 10338760
     },
     {
@@ -118,6 +146,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 6850080,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 6850080
     },
     {
@@ -126,6 +156,8 @@
       "oppose_conley": 215210,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 430420
     },
     {
@@ -134,6 +166,8 @@
       "oppose_conley": 13027000,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 13027000
     },
     {
@@ -142,6 +176,8 @@
       "oppose_conley": 18702500,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 37485000
     },
     {
@@ -150,6 +186,8 @@
       "oppose_conley": 44434000,
       "support_conley": 0,
       "oppose_lawler": 11145600,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 55579600
     },
     {
@@ -158,6 +196,8 @@
       "oppose_conley": 786600,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 786600
     },
     {
@@ -166,6 +206,8 @@
       "oppose_conley": 31260892,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 31456784
     },
     {
@@ -174,6 +216,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 956004,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 956004
     },
     {
@@ -182,6 +226,8 @@
       "oppose_conley": 6513500,
       "support_conley": 1088,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 6514588
     },
     {
@@ -190,6 +236,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 11145600,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 15128665
     },
     {
@@ -198,6 +246,8 @@
       "oppose_conley": 37578500,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 37578500
     },
     {
@@ -206,6 +256,8 @@
       "oppose_conley": 781000,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 781000
     },
     {
@@ -214,6 +266,8 @@
       "oppose_conley": 937102,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 8910648
     },
     {
@@ -222,6 +276,8 @@
       "oppose_conley": 32277352,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 34789310
     },
     {
@@ -230,6 +286,8 @@
       "oppose_conley": 1458794,
       "support_conley": 0,
       "oppose_lawler": 700000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 12532148
     },
     {
@@ -238,6 +296,8 @@
       "oppose_conley": 10226100,
       "support_conley": 31322,
       "oppose_lawler": 37576,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 13703698
     },
     {
@@ -246,6 +306,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 25000000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 25000000
     },
     {
@@ -254,6 +316,8 @@
       "oppose_conley": 7754502,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 15509003
     },
     {
@@ -262,6 +326,8 @@
       "oppose_conley": 0,
       "support_conley": 11059776,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 11059776
     },
     {
@@ -270,6 +336,8 @@
       "oppose_conley": 2899381,
       "support_conley": 0,
       "oppose_lawler": 500000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 9216409
     },
     {
@@ -278,6 +346,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 23328000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 30382655
     },
     {
@@ -286,6 +356,8 @@
       "oppose_conley": 6321204,
       "support_conley": 0,
       "oppose_lawler": 9844290,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 16165494
     },
     {
@@ -294,6 +366,8 @@
       "oppose_conley": 10250999,
       "support_conley": 0,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 25886432
     },
     {
@@ -302,6 +376,8 @@
       "oppose_conley": 33650000,
       "support_conley": 0,
       "oppose_lawler": 17957851,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 55257851
     },
     {
@@ -310,6 +386,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 6512165,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 13137697
     },
     {
@@ -318,6 +396,8 @@
       "oppose_conley": 3773062,
       "support_conley": 65667,
       "oppose_lawler": 3702255,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 12133972
     },
     {
@@ -326,6 +406,8 @@
       "oppose_conley": 0,
       "support_conley": 68347,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 5703075
     },
     {
@@ -334,6 +416,8 @@
       "oppose_conley": 108114858,
       "support_conley": 421286,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 125440326
     },
     {
@@ -342,6 +426,8 @@
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 34403092,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 39280141
     },
     {
@@ -350,6 +436,8 @@
       "oppose_conley": 3764200,
       "support_conley": 0,
       "oppose_lawler": 120750,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 20162079
     },
     {
@@ -358,6 +446,8 @@
       "oppose_conley": 16135440,
       "support_conley": 1105533,
       "oppose_lawler": 7421510,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 40797922
     },
     {
@@ -366,6 +456,8 @@
       "oppose_conley": 255158,
       "support_conley": 7796,
       "oppose_lawler": 2283360,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 4185050
     },
     {
@@ -374,6 +466,8 @@
       "oppose_conley": 0,
       "support_conley": 2195,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 2195
     },
     {
@@ -382,7 +476,9 @@
       "oppose_conley": 27000000,
       "support_conley": 1851825,
       "oppose_lawler": 388341,
-      "total": 29240166
+      "support_mitchell": 332141,
+      "oppose_mitchell": 0,
+      "total": 29572307
     },
     {
       "date": "2026-10-27",
@@ -390,7 +486,9 @@
       "oppose_conley": 0,
       "support_conley": 6906,
       "oppose_lawler": 48212802,
-      "total": 50288300
+      "support_mitchell": 294992,
+      "oppose_mitchell": 0,
+      "total": 50583292
     },
     {
       "date": "2026-10-28",
@@ -398,7 +496,9 @@
       "oppose_conley": 0,
       "support_conley": 1692,
       "oppose_lawler": 12741914,
-      "total": 13037292
+      "support_mitchell": 414610,
+      "oppose_mitchell": 0,
+      "total": 13451902
     },
     {
       "date": "2026-10-29",
@@ -406,7 +506,9 @@
       "oppose_conley": 0,
       "support_conley": 4576836,
       "oppose_lawler": 5995891,
-      "total": 10572727
+      "support_mitchell": 1306044,
+      "oppose_mitchell": 0,
+      "total": 11878771
     },
     {
       "date": "2026-10-30",
@@ -414,7 +516,9 @@
       "oppose_conley": 0,
       "support_conley": 21758,
       "oppose_lawler": 1174690,
-      "total": 1196448
+      "support_mitchell": 1606402,
+      "oppose_mitchell": 0,
+      "total": 2802850
     },
     {
       "date": "2026-10-31",
@@ -422,7 +526,9 @@
       "oppose_conley": 0,
       "support_conley": 14288,
       "oppose_lawler": 230302,
-      "total": 244590
+      "support_mitchell": 731852,
+      "oppose_mitchell": 0,
+      "total": 976442
     },
     {
       "date": "2026-11-01",
@@ -430,6 +536,8 @@
       "oppose_conley": 0,
       "support_conley": 18164,
       "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0,
       "total": 18164
     }
   ],
@@ -440,7 +548,9 @@
       "support_lawler": 40415750,
       "oppose_conley": 260799350,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "HMP",
@@ -448,7 +558,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 128874484
+      "oppose_lawler": 128874484,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "CONSERVATIVES FOR AMERICAN EXCELLENCE INC.",
@@ -456,7 +568,9 @@
       "support_lawler": 0,
       "oppose_conley": 102480130,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "AMERICANS FOR PROSPERITY ACTION, INC. (AFP ACTION) DBA CVA ACTION AND DBA LIBRE ACTION",
@@ -464,7 +578,9 @@
       "support_lawler": 45573511,
       "oppose_conley": 37342965,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "AB PAC",
@@ -472,7 +588,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 11059776,
-      "oppose_lawler": 40087330
+      "oppose_lawler": 40087330,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "WOMEN VOTE",
@@ -480,7 +598,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 47913500
+      "oppose_lawler": 47913500,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "CIVIC RENEWAL FUND INC.",
@@ -488,7 +608,9 @@
       "support_lawler": 34025443,
       "oppose_conley": 7523705,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "VOTEVETS",
@@ -496,7 +618,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 405378,
-      "oppose_lawler": 24328000
+      "oppose_lawler": 24328000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "AMERICA FIRST AGRICULTURE ACTION INC.",
@@ -504,7 +628,9 @@
       "support_lawler": 20698422,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "DEFENDING MAIN STREET SUPERPAC INC.",
@@ -512,7 +638,19 @@
       "support_lawler": 8914560,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
+    },
+    {
+      "name": "OUR HERITAGE MATTERS",
+      "total": 7409441,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 2723400,
+      "support_mitchell": 4686041,
+      "oppose_mitchell": 0
     },
     {
       "name": "BUILDING AMERICAN GREATNESS PAC",
@@ -520,7 +658,9 @@
       "support_lawler": 3650000,
       "oppose_conley": 3650000,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "MAGA INC.",
@@ -528,7 +668,9 @@
       "support_lawler": 0,
       "oppose_conley": 6321204,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "AMERICAN LIBERTY FOUNDATION",
@@ -536,7 +678,9 @@
       "support_lawler": 5063221,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "BATTLEGROUND ALLIANCE PAC",
@@ -544,7 +688,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 2500000,
-      "oppose_lawler": 2500000
+      "oppose_lawler": 2500000,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "WORKING AMERICA",
@@ -552,7 +698,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 3338400,
-      "oppose_lawler": 1371900
+      "oppose_lawler": 1371900,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "SAVE AMERICAN FREEDOM",
@@ -560,7 +708,9 @@
       "support_lawler": 3757200,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "BUILDING TOGETHER",
@@ -568,15 +718,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 1443347,
-      "oppose_lawler": 1460999
-    },
-    {
-      "name": "OUR HERITAGE MATTERS",
-      "total": 2723400,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 2723400
+      "oppose_lawler": 1460999,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "PRINCIPLED PATRIOTS PAC",
@@ -584,7 +728,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 392160
+      "oppose_lawler": 392160,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "NATIONAL RIFLE ASSOCIATION OF AMERICA POLITICAL VICTORY FUND",
@@ -592,7 +738,9 @@
       "support_lawler": 305796,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "NEIGHBOR VOICES PAC",
@@ -600,7 +748,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 227433,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "FIELD TEAM 6, INC.",
@@ -608,7 +758,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 173659,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "INDIVISIBLE ACTION",
@@ -616,7 +768,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 164161,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "SCIENCE VICTORY FUND",
@@ -624,7 +778,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 2408,
-      "oppose_lawler": 120750
+      "oppose_lawler": 120750,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     },
     {
       "name": "MOMSRISING PAC",
@@ -632,7 +788,9 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 3165,
-      "oppose_lawler": 0
+      "oppose_lawler": 0,
+      "support_mitchell": 0,
+      "oppose_mitchell": 0
     }
   ],
   "pivot": [
@@ -1081,6 +1239,39 @@
           ]
         }
       ]
+    },
+    {
+      "key": "support_mitchell",
+      "name": "Support Mitchell",
+      "total": 4686041,
+      "categories": [
+        {
+          "name": "Digital",
+          "total": 4680357,
+          "groups": [
+            {
+              "name": "OUR HERITAGE MATTERS",
+              "amount_cents": 4680357
+            }
+          ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 5684,
+          "groups": [
+            {
+              "name": "OUR HERITAGE MATTERS",
+              "amount_cents": 5684
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "oppose_mitchell",
+      "name": "Oppose Mitchell",
+      "total": 0,
+      "categories": []
     }
   ],
   "transactions": [
@@ -5340,6 +5531,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616034061",
+      "original_sub_id": "",
+      "transaction_id": "SE.4406",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-26",
+      "amount_cents": 332141,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2043986,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299606",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615839004",
       "original_sub_id": "",
       "transaction_id": "501359869",
@@ -5501,6 +5715,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616034456",
+      "original_sub_id": "",
+      "transaction_id": "SE.4487",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-27",
+      "amount_cents": 294992,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044076,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300016",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103020261616034569",
       "original_sub_id": "",
       "transaction_id": "500693589",
@@ -5659,6 +5896,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261378",
       "election_type": "G2026",
       "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4103020261616034688",
+      "original_sub_id": "",
+      "transaction_id": "SE.4597",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-28",
+      "amount_cents": 414610,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-29",
+      "file_number": 2044122,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300200",
+      "election_type": "G2026",
+      "original_category_code": "004",
       "amendment_indicator": "N"
     },
     {
@@ -5961,6 +6221,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4103020261616035719",
+      "original_sub_id": "",
+      "transaction_id": "SE.4721",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-29",
+      "amount_cents": 1306044,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-30",
+      "file_number": 2044582,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304449",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4110120261616134155",
       "original_sub_id": "",
       "transaction_id": "SE.4881",
@@ -6025,6 +6308,29 @@
       "filing_date": "2026-10-30",
       "file_number": 2044660,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305056",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110120261616134154",
+      "original_sub_id": "",
+      "transaction_id": "SE.4880",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-30",
+      "amount_cents": 1606402,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-10-31",
+      "file_number": 2045249,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306885",
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
@@ -6122,6 +6428,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228058",
+      "original_sub_id": "",
+      "transaction_id": "SE.5036",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-31",
+      "amount_cents": 726168,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "CHASE GROVE LLC",
+      "description": "DIGITAL ADVERTISISING",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045632,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308028",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228113",
+      "original_sub_id": "",
+      "transaction_id": "SE.5093",
+      "candidate": "mitchell",
+      "candidate_id": "H4CO05071",
+      "disposition": "support_mitchell",
+      "date": "2026-10-31",
+      "amount_cents": 5684,
+      "group": "OUR HERITAGE MATTERS",
+      "group_id": "C00963736",
+      "payee": "GOOD WAY ASSOCIATES",
+      "description": "TELEPHONE ADVERTISING",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045632,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308055",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4110220261616229318",
       "original_sub_id": "",
       "transaction_id": "500014711",
@@ -6151,6 +6503,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-03T11:16:14.156772+00:00"
+    "scan_started_at": "2026-11-03T16:17:22.794553+00:00"
   }
 }

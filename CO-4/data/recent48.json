@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T15:36:08+00:00",
+  "checked_at": "2026-11-03T16:17:36+00:00",
   "source_data_generated_at": "2026-11-03T10:10:53-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -358,34 +358,6 @@
       "spend_type": "Digital",
       "amount_cents": 1800,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298560"
-    },
-    {
-      "source_id": "4102920261615840278",
-      "file_number": "2043288",
-      "reported_at": "2026-10-29T15:52:10+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "PROTECT FREEDOM POLITICAL ACTION COMMITTEE",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL MEDIA",
-      "spend_type": "Digital",
-      "amount_cents": 10000000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945288414"
-    },
-    {
-      "source_id": "4102920261615840284",
-      "file_number": "2043288",
-      "reported_at": "2026-10-29T15:52:10+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "PROTECT FREEDOM POLITICAL ACTION COMMITTEE",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL MEDIA",
-      "spend_type": "Digital",
-      "amount_cents": 2500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945288418"
     }
   ]
 }

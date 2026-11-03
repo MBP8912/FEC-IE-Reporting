@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T15:36:08+00:00",
+  "checked_at": "2026-11-03T16:17:36+00:00",
   "source_data_generated_at": "2026-11-03T10:10:47-05:00",
   "unresolved_recent_items": 33,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1716,76 +1716,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 16200,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297296"
-    },
-    {
-      "source_id": "4102920261615840383",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 6000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290703"
-    },
-    {
-      "source_id": "4102920261615840388",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST MIKE LAWLER",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290706"
-    },
-    {
-      "source_id": "4102920261615840381",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290702"
-    },
-    {
-      "source_id": "4102920261615840389",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST MIKE LAWLER",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290706"
-    },
-    {
-      "source_id": "4102920261615840382",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CAIT CONLEY",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290703"
     }
   ]
 }

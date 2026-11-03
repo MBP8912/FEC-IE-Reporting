@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T15:36:08+00:00",
+  "checked_at": "2026-11-03T16:17:36+00:00",
   "source_data_generated_at": "2026-11-03T07:07:29-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -400,76 +400,6 @@
       "spend_type": "Digital",
       "amount_cents": 70200,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298574"
-    },
-    {
-      "source_id": "4102920261615840359",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JAKE JOHNSON",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 12000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290691"
-    },
-    {
-      "source_id": "4102920261615840362",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST BRAD FINSTAD",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 9800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290693"
-    },
-    {
-      "source_id": "4102920261615840361",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JAKE JOHNSON",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 9800,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290692"
-    },
-    {
-      "source_id": "4102920261615840363",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST BRAD FINSTAD",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 1000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290693"
-    },
-    {
-      "source_id": "4102920261615840360",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JAKE JOHNSON",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 1000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290692"
     }
   ]
 }

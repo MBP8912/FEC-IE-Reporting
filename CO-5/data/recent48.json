@@ -4,13 +4,16 @@
   "window_hours": 48,
   "candidate_names": {
     "lawler": "Crank",
-    "conley": "Killin"
+    "conley": "Killin",
+    "mitchell": "Mitchell"
   },
   "disposition_labels": {
     "support_lawler": "Support Crank",
     "oppose_conley": "Oppose Killin",
     "support_conley": "Support Killin",
-    "oppose_lawler": "Oppose Crank"
+    "oppose_lawler": "Oppose Crank",
+    "support_mitchell": "Support Mitchell",
+    "oppose_mitchell": "Oppose Mitchell"
   },
   "notice_only": true,
   "selection": "original_expeditious_24_48_hour_IE_notices",
@@ -18,8 +21,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T15:36:08+00:00",
-  "source_data_generated_at": "2026-11-03T06:16:15-05:00",
+  "checked_at": "2026-11-03T16:17:36+00:00",
+  "source_data_generated_at": "2026-11-03T11:17:26-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -36,6 +39,20 @@
       "spend_type": "Digital",
       "amount_cents": 18164,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945322084"
+    },
+    {
+      "source_id": "4110220261616228058",
+      "file_number": "2045632",
+      "reported_at": "2026-11-02T02:07:18+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISISING",
+      "spend_type": "Digital",
+      "amount_cents": 726168,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308028"
     },
     {
       "source_id": "4110220261616228057",
@@ -62,6 +79,20 @@
       "filing_form": "F24",
       "purpose": "TELEPHONE ADVERTISING",
       "spend_type": "Polling",
+      "amount_cents": 5684,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308055"
+    },
+    {
+      "source_id": "4110220261616228113",
+      "file_number": "2045632",
+      "reported_at": "2026-11-02T02:07:18+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TELEPHONE ADVERTISING",
+      "spend_type": "Other / Unclassified",
       "amount_cents": 5684,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308055"
     },
@@ -192,6 +223,20 @@
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307774"
     },
     {
+      "source_id": "4110120261616134154",
+      "file_number": "2045249",
+      "reported_at": "2026-11-01T02:56:11+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 1606402,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306885"
+    },
+    {
       "source_id": "4110120261616134155",
       "file_number": "2045249",
       "reported_at": "2026-11-01T02:56:11+00:00",
@@ -318,6 +363,20 @@
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304507"
     },
     {
+      "source_id": "4103020261616035719",
+      "file_number": "2044582",
+      "reported_at": "2026-10-30T21:36:55+00:00",
+      "expenditure_date": "2026-10-29",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 1306044,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304449"
+    },
+    {
       "source_id": "4103020261616035718",
       "file_number": "2044582",
       "reported_at": "2026-10-30T21:36:55+00:00",
@@ -430,6 +489,20 @@
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300426"
     },
     {
+      "source_id": "4103020261616034688",
+      "file_number": "2044122",
+      "reported_at": "2026-10-30T02:55:42+00:00",
+      "expenditure_date": "2026-10-28",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 414610,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300200"
+    },
+    {
       "source_id": "4103020261616034687",
       "file_number": "2044122",
       "reported_at": "2026-10-30T02:55:42+00:00",
@@ -486,6 +559,20 @@
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300018"
     },
     {
+      "source_id": "4103020261616034456",
+      "file_number": "2044076",
+      "reported_at": "2026-10-30T01:47:59+00:00",
+      "expenditure_date": "2026-10-27",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 294992,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300016"
+    },
+    {
       "source_id": "4103020261616034083",
       "file_number": "2043986",
       "reported_at": "2026-10-29T23:56:55+00:00",
@@ -498,6 +585,20 @@
       "spend_type": "Digital",
       "amount_cents": 332141,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299617"
+    },
+    {
+      "source_id": "4103020261616034061",
+      "file_number": "2043986",
+      "reported_at": "2026-10-29T23:56:55+00:00",
+      "expenditure_date": "2026-10-26",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "support_mitchell",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 332141,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299606"
     },
     {
       "source_id": "4102920261615841297",
@@ -582,48 +683,6 @@
       "spend_type": "Digital",
       "amount_cents": 11200,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298585"
-    },
-    {
-      "source_id": "4102920261615840461",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 14625,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290742"
-    },
-    {
-      "source_id": "4102920261615840487",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 10000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290755"
-    },
-    {
-      "source_id": "4102920261615840460",
-      "file_number": "2043297",
-      "reported_at": "2026-10-29T15:55:48+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 6000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945290742"
     }
   ]
 }
