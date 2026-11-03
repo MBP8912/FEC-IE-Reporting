@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T04:13:46-05:00",
+  "generated_at": "2026-11-03T08:31:58-05:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 172,
+    "api_rows": 182,
     "pages": 2,
-    "included_rows": 143,
+    "included_rows": 153,
     "excluded": {
       "other_election": 19,
       "repeated_transaction_or_amendment": 7,
@@ -55,11 +55,11 @@
   "totals": {
     "support_lawler": 38203839,
     "oppose_conley": 602307589,
-    "support_conley": 10133568,
-    "oppose_lawler": 233534784,
+    "support_conley": 10265058,
+    "oppose_lawler": 233549552,
     "benefit_lawler": 640511428,
-    "benefit_conley": 243668352,
-    "all": 884179780
+    "benefit_conley": 243814610,
+    "all": 884326038
   },
   "daily": [
     {
@@ -319,6 +319,14 @@
       "total": 141641129
     },
     {
+      "date": "2026-09-30",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 7803,
+      "oppose_lawler": 14768,
+      "total": 22571
+    },
+    {
       "date": "2026-10-01",
       "support_lawler": 0,
       "oppose_conley": 1300000,
@@ -402,17 +410,17 @@
       "date": "2026-10-15",
       "support_lawler": 0,
       "oppose_conley": 128714,
-      "support_conley": 0,
+      "support_conley": 12198,
       "oppose_lawler": 0,
-      "total": 128714
+      "total": 140912
     },
     {
       "date": "2026-10-16",
       "support_lawler": 6045401,
       "oppose_conley": 28000000,
-      "support_conley": 0,
+      "support_conley": 6806,
       "oppose_lawler": 0,
-      "total": 34045401
+      "total": 34052207
     },
     {
       "date": "2026-10-19",
@@ -439,12 +447,28 @@
       "total": 1300000
     },
     {
+      "date": "2026-10-22",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 10,
+      "oppose_lawler": 0,
+      "total": 10
+    },
+    {
       "date": "2026-10-23",
       "support_lawler": 1845242,
       "oppose_conley": 21841372,
-      "support_conley": 0,
+      "support_conley": 7043,
       "oppose_lawler": 0,
-      "total": 23686614
+      "total": 23693657
+    },
+    {
+      "date": "2026-10-24",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 220,
+      "oppose_lawler": 0,
+      "total": 220
     },
     {
       "date": "2026-10-26",
@@ -458,9 +482,9 @@
       "date": "2026-10-27",
       "support_lawler": 575976,
       "oppose_conley": 0,
-      "support_conley": 0,
+      "support_conley": 7113,
       "oppose_lawler": 45577878,
-      "total": 46153854
+      "total": 46160967
     },
     {
       "date": "2026-10-28",
@@ -469,6 +493,14 @@
       "support_conley": 0,
       "oppose_lawler": 9937878,
       "total": 9937878
+    },
+    {
+      "date": "2026-11-01",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 90297,
+      "oppose_lawler": 0,
+      "total": 90297
     }
   ],
   "groups": [
@@ -578,10 +610,10 @@
     },
     {
       "name": "FIELD TEAM 6, INC.",
-      "total": 95873,
+      "total": 219560,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 95873,
+      "support_conley": 219560,
       "oppose_lawler": 0
     },
     {
@@ -591,6 +623,14 @@
       "oppose_conley": 0,
       "support_conley": 34583,
       "oppose_lawler": 0
+    },
+    {
+      "name": "BUILDING TOGETHER",
+      "total": 22571,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 7803,
+      "oppose_lawler": 14768
     },
     {
       "name": "BCF ACTION PAC",
@@ -829,11 +869,11 @@
     {
       "key": "support_conley",
       "name": "Support Gray",
-      "total": 10133568,
+      "total": 10265058,
       "categories": [
         {
           "name": "Digital",
-          "total": 236931,
+          "total": 270321,
           "groups": [
             {
               "name": "INDIGO PAC",
@@ -841,7 +881,7 @@
             },
             {
               "name": "FIELD TEAM 6, INC.",
-              "amount_cents": 14322
+              "amount_cents": 47712
             }
           ]
         },
@@ -871,11 +911,11 @@
         },
         {
           "name": "Text",
-          "total": 81551,
+          "total": 171848,
           "groups": [
             {
               "name": "FIELD TEAM 6, INC.",
-              "amount_cents": 81551
+              "amount_cents": 171848
             }
           ]
         },
@@ -908,13 +948,23 @@
               "amount_cents": 13800
             }
           ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 7803,
+          "groups": [
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 7803
+            }
+          ]
         }
       ]
     },
     {
       "key": "oppose_lawler",
       "name": "Oppose Lincoln",
-      "total": 233534784,
+      "total": 233549552,
       "categories": [
         {
           "name": "TV",
@@ -951,6 +1001,16 @@
             {
               "name": "HMP",
               "amount_cents": 8484343
+            }
+          ]
+        },
+        {
+          "name": "Other / Unclassified",
+          "total": 14768,
+          "groups": [
+            {
+              "name": "BUILDING TOGETHER",
+              "amount_cents": 14768
             }
           ]
         }
@@ -2730,6 +2790,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228625",
+      "original_sub_id": "",
+      "transaction_id": "500034177",
+      "candidate": "lawler",
+      "candidate_id": "H4CA09093",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-30",
+      "amount_cents": 14768,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777341",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228626",
+      "original_sub_id": "",
+      "transaction_id": "500034178",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 7803,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777341",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4100320261600422073",
       "original_sub_id": "",
       "transaction_id": "SE24.5943",
@@ -3650,6 +3756,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228436",
+      "original_sub_id": "",
+      "transaction_id": "500280645",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-15",
+      "amount_cents": 3537,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945308995",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228437",
+      "original_sub_id": "",
+      "transaction_id": "500280646",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-15",
+      "amount_cents": 8661,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945308995",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102320261615119215",
       "original_sub_id": "",
       "transaction_id": "SE24.6568",
@@ -3670,6 +3822,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944964300",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228440",
+      "original_sub_id": "",
+      "transaction_id": "500280647",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-16",
+      "amount_cents": 6806,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945308997",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -3972,6 +4147,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228449",
+      "original_sub_id": "",
+      "transaction_id": "500280648",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-22",
+      "amount_cents": 10,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309001",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615839930",
       "original_sub_id": "",
       "transaction_id": "SE24.37692",
@@ -4041,6 +4239,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228451",
+      "original_sub_id": "",
+      "transaction_id": "500280649",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-23",
+      "amount_cents": 7043,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309002",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615839900",
       "original_sub_id": "",
       "transaction_id": "SE24.37801",
@@ -4107,6 +4328,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298821",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228458",
+      "original_sub_id": "",
+      "transaction_id": "500280650",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-24",
+      "amount_cents": 220,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309006",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -4202,6 +4446,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228468",
+      "original_sub_id": "",
+      "transaction_id": "500280651",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-10-27",
+      "amount_cents": 7113,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309011",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102920261615838323",
       "original_sub_id": "",
       "transaction_id": "SE.1196904.2",
@@ -4246,6 +4513,29 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228492",
+      "original_sub_id": "",
+      "transaction_id": "500280652",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-11-01",
+      "amount_cents": 90297,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: SMS TEXTING",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309023",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -4254,6 +4544,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 2,
-    "scan_started_at": "2026-11-03T09:13:43.455942+00:00"
+    "scan_started_at": "2026-11-03T13:31:52.373123+00:00"
   }
 }

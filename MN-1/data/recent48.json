@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "MN-1",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,109 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T12:07:32+00:00",
+  "checked_at": "2026-11-03T13:31:58+00:00",
   "source_data_generated_at": "2026-11-03T07:07:29-05:00",
-  "unresolved_recent_items": 7,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110220261616228503",
+      "file_number": "2045767",
+      "reported_at": "2026-11-02T18:02:24+00:00",
+      "expenditure_date": "2026-11-01",
+      "spender": "FIELD TEAM 6, INC.",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "ESTIMATE: SMS TEXTING",
+      "spend_type": "Text",
+      "amount_cents": 317943,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309028"
+    },
+    {
+      "source_id": "4110220261616228484",
+      "file_number": "2045767",
+      "reported_at": "2026-11-02T18:02:24+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "FIELD TEAM 6, INC.",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "ESTIMATE: EMAIL SERVICES",
+      "spend_type": "Digital",
+      "amount_cents": 7427,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309019"
+    },
+    {
+      "source_id": "4110220261616228483",
+      "file_number": "2045767",
+      "reported_at": "2026-11-02T18:02:24+00:00",
+      "expenditure_date": "2026-10-30",
+      "spender": "FIELD TEAM 6, INC.",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "ESTIMATE: EMAIL SERVICES",
+      "spend_type": "Digital",
+      "amount_cents": 577,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309018"
+    },
+    {
+      "source_id": "4110220261616228005",
+      "file_number": "2045606",
+      "reported_at": "2026-11-02T00:41:01+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "TAKEACTION MN FEDERAL FUND",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 49400,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307798"
+    },
+    {
+      "source_id": "4110220261616228004",
+      "file_number": "2045606",
+      "reported_at": "2026-11-02T00:41:01+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "TAKEACTION MN FEDERAL FUND",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 49400,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307798"
+    },
+    {
+      "source_id": "4110220261616228009",
+      "file_number": "2045606",
+      "reported_at": "2026-11-02T00:41:01+00:00",
+      "expenditure_date": "2026-11-01",
+      "spender": "TAKEACTION MN FEDERAL FUND",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 39400,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307800"
+    },
+    {
+      "source_id": "4110220261616228008",
+      "file_number": "2045606",
+      "reported_at": "2026-11-02T00:41:01+00:00",
+      "expenditure_date": "2026-11-01",
+      "spender": "TAKEACTION MN FEDERAL FUND",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 39400,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307800"
+    },
     {
       "source_id": "4110120261616134011",
       "file_number": "2045209",
@@ -428,34 +526,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 187416,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271565"
-    },
-    {
-      "source_id": "4102920261615839735",
-      "file_number": "2043057",
-      "reported_at": "2026-10-29T13:20:55+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "CLEAN WAVE",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ADDRESSING, PREPARING, DELIVERING POSTCARD MAILING AND POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 1349350,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271405"
-    },
-    {
-      "source_id": "4102920261615839736",
-      "file_number": "2043057",
-      "reported_at": "2026-10-29T13:20:55+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "CLEAN WAVE",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING OF POSTCARDS",
-      "spend_type": "Mail",
-      "amount_cents": 602368,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271405"
     }
   ]
 }

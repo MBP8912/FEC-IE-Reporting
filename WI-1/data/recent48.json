@@ -18,11 +18,39 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T12:07:32+00:00",
-  "source_data_generated_at": "2026-11-03T04:13:42-05:00",
+  "checked_at": "2026-11-03T13:31:58+00:00",
+  "source_data_generated_at": "2026-11-03T08:31:51-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110220261616158126",
+      "file_number": "2045865",
+      "reported_at": "2026-11-02T21:13:49+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "YOUTH CIVIC ACCELERATOR INC.",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F5",
+      "purpose": "PHONE BANK",
+      "spend_type": "Other / Unclassified",
+      "amount_cents": 1184400,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945310220"
+    },
+    {
+      "source_id": "4110220261616228153",
+      "file_number": "2045649",
+      "reported_at": "2026-11-02T02:57:31+00:00",
+      "expenditure_date": "2026-11-01",
+      "spender": "AMERICAN MAJORITY ACTION PAC",
+      "disposition": "support_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CONTRACTED CANVASSING, TEXT MESSAGING, PHONE BANKING, AND STAFF TIME",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 140755,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308122"
+    },
     {
       "source_id": "4103120261616077487",
       "file_number": "2045127",
@@ -680,20 +708,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 213781,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271656"
-    },
-    {
-      "source_id": "4102920261615839731",
-      "file_number": "2043049",
-      "reported_at": "2026-10-29T13:17:10+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING  / POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 6603898,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271382"
     }
   ]
 }

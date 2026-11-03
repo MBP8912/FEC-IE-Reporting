@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "CO-5",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,53 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T12:07:32+00:00",
+  "checked_at": "2026-11-03T13:31:58+00:00",
   "source_data_generated_at": "2026-11-03T06:16:15-05:00",
-  "unresolved_recent_items": 3,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110220261616229318",
+      "file_number": "2045951",
+      "reported_at": "2026-11-02T23:02:46+00:00",
+      "expenditure_date": "2026-11-01",
+      "spender": "VOTEVETS",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
+      "spend_type": "Digital",
+      "amount_cents": 18164,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945322084"
+    },
+    {
+      "source_id": "4110220261616228057",
+      "file_number": "2045632",
+      "reported_at": "2026-11-02T02:07:18+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "DIGITAL ADVERTISING",
+      "spend_type": "Digital",
+      "amount_cents": 224618,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308027"
+    },
+    {
+      "source_id": "4110220261616228112",
+      "file_number": "2045632",
+      "reported_at": "2026-11-02T02:07:18+00:00",
+      "expenditure_date": "2026-10-31",
+      "spender": "OUR HERITAGE MATTERS",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "TELEPHONE ADVERTISING",
+      "spend_type": "Polling",
+      "amount_cents": 5684,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308055"
+    },
     {
       "source_id": "4110120261616134767",
       "file_number": "2045589",
@@ -638,20 +680,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 255158,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271638"
-    },
-    {
-      "source_id": "4102920261615839713",
-      "file_number": "2043049",
-      "reported_at": "2026-10-29T13:17:10+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "CIVIC RENEWAL FUND INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PRINTING  / POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 5634727,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271373"
     }
   ]
 }

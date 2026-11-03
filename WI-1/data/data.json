@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T04:13:42-05:00",
+  "generated_at": "2026-11-03T08:31:51-05:00",
   "district": "WI-1",
   "period": {
     "cycle": 2026,
@@ -43,24 +43,24 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 266,
+    "api_rows": 270,
     "pages": 3,
-    "included_rows": 250,
+    "included_rows": 253,
     "excluded": {
       "other_candidate": 2,
       "memo_item": 1,
-      "repeated_transaction_or_amendment": 9,
+      "repeated_transaction_or_amendment": 10,
       "notice_regular_duplicates": 4
     }
   },
   "totals": {
-    "support_lawler": 401632432,
+    "support_lawler": 401773187,
     "oppose_conley": 617182414,
-    "support_conley": 164748613,
-    "oppose_lawler": 605511223,
-    "benefit_lawler": 1018814846,
-    "benefit_conley": 770259836,
-    "all": 1789074682
+    "support_conley": 164693962,
+    "oppose_lawler": 605559692,
+    "benefit_lawler": 1018955601,
+    "benefit_conley": 770253654,
+    "all": 1789209255
   },
   "daily": [
     {
@@ -243,9 +243,9 @@
       "date": "2026-09-30",
       "support_lawler": 1951023,
       "oppose_conley": 1951024,
-      "support_conley": 117569,
-      "oppose_lawler": 0,
-      "total": 4019616
+      "support_conley": 143518,
+      "oppose_lawler": 48469,
+      "total": 4094034
     },
     {
       "date": "2026-10-01",
@@ -435,9 +435,9 @@
       "date": "2026-10-28",
       "support_lawler": 9954595,
       "oppose_conley": 18808652,
-      "support_conley": 4425343,
+      "support_conley": 3160343,
       "oppose_lawler": 17853652,
-      "total": 51042242
+      "total": 49777242
     },
     {
       "date": "2026-10-29",
@@ -462,6 +462,22 @@
       "support_conley": 0,
       "oppose_lawler": 0,
       "total": 302984
+    },
+    {
+      "date": "2026-11-01",
+      "support_lawler": 140755,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 0,
+      "total": 140755
+    },
+    {
+      "date": "2026-11-02",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1184400,
+      "oppose_lawler": 0,
+      "total": 1184400
     }
   ],
   "groups": [
@@ -499,8 +515,8 @@
     },
     {
       "name": "AMERICAN MAJORITY ACTION PAC",
-      "total": 102172327,
-      "support_lawler": 102172327,
+      "total": 102313082,
+      "support_lawler": 102313082,
       "oppose_conley": 0,
       "support_conley": 0,
       "oppose_lawler": 0
@@ -659,11 +675,11 @@
     },
     {
       "name": "BUILDING TOGETHER",
-      "total": 2117280,
+      "total": 2191698,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 1058640,
-      "oppose_lawler": 1058640
+      "support_conley": 1084589,
+      "oppose_lawler": 1107109
     },
     {
       "name": "TEA PARTY PATRIOTS CITIZENS FUND",
@@ -683,10 +699,10 @@
     },
     {
       "name": "YOUTH CIVIC ACCELERATOR INC.",
-      "total": 1265000,
+      "total": 1184400,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 1265000,
+      "support_conley": 1184400,
       "oppose_lawler": 0
     },
     {
@@ -750,7 +766,7 @@
     {
       "key": "support_lawler",
       "name": "Support Steil",
-      "total": 401632432,
+      "total": 401773187,
       "categories": [
         {
           "name": "TV",
@@ -860,11 +876,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 36248556,
+          "total": 36389311,
           "groups": [
             {
               "name": "AMERICAN MAJORITY ACTION PAC",
-              "amount_cents": 35767042
+              "amount_cents": 35907797
             },
             {
               "name": "CIVIC RENEWAL FUND INC.",
@@ -1060,7 +1076,7 @@
     {
       "key": "support_conley",
       "name": "Support Berman",
-      "total": 164748613,
+      "total": 164693962,
       "categories": [
         {
           "name": "Digital",
@@ -1140,7 +1156,7 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 125581678,
+          "total": 124316678,
           "groups": [
             {
               "name": "PROGRESSIVE TURNOUT PROJECT",
@@ -1153,10 +1169,6 @@
             {
               "name": "NEIGHBOR VOICES PAC",
               "amount_cents": 1396916
-            },
-            {
-              "name": "YOUTH CIVIC ACCELERATOR INC.",
-              "amount_cents": 1265000
             }
           ]
         },
@@ -1200,7 +1212,7 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 4717967,
+          "total": 5928316,
           "groups": [
             {
               "name": "THE WISCO PROJECT PAC",
@@ -1211,8 +1223,12 @@
               "amount_cents": 1618053
             },
             {
+              "name": "YOUTH CIVIC ACCELERATOR INC.",
+              "amount_cents": 1184400
+            },
+            {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1058640
+              "amount_cents": 1084589
             },
             {
               "name": "VOCES DE LA FRONTERA POLITICAL FUND",
@@ -1229,7 +1245,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Steil",
-      "total": 605511223,
+      "total": 605559692,
       "categories": [
         {
           "name": "TV",
@@ -1307,11 +1323,11 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 1182390,
+          "total": 1230859,
           "groups": [
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1058640
+              "amount_cents": 1107109
             },
             {
               "name": "THE WISCO PROJECT PAC",
@@ -2331,6 +2347,52 @@
       "filing_date": "2026-10-03",
       "file_number": 2016665,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610039908513744",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228746",
+      "original_sub_id": "",
+      "transaction_id": "500034298",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-30",
+      "amount_cents": 48469,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777401",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228747",
+      "original_sub_id": "",
+      "transaction_id": "500034299",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 25949,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777402",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -6683,29 +6745,6 @@
       "amendment_indicator": "A"
     },
     {
-      "source_id": "4102920261615417143",
-      "original_sub_id": "",
-      "transaction_id": "F57.000001",
-      "candidate": "conley",
-      "candidate_id": "H6WI01283",
-      "disposition": "support_conley",
-      "date": "2026-10-28",
-      "amount_cents": 1265000,
-      "group": "YOUTH CIVIC ACCELERATOR INC.",
-      "group_id": "C90023987",
-      "payee": "ANGLE MASTAGNI MATHEWS POLITICAL STRATEGIES",
-      "description": "PAID VOTER CONTACT PHONE CALLS",
-      "type": "Field / Canvassing",
-      "notice": true,
-      "filing_form": "F5",
-      "filing_date": "2026-10-28",
-      "file_number": 2042999,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271221",
-      "election_type": "G2026",
-      "original_category_code": "004",
-      "amendment_indicator": "N"
-    },
-    {
       "source_id": "4103020261616034764",
       "original_sub_id": "",
       "transaction_id": "7C8D959CF7BF2B976852",
@@ -7072,6 +7111,52 @@
       "election_type": "G2026",
       "original_category_code": "004",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228153",
+      "original_sub_id": "",
+      "transaction_id": "4866A7D2AF1D66C70C8F",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "support_lawler",
+      "date": "2026-11-01",
+      "amount_cents": 140755,
+      "group": "AMERICAN MAJORITY ACTION PAC",
+      "group_id": "C00952994",
+      "payee": "AMERICAN MAJORITY ACTION INC.",
+      "description": "CONTRACTED CANVASSING, TEXT MESSAGING, PHONE BANKING, AND STAFF TIME",
+      "type": "Field / Canvassing",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045649,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308122",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616158126",
+      "original_sub_id": "",
+      "transaction_id": "F57.000001",
+      "candidate": "conley",
+      "candidate_id": "H6WI01283",
+      "disposition": "support_conley",
+      "date": "2026-11-02",
+      "amount_cents": 1184400,
+      "group": "YOUTH CIVIC ACCELERATOR INC.",
+      "group_id": "C90023987",
+      "payee": "ANGLE MASTAGNI MATHEWS POLITICAL STRATEGIES LLC",
+      "description": "PHONE BANK",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F5",
+      "filing_date": "2026-11-02",
+      "file_number": 2045865,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945310220",
+      "election_type": "G2026",
+      "original_category_code": "004",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -7080,6 +7165,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-03T09:13:39.357193+00:00"
+    "scan_started_at": "2026-11-03T13:31:49.558332+00:00"
   }
 }

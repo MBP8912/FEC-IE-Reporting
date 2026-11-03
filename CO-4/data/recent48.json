@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T12:07:32+00:00",
+  "checked_at": "2026-11-03T13:31:58+00:00",
   "source_data_generated_at": "2026-11-03T05:16:53-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -246,48 +246,6 @@
       "spend_type": "Media (unspecified)",
       "amount_cents": 1852158,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271617"
-    },
-    {
-      "source_id": "4102920261615839760",
-      "file_number": "2043075",
-      "reported_at": "2026-10-29T13:29:13+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "FREEDOM CAUCUS FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IE- BOEBERT- MEDIA BUY",
-      "spend_type": "Media (unspecified)",
-      "amount_cents": 2500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271449"
-    },
-    {
-      "source_id": "4102920261615839757",
-      "file_number": "2043075",
-      "reported_at": "2026-10-29T13:29:13+00:00",
-      "expenditure_date": "2026-10-20",
-      "spender": "FREEDOM CAUCUS FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IE- BOEBERT - DONATION PROCESSING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 24025,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271448"
-    },
-    {
-      "source_id": "4102920261615839758",
-      "file_number": "2043075",
-      "reported_at": "2026-10-29T13:29:13+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "FREEDOM CAUCUS FUND",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IE- BOEBERT - DONATION PROCESSING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1200,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271448"
     }
   ]
 }

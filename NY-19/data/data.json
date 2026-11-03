@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T04:13:43-05:00",
+  "generated_at": "2026-11-03T08:31:52-05:00",
   "district": "NY-19",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 66,
+    "api_rows": 68,
     "pages": 1,
-    "included_rows": 40,
+    "included_rows": 42,
     "excluded": {
       "other_election": 14,
       "other_candidate": 5,
@@ -55,11 +55,11 @@
   "totals": {
     "support_lawler": 926998,
     "oppose_conley": 0,
-    "support_conley": 6941046,
-    "oppose_lawler": 2436841,
+    "support_conley": 6957662,
+    "oppose_lawler": 2467977,
     "benefit_lawler": 926998,
-    "benefit_conley": 9377887,
-    "all": 10304885
+    "benefit_conley": 9425639,
+    "all": 10352637
   },
   "daily": [
     {
@@ -109,6 +109,14 @@
       "support_conley": 75726,
       "oppose_lawler": 0,
       "total": 75726
+    },
+    {
+      "date": "2026-09-30",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 16616,
+      "oppose_lawler": 31136,
+      "total": 47752
     },
     {
       "date": "2026-10-15",
@@ -178,11 +186,11 @@
     },
     {
       "name": "BUILDING TOGETHER",
-      "total": 3052076,
+      "total": 3099828,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 1526038,
-      "oppose_lawler": 1526038
+      "support_conley": 1542654,
+      "oppose_lawler": 1557174
     },
     {
       "name": "RURAL FREEDOM NETWORK",
@@ -262,7 +270,7 @@
     {
       "key": "support_conley",
       "name": "Support Riley",
-      "total": 6941046,
+      "total": 6957662,
       "categories": [
         {
           "name": "Digital",
@@ -320,11 +328,11 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 1527038,
+          "total": 1543654,
           "groups": [
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1526038
+              "amount_cents": 1542654
             },
             {
               "name": "SIERRA CLUB INDEPENDENT ACTION",
@@ -337,7 +345,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Oberacker",
-      "total": 2436841,
+      "total": 2467977,
       "categories": [
         {
           "name": "Digital",
@@ -381,11 +389,11 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 1526038,
+          "total": 1557174,
           "groups": [
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1526038
+              "amount_cents": 1557174
             }
           ]
         }
@@ -691,6 +699,52 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "A"
+    },
+    {
+      "source_id": "4110220261616228696",
+      "original_sub_id": "",
+      "transaction_id": "500034248",
+      "candidate": "lawler",
+      "candidate_id": "H6NY19268",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-30",
+      "amount_cents": 31136,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777376",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228697",
+      "original_sub_id": "",
+      "transaction_id": "500034249",
+      "candidate": "conley",
+      "candidate_id": "H8NY22177",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 16616,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777377",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
     },
     {
       "source_id": "4101620261613164706",
@@ -1320,6 +1374,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 1,
-    "scan_started_at": "2026-11-03T09:13:42.470343+00:00"
+    "scan_started_at": "2026-11-03T13:31:51.846230+00:00"
   }
 }
