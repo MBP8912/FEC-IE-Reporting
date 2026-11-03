@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T02:38:53-05:00",
+  "generated_at": "2026-11-03T07:07:32-05:00",
   "district": "NE-2",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 495,
+    "api_rows": 497,
     "pages": 5,
-    "included_rows": 226,
+    "included_rows": 228,
     "excluded": {
       "other_election": 140,
       "memo_item": 1,
@@ -57,11 +57,11 @@
   "totals": {
     "support_lawler": 35924307,
     "oppose_conley": 163997991,
-    "support_conley": 89016844,
-    "oppose_lawler": 170844443,
+    "support_conley": 89030391,
+    "oppose_lawler": 170870206,
     "benefit_lawler": 199922298,
-    "benefit_conley": 259861287,
-    "all": 459783585
+    "benefit_conley": 259900597,
+    "all": 459822895
   },
   "daily": [
     {
@@ -332,9 +332,9 @@
       "date": "2026-09-30",
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 69075,
-      "oppose_lawler": 0,
-      "total": 69075
+      "support_conley": 82622,
+      "oppose_lawler": 25763,
+      "total": 108385
     },
     {
       "date": "2026-10-01",
@@ -596,11 +596,11 @@
     },
     {
       "name": "BUILDING TOGETHER",
-      "total": 2424986,
+      "total": 2464296,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 1212493,
-      "oppose_lawler": 1212493
+      "support_conley": 1226040,
+      "oppose_lawler": 1238256
     },
     {
       "name": "MAGA INC.",
@@ -829,7 +829,7 @@
     {
       "key": "support_conley",
       "name": "Support Powell",
-      "total": 89016844,
+      "total": 89030391,
       "categories": [
         {
           "name": "Digital",
@@ -971,7 +971,7 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 13410550,
+          "total": 13424097,
           "groups": [
             {
               "name": "LGBTQ CONNECTION PAC",
@@ -983,7 +983,7 @@
             },
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1212493
+              "amount_cents": 1226040
             },
             {
               "name": "NEIGHBOR VOICES PAC",
@@ -996,7 +996,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Harding",
-      "total": 170844443,
+      "total": 170870206,
       "categories": [
         {
           "name": "TV",
@@ -1054,11 +1054,11 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 1303493,
+          "total": 1329256,
           "groups": [
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1212493
+              "amount_cents": 1238256
             },
             {
               "name": "NEIGHBOR VOICES PAC",
@@ -3092,6 +3092,52 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610019908501009",
       "election_type": "G2026",
       "original_category_code": "24E",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228676",
+      "original_sub_id": "",
+      "transaction_id": "500034228",
+      "candidate": "lawler",
+      "candidate_id": "H6NE02208",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-30",
+      "amount_cents": 25763,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777366",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228677",
+      "original_sub_id": "",
+      "transaction_id": "500034229",
+      "candidate": "conley",
+      "candidate_id": "H6NE02174",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 13547,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777367",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -6275,6 +6321,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 5,
-    "scan_started_at": "2026-11-03T07:38:49.708439+00:00"
+    "scan_started_at": "2026-11-03T12:07:29.789143+00:00"
   }
 }

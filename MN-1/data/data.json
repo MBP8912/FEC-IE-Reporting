@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-03T02:38:49-05:00",
+  "generated_at": "2026-11-03T07:07:29-05:00",
   "district": "MN-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 324,
+    "api_rows": 333,
     "pages": 4,
-    "included_rows": 216,
+    "included_rows": 225,
     "excluded": {
       "other_election": 37,
       "repeated_transaction_or_amendment": 1,
@@ -55,11 +55,11 @@
   "totals": {
     "support_lawler": 40071130,
     "oppose_conley": 322968830,
-    "support_conley": 80120408,
-    "oppose_lawler": 524803179,
+    "support_conley": 80555439,
+    "oppose_lawler": 524930093,
     "benefit_lawler": 363039960,
-    "benefit_conley": 604923587,
-    "all": 967963547
+    "benefit_conley": 605485532,
+    "all": 968525492
   },
   "daily": [
     {
@@ -354,9 +354,9 @@
       "date": "2026-09-30",
       "support_lawler": 28564,
       "oppose_conley": 0,
-      "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 28564
+      "support_conley": 20284,
+      "oppose_lawler": 38114,
+      "total": 86962
     },
     {
       "date": "2026-10-01",
@@ -570,9 +570,25 @@
       "date": "2026-10-30",
       "support_lawler": 1503180,
       "oppose_conley": 0,
-      "support_conley": 88928,
+      "support_conley": 96932,
       "oppose_lawler": 88927,
-      "total": 1681035
+      "total": 1689039
+    },
+    {
+      "date": "2026-10-31",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 49400,
+      "oppose_lawler": 49400,
+      "total": 98800
+    },
+    {
+      "date": "2026-11-01",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 357343,
+      "oppose_lawler": 39400,
+      "total": 396743
     }
   ],
   "groups": [
@@ -666,11 +682,11 @@
     },
     {
       "name": "TAKEACTION MN FEDERAL FUND",
-      "total": 10460031,
+      "total": 10637631,
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 5328834,
-      "oppose_lawler": 5131197
+      "support_conley": 5417634,
+      "oppose_lawler": 5219997
     },
     {
       "name": "CONSERVATIVES FOR AMERICA",
@@ -697,20 +713,20 @@
       "oppose_lawler": 0
     },
     {
+      "name": "BUILDING TOGETHER",
+      "total": 2095742,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 1038956,
+      "oppose_lawler": 1056786
+    },
+    {
       "name": "MAGA INC.",
       "total": 2040530,
       "support_lawler": 0,
       "oppose_conley": 2040530,
       "support_conley": 0,
       "oppose_lawler": 0
-    },
-    {
-      "name": "BUILDING TOGETHER",
-      "total": 2037344,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 1018672,
-      "oppose_lawler": 1018672
     },
     {
       "name": "CLEAN WAVE",
@@ -750,6 +766,14 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 1105600,
+      "oppose_lawler": 0
+    },
+    {
+      "name": "FIELD TEAM 6, INC.",
+      "total": 325947,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 325947,
       "oppose_lawler": 0
     },
     {
@@ -955,11 +979,11 @@
     {
       "key": "support_conley",
       "name": "Support Johnson",
-      "total": 80120408,
+      "total": 80555439,
       "categories": [
         {
           "name": "Digital",
-          "total": 27230600,
+          "total": 27238604,
           "groups": [
             {
               "name": "AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES P E O P L E",
@@ -972,6 +996,10 @@
             {
               "name": "WORKING AMERICA",
               "amount_cents": 1105600
+            },
+            {
+              "name": "FIELD TEAM 6, INC.",
+              "amount_cents": 8004
             }
           ]
         },
@@ -982,6 +1010,16 @@
             {
               "name": "CLEAN WAVE",
               "amount_cents": 1951718
+            }
+          ]
+        },
+        {
+          "name": "Text",
+          "total": 317943,
+          "groups": [
+            {
+              "name": "FIELD TEAM 6, INC.",
+              "amount_cents": 317943
             }
           ]
         },
@@ -1029,15 +1067,15 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 4083615,
+          "total": 4192699,
           "groups": [
             {
               "name": "TAKEACTION MN FEDERAL FUND",
-              "amount_cents": 3064943
+              "amount_cents": 3153743
             },
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1018672
+              "amount_cents": 1038956
             }
           ]
         }
@@ -1046,7 +1084,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Finstad",
-      "total": 524803179,
+      "total": 524930093,
       "categories": [
         {
           "name": "TV",
@@ -1124,15 +1162,15 @@
         },
         {
           "name": "Other / Unclassified",
-          "total": 4084538,
+          "total": 4211452,
           "groups": [
             {
               "name": "TAKEACTION MN FEDERAL FUND",
-              "amount_cents": 3064943
+              "amount_cents": 3153743
             },
             {
               "name": "BUILDING TOGETHER",
-              "amount_cents": 1018672
+              "amount_cents": 1056786
             },
             {
               "name": "LCV VICTORY FUND",
@@ -2936,6 +2974,52 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610099908598333",
       "election_type": "G2026",
       "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228668",
+      "original_sub_id": "",
+      "transaction_id": "500034220",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-30",
+      "amount_cents": 38114,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777362",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228669",
+      "original_sub_id": "",
+      "transaction_id": "500034221",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 20284,
+      "group": "BUILDING TOGETHER",
+      "group_id": "C00955138",
+      "payee": "MOVEMENT LABS, LLC",
+      "description": "TEXT MESSAGING",
+      "type": "Other / Unclassified",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777363",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -6044,6 +6128,52 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110220261616228483",
+      "original_sub_id": "",
+      "transaction_id": "500280697",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 577,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309018",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228484",
+      "original_sub_id": "",
+      "transaction_id": "500280698",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-30",
+      "amount_cents": 7427,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: EMAIL SERVICES",
+      "type": "Digital",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309019",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4103120261616077001",
       "original_sub_id": "",
       "transaction_id": "SE.7279",
@@ -6111,6 +6241,121 @@
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228005",
+      "original_sub_id": "",
+      "transaction_id": "SE.7300",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-10-31",
+      "amount_cents": 49400,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307798",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228004",
+      "original_sub_id": "",
+      "transaction_id": "SE.7299",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-10-31",
+      "amount_cents": 49400,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307798",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228009",
+      "original_sub_id": "",
+      "transaction_id": "SE.7304",
+      "candidate": "lawler",
+      "candidate_id": "H2MN01223",
+      "disposition": "oppose_lawler",
+      "date": "2026-11-01",
+      "amount_cents": 39400,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307800",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228503",
+      "original_sub_id": "",
+      "transaction_id": "500280699",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-11-01",
+      "amount_cents": 317943,
+      "group": "FIELD TEAM 6, INC.",
+      "group_id": "C00909994",
+      "payee": "MOMENTOUS OUTREACH INC",
+      "description": "ESTIMATE: SMS TEXTING",
+      "type": "Text",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-02",
+      "file_number": 2045767,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309028",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110220261616228008",
+      "original_sub_id": "",
+      "transaction_id": "SE.7303",
+      "candidate": "conley",
+      "candidate_id": "H6MN01190",
+      "disposition": "support_conley",
+      "date": "2026-11-01",
+      "amount_cents": 39400,
+      "group": "TAKEACTION MN FEDERAL FUND",
+      "group_id": "C00738815",
+      "payee": "TAKEACTION MINNESOTA",
+      "description": "CONTRACT FOR CANVASSERS AND MILEAGE",
+      "type": "Other / Unclassified",
+      "notice": true,
+      "filing_form": "F24",
+      "filing_date": "2026-11-01",
+      "file_number": 2045606,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307800",
+      "election_type": "G2026",
+      "original_category_code": "001",
+      "amendment_indicator": "N"
     }
   ],
   "methodology": "FEC processed Schedule E (including 24/48-hour notices); 2026-cycle general election only; dates are reported expenditure dates; exact and cross-report duplicates suppressed.",
@@ -6119,6 +6364,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 4,
-    "scan_started_at": "2026-11-03T07:38:46.788800+00:00"
+    "scan_started_at": "2026-11-03T12:07:27.804031+00:00"
   }
 }
