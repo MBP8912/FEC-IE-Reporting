@@ -7,10 +7,30 @@
   <meta name="description" content="CO-5 independent expenditures for the 2026 general election, grouped by candidate, group, day, and type. Each expenditure linked to its FEC source.">
   <title>CO-5 • 2026 Independent Expenditure Reporting</title>
   <link rel="stylesheet" href="../assets/styles.css?v=20261023-spiros-all-races-v1">
-  <script defer src="../assets/app.js?v=20261021-nine-districts"></script>
-  <script defer src="../assets/recent48.js?v=20261022-recent48-nine-races-v1"></script>
+  <script defer src="../assets/app.js?v=20261103-co5-mitchell"></script>
+  <script defer src="../assets/recent48.js?v=20261022-recent48-nine-races-v1-mitchell"></script>
+  <style>
+    /* CO-5 only: display a third tracked candidate without affecting other races. */
+    .co5-three-candidates .metric.mitchell .big-number { color:#197c71 }
+    .co5-three-candidates .dot.teal,
+    .co5-three-candidates .recent-dot.teal { background:#18877b }
+    .co5-three-candidates .recent48-overview-metric.teal { background:#f2faf8;border-color:#d8ebe6 }
+    .co5-three-candidates .recent48-overview-metric.teal .recent48-metric-total { color:#197c71 }
+    .co5-three-candidates .recent-beneficiary-header.teal { background:#f2faf8 }
+    .co5-three-candidates .recent-beneficiary-header.teal .recent-total { color:#197c71 }
+    .co5-three-candidates .amount-link.teal-link { color:#197c71 }
+    @media (min-width:1000px) {
+      .co5-three-candidates .headline-metrics,
+      .co5-three-candidates .recent48-overview-metrics { grid-template-columns:repeat(3,minmax(0,1fr)) }
+      .co5-three-candidates .metric { padding:22px 20px }
+    }
+    @media (min-width:671px) and (max-width:999px) {
+      .co5-three-candidates .metric.mitchell,
+      .co5-three-candidates .recent48-overview-metric.teal { grid-column:1/-1 }
+    }
+  </style>
 </head>
-<body>
+<body class="co5-three-candidates">
   <div class="page">
     <header class="topbar spiros-ie-header">
       <div class="brand"><img class="spiros-ie-logo" src="../assets/spiros-consulting-logo.png" alt="Spiros Consulting" width="160" height="127" decoding="async"><span class="brand-symbol">IE<span>05</span></span><div><strong>CO-5</strong><small>2026 Election Spending</small></div></div>
@@ -21,7 +41,7 @@
       <section class="hero">
         <div class="eyebrow"><span class="eyebrow-circle"></span> 2026 GENERAL ELECTION / SCHEDULE E</div>
         <h1>CO-5 Independent<br>Expenditure Spending <span>2026</span></h1>
-        <p>Outside spending reported to the FEC to support or oppose <strong>Jeff Crank</strong> and <strong>Jessica Killin</strong>, with underlying expenditures and original descriptions linked throughout.</p>
+        <p>Outside spending reported to the FEC to support or oppose <strong>Jeff Crank</strong>, <strong>Jessica Killin</strong>, and <strong>Christopher Mitchell</strong>, with underlying expenditures and original descriptions linked throughout.</p>
         <div class="hero-meta">
           <span> <span class="mini-icon">▦</span> 2025–2026 cycle · General only </span>
           <span> <span class="mini-icon">↻</span> Refresh scheduled hourly </span>
@@ -48,6 +68,15 @@
           <div class="metric-rows">
             <div><span>Support Killin</span><strong id="conley-support">—</strong></div>
             <div><span>Oppose Crank</span><strong id="lawler-oppose">—</strong></div>
+          </div>
+        </article>
+        <article class="metric mitchell">
+          <div class="metric-title"><span class="dot teal"></span><span>SPENDING INVOLVING MITCHELL</span><span class="pill">AM. CONSTITUTION</span></div>
+          <div class="big-number" id="mitchell-total">—</div>
+          <div class="metric-desc" id="mitchell-description">Mitchell coverage awaits the next complete FEC district scan.</div>
+          <div class="metric-rows">
+            <div><span>Support Mitchell</span><strong id="mitchell-support">—</strong></div>
+            <div><span>Oppose Mitchell</span><strong id="mitchell-oppose">—</strong></div>
           </div>
         </article>
       </section>
@@ -110,8 +139,10 @@
               <th scope="col" class="num"><button data-sort="oppose_conley">Oppose Killin <span aria-hidden="true">↕</span></button></th>
               <th scope="col" class="num"><button data-sort="support_conley">Support Killin <span aria-hidden="true">↕</span></button></th>
               <th scope="col" class="num"><button data-sort="oppose_lawler">Oppose Crank <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="support_mitchell">Support Mitchell <span aria-hidden="true">↕</span></button></th>
+              <th scope="col" class="num"><button data-sort="oppose_mitchell">Oppose Mitchell <span aria-hidden="true">↕</span></button></th>
             </tr></thead>
-            <tbody id="group-rows"><tr><td colspan="6" class="table-placeholder">Waiting for verified FEC records</td></tr></tbody>
+            <tbody id="group-rows"><tr><td colspan="8" class="table-placeholder">Waiting for verified FEC records</td></tr></tbody>
             <tfoot id="group-footer"></tfoot>
           </table>
         </div>

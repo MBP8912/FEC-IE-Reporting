@@ -20,6 +20,15 @@ function summary(data){
   $("conley-total").textContent=dollar(t.benefit_conley);
   $("conley-support").textContent=dollar(t.support_conley);
   $("lawler-oppose").textContent=dollar(t.oppose_lawler);
+  if($("mitchell-total")){
+    var verifiedMitchell=Boolean(data.candidates&&data.candidates.mitchell&&Object.prototype.hasOwnProperty.call(t,"support_mitchell"));
+    $("mitchell-total").textContent=verifiedMitchell?dollar(t.involving_mitchell):"—";
+    $("mitchell-support").textContent=verifiedMitchell?dollar(t.support_mitchell):"—";
+    $("mitchell-oppose").textContent=verifiedMitchell?dollar(t.oppose_mitchell):"—";
+    $("mitchell-description").textContent=verifiedMitchell?
+      "Spending directly supporting or opposing Mitchell; neither direction is attributed to another candidate.":
+      "Mitchell coverage awaits the next complete FEC district scan; no unverified zero is shown.";
+  }
   $("total-records").textContent=data.transactions.length.toLocaleString();
   $("total-groups").textContent=data.groups.length.toLocaleString();
   var excluded=data.counts.excluded||{};
@@ -145,15 +154,18 @@ function groupTable(){
   var tdTotal=e("td","num");tdTotal.append(recordButton(g.total,{group:g.name}, ""));row.append(tdTotal);
   DATA.disposition_order.forEach(function(kind){
     var td=e("td","num");td.append(recordButton(g[kind],{group:g.name,disposition:kind},
-      (kind==="support_lawler"||kind==="oppose_conley")?"red-link":"blue-link"));row.append(td);
+      kind.endsWith("_mitchell")?"teal-link":(kind==="support_lawler"||kind==="oppose_conley")?"red-link":"blue-link"));row.append(td);
   });
   body.append(row);
  }
- if(!groups.length){var empty=e("tr");var td=e("td","table-placeholder",q?"No matching groups":"No verified spending groups.");td.colSpan=6;empty.append(td);body.append(empty)}
+ if(!groups.length){var empty=e("tr");var td=e("td","table-placeholder",q?"No matching groups":"No verified spending groups.");td.colSpan=2+DATA.disposition_order.length;empty.append(td);body.append(empty)}
  var t=DATA.totals,foot=$("group-footer");foot.replaceChildren();
  var footerRow=e("tr","group-footer");footerRow.append(e("td","","TOTAL"));
- [t.all,t.support_lawler,t.oppose_conley,t.support_conley,t.oppose_lawler].forEach(function(amount,idx){
-  var td=e("td","num");td.append(recordButton(amount,idx?{disposition:DATA.disposition_order[idx-1]}:{},idx>2?"blue-link":"red-link"));footerRow.append(td);
+ [null].concat(DATA.disposition_order).forEach(function(kind){
+  var td=e("td","num");var amount=kind?t[kind]:t.all;
+  var color=kind&&kind.endsWith("_mitchell")?"teal-link":
+    kind==="support_lawler"||kind==="oppose_conley"?"red-link":"blue-link";
+  td.append(recordButton(amount,kind?{disposition:kind}:{},color));footerRow.append(td);
  });
  foot.append(footerRow);
  $("group-count").textContent=groups.length.toLocaleString()+" of "+DATA.groups.length.toLocaleString()+" reporting groups";

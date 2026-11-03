@@ -39,10 +39,16 @@ function view(payload){
   // candidate labels must come from each race's own verified data feed.
   const names=payload.candidate_names||{};
   const raceLabels=payload.disposition_labels||{};
-  const candidates=[
+  const specs=[
     {key:"lawler",name:names.lawler||"Republican candidate",party:"Republican",directions:["support_lawler","oppose_conley"],theme:"red"},
     {key:"conley",name:names.conley||"Democratic candidate",party:"Democrat",directions:["support_conley","oppose_lawler"],theme:"blue"}
-  ].map(group=>{
+  ];
+  if(names.mitchell)specs.push({
+    key:"mitchell",name:names.mitchell,party:"American Constitution",
+    directions:["support_mitchell","oppose_mitchell"],theme:"teal",
+    caption:"Spending for / against "+names.mitchell
+  });
+  const candidates=specs.map(group=>{
     const items=recent.filter(t=>group.directions.includes(t.disposition));
     const total=items.reduce((n,t)=>n+t.amount_cents,0);
     return {...group,items,total};
@@ -53,7 +59,11 @@ function view(payload){
     support_conley:raceLabels.support_conley||"Support "+candidates.find(c=>c.key==="conley").name,
     oppose_lawler:raceLabels.oppose_lawler||"Oppose "+candidates.find(c=>c.key==="lawler").name
   };
-  // One native, accessible disclosure encloses both beneficiary totals.
+  if(names.mitchell){
+    label.support_mitchell=raceLabels.support_mitchell||"Support "+names.mitchell;
+    label.oppose_mitchell=raceLabels.oppose_mitchell||"Oppose "+names.mitchell;
+  }
+  // One native, accessible disclosure encloses all tracked candidate totals.
   // A details element is CLOSED by default, so the page stays compact.
   const disclosure=cell("details",null,"recent48-disclosure");
   const overview=cell("summary",null,"recent48-overview");
@@ -62,7 +72,7 @@ function view(payload){
     const metric=cell("div",null,"recent48-overview-metric "+candidate.theme);
     const name=cell("span",null,"recent48-metric-name");
     name.append(cell("span",null,"recent-dot "+candidate.theme),
-                cell("span","Spending benefiting "+candidate.name));
+                cell("span",candidate.caption||"Spending benefiting "+candidate.name));
     const total=cell("strong",
       payload.status==="partial"&&candidate.total===0?"—":dollars(candidate.total),
       "recent48-metric-total");
@@ -78,7 +88,7 @@ function view(payload){
     const heading=cell("div",null,"recent-beneficiary-header "+candidate.theme);
     const text=cell("div",null,"recent-name");
     const dot=cell("span",null,"recent-dot "+candidate.theme);
-    text.append(dot,cell("strong","Spending benefiting "+candidate.name));
+    text.append(dot,cell("strong",candidate.caption||"Spending benefiting "+candidate.name));
     text.append(cell("span",candidate.items.length.toLocaleString()+" reported item"+(candidate.items.length===1?"":"s"),"recent-count"));
     heading.append(text);section.append(heading);
     const wrap=cell("div",null,"recent-table-scroll");

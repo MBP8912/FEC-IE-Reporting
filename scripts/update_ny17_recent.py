@@ -117,12 +117,18 @@ def build_payload(data,receipts,now):
         "candidate_names":{
             "lawler":config["republican"]["short"],
             "conley":config["democratic"]["short"],
+            **({"mitchell":config["additional"]["short"]}
+               if data.get("candidates", {}).get("mitchell") and config.get("additional") else {}),
         },
         "disposition_labels":{
             "support_lawler":labels.get("support_lawler","Support "+config["republican"]["short"]),
             "oppose_conley":labels.get("oppose_conley","Oppose "+config["democratic"]["short"]),
             "support_conley":labels.get("support_conley","Support "+config["democratic"]["short"]),
             "oppose_lawler":labels.get("oppose_lawler","Oppose "+config["republican"]["short"]),
+            **({
+                "support_mitchell":labels.get("support_mitchell","Support Mitchell"),
+                "oppose_mitchell":labels.get("oppose_mitchell","Oppose Mitchell"),
+            } if data.get("candidates", {}).get("mitchell") else {}),
         },
         "notice_only":True,
         "selection":"original_expeditious_24_48_hour_IE_notices",

@@ -14,6 +14,8 @@ The root URL redirects directly to **NY-17**, not a race selection page.
 | NY-19 | Peter Oberacker | Josh Riley | [NY-19](https://mbp8912.github.io/FEC-IE-Reporting/NY-19/) |
 | CA-13 | Kevin Lincoln | Adam Gray | [CA-13](https://mbp8912.github.io/FEC-IE-Reporting/CA-13/) |
 
+CO-5 also tracks **Christopher Mitchell (American Constitution Party; FEC H4CO05071)**. Its additional Support Mitchell and Oppose Mitchell dispositions appear in the candidate card, group table, daily chart, detailed expenditure list, CSV export, and latest-48-hours panel after the next verified full-district refresh. Opposition to Mitchell is not counted as benefiting either major-party candidate.
+
 Each race uses the completed NY-17 layout: candidate totals with support/oppose subtotals, daily stacked spending chart (click a colored segment for spender, category and amount), an expandable disposition → spending type → group table, and an independently sortable group table. The latter two appear **type first, group second**. The former “Who Is Spending,” “What the Money Funded,” extra spending disclaimer, and entire “About these figures” section are absent.
 
 **Data:** FEC processed Schedule E; 2026-cycle general election expenditures dated January 1, 2025 through November 3, 2026. Expedited 24/48-hour notices and periodic reports are reconciled using identifiers and conservative duplicate matching. All monetary totals use integer cents. This is third-party independent expenditure spending, not candidate fundraising.

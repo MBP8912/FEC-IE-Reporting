@@ -11,8 +11,8 @@ from races import RACES,RACE_CODES,ALL_CANDIDATE_IDS
 class TestAllRaces(unittest.TestCase):
     def test_searches_house_districts_not_only_nominee_ids(self):
         self.assertEqual(len(multi.BATCHES),9)
-        self.assertEqual(len(ALL_CANDIDATE_IDS),18)
-        self.assertEqual(len(set(ALL_CANDIDATE_IDS)),18)
+        self.assertEqual(len(ALL_CANDIDATE_IDS),19)
+        self.assertEqual(len(set(ALL_CANDIDATE_IDS)),19)
         for i,cfg in enumerate(multi.BATCHES):
             url=multi.next_query("TEST",i,{})
             self.assertIn("candidate_office_state="+cfg["state"],url)
@@ -30,6 +30,44 @@ class TestAllRaces(unittest.TestCase):
                 self.assertEqual(core.nominee_key({"candidate_id":r["republican"]["id"]}),"lawler")
                 self.assertEqual(core.nominee_key({"candidate_id":r["democratic"]["id"]}),"conley")
                 self.assertIsNone(core.nominee_key({"candidate_id":"H6ZZ99999"}))
+
+    def test_co5_includes_mitchell_and_restores_two_candidate_schema_for_other_races(self):
+        with patch.object(core,"COMMITTEE_KEY",core.COMMITTEE_KEY), \
+             patch.object(core,"CANDIDATES",core.CANDIDATES), \
+             patch.object(core,"DISPOSITIONS",core.DISPOSITIONS), \
+             patch.object(core,"ORDER",core.ORDER), \
+             patch.object(core,"COLORS",core.COLORS):
+            multi.set_race("CO-5")
+            self.assertEqual(core.nominee_key({"candidate_id":"H4CO05071"}),"mitchell")
+            self.assertEqual(core.nominee_key({"candidate_name":"MITCHELL, CHRISTOPHER DOUGLAS"}),"mitchell")
+            self.assertIn("support_mitchell",core.ORDER)
+            self.assertIn("oppose_mitchell",core.ORDER)
+            original={
+                "sub_id":"mitchell-test","committee_id":"C00963736",
+                "committee_name":"OUR HERITAGE MATTERS",
+                "candidate_id":"H4CO05071","candidate_name":"MITCHELL, CHRISTOPHER DOUGLAS",
+                "candidate_office":"H","candidate_office_state":"CO",
+                "candidate_office_district":"05","election_type":"G2026",
+                "expenditure_date":"2026-10-29","expenditure_amount":"13060.00",
+                "support_oppose_indicator":"S","expenditure_description":"Digital Advertising",
+                "filing_form":"F24","is_notice":True,
+            }
+            expenditure,problem=core.normalize_row(original)
+            self.assertIsNone(problem)
+            self.assertEqual(expenditure["disposition"],"support_mitchell")
+            totals=core.summarize([expenditure],{},1,1)["totals"]
+            self.assertEqual(totals["support_mitchell"],1306000)
+            self.assertEqual(totals["oppose_mitchell"],0)
+            self.assertEqual(totals["involving_mitchell"],1306000)
+            self.assertEqual(totals["benefit_lawler"],0)
+            self.assertEqual(totals["benefit_conley"],0)
+            original["support_oppose_indicator"]="O"
+            expenditure,problem=core.normalize_row(original)
+            self.assertIsNone(problem)
+            self.assertEqual(expenditure["disposition"],"oppose_mitchell")
+            multi.set_race("IA-1")
+            self.assertNotIn("mitchell",core.CANDIDATES)
+            self.assertNotIn("support_mitchell",core.ORDER)
 
     def test_ny17_clf_missing_candidate_id_is_counted_as_tv(self):
         with patch.object(core,"COMMITTEE_KEY",core.COMMITTEE_KEY), \

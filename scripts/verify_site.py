@@ -105,8 +105,17 @@ def verify():
             if money!=data["totals"]["all"] or money!=sum(g["total"] for g in data["groups"]):
                 raise RuntimeError("Financial values do not reconcile in "+district)
             allowed={config["republican"]["id"],config["democratic"]["id"]}
+            if config.get("additional"):
+                allowed.add(config["additional"]["id"])
             if any(item["candidate_id"] not in allowed for item in entries):
                 raise RuntimeError("Incorrect nominee ID in "+district)
+            if district=="CO-5" and data.get("candidates",{}).get("mitchell"):
+                if (data["candidates"]["mitchell"]["id"]!="H4CO05071"
+                    or any(k not in data.get("disposition_order",[])
+                           for k in ("support_mitchell","oppose_mitchell"))
+                    or any(k not in data.get("totals",{})
+                           for k in ("support_mitchell","oppose_mitchell","involving_mitchell"))):
+                    raise RuntimeError("Incorrect Christopher Mitchell coverage in CO-5")
             # The displayed type and pivot must reflect every documented,
             # narrowly scoped manual correction, even if the FEC API was rate-limited.
             import refresh as core

@@ -308,12 +308,32 @@ def set_race(district):
         "support_conley": "Support " + dem["short"],
         "oppose_lawler": "Oppose " + rep["short"],
     }
+    # Reset these shared settings for each district; only CO-5 has
+    # an additional tracked candidate and two additional dispositions.
+    core.ORDER = ["support_lawler", "oppose_conley", "support_conley", "oppose_lawler"]
+    core.COLORS = {
+        "support_lawler": "#C85553", "oppose_conley": "#EBA59A",
+        "support_conley": "#396BBA", "oppose_lawler": "#8EB4ED",
+    }
+    additional = config.get("additional")
+    if additional:
+        core.CANDIDATES["mitchell"] = dict(
+            name=additional["name"], id=additional["id"], party=additional["party"],
+            surname=additional["surname"], given=additional["given"])
+        core.ORDER.extend(["support_mitchell", "oppose_mitchell"])
+        core.DISPOSITIONS.update({
+            "support_mitchell": "Support " + additional["short"],
+            "oppose_mitchell": "Oppose " + additional["short"],
+        })
+        core.COLORS.update({
+            "support_mitchell": "#18877B", "oppose_mitchell": "#8ABDB3",
+        })
     core.DATAFILE = DATA_PATHS[district]
     return config
 
 
 def finalize_one_race(district,raw,pages,scan_started_at=None):
-    """Count unique expenditures for both nominees, including ID-less FEC rows."""
+    """Count unique expenditures for tracked candidates, including ID-less FEC rows."""
     set_race(district)
     entries,excluded=core.unique_rows(raw)
     data=core.summarize(entries,excluded,len(raw),pages)

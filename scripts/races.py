@@ -51,6 +51,14 @@ RACES = {
       "short": "Killin",
       "id": "H6CO05324",
       "surname": "killin"
+    },
+    "additional": {
+      "name": "Christopher Mitchell",
+      "short": "Mitchell",
+      "id": "H4CO05071",
+      "surname": "mitchell",
+      "given": "christopher",
+      "party": "American Constitution"
     }
   },
   "IA-1": {
@@ -152,5 +160,8 @@ RACES = {
   }
 }
 RACE_CODES = list(RACES)
-ALL_CANDIDATE_IDS = [v["id"] for race in RACES.values() for v in (race["republican"],race["democratic"])]
-assert len(RACE_CODES) == 9 and len(ALL_CANDIDATE_IDS) == len(set(ALL_CANDIDATE_IDS)) == 18
+ALL_CANDIDATE_IDS = [
+  race[role]["id"] for race in RACES.values()
+  for role in ("republican", "democratic", "additional") if role in race
+]
+assert len(RACE_CODES) == 9 and len(ALL_CANDIDATE_IDS) == len(set(ALL_CANDIDATE_IDS)) == 19

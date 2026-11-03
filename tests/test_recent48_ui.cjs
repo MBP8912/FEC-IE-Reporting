@@ -195,6 +195,36 @@ test("legacy feeds lacking a verified notice-only marker never display regular s
 });
 
 
+test("CO-5 three-candidate feed distinguishes Mitchell support from opposition",async()=>{
+  const now=new Date();
+  const e=await render({
+    status:"ok",district:"CO-5",notice_only:true,checked_at:now.toISOString(),
+    candidate_names:{lawler:"Crank",conley:"Killin",mitchell:"Mitchell"},
+    disposition_labels:{
+      support_lawler:"Support Crank",oppose_conley:"Oppose Killin",
+      support_conley:"Support Killin",oppose_lawler:"Oppose Crank",
+      support_mitchell:"Support Mitchell",oppose_mitchell:"Oppose Mitchell"
+    },
+    items:[
+      {source_id:"mit-support",reported_at:new Date(now-60000).toISOString(),
+       expenditure_date:"2026-10-29",spender:"Our Heritage Matters",
+       disposition:"support_mitchell",purpose:"DIGITAL ADVERTISING",spend_type:"Digital",
+       amount_cents:1306000,notice:true,filing_form:"F24",fec_url:""},
+      {source_id:"mit-oppose",reported_at:new Date(now-60000).toISOString(),
+       expenditure_date:"2026-10-29",spender:"Sample Spender",
+       disposition:"oppose_mitchell",purpose:"DIGITAL ADVERTISING",spend_type:"Digital",
+       amount_cents:200000,notice:true,filing_form:"F24",fec_url:""}
+    ]
+  });
+  const detail=e.get("recent48-groups").children[0];
+  assert.equal(detail.tagName,"DETAILS");
+  assert.equal(detail.children[1].children.length,3);
+  assert.match(detail.children[0].textContent,/Spending for \/ against Mitchell/);
+  assert.match(detail.children[0].textContent,/\$15,060\.00/);
+  assert.match(detail.children[1].textContent,/Support Mitchell/);
+  assert.match(detail.children[1].textContent,/Oppose Mitchell/);
+});
+
 test("CO-5 shows Crank and Killin, not inherited NY-17 candidate labels",async()=>{
   const now=new Date();
   const e=await render({

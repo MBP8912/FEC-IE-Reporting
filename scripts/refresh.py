@@ -323,7 +323,7 @@ def source_url(row):
 
 
 def normalize_row(row):
-    if nominee_key(row) not in ("lawler", "conley"):
+    if nominee_key(row) not in CANDIDATES:
         return None, "other_candidate"
     if not is_2026_general(row):
         return None, "other_election"
@@ -521,6 +521,13 @@ def summarize(rows, exclusions, raw_count, pages):
             "benefit_lawler": disp_sums["support_lawler"] + disp_sums["oppose_conley"],
             "benefit_conley": disp_sums["support_conley"] + disp_sums["oppose_lawler"],
             "all": total,
+            # A third-party candidate's opposition spending is NOT assigned
+            # as benefiting either major-party candidate.
+            **({
+                "support_mitchell": disp_sums["support_mitchell"],
+                "oppose_mitchell": disp_sums["oppose_mitchell"],
+                "involving_mitchell": disp_sums["support_mitchell"] + disp_sums["oppose_mitchell"],
+            } if "mitchell" in CANDIDATES else {}),
         },
         "daily": daily_rows,
         "groups": group_rows,
