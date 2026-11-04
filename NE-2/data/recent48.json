@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T01:30:08+00:00",
-  "source_data_generated_at": "2026-11-03T16:10:19-05:00",
+  "checked_at": "2026-11-04T03:13:08+00:00",
+  "source_data_generated_at": "2026-11-03T22:12:59-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -470,48 +470,6 @@
       "spend_type": "Events",
       "amount_cents": 2779,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300324"
-    },
-    {
-      "source_id": "4103020261616034842",
-      "file_number": "2044127",
-      "reported_at": "2026-10-30T03:07:05+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "PROGRESSIVE TURNOUT PROJECT",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "FIELD ORGANIZING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 19599113,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300308"
-    },
-    {
-      "source_id": "4103020261616034380",
-      "file_number": "2044070",
-      "reported_at": "2026-10-30T01:40:56+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "CFFE PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL - ESTIMATE",
-      "spend_type": "Mail",
-      "amount_cents": 3730807,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299978"
-    },
-    {
-      "source_id": "4103020261616034381",
-      "file_number": "2044070",
-      "reported_at": "2026-10-30T01:40:56+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL - ESTIMATE",
-      "spend_type": "Mail",
-      "amount_cents": 1241634,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299978"
     }
   ]
 }
