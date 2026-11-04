@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T03:13:08+00:00",
+  "checked_at": "2026-11-04T04:19:53+00:00",
   "source_data_generated_at": "2026-11-03T22:13:01-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -302,34 +302,6 @@
       "spend_type": "Text",
       "amount_cents": 22565,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300401"
-    },
-    {
-      "source_id": "4103020261616034892",
-      "file_number": "2044129",
-      "reported_at": "2026-10-30T03:13:35+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "COMMUNITY CHANGE VOTERS",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MAIL PRODUCTION & POSTAGE",
-      "spend_type": "Mail",
-      "amount_cents": 454620,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300334"
-    },
-    {
-      "source_id": "4103020261616034858",
-      "file_number": "2044129",
-      "reported_at": "2026-10-30T03:13:35+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "COMMUNITY CHANGE VOTERS",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "IN-KIND STAFF: SERVICES TO PLAN, DRAFT & DISTRIBUTE COMMUNICATIONS & EVENTS",
-      "spend_type": "Events",
-      "amount_cents": 4559,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300317"
     }
   ]
 }
