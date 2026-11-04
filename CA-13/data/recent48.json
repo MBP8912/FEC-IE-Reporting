@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-03T23:58:12+00:00",
+  "checked_at": "2026-11-04T01:30:08+00:00",
   "source_data_generated_at": "2026-11-03T17:08:38-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -148,34 +148,6 @@
       "spend_type": "Digital",
       "amount_cents": 9937878,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300099"
-    },
-    {
-      "source_id": "4103020261616034142",
-      "file_number": "2044000",
-      "reported_at": "2026-10-30T00:09:28+00:00",
-      "expenditure_date": "2026-10-26",
-      "spender": "CLF",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PLACEMENT",
-      "spend_type": "TV",
-      "amount_cents": 22574105,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299691"
-    },
-    {
-      "source_id": "4103020261616034141",
-      "file_number": "2044000",
-      "reported_at": "2026-10-30T00:09:28+00:00",
-      "expenditure_date": "2026-10-23",
-      "spender": "CLF",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL PLACEMENT",
-      "spend_type": "Digital",
-      "amount_cents": 21500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299691"
     }
   ]
 }
