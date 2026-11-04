@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T21:14:19+00:00",
+  "checked_at": "2026-11-04T22:09:12+00:00",
   "source_data_generated_at": "2026-11-04T14:25:01-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -974,48 +974,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 4140000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304985"
-    },
-    {
-      "source_id": "4103020261616035919",
-      "file_number": "2044597",
-      "reported_at": "2026-10-30T21:45:26+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "CLF",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PLACEMENT",
-      "spend_type": "TV",
-      "amount_cents": 44375000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304568"
-    },
-    {
-      "source_id": "4103020261616035869",
-      "file_number": "2044596",
-      "reported_at": "2026-10-30T21:44:41+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BUILDING TOGETHER",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1611431,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304543"
-    },
-    {
-      "source_id": "4103020261616035868",
-      "file_number": "2044596",
-      "reported_at": "2026-10-30T21:44:41+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BUILDING TOGETHER",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1611431,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304543"
     }
   ]
 }

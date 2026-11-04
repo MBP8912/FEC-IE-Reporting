@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T21:14:19+00:00",
-  "source_data_generated_at": "2026-11-04T13:12:04-05:00",
+  "checked_at": "2026-11-04T22:09:12+00:00",
+  "source_data_generated_at": "2026-11-04T17:09:10-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -120,48 +120,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 259000,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305222"
-    },
-    {
-      "source_id": "4103020261616035922",
-      "file_number": "2044597",
-      "reported_at": "2026-10-30T21:45:26+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "CLF",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "MEDIA PRODUCTION",
-      "spend_type": "Production",
-      "amount_cents": 500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304570"
-    },
-    {
-      "source_id": "4103020261616035912",
-      "file_number": "2044596",
-      "reported_at": "2026-10-30T21:44:41+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BUILDING TOGETHER",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1058640,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304565"
-    },
-    {
-      "source_id": "4103020261616035913",
-      "file_number": "2044596",
-      "reported_at": "2026-10-30T21:44:41+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BUILDING TOGETHER",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1058640,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304565"
     }
   ]
 }

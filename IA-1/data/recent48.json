@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T21:14:19+00:00",
+  "checked_at": "2026-11-04T22:09:12+00:00",
   "source_data_generated_at": "2026-11-04T16:14:13-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -806,62 +806,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 2500,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305233"
-    },
-    {
-      "source_id": "4103020261616035947",
-      "file_number": "2044619",
-      "reported_at": "2026-10-30T22:00:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NRA VICTORY FUND, INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SMS MESSAGING",
-      "spend_type": "Text",
-      "amount_cents": 135708,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304738"
-    },
-    {
-      "source_id": "4103020261616035815",
-      "file_number": "2044596",
-      "reported_at": "2026-10-30T21:44:41+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BUILDING TOGETHER",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1237348,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304516"
-    },
-    {
-      "source_id": "4103020261616035814",
-      "file_number": "2044596",
-      "reported_at": "2026-10-30T21:44:41+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BUILDING TOGETHER",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST FOR TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 1237348,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304516"
-    },
-    {
-      "source_id": "4103020261616035726",
-      "file_number": "2044582",
-      "reported_at": "2026-10-30T21:36:55+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "OUR HERITAGE MATTERS",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 121240,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304453"
     }
   ]
 }
