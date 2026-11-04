@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T23:06:38+00:00",
+  "checked_at": "2026-11-04T23:59:21+00:00",
   "source_data_generated_at": "2026-11-04T16:14:13-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -750,62 +750,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 3333333,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306231"
-    },
-    {
-      "source_id": "4103020261616036273",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST MARIANNETTE MILLER MEEKS",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5520,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305234"
-    },
-    {
-      "source_id": "4103020261616036270",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CHRISTINA BOHANNAN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5520,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305233"
-    },
-    {
-      "source_id": "4103020261616036272",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST MARIANNETTE MILLER MEEKS",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305234"
-    },
-    {
-      "source_id": "4103020261616036271",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING CHRISTINA BOHANNAN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 2500,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305233"
     }
   ]
 }

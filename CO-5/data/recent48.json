@@ -21,8 +21,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T23:06:38+00:00",
-  "source_data_generated_at": "2026-11-04T15:16:20-05:00",
+  "checked_at": "2026-11-04T23:59:21+00:00",
+  "source_data_generated_at": "2026-11-04T18:59:14-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -263,62 +263,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 392160,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306669"
-    },
-    {
-      "source_id": "4103020261616036106",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 12933,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305151"
-    },
-    {
-      "source_id": "4103020261616036108",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 12375,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305152"
-    },
-    {
-      "source_id": "4103020261616036107",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5333,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305151"
-    },
-    {
-      "source_id": "4103020261616036105",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 133,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305150"
     }
   ]
 }

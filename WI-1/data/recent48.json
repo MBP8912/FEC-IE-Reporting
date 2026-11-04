@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T23:06:38+00:00",
+  "checked_at": "2026-11-04T23:59:21+00:00",
   "source_data_generated_at": "2026-11-04T17:09:10-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -78,48 +78,6 @@
       "spend_type": "Text",
       "amount_cents": 24829,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306551"
-    },
-    {
-      "source_id": "4103120261616077021",
-      "file_number": "2044687",
-      "reported_at": "2026-10-30T23:40:56+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 133652,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305275"
-    },
-    {
-      "source_id": "4103020261616036246",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - AGAINST BRYAN STEIL",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 259000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305221"
-    },
-    {
-      "source_id": "4103020261616036249",
-      "file_number": "2044677",
-      "reported_at": "2026-10-30T23:20:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "NEIGHBOR VOICES PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING VIA TEXT - SUPPORTING MITCHELL BERMAN",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 259000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305222"
     }
   ]
 }
