@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T22:09:12+00:00",
-  "source_data_generated_at": "2026-11-04T14:25:01-05:00",
+  "checked_at": "2026-11-04T23:06:38+00:00",
+  "source_data_generated_at": "2026-11-04T18:06:36-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -946,34 +946,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 6250,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305199"
-    },
-    {
-      "source_id": "4103020261616036027",
-      "file_number": "2044660",
-      "reported_at": "2026-10-30T22:45:54+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "VOTEVETS",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL COMMUNICATIONS - ESTIMATED COST",
-      "spend_type": "Digital",
-      "amount_cents": 54504,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305062"
-    },
-    {
-      "source_id": "4103020261616035975",
-      "file_number": "2044638",
-      "reported_at": "2026-10-30T22:22:04+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "PAID PHONES",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 4140000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304985"
     }
   ]
 }
