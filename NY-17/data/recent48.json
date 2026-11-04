@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T16:17:20+00:00",
+  "checked_at": "2026-11-04T17:18:17+00:00",
   "source_data_generated_at": "2026-11-04T10:13:54-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1268,76 +1268,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 13500,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301779"
-    },
-    {
-      "source_id": "4103020261616035050",
-      "file_number": "2044267",
-      "reported_at": "2026-10-30T16:20:52+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 5500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301353"
-    },
-    {
-      "source_id": "4103020261616035046",
-      "file_number": "2044267",
-      "reported_at": "2026-10-30T16:20:52+00:00",
-      "expenditure_date": "2026-10-27",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL POSTAGE & SHIPPING",
-      "spend_type": "Mail",
-      "amount_cents": 2740944,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301351"
-    },
-    {
-      "source_id": "4103020261616035049",
-      "file_number": "2044267",
-      "reported_at": "2026-10-30T16:20:52+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "LITERATURE - ESTIMATED COST",
-      "spend_type": "Print",
-      "amount_cents": 2700000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301352"
-    },
-    {
-      "source_id": "4103020261616035047",
-      "file_number": "2044267",
-      "reported_at": "2026-10-30T16:20:52+00:00",
-      "expenditure_date": "2026-10-22",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "LITERATURE DESIGN SERVICES",
-      "spend_type": "Production",
-      "amount_cents": 75000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301351"
-    },
-    {
-      "source_id": "4103020261616035048",
-      "file_number": "2044267",
-      "reported_at": "2026-10-30T16:20:52+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "BATTLEGROUND NEW YORK",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIRECT MAIL DESIGN SERVICES - ESTIMATED COST",
-      "spend_type": "Mail",
-      "amount_cents": 53069,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301352"
     }
   ]
 }
