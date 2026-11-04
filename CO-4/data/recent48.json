@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T18:12:10+00:00",
+  "checked_at": "2026-11-04T19:25:03+00:00",
   "source_data_generated_at": "2026-11-04T10:13:56-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -232,20 +232,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 1834858,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304506"
-    },
-    {
-      "source_id": "4103020261616035230",
-      "file_number": "2044405",
-      "reported_at": "2026-10-30T19:08:17+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "WOMEN FOR AMERICA'S FREEDOM",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADS",
-      "spend_type": "Digital",
-      "amount_cents": 750000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301926"
     }
   ]
 }

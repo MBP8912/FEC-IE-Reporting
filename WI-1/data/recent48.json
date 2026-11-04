@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T18:12:10+00:00",
+  "checked_at": "2026-11-04T19:25:03+00:00",
   "source_data_generated_at": "2026-11-04T13:12:04-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -162,34 +162,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 1058640,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304565"
-    },
-    {
-      "source_id": "4103020261616035203",
-      "file_number": "2044391",
-      "reported_at": "2026-10-30T18:56:53+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "AMERICAN MAJORITY ACTION PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CONTRACTED CANVASSING AND PHONE BANKING AND STAFF TIME",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 351975,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301901"
-    },
-    {
-      "source_id": "4103020261616035173",
-      "file_number": "2044384",
-      "reported_at": "2026-10-30T18:52:10+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "SOMOS PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 6250000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301876"
     }
   ]
 }

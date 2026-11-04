@@ -21,7 +21,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T18:12:10+00:00",
+  "checked_at": "2026-11-04T19:25:03+00:00",
   "source_data_generated_at": "2026-11-04T11:17:11-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -389,34 +389,6 @@
       "spend_type": "Digital",
       "amount_cents": 756768,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304449"
-    },
-    {
-      "source_id": "4103020261616035237",
-      "file_number": "2044418",
-      "reported_at": "2026-10-30T19:22:12+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "INDIVISIBLE ACTION",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES (ESTIMATE)",
-      "spend_type": "Text",
-      "amount_cents": 155439,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945302741"
-    },
-    {
-      "source_id": "4103020261616035245",
-      "file_number": "2044418",
-      "reported_at": "2026-10-30T19:22:12+00:00",
-      "expenditure_date": "2026-10-19",
-      "spender": "INDIVISIBLE ACTION",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TELEPHONE CALLS (ESTIMATE)",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 8722,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945302745"
     }
   ]
 }
