@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T15:13:57+00:00",
+  "checked_at": "2026-11-04T16:17:20+00:00",
   "source_data_generated_at": "2026-11-04T07:10:08-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -1086,34 +1086,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 2083,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301869"
-    },
-    {
-      "source_id": "4103020261616035029",
-      "file_number": "2044263",
-      "reported_at": "2026-10-30T16:12:51+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "THE LINCOLN PROJECT",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING - ESTIMATE; NON-CONTRIBUTION ACCOUNT",
-      "spend_type": "Digital",
-      "amount_cents": 1875000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301335"
-    },
-    {
-      "source_id": "4103020261616035041",
-      "file_number": "2044263",
-      "reported_at": "2026-10-30T16:12:51+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "THE LINCOLN PROJECT",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "VIDEO PRODUCTION SERVICES - ESTIMATE; NON-CONTRIBUTION ACCOUNT",
-      "spend_type": "Production",
-      "amount_cents": 4167,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945301341"
     }
   ]
 }
