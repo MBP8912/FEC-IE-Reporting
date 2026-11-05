@@ -21,7 +21,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T22:10:12+00:00",
+  "checked_at": "2026-11-05T23:06:35+00:00",
   "source_data_generated_at": "2026-11-05T17:10:06-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -557,20 +557,6 @@
       "spend_type": "Digital",
       "amount_cents": 92,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307774"
-    },
-    {
-      "source_id": "4103120261616077520",
-      "file_number": "2045186",
-      "reported_at": "2026-10-31T23:01:34+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "PRINCIPLED PATRIOTS PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ESTIMATED COST: TEXT MESSAGING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 392160,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306669"
     }
   ]
 }
