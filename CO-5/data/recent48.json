@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "CO-5",
   "window_hours": 48,
   "candidate_names": {
@@ -21,11 +21,67 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T16:27:13+00:00",
-  "source_data_generated_at": "2026-11-05T05:27:37-05:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-11-05T17:31:44+00:00",
+  "source_data_generated_at": "2026-11-05T12:31:37-05:00",
+  "unresolved_recent_items": 18,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110320261616440216",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST JEFF CRANK",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 25500,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330717"
+    },
+    {
+      "source_id": "4110320261616440019",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 21375,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330618"
+    },
+    {
+      "source_id": "4110320261616440018",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 16533,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330618"
+    },
+    {
+      "source_id": "4110320261616440020",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JESSICA KILLIN",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 6250,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330619"
+    },
     {
       "source_id": "4110220261616229318",
       "file_number": "2045951",
@@ -221,34 +277,6 @@
       "spend_type": "Digital",
       "amount_cents": 92,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307774"
-    },
-    {
-      "source_id": "4110120261616134154",
-      "file_number": "2045249",
-      "reported_at": "2026-11-01T02:56:11+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "OUR HERITAGE MATTERS",
-      "disposition": "support_mitchell",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 1606402,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306885"
-    },
-    {
-      "source_id": "4110120261616134155",
-      "file_number": "2045249",
-      "reported_at": "2026-11-01T02:56:11+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "OUR HERITAGE MATTERS",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 782530,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306885"
     },
     {
       "source_id": "4103120261616077520",
