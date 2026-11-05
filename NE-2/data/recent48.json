@@ -18,94 +18,9 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-04T23:59:21+00:00",
-  "source_data_generated_at": "2026-11-04T17:09:09-05:00",
+  "checked_at": "2026-11-05T01:36:02+00:00",
+  "source_data_generated_at": "2026-11-04T20:36:02-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
-  "items": [
-    {
-      "source_id": "4103120261616077111",
-      "file_number": "2044720",
-      "reported_at": "2026-10-31T00:17:07+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "LGBTQ CONNECTION PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SALARY",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 368842,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305473"
-    },
-    {
-      "source_id": "4103120261616077110",
-      "file_number": "2044720",
-      "reported_at": "2026-10-31T00:17:07+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "LGBTQ CONNECTION PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SALARY",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 224756,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305472"
-    },
-    {
-      "source_id": "4103120261616077112",
-      "file_number": "2044720",
-      "reported_at": "2026-10-31T00:17:07+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "LGBTQ CONNECTION PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SALARY",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 199484,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305473"
-    },
-    {
-      "source_id": "4103120261616077107",
-      "file_number": "2044720",
-      "reported_at": "2026-10-31T00:17:07+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "LGBTQ CONNECTION PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SALARY",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 174310,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305471"
-    },
-    {
-      "source_id": "4103120261616077108",
-      "file_number": "2044720",
-      "reported_at": "2026-10-31T00:17:07+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "LGBTQ CONNECTION PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SALARY",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 154774,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305471"
-    },
-    {
-      "source_id": "4103120261616077109",
-      "file_number": "2044720",
-      "reported_at": "2026-10-31T00:17:07+00:00",
-      "expenditure_date": "2026-10-29",
-      "spender": "LGBTQ CONNECTION PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "SALARY",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 111277,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945305472"
-    }
-  ]
+  "items": []
 }
