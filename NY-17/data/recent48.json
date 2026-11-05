@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T17:31:44+00:00",
+  "checked_at": "2026-11-05T19:22:04+00:00",
   "source_data_generated_at": "2026-11-05T11:27:12-05:00",
   "unresolved_recent_items": 20,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -638,34 +638,6 @@
       "spend_type": "Text",
       "amount_cents": 48988,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306766"
-    },
-    {
-      "source_id": "4103120261616077345",
-      "file_number": "2044982",
-      "reported_at": "2026-10-31T18:14:28+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "1199 SEIU UNITED HEALTHCARE WORKERS EAST FEDERAL POLITICAL ACTION FUND",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES (ESTIMATE)",
-      "spend_type": "Text",
-      "amount_cents": 86300,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306128"
-    },
-    {
-      "source_id": "4103120261616077336",
-      "file_number": "2044976",
-      "reported_at": "2026-10-31T18:03:14+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "PAY THE PEOPLE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "ADVERTISING",
-      "spend_type": "Other / Unclassified",
-      "amount_cents": 2850000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306117"
     }
   ]
 }

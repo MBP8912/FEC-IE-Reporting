@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "IA-1",
   "window_hours": 48,
   "candidate_names": {
@@ -18,11 +18,53 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T17:31:44+00:00",
-  "source_data_generated_at": "2026-11-05T07:15:41-05:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-11-05T19:22:04+00:00",
+  "source_data_generated_at": "2026-11-05T14:21:57-05:00",
+  "unresolved_recent_items": 19,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
+    {
+      "source_id": "4110320261616440204",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING CHRISTINA BOHANNAN",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 5250,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330711"
+    },
+    {
+      "source_id": "4110320261616440200",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING CHRISTINA BOHANNAN",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 3750,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330709"
+    },
+    {
+      "source_id": "4110320261616440201",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST MARIANNETTE MILLER MEEKS",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 2960,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330709"
+    },
     {
       "source_id": "4110220261616229054",
       "file_number": "2045898",
@@ -680,76 +722,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 8698,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307233"
-    },
-    {
-      "source_id": "4110120261616134162",
-      "file_number": "2045249",
-      "reported_at": "2026-11-01T02:56:11+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "OUR HERITAGE MATTERS",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "DIGITAL ADVERTISING",
-      "spend_type": "Digital",
-      "amount_cents": 922841,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306889"
-    },
-    {
-      "source_id": "4103120261616077414",
-      "file_number": "2045041",
-      "reported_at": "2026-10-31T18:56:57+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "AMERICAN CONSERVATION COALITION PAC (ACC PAC)",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "NON-CONTRIBUTION ACCT: TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 297822,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306263"
-    },
-    {
-      "source_id": "4103120261616077406",
-      "file_number": "2045034",
-      "reported_at": "2026-10-31T18:53:01+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 7500000,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306245"
-    },
-    {
-      "source_id": "4103120261616077388",
-      "file_number": "2045034",
-      "reported_at": "2026-10-31T18:53:01+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 3666667,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306236"
-    },
-    {
-      "source_id": "4103120261616077378",
-      "file_number": "2045034",
-      "reported_at": "2026-10-31T18:53:01+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "CFFE PAC",
-      "disposition": "support_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "CANVASSING - ESTIMATE",
-      "spend_type": "Field / Canvassing",
-      "amount_cents": 3333333,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306231"
     }
   ]
 }
