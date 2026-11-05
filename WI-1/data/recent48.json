@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "WI-1",
   "window_hours": 48,
   "candidate_names": {
@@ -18,9 +18,9 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T12:15:44+00:00",
-  "source_data_generated_at": "2026-11-05T02:46:15-05:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-11-05T13:39:43+00:00",
+  "source_data_generated_at": "2026-11-05T08:39:39-05:00",
+  "unresolved_recent_items": 6,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
     {
