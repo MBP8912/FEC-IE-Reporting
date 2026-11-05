@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T20:12:17+00:00",
-  "source_data_generated_at": "2026-11-05T11:27:13-05:00",
+  "checked_at": "2026-11-05T21:12:01+00:00",
+  "source_data_generated_at": "2026-11-05T16:12:00-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -176,20 +176,6 @@
       "spend_type": "Digital",
       "amount_cents": 74,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945309008"
-    },
-    {
-      "source_id": "4103120261616077500",
-      "file_number": "2045128",
-      "reported_at": "2026-10-31T20:51:29+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "INVEST IN TOMORROW COALITION PAC",
-      "disposition": "oppose_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXTING PROGRAM (ESTIMATE)",
-      "spend_type": "Text",
-      "amount_cents": 1149542,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306552"
     }
   ]
 }
