@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-05T02:46:17-05:00",
+  "generated_at": "2026-11-05T10:21:10-05:00",
   "district": "CA-13",
   "period": {
     "cycle": 2026,
@@ -43,23 +43,24 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 182,
-    "pages": 2,
-    "included_rows": 153,
+    "api_rows": 201,
+    "pages": 3,
+    "included_rows": 154,
     "excluded": {
+      "other_candidate": 4,
       "other_election": 19,
       "repeated_transaction_or_amendment": 7,
-      "notice_regular_duplicates": 3
+      "notice_regular_duplicates": 17
     }
   },
   "totals": {
     "support_lawler": 38203839,
     "oppose_conley": 602307589,
-    "support_conley": 10265058,
+    "support_conley": 11280058,
     "oppose_lawler": 233549552,
     "benefit_lawler": 640511428,
-    "benefit_conley": 243814610,
-    "all": 884326038
+    "benefit_conley": 244829610,
+    "all": 885341038
   },
   "daily": [
     {
@@ -322,9 +323,9 @@
       "date": "2026-09-30",
       "support_lawler": 0,
       "oppose_conley": 0,
-      "support_conley": 7803,
+      "support_conley": 1022803,
       "oppose_lawler": 14768,
-      "total": 22571
+      "total": 1037571
     },
     {
       "date": "2026-10-01",
@@ -577,6 +578,14 @@
       "oppose_lawler": 0
     },
     {
+      "name": "DEMOCRATIC MESSAGING PROJECT",
+      "total": 2030000,
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 2030000,
+      "oppose_lawler": 0
+    },
+    {
       "name": "MAGA INC.",
       "total": 1589660,
       "support_lawler": 0,
@@ -590,14 +599,6 @@
       "support_lawler": 1154144,
       "oppose_conley": 0,
       "support_conley": 0,
-      "oppose_lawler": 0
-    },
-    {
-      "name": "DEMOCRATIC MESSAGING PROJECT",
-      "total": 1015000,
-      "support_lawler": 0,
-      "oppose_conley": 0,
-      "support_conley": 1015000,
       "oppose_lawler": 0
     },
     {
@@ -869,7 +870,7 @@
     {
       "key": "support_conley",
       "name": "Support Gray",
-      "total": 10265058,
+      "total": 11280058,
       "categories": [
         {
           "name": "Digital",
@@ -931,11 +932,11 @@
         },
         {
           "name": "Print",
-          "total": 1015000,
+          "total": 2030000,
           "groups": [
             {
               "name": "DEMOCRATIC MESSAGING PROJECT",
-              "amount_cents": 1015000
+              "amount_cents": 2030000
             }
           ]
         },
@@ -1870,9 +1871,9 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4100820261612047380",
+      "source_id": "4110320261616263262",
       "original_sub_id": "",
-      "transaction_id": "F57.10263",
+      "transaction_id": "F57.10099",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -1883,19 +1884,19 @@
       "payee": "AMERICAN MAILING LISTS CORPORATION",
       "description": "LIST BROKERAGE SERVICES",
       "type": "Other / Unclassified",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-08",
-      "file_number": 2018103,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908571810",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045363",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4100820261612047391",
+      "source_id": "4110320261616263329",
       "original_sub_id": "",
-      "transaction_id": "F57.10277",
+      "transaction_id": "F57.10132",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -1906,19 +1907,19 @@
       "payee": "AMERICAN TARGET ADVERTISING, INC.",
       "description": "COPY AND PRODUCTION SERVICES",
       "type": "Production",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-08",
-      "file_number": 2018103,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908571814",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045385",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4100820261612047412",
+      "source_id": "4110320261616263447",
       "original_sub_id": "",
-      "transaction_id": "F57.10289",
+      "transaction_id": "F57.10155",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -1929,19 +1930,19 @@
       "payee": "DATA MANAGEMENT, INC.",
       "description": "DATA PROCESSING",
       "type": "Polling",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-08",
-      "file_number": 2018103,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908571821",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045424",
       "election_type": "G2026",
       "original_category_code": "005",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4100820261612047447",
+      "source_id": "4110320261616263652",
       "original_sub_id": "",
-      "transaction_id": "F57.10304",
+      "transaction_id": "F57.10179",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -1952,19 +1953,19 @@
       "payee": "RHA MARKETING",
       "description": "PRINT AND MAILSHOP",
       "type": "Print",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-08",
-      "file_number": 2018103,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908571832",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045493",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4100820261612047457",
+      "source_id": "4110320261616263706",
       "original_sub_id": "",
-      "transaction_id": "F57.10315",
+      "transaction_id": "F57.10195",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -1975,14 +1976,14 @@
       "payee": "UNITED STATES POSTAL SERVICE",
       "description": "POSTAGE",
       "type": "Mail",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-08",
-      "file_number": 2018103,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610089908571836",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045511",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
       "source_id": "4100820261612047401",
@@ -2100,9 +2101,9 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4100320261600422253",
+      "source_id": "4110320261616438573",
       "original_sub_id": "",
-      "transaction_id": "SE.6584",
+      "transaction_id": "SE.6485",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "support_conley",
@@ -2113,11 +2114,11 @@
       "payee": "ROLLING OUTDOOR MEDIA",
       "description": "BILLBOARDS",
       "type": "Print",
-      "notice": true,
-      "filing_form": "F24",
-      "filing_date": "2026-10-03",
-      "file_number": 2016585,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610039908513072",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-14",
+      "file_number": 2022190,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908817674",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -2146,9 +2147,9 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203110",
+      "source_id": "4110320261616263404",
       "original_sub_id": "",
-      "transaction_id": "F57.11347",
+      "transaction_id": "F57.11229",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2159,19 +2160,19 @@
       "payee": "AMERICAN TARGET ADVERTISING, INC.",
       "description": "COPY AND PRODUCTION SERVICES",
       "type": "Production",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600463",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045410",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203124",
+      "source_id": "4110320261616263523",
       "original_sub_id": "",
-      "transaction_id": "F57.11348",
+      "transaction_id": "F57.11230",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2182,19 +2183,19 @@
       "payee": "DATA MANAGEMENT, INC.",
       "description": "DATA PROCESSING",
       "type": "Other / Unclassified",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600467",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045450",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203147",
+      "source_id": "4110320261616263639",
       "original_sub_id": "",
-      "transaction_id": "F57.11346",
+      "transaction_id": "F57.11228",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2205,19 +2206,19 @@
       "payee": "MVP PRESS",
       "description": "PRINTING AND MAILSHOP",
       "type": "Print",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600475",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045488",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203170",
+      "source_id": "4110320261616263781",
       "original_sub_id": "",
-      "transaction_id": "F57.11349",
+      "transaction_id": "F57.11231",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2228,14 +2229,14 @@
       "payee": "UNITED STATES POSTAL SERVICE",
       "description": "POSTAGE",
       "type": "Mail",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600483",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045536",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
       "source_id": "4102620261615396503",
@@ -2307,9 +2308,9 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203097",
+      "source_id": "4110320261616263244",
       "original_sub_id": "",
-      "transaction_id": "F57.11389",
+      "transaction_id": "F57.11286",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2320,19 +2321,19 @@
       "payee": "ADVANCED RESPONSE SYSTEMS",
       "description": "PRINTIING AND MAILSHOP",
       "type": "Other / Unclassified",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600458",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045357",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203180",
+      "source_id": "4110320261616263802",
       "original_sub_id": "",
-      "transaction_id": "F57.11388",
+      "transaction_id": "F57.11285",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2343,14 +2344,14 @@
       "payee": "UNITED STATES POSTAL SERVICE",
       "description": "POSTAGE",
       "type": "Mail",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600486",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045543",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
       "source_id": "4101520261612641742",
@@ -2721,9 +2722,9 @@
       "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203134",
+      "source_id": "4110320261616263578",
       "original_sub_id": "",
-      "transaction_id": "F57.11462",
+      "transaction_id": "F57.11440",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2734,19 +2735,19 @@
       "payee": "DIRECT MAIL MARKETING GROUP",
       "description": "PRINT AND MAILSHOP",
       "type": "Print",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600471",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045468",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
-      "source_id": "4101020261612203187",
+      "source_id": "4110320261616263819",
       "original_sub_id": "",
-      "transaction_id": "F57.11463",
+      "transaction_id": "F57.11441",
       "candidate": "conley",
       "candidate_id": "H2CA13115",
       "disposition": "oppose_conley",
@@ -2757,14 +2758,14 @@
       "payee": "UNITED STATES POSTAL SERVICE",
       "description": "POSTAGE",
       "type": "Mail",
-      "notice": true,
+      "notice": false,
       "filing_form": "F5",
-      "filing_date": "2026-10-10",
-      "file_number": 2019178,
-      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600488",
+      "filing_date": "2026-10-15",
+      "file_number": 2027915,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159916045548",
       "election_type": "G2026",
       "original_category_code": "004",
-      "amendment_indicator": "A"
+      "amendment_indicator": "N"
     },
     {
       "source_id": "4100420261600447116",
@@ -2831,6 +2832,29 @@
       "filing_date": "2026-10-15",
       "file_number": 2027606,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777341",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110320261616438610",
+      "original_sub_id": "",
+      "transaction_id": "SE.6538",
+      "candidate": "conley",
+      "candidate_id": "H2CA13115",
+      "disposition": "support_conley",
+      "date": "2026-09-30",
+      "amount_cents": 1015000,
+      "group": "DEMOCRATIC MESSAGING PROJECT",
+      "group_id": "C00800995",
+      "payee": "ROLLING OUTDOOR MEDIA",
+      "description": "BILLBOARDS",
+      "type": "Print",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-14",
+      "file_number": 2022190,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908817692",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -4543,7 +4567,7 @@
     "source": "FEC processed Schedule E: complete House district",
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
-    "source_pages_this_district": 2,
-    "scan_started_at": "2026-11-05T07:46:15.914701+00:00"
+    "source_pages_this_district": 3,
+    "scan_started_at": "2026-11-05T13:39:40.383383+00:00"
   }
 }

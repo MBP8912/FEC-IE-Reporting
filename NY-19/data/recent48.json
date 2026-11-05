@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "NY-19",
   "window_hours": 48,
   "candidate_names": {
@@ -18,9 +18,108 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T13:39:43+00:00",
+  "checked_at": "2026-11-05T15:21:10+00:00",
   "source_data_generated_at": "2026-11-05T08:39:40-05:00",
-  "unresolved_recent_items": 7,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
-  "items": []
+  "items": [
+    {
+      "source_id": "4110320261616440131",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 10500,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330674"
+    },
+    {
+      "source_id": "4110320261616440130",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST PERTER OBERACKER",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 5000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330674"
+    },
+    {
+      "source_id": "4110320261616440134",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 5000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330676"
+    },
+    {
+      "source_id": "4110320261616440128",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST PERTER OBERACKER",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 4200,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330673"
+    },
+    {
+      "source_id": "4110320261616440132",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 4200,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330675"
+    },
+    {
+      "source_id": "4110320261616440129",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST PERTER OBERACKER",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 3000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330673"
+    },
+    {
+      "source_id": "4110320261616440133",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING JOSH RILEY",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 3000,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330675"
+    }
+  ]
 }

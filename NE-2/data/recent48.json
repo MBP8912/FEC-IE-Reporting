@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "district": "NE-2",
   "window_hours": 48,
   "candidate_names": {
@@ -18,9 +18,52 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-05T13:39:43+00:00",
+  "checked_at": "2026-11-05T15:21:10+00:00",
   "source_data_generated_at": "2026-11-05T08:39:35-05:00",
-  "unresolved_recent_items": 3,
+  "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
-  "items": []
+  "items": [
+    {
+      "source_id": "4110320261616440153",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST BRINKER HARDING",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 6250,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330685"
+    },
+    {
+      "source_id": "4110320261616440152",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "oppose_lawler",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - AGAINST BRINKER HARDING",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 700,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330685"
+    },
+    {
+      "source_id": "4110320261616440158",
+      "file_number": "2046164",
+      "reported_at": "2026-11-03T22:33:05+00:00",
+      "expenditure_date": "2026-11-02",
+      "spender": "NEIGHBOR VOICES PAC",
+      "disposition": "support_conley",
+      "notice": true,
+      "filing_form": "F24",
+      "purpose": "CANVASSING VIA TEXT - SUPPORTING DENISE POWELL",
+      "spend_type": "Field / Canvassing",
+      "amount_cents": 700,
+      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330688"
+    }
+  ]
 }
