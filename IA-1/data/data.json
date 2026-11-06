@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-05T18:06:31-05:00",
+  "generated_at": "2026-11-05T23:19:39-05:00",
   "district": "IA-1",
   "period": {
     "cycle": 2026,
@@ -18976,6 +18976,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 9,
-    "scan_started_at": "2026-11-05T22:10:06.692599+00:00"
+    "scan_started_at": "2026-11-06T03:13:01.744403+00:00"
   }
 }
