@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "district": "NY-17",
   "window_hours": 48,
   "candidate_names": {
@@ -18,9 +18,9 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-06T12:10:38+00:00",
-  "source_data_generated_at": "2026-11-06T02:43:38-05:00",
-  "unresolved_recent_items": 0,
+  "checked_at": "2026-11-06T13:32:45+00:00",
+  "source_data_generated_at": "2026-11-06T08:32:43-05:00",
+  "unresolved_recent_items": 15,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
     {
