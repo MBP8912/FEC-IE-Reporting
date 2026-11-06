@@ -1,11 +1,8 @@
 name: 2026 IE reporting - nine districts
 
+# FEC data refreshes are manual only; no scheduled or push-triggered updates.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '27 * * * *'
-  push:
-    branches: [main]
 
 permissions:
   contents: write
