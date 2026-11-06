@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "generated_at": "2026-11-06T00:23:33-05:00",
+  "generated_at": "2026-11-06T07:10:34-05:00",
   "district": "WI-1",
   "period": {
     "cycle": 2026,
@@ -43,9 +43,9 @@
     "oppose_lawler": "#8EB4ED"
   },
   "counts": {
-    "api_rows": 279,
+    "api_rows": 284,
     "pages": 3,
-    "included_rows": 259,
+    "included_rows": 264,
     "excluded": {
       "other_candidate": 2,
       "memo_item": 1,
@@ -57,10 +57,10 @@
     "support_lawler": 402031012,
     "oppose_conley": 617182414,
     "support_conley": 164884212,
-    "oppose_lawler": 605710942,
+    "oppose_lawler": 605792009,
     "benefit_lawler": 1019213426,
-    "benefit_conley": 770595154,
-    "all": 1789808580
+    "benefit_conley": 770676221,
+    "all": 1789889647
   },
   "daily": [
     {
@@ -72,12 +72,28 @@
       "total": 37013
     },
     {
+      "date": "2026-08-17",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 62000,
+      "total": 62000
+    },
+    {
       "date": "2026-08-18",
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 105578,
       "oppose_lawler": 0,
       "total": 105578
+    },
+    {
+      "date": "2026-08-20",
+      "support_lawler": 0,
+      "oppose_conley": 0,
+      "support_conley": 0,
+      "oppose_lawler": 18133,
+      "total": 18133
     },
     {
       "date": "2026-08-21",
@@ -92,8 +108,8 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 1135553,
-      "oppose_lawler": 0,
-      "total": 1135553
+      "oppose_lawler": 400,
+      "total": 1135953
     },
     {
       "date": "2026-09-01",
@@ -132,8 +148,8 @@
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 4745,
-      "oppose_lawler": 0,
-      "total": 4745
+      "oppose_lawler": 267,
+      "total": 5012
     },
     {
       "date": "2026-09-09",
@@ -164,8 +180,8 @@
       "support_lawler": 29606845,
       "oppose_conley": 53173449,
       "support_conley": 0,
-      "oppose_lawler": 0,
-      "total": 82780294
+      "oppose_lawler": 267,
+      "total": 82780561
     },
     {
       "date": "2026-09-15",
@@ -667,11 +683,11 @@
     },
     {
       "name": "NEIGHBOR VOICES PAC",
-      "total": 2979333,
+      "total": 3060400,
       "support_lawler": 0,
       "oppose_conley": 0,
       "support_conley": 1665833,
-      "oppose_lawler": 1313500
+      "oppose_lawler": 1394567
     },
     {
       "name": "BUILDING TOGETHER",
@@ -1245,7 +1261,7 @@
     {
       "key": "oppose_lawler",
       "name": "Oppose Steil",
-      "total": 605710942,
+      "total": 605792009,
       "categories": [
         {
           "name": "TV",
@@ -1291,11 +1307,11 @@
         },
         {
           "name": "Field / Canvassing",
-          "total": 2313500,
+          "total": 2394567,
           "groups": [
             {
               "name": "NEIGHBOR VOICES PAC",
-              "amount_cents": 1313500
+              "amount_cents": 1394567
             },
             {
               "name": "WORKING FAMILIES PARTY PAC",
@@ -1386,6 +1402,29 @@
       "amendment_indicator": "N"
     },
     {
+      "source_id": "4110520261631301732",
+      "original_sub_id": "",
+      "transaction_id": "500198080",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-08-17",
+      "amount_cents": 62000,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST BRYAN STEIL",
+      "type": "Field / Canvassing",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027195,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915566283",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
       "source_id": "4102120261614734998",
       "original_sub_id": "",
       "transaction_id": "SE.4284",
@@ -1404,6 +1443,29 @@
       "filing_date": "2026-10-21",
       "file_number": 2034092,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219921460306",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110520261631301529",
+      "original_sub_id": "",
+      "transaction_id": "500198105",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-08-20",
+      "amount_cents": 18133,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST BRYAN STEIL",
+      "type": "Field / Canvassing",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027195,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915566180",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -1429,6 +1491,29 @@
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202609279908420823",
       "election_type": "G2026",
       "original_category_code": "004",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110520261631301774",
+      "original_sub_id": "",
+      "transaction_id": "500198209",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-08-27",
+      "amount_cents": 400,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "SCALE TO WIN",
+      "description": "CANVASSING VIA TEXT - AGAINST BRYAN STEIL",
+      "type": "Field / Canvassing",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027195,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915566304",
+      "election_type": "G2026",
+      "original_category_code": "",
       "amendment_indicator": "N"
     },
     {
@@ -1588,6 +1673,29 @@
       "filing_date": "2026-10-19",
       "file_number": 2031236,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916231460",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110520261631301588",
+      "original_sub_id": "",
+      "transaction_id": "500198271",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-08",
+      "amount_cents": 267,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST BRYAN STEIL",
+      "type": "Field / Canvassing",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027195,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915566211",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -1818,6 +1926,29 @@
       "filing_date": "2026-10-07",
       "file_number": 2017965,
       "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908566719",
+      "election_type": "G2026",
+      "original_category_code": "",
+      "amendment_indicator": "N"
+    },
+    {
+      "source_id": "4110520261631301626",
+      "original_sub_id": "",
+      "transaction_id": "500198351",
+      "candidate": "lawler",
+      "candidate_id": "H8WI01156",
+      "disposition": "oppose_lawler",
+      "date": "2026-09-14",
+      "amount_cents": 267,
+      "group": "NEIGHBOR VOICES PAC",
+      "group_id": "C00930321",
+      "payee": "DIVISIBLE INC.",
+      "description": "CANVASSING VIA TEXT - AGAINST BRYAN STEIL",
+      "type": "Field / Canvassing",
+      "notice": false,
+      "filing_form": "F3X",
+      "filing_date": "2026-10-15",
+      "file_number": 2027195,
+      "pdf_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915566230",
       "election_type": "G2026",
       "original_category_code": "",
       "amendment_indicator": "N"
@@ -7303,6 +7434,6 @@
     "all_district_pages_complete": true,
     "includes_missing_candidate_id_records": true,
     "source_pages_this_district": 3,
-    "scan_started_at": "2026-11-06T05:23:31.170964+00:00"
+    "scan_started_at": "2026-11-06T12:10:31.246017+00:00"
   }
 }
