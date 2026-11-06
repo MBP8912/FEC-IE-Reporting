@@ -18,8 +18,8 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-06T00:00:07+00:00",
-  "source_data_generated_at": "2026-11-05T16:11:58-05:00",
+  "checked_at": "2026-11-06T01:38:53+00:00",
+  "source_data_generated_at": "2026-11-05T20:38:51-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
   "items": [
@@ -904,34 +904,6 @@
       "spend_type": "Field / Canvassing",
       "amount_cents": 455231,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306875"
-    },
-    {
-      "source_id": "4110120261616134024",
-      "file_number": "2045214",
-      "reported_at": "2026-11-01T00:39:55+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "oppose_conley",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 48988,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306769"
-    },
-    {
-      "source_id": "4110120261616134018",
-      "file_number": "2045214",
-      "reported_at": "2026-11-01T00:39:55+00:00",
-      "expenditure_date": "2026-10-28",
-      "spender": "NO GOING BACK PAC INC.",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 48988,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306766"
     }
   ]
 }

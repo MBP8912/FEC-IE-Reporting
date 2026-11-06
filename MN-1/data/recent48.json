@@ -18,7 +18,7 @@
     "F24",
     "F5"
   ],
-  "checked_at": "2026-11-06T00:00:07+00:00",
+  "checked_at": "2026-11-06T01:38:53+00:00",
   "source_data_generated_at": "2026-11-05T18:06:33-05:00",
   "unresolved_recent_items": 0,
   "timestamp_note": "FEC efiling receipt time, Eastern when no offset is supplied",
@@ -204,20 +204,6 @@
       "spend_type": "Other / Unclassified",
       "amount_cents": 39400,
       "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945307800"
-    },
-    {
-      "source_id": "4110120261616134011",
-      "file_number": "2045209",
-      "reported_at": "2026-11-01T00:36:15+00:00",
-      "expenditure_date": "2026-10-30",
-      "spender": "THANK YOU FOR YOUR ATTENTION TO THIS MATTER PAC",
-      "disposition": "support_lawler",
-      "notice": true,
-      "filing_form": "F24",
-      "purpose": "TEXT MESSAGES",
-      "spend_type": "Text",
-      "amount_cents": 1503180,
-      "fec_url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306747"
     }
   ]
 }
